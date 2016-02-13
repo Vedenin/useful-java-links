@@ -1,4 +1,4 @@
-# Awesome Java links (fork from awesome link and extend)
+# Awesome Java links (fork from [awesome link](https://github.com/akullpp/awesome-java) and extending)
 
 A curated list of awesome Java frameworks, libraries and software.
 
