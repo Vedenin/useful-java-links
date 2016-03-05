@@ -1,4 +1,20 @@
-# Список самых популярных Java проектов на github'e 
+# Список самых полезных открытых Java проектов
+
+- [I. Фреймворки и библиотеки](##i-Фреймворки-и-библиотеки)
+    - [1. Фреймворки](#1-Фреймворки---17-проектов)
+    - [2. Полезные библиотеки](#2-Полезные-библиотеки---11-проектов)
+    - [3. Добавление новых возможностей в язык Java и JVM](#3-Добавление-новых-возможностей-в-язык-java-и-jvm---10-проектов)
+    - [4. Вебфреймворки (Web Frameworks)](#4-Вебфреймворки-web-frameworks---26-проектов)
+    - [5. Игровые фреймворки (Game Development)](#5-Игровые-фреймворки-game-development---6-проектов)
+    - [6. Java библиотеки и фреймворки для авторизации пользователей и обеспечения безопасности](#6-java-библиотеки-и-фреймворки-для-авторизации-пользователей-и-обеспечения-безопасности--5-проектов)
+    - [7. Фреймворки и библиотеки для создания бизнес приложений на Java](#7-Фреймворки-и-библиотеки-для-создания-бизнес-приложений-на-java--7-проектов)
+    - [8. Сериализация (serializer) и работа с файлами (I/O)](#8-Сериализация-serializer-и-работа-с-файлами-io--4-проекта)
+    - [9. Работа с изображением и видео ](#9-Работа-с-изображением-и-видео---5-проектов)
+    - [10. Логирование (logging)](#10-Логирование-logging--9-проектов)
+- [II. Базы данных и поисковые системы](#ii-Базы-данных-и-поисковые-системы)
+    - [1. Базы данных и хранилища](#1-Базы-данных-и-хранилища--25-проектов)
+    - [2. Поисковые системы](#2-Поисковые-системы--6-проектов)
+    - [3. Клиенты и драйверы баз данных](#3-Клиенты-и-драйверы-баз-данных---21-проектов)
 
 ## I. Фреймворки и библиотеки
 
@@ -78,7 +94,7 @@
 23. [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
 24. [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
 25. [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
-26. [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
+26. [Spring MVC](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 
 ### 5\. Игровые фреймворки (Game Development) - 6 проектов
 
