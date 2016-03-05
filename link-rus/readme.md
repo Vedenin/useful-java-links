@@ -2,7 +2,7 @@
 
 ## I. Фреймворки и библиотеки
 
-### 1. Фреймворки- 17 проектов
+### 1. Фреймворки - 17 проектов
 
 1.  [ReactiveX RxJava](https://github.com/ReactiveX/RxJava) библиотека для реализации асинхронного и событийного программирования на основе расширения паттерна Observer для разных языков от ReactiveX. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6279.
 2.  [Spring framework](https://github.com/spring-projects/spring-framework) Spring — наверное, самый распространенный фреймворк Java в мире. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5921.
@@ -22,7 +22,7 @@
 16.  [DozerMapper Dozer](https://github.com/DozerMapper/dozer) Dozer это маппинг одного Java Bean на другой Java Bean которые создает рекурсивную копию одного объекта в другом. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 421.
 17.  [Greenrobot common](https://github.com/greenrobot/greenrobot-common) greenrobot-common - маленькая библиотека добавляющая общие утилиты и классы (например, классы работы со stream-based IO, файлами, строками, датой/временем и hash map/hash set с примитивными типами) для Android and Java проектов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 419.
 
-### 2\. Полезные библиотеки- 11 проектов
+### 2\. Полезные библиотеки - 11 проектов
 
 1.  [zxing](https://github.com/zxing/zxing) открытая разноформатная библиотека для обработки 1D/2D barcode изображений с реализацией на Java и портированием на другие языки.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5314.
 2.  [Google Guava](https://github.com/google/guava) Очень популярная библиотека от гугла, расширяющая возможности JDK, в том числе определяющая новые коллекции, добавляющая элементы функционального программирования в Java и т.п. Работает с JDK1.6 и выше. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3813.
@@ -36,9 +36,7 @@
 10.  [CSSEmbed](https://github.com/nzakas/cssembed) это небольшая программ/библиотека для автоматического добавления URIs в CSS files. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 407.
 11.  [Jline](https://github.com/jline/jline2) это java библиотека для работы с консолью (ввод, редактирование в emacs и vi режимах), так же как библиотеки Readline и Editline, однако при этом так как Jline почти полностью написана на Java является полностью платформонезависимой.. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг - 396.
 
-### 3\. Добавление новых возможностей в язык Java и JVM- 10 проектов">
-
-### 3\. Добавление новых возможностей в язык Java и JVM
+### 3\. Добавление новых возможностей в язык Java и JVM - 10 проектов
 
 1.  [Lombok](https://github.com/rzwitserloot/lombok) Очень горячие добавления для языка программирования Java . Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 1540.
 2.  [Joda time](https://github.com/JodaOrg/joda-time) Joda Time это широко распространенная замена стандартных классов date и time в Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1442.
@@ -75,7 +73,6 @@
 19.  [ZK framework](https://github.com/zkoss/zk) (**Update**: предложено в комментариях к статье) Java фреймворк для создания высокопроизводительных веб и мобильных приложений.. Лицензия: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 161.
 
 ### 5\. Игровые фреймворки- 6 проектов
-
 
 1.  [libgdx](https://github.com/libgdx/libgdx) Кросплатформенный фреймворк для разработки игр на основе OpenGL (ES), работает под Windows, Linux, Mac OS X, Android, iOS и в браузерах с WebGL.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6579.
 2.  [Disunity](https://github.com/ata4/disunity) Экспериментальный набор инструментов для Unity asset и asset bundle files. Лицензия: [unlicense.org](http://unlicense.org), рейтинг - 828.
