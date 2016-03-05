@@ -50,17 +50,16 @@
 10.  [Ocpsoft Prettytime](https://github.com/ocpsoft/prettytime) PrettyTime это библиотека форматирования Java date в выражение на натуральном языке и в формате принятом в социальных сетях (Digg, Twitter, and Facebook) и более чем на 30 человеческих языках. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
 11.  [TotallyLazy](https://github.com/bodar/totallylazy/) (**Update**: предложено в комментариях к статье) Библиотека функционального программирования для работы с ленивыми структурами данных (например, такими как Clojure's), в частности с последовательностями (map, filter, fold/reduce...), есть Option, Either, Hamcrest matchers as predicates, ML family of function / method names (Standard ML, oCaml, F#, Scala, Haskell) и т.д. . Лицензия: ?, рейтинг - 76.
 
-### 4\. Вебфреймворки (Web Frameworks) - 26 проектов
-Вебфреймворки служат для реализации вебприложений и обработки взаимодйствия service-side и frontend-side вебприложений.
+### 4\. Вебфреймворки- 19 проектов
 
-1.  [Play Framework](https://github.com/playframework/playframework) Play Framework позволяет легко разрабатывать расширяемые вебприложения на Java и Scala. https://www.playframework.com/ . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6771.
+1.  [Play Framework](https://github.com/playframework/playframework) Play Framework позволяет легко разрабатывать расширяемые вебприложения на Java и Scala. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6771.
 2.  [Atmosphere](https://github.com/Atmosphere/atmosphere) - фреймворк для разработки клиентской и серверной части асинхронных веб.приложений, поддерживающий разные серверны, браузеры и плагины. Лицензия: CDDL1 / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2235.
-3.  [Grails](https://github.com/grails/grails-core) - вебфреймворк. https://grails.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1386.
+3.  [Grails core](https://github.com/grails/grails-core) - вебфреймворк. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1386.
 4.  [Ghost Driver](https://github.com/detro/ghostdriver) это реализация Remote WebDriver Wire протокола, использующая PhantomJS как бэкенд. Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29), рейтинг - 1179.
-5.  [Ninja](https://github.com/ninjaframework/ninja) это полноценный веб фреймворк для Java. Надежный, быстрый и очень продуктивный.http://www.ninjaframework.org/. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 894.
+5.  [Ninja](https://github.com/ninjaframework/ninja) это полноценный веб фреймворк для Java. Надежный, быстрый и очень продуктивный.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 894.
 6.  [Electronicarts Orbit](https://github.com/electronicarts/orbit) — современный фреймворк для JVM языков, который упрощает создание и обслуживание распределенных и масштабируемых онлайн сервисов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 741.
 7.  [Mustache.java](https://github.com/spullara/mustache.java) - портирование Mustache.js (систему создания и использования веб.шаблонов с минимальной бизнес логикой) для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 733.
-8.  [Ratpack](https://github.com/ratpack/ratpack) это простой, мощный набор библиотек для создания высокопроизводительных вебприложений. http://ratpack.io/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 662.
+8.  [Ratpack](https://github.com/ratpack/ratpack) это простой, мощный набор библиотек для создания высокопроизводительных вебприложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 662.
 9.  [B3log Solo](https://github.com/b3log/solo) - система управления блогами на Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 519.
 10.  [Baasbox](https://github.com/baasbox/baasbox) это проект для создания backend для мобильных и веб приложений . Лицензия: ?, рейтинг - 499.
 11.  [Kolorobot Spring MVC 4 Quickstart Maven Archetype](https://github.com/kolorobot/spring-mvc-quickstart-archetype) — проект-шаблон (архитип) для Maven'a для быстрого создания проектов вебприложений Spring MVC 4\. Содержит Spring MVC 4, Servlet 3.0, Thymeleaf, Bootstrap, JPA 2.0, MongoDB, JUnit/Mockito, Spring Security 3.2\. Лицензия: ?, рейтинг - 480.
@@ -70,24 +69,17 @@
 15.  [Netflix Ribbon](https://github.com/Netflix/ribbon) это библиотека для создания load balancers. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 410.
 16.  [Gwt bootstrap](https://github.com/gwtbootstrap/gwt-bootstrap) это библиотека объединяющая виджеты из Twitter Bootstrap и возможности Google Web Toolkit. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 409.
 17.  [Netflix Zuul](https://github.com/Netflix/zuul) это сервис (edge service), обрабатывающий все запросы от всех устройств и вебсайтов к backend всех Netflix потоковых приложений, он обеспечивает динамическую маршрутизацию, мониторинг, отказоустойчивость и безопасность.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 407.
-18.  [Vaadin](https://github.com/vaadin/vaadin) — фреймворк для разработки веб-приложений, основанный на GWT, с server-side моделью программирования и состоянием UI на сервере.https://vaadin.com/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 398.
+18.  [Vaadin](https://github.com/vaadin/vaadin) — фреймворк для разработки веб-приложений с server-side моделью программирования и состоянием UI на сервере. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 398.
 19.  [ZK framework](https://github.com/zkoss/zk) (**Update**: предложено в комментариях к статье) Java фреймворк для создания высокопроизводительных веб и мобильных приложений.. Лицензия: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 161.
-20. [Apache Tapestry](http://tapestry.apache.org/) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
-21. [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
-22. [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
-23. [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
-24. [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
-25. [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
-26. [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 
-### 5\. Игровые фреймворки (Game Development) - 6 проектов
+### 5\. Игровые фреймворки- 6 проектов
 
 1.  [libgdx](https://github.com/libgdx/libgdx) Кросплатформенный фреймворк для разработки игр на основе OpenGL (ES), работает под Windows, Linux, Mac OS X, Android, iOS и в браузерах с WebGL.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6579.
 2.  [Disunity](https://github.com/ata4/disunity) Экспериментальный набор инструментов для Unity asset и asset bundle files. Лицензия: [unlicense.org](http://unlicense.org), рейтинг - 828.
-3.  [LibGDX/LWJGL](https://github.com/mattdesl/lwjgl-basics) lwjgl-basics это минималистская shader-based библиотека для создания 2D LWJGL sprite игр.https://libgdx.badlogicgames.com/. Лицензия: ?, рейтинг - 656.
-4.  [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine) jMonkeyEngine это 3D игровой движок для Java разработчиков. http://jmonkeyengine.org/ Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 624.
+3.  [LibGDX/LWJGL](https://github.com/mattdesl/lwjgl-basics) lwjgl-basics это минималистская shader-based библиотека для создания 2D LWJGL sprite игр.. Лицензия: ?, рейтинг - 656.
+4.  [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine) jMonkeyEngine это 3D игровой движок для Java разработчиков. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 624.
 5.  [Jetserver](https://github.com/menacher/java-game-server) Jetserver высокоскоростной nio сокет Java сервер для multiplayer игр созданный используя Netty и Mike Rettig Jetlang. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 484.
-6.  [LWJGL 2.X](https://github.com/LWJGL/lwjgl) LWJGL 2.X — Легковесная игровая библиотека на Java. http://www.lwjgl.org/ Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 394.
+6.  [LWJGL 2.X](https://github.com/LWJGL/lwjgl) LWJGL 2.X — Легковесная игровая библиотека на Java. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 394.
 
 ### 6\. Java библиотеки и фреймворки для авторизации пользователей и обеспечения безопасности- 5 проектов
 
@@ -126,17 +118,13 @@
 4.  [imgscalr](https://github.com/thebuzzmedia/imgscalr) Простая библиотека Java для масштабирования изображений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 451.
 5.  [webcam-capture](https://github.com/sarxos/webcam-capture) Данный проект позволяет получить доступ к USB вебкамере или remote IP / сетевой камере напрямую из Java кода. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 437.
 
-###10\. Логирование (logging)- 9 проектов
+###10\. Логирование (logging)- 2 проекта
+
 
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) свободная и открытая система логирования. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 1308.
-2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java. http://logback.qos.ch/. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 497.
-3.  [slf4j](https://github.com/qos-ch/slf4j) (**Update**: предложено в комментариях к статье) Библиотека предлагает Facade логирования для простого переключения между разными библиотеками логирования (java.util.logging, logback, log4j и т. п.). http://www.slf4j.org/ Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 384.
-4. [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite with a powerful plugin and configuration architecture.
-5. [graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management.
-6. [kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
-7. [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
-8. [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database.
-9. [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
+2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 497.
+3.  [slf4j](https://github.com/qos-ch/slf4j) (**Update**: предложено в комментариях к статье) Библиотека предлагает Facade логирования для простого переключения между разными библиотеками логирования (java.util.logging, logback, log4j и т. п.). Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 384.
+
 
 
 ## II. Базы данных и поисковые системы
@@ -257,24 +245,16 @@
 
 ## IV. Машинное обучение, нейроные сети, естественный языки
 
-###1\. Машинное обучение и нейроные сети (Machine Learning)- 15 проектов
+###1\. Машинное обучение и нейроные сети- 8 проектов
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) Библиотека для машинного обучения, дружелюбная к пользователям (простая в настройке и т. п.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1672.
 2.  [Smile](https://github.com/haifengl/smile) SmileMiner (Statistical Machine Intelligence and Learning Engine) - набор Java библиотек различных алгоритмов машинного обучения. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1519.
-3.  [Deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) Deep Learning нейронная сеть, написанная на Java и Scala, с интеграцией с Hadoop, Spark и другими backends, которые могут работать как с центральным, так и с графическим процессором. http://deeplearning4j.org/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1172.
+3.  [Deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) Deep Learning нейронная сеть, написанная на Java и Scala, с интеграцией с Hadoop, Spark и другими backends, которые могут работать как с центральным, так и с графическим процессором. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1172.
 4.  [Libsvm](https://github.com/cjlin1/libsvm) "Libsvm это библиотека для мамашиного обучения на основе support vector machines (support vector networks), поддерживает SVM classification and regression, C-SVM classification, nu-SVM classification, one-class-SVM, epsilon-SVM regression, and nu-SVM Regression. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 812.
 5.  [Neuralnetworks](https://github.com/ivan-vasilev/neuralnetworks) Алгоритмы машинного обучения и нейронных сетей с использованием GPU процессора. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 583.
 6.  [Datumbox framework](https://github.com/datumbox/datumbox-framework) Datumbox это фреймворк для быстрой разработки систем машинного обучения и анализа статистики. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 525.
-7.  [Apache Mahout](https://github.com/apache/mahout) Зеркало Apache Mahout. Задачей проекта Apache Mahout™ является создание окружения для быстрой разработки масштабируемых и производительных систем машинного обучения. https://mahout.apache.org/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 492.
+7.  [Apache Mahout](https://github.com/apache/mahout) Зеркало Apache Mahout. Задачей проекта Apache Mahout™ является создание окружения для быстрой разработки масштабируемых и производительных систем машинного обучения. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 492.
 8.  [Encog java core](https://github.com/encog/encog-java-core) Encog это фреймворк для машинного обучения предоставляющий большое число алгоритмов и технологий машинного обучения (нейронные сети, генетические алгоритмы и т. д.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
-9. [Apache Flink](https://github.com/apache/flink) - зеркало Apache Flink. Apache Flink это открытая платформа для обработки потоковых и пакетных данных. https://flink.apache.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 475.
-10. [Apache Hadoop](https://github.com/apache/hadoop) - зеркало Apache Hadoop. Систему для обработки Bigdata (больших данных с помощью кластеров на простом железе). http://hadoop.apache.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 803.
-11. [Apache Spark](http://spark.apache.org/) - Data analytics cluster computing framework.
-12. [DeepDive](http://deepdive.stanford.edu) - Creates structured information from unstructured data and integrates it into an existing database.
-13. [H2o](https://github.com/h2oai/h2o-2) = добавляет математические операции в Hadoop, h2o позволяет быстро вычислять статистику, машинное обучение и математические операции для bigdata.http://h2o.ai/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1725.
-14. [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
-15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
-
 
 ###2\. Работа с естественными языками (NLP)- 1 проект
 
@@ -289,16 +269,14 @@
 1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) Интеграция JVM с "внешним мира" (программами логирования, мониторинга, графики и т. п.). Лицензия: ?, рейтинг - 708.
 2.  [Apache Camel](https://github.com/apache/camel) Зеркало Apache Camel. Apache Camel - мощный свободный интеграционных фреймворк, основанный на Enterprise Integration Patterns.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 490.
 
-###2\. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling) 6 проектов
+###2\. Парсеры (Parser)- 6 проектов
 
 1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с подержкой XPath и CSS selector.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3323.
-2.  [Jsoup](https://github.com/jhy/jsoup) jsoup это Java HTML парсер с использованием DOM, CSS, и jquery. http://jsoup.org/ Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2006.
+2.  [Jsoup](https://github.com/jhy/jsoup) jsoup это Java HTML парсер с использованием DOM, CSS, и jquery. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2006.
 3.  [Webmagic](https://github.com/code4craft/webmagic) Фреймворк для создания интернет ботов для индексирования (crawler), которые реализует все этапы жизненного цикла crawler: скачивание, управление url, выделение контент и сохранение.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1089.
 4.  [Antlr4](https://github.com/antlr/antlr4) ANTLR (ANother Tool для Language Recognition мощный генератор парсеров для чтения, обработки, использование или конвертирования структурированного текста или бинарных файлов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 836.
 5.  [Parboiled](https://github.com/sirthias/parboiled) Элегантный, легкий, простой в использовании и мощный парсер, написанный на Java и Scala. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 775.
 6.  [Pegdown](https://github.com/sirthias/pegdown) Обработчик языка разметки Markdown, основанный на PEG парсере, поддерживающим большое количество расширений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 692.
-7.  [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
-8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
 
 ###3\. Работа с Json- 9 проектов
 
