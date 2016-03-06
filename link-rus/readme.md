@@ -15,13 +15,47 @@
     - [1. Базы данных и хранилища](#1-Базы-данных-и-хранилища--25-проектов)
     - [2. Поисковые системы](#2-Поисковые-системы--6-проектов)
     - [3. Клиенты и драйверы баз данных](#3-Клиенты-и-драйверы-баз-данных---21-проектов)
+    - [4. Маппинг объектов в базы данных (ORM и т. п.)](#4-Маппинг-объектов-в-базы-данных-orm-и-тп--8-проектов)
+-  III. Работа с данными
+    - 1. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)
+    - 2. Большие данные (big data)
+-  IV. Машинное обучение, нейроные сети, естественный языки
+    - 1. Машинное обучение и нейроные сети (Machine Learning)
+    - 2. Работа с естественными языками (NLP)
+-  V. Интеграция
+    - 1. Интеграция
+    - 2. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling)
+    - 3. Работа с Json
+    - 4. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)
+    - 5. Работа с биткойном
+-  VI. Работа с сетью
+    - 1. Веб сервера и сервера приложений (web server &amp; application server)
+    - 2. Сеть и сокеты
+    - 3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений
+    - 4. Работа с http и ssh
+    - 5. Работа с rest
+-  VII. Инструменты для упрощения разработки
+    - 1. IDE- 9 проектов
+    - 2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений
+    - 3. Производительность
+    - 4. Генерация кода
+    - 5. Анализ исходного кода
+    - 6. Прочее
+-  IIX. Облака
+    - 1. Системы на Java, работающие с облаками
+-  IX. Тестирование
+    - 1. Тестирование
+-  X. Другие языки программирования, написанные на Java
+    - 1. Языки программирования, написанные на Java
+    - 2. Утилиты для других языков программирования, написанные на Java
+    - 3. javascript
 
 ## I. Фреймворки и библиотеки
 
 ### 1. Фреймворки - 17 проектов
 
 1.  [ReactiveX RxJava](https://github.com/ReactiveX/RxJava) библиотека для реализации асинхронного и событийного программирования на основе расширения паттерна Observer для разных языков от ReactiveX. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6279.
-2.  [Spring framework](https://github.com/spring-projects/spring-framework) Spring — наверное, самый распространенный фреймворк Java в мире. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5921.
+2.  [Spring framework](https://github.com/spring-projects/spring-framew ork) Spring — наверное, самый распространенный фреймворк Java в мире. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5921.
 3.  [Eclipse Vert.x](https://github.com/eclipse/vert.x) Расширяемая application platform для JVM от Eclipse, позволяет писать одновременно на JavaScript, Ruby, Groovy, Java и Python, встраивается в текущие проекты на Java, упрощает мультипоточность. содержит event bus и т.д. и т.п.  . Лицензия:  Eclipse Public 1 / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3743.
 4.  [Square Dagger](https://github.com/square/dagger) Быстрый и легковесный фреймворк от square для реализации dependency injector для Android и Java, имеет более ограниченные возможности чем guava или Spring, но по заявлениям разработчиков работает несколько быстрее. Реализует Java спецификацию JSR-330, описывающую dependency injector.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3607.
 5.  [Netflix Hystrix](https://github.com/Netflix/Hystrix) Библиотека, для корректной обработки отказов сервисов, исключительных ситуаций в распределенных системах, с помощью добавления в систему изолированных точек доступа к сторонним сервисам и распределенным системам, ограничением вероятности каскадных ошибок при отказе одного из сервисов и т.д.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3571.
@@ -38,7 +72,7 @@
 16.  [DozerMapper Dozer](https://github.com/DozerMapper/dozer) Dozer это маппинг одного Java Bean на другой Java Bean которые создает рекурсивную копию одного объекта в другом. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 421.
 17.  [Greenrobot common](https://github.com/greenrobot/greenrobot-common) greenrobot-common - маленькая библиотека добавляющая общие утилиты и классы (например, классы работы со stream-based IO, файлами, строками, датой/временем и hash map/hash set с примитивными типами) для Android and Java проектов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 419.
 
-### 2\. Полезные библиотеки - 11 проектов
+### 2. Полезные библиотеки - 11 проектов
 
 1.  [zxing](https://github.com/zxing/zxing) открытая разноформатная библиотека для обработки 1D/2D barcode изображений с реализацией на Java и портированием на другие языки.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5314.
 2.  [Google Guava](https://github.com/google/guava) Очень популярная библиотека от гугла, расширяющая возможности JDK, в том числе определяющая новые коллекции, добавляющая элементы функционального программирования в Java и т.п. Работает с JDK1.6 и выше. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3813.
@@ -52,7 +86,7 @@
 10.  [CSSEmbed](https://github.com/nzakas/cssembed) это небольшая программ/библиотека для автоматического добавления URIs в CSS files. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 407.
 11.  [Jline](https://github.com/jline/jline2) это java библиотека для работы с консолью (ввод, редактирование в emacs и vi режимах), так же как библиотеки Readline и Editline, однако при этом так как Jline почти полностью написана на Java является полностью платформонезависимой.. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг - 396.
 
-### 3\. Добавление новых возможностей в язык Java и JVM - 10 проектов
+### 3. Добавление новых возможностей в язык Java и JVM - 10 проектов
 
 1.  [Lombok](https://github.com/rzwitserloot/lombok) Очень горячие добавления для языка программирования Java . Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 1540.
 2.  [Joda time](https://github.com/JodaOrg/joda-time) Joda Time это широко распространенная замена стандартных классов date и time в Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1442.
@@ -66,7 +100,7 @@
 10.  [Ocpsoft Prettytime](https://github.com/ocpsoft/prettytime) PrettyTime это библиотека форматирования Java date в выражение на натуральном языке и в формате принятом в социальных сетях (Digg, Twitter, and Facebook) и более чем на 30 человеческих языках. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
 11.  [TotallyLazy](https://github.com/bodar/totallylazy/) (**Update**: предложено в комментариях к статье) Библиотека функционального программирования для работы с ленивыми структурами данных (например, такими как Clojure's), в частности с последовательностями (map, filter, fold/reduce...), есть Option, Either, Hamcrest matchers as predicates, ML family of function / method names (Standard ML, oCaml, F#, Scala, Haskell) и т.д. . Лицензия: ?, рейтинг - 76.
 
-### 4\. Вебфреймворки (Web Frameworks) - 26 проектов
+### 4. Вебфреймворки (Web Frameworks) - 26 проектов
 Вебфреймворки служат для реализации вебприложений и обработки взаимодйствия service-side и frontend-side вебприложений.
 
 1.  [Play Framework](https://github.com/playframework/playframework) Play Framework позволяет легко разрабатывать расширяемые вебприложения на Java и Scala. https://www.playframework.com/ . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6771.
@@ -96,7 +130,7 @@
 25. [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 26. [Spring MVC](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 
-### 5\. Игровые фреймворки (Game Development) - 6 проектов
+### 5. Игровые фреймворки (Game Development) - 6 проектов
 
 1.  [libgdx](https://github.com/libgdx/libgdx) Кросплатформенный фреймворк для разработки игр на основе OpenGL (ES), работает под Windows, Linux, Mac OS X, Android, iOS и в браузерах с WebGL.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6579.
 2.  [Disunity](https://github.com/ata4/disunity) Экспериментальный набор инструментов для Unity asset и asset bundle files. Лицензия: [unlicense.org](http://unlicense.org), рейтинг - 828.
@@ -105,7 +139,7 @@
 5.  [Jetserver](https://github.com/menacher/java-game-server) Jetserver высокоскоростной nio сокет Java сервер для multiplayer игр созданный используя Netty и Mike Rettig Jetlang. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 484.
 6.  [LWJGL 2.X](https://github.com/LWJGL/lwjgl) LWJGL 2.X — Легковесная игровая библиотека на Java. http://www.lwjgl.org/ Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 394.
 
-### 6\. Java библиотеки и фреймворки для авторизации пользователей и обеспечения безопасности- 5 проектов
+### 6. Java библиотеки и фреймворки для авторизации пользователей и обеспечения безопасности- 5 проектов
 
 
 1.  [Scribe Java](https://github.com/fernandezpablo85/scribe-java) - простая OAuth библиотека для Java. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2731.
@@ -114,7 +148,7 @@
 4.  [Spring security](https://github.com/spring-projects/spring-security) — Spring фреймворк для авторизации и управлению пользователями и безопасностью приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 732.
 5.  [Play Authenticate](https://github.com/joscha/play-authenticate) - аутентификацонный плагин для Play фреймворка. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 646.
 
-### 7\. Фреймворки и библиотеки для создания бизнес приложений на Java- 7 проектов
+### 7. Фреймворки и библиотеки для создания бизнес приложений на Java- 7 проектов
 
 
 1.  [Codecademy EventHub](https://github.com/Codecademy/EventHub) — позволяет анализировать бизнес события, чтобы получать KPI, conversion rate и т. п. Бизнес метрики событий. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 1043.
@@ -125,7 +159,7 @@
 6.  [Droolsjbpm Drools](https://github.com/droolsjbpm/drools) это приложение Business Rules Management System (BRMS), которое реализует Business Rules Engine (BRE), механизма авторизации, управления правилами (rules), управление приложением (Drools Workbench) и плагин для разработки под Eclipse IDE.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 421.
 7.  [Spring Roo](https://github.com/spring-projects/spring-roo) — фреймворк с открытым исходным кодом для быстрого создания бизнес-приложений на Java. Полученные в результате приложения используют общие технологии Java, такие как Spring Framework, Java Persistence API, JSP, Apache Maven и AspectJ. Spring Roo является частью проекта Spring.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 399.
 
-### 8\. Сериализация (serializer) и работа с файлами (I/O)- 4 проекта
+### 8. Сериализация (serializer) и работа с файлами (I/O)- 4 проекта
 
 
 1.  [Square Okio](https://github.com/square/okio) Современный I/O API для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1243.
@@ -133,7 +167,7 @@
 3.  [Simple Binary Encoding (SBE)](https://github.com/real-logic/simple-binary-encoding) это реализация кодирования и декодирования сообщений приложения бинарный формат для систем требующих очень быстрое время ответа. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 612.
 4.  [MessagePack](https://github.com/msgpack/msgpack-java) - реализация быстрой сериализации в компактный бинарный формат для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 448.
 
-### 9\. Работа с изображением и видео - 5 проектов
+### 9. Работа с изображением и видео - 5 проектов
 
 
 1.  [Facebook Rebound](https://github.com/facebook/rebound) Это Java библиотека которая моделирует поведение физики реального мира в вашем приложении. Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), рейтинг - 2219.
@@ -142,7 +176,7 @@
 4.  [imgscalr](https://github.com/thebuzzmedia/imgscalr) Простая библиотека Java для масштабирования изображений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 451.
 5.  [webcam-capture](https://github.com/sarxos/webcam-capture) Данный проект позволяет получить доступ к USB вебкамере или remote IP / сетевой камере напрямую из Java кода. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 437.
 
-###10\. Логирование (logging)- 9 проектов
+### 10. Логирование (logging)- 9 проектов
 
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) свободная и открытая система логирования. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 1308.
 2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java. http://logback.qos.ch/. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 497.
@@ -157,7 +191,7 @@
 
 ## II. Базы данных и поисковые системы
 
-###1\. Базы данных и хранилища- 25 проектов"
+### 1. Базы данных и хранилища- 25 проектов"
 
 
 1.  [Thinkaurelius Titan](https://github.com/thinkaurelius/titan) - распределенная графическая база данных. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2846.
@@ -186,7 +220,7 @@
 24.  [Tomcat redis session manager](https://github.com/jcoleman/tomcat-redis-session-manager) Основанное на Redis простое хранилище сессий для Apache Tomcat. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 396.
 25.  [Embulk](https://github.com/embulk/embulk) это открытый пакетный (bulk) загрузчик данных, который помогает трансформировать данные между разными базами данных, хранилищ, файловых форматов и облачных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
 
-###2\. Поисковые системы- 6 проектов
+### 2. Поисковые системы- 6 проектов
 
 1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - одна из самых популярных систем распределенного облачного поиска. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 11833.
 2.  [Linkedin Indextank Engine](https://github.com/linkedin/indextank-engine) Проект IndexTank это поисковый движок, поддерживающий возможности вроде переменных (boosts), категорий (facets), предложения, автокомплит и т. п.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 788.
@@ -195,7 +229,7 @@
 5.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) Плагин для работы ElasticSearch с Amazon Web Service (AWS) облаками. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 435.
 6.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг - 395.
 
-###3\. Клиенты и драйверы баз данных - 21 проектов
+### 3. Клиенты и драйверы баз данных - 21 проектов
 
 1.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.).  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3603.
 2.  [Jedis](https://github.com/xetorthio/jedis) Невероятно маленький и эффективный Redis Java клиент. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2495.
@@ -219,7 +253,7 @@
 20.  [Memcached Java Client](https://github.com/gwhalin/Memcached-Java-Client) java клиент для memcached. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг - 436.
 21.  [Spring data mongodb](https://github.com/spring-projects/spring-data-mongodb) Java клиент к MongoDB для фреймворка Spring . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
 
-###4\. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)- 8 проектов
+### 4. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)- 8 проектов
 
 1.  [HikariCP](https://github.com/brettwooldridge/HikariCP) HikariCP — быстрая, надежная и легкая библиотека для создания JDBC connection pool с минимальными накладными расходами. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1542.
 2.  [Mybatis 3](https://github.com/mybatis/mybatis-3) MyBatis это фреймворк маппинга Java объектов в базы данных. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1428.
@@ -235,7 +269,7 @@
 
 ## III. Работа с данными
 
-###1\. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)- 9 проектов
+### 1. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)- 9 проектов
 
 1.  [Storm](https://github.com/nathanmarz/storm) - распределенная и устойчивая к ошибкам обработка данных в реальном времени: потоковая обработка, непрерывные вычисления, распределенный RPC и другое. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 8636.
 2.  [OpenRefine](https://github.com/OpenRefine/OpenRefine) — инструменты для обработки «грязных» плохо структурированных данных и улучшения их. . Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses) , рейтинг - 2939.
@@ -247,7 +281,7 @@
 8.  [Pulsar](https://github.com/pulsarIO/realtime-analytics) - открытая аналитическая платформа, работающая в реальном времени. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, рейтинг - 435.
 9.  [Suro: Netflix's Data Pipeline](https://github.com/Netflix/suro) — это сервис для сбора, агрегации и управления большим количеством разнообразных событий, включая данные логов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 405.
 
-###2\. Большие данные (big data)- 19 проектов
+### 2. Большие данные (big data)- 19 проектов
 
 1.  [Apache Storm](https://github.com/apache/storm) - зеркало для Apache Storm — свободную и распределенную систему обработки данных в реальном времени, аналог Hadoop, но для быстрой потоковой обработки данных, может использоваться с любым языком программирования.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2098.
 2.  [Druid](https://github.com/druid-io/druid) это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1846.
@@ -273,7 +307,7 @@
 
 ## IV. Машинное обучение, нейроные сети, естественный языки
 
-###1\. Машинное обучение и нейроные сети (Machine Learning)- 15 проектов
+### 1. Машинное обучение и нейроные сети (Machine Learning)- 15 проектов
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) Библиотека для машинного обучения, дружелюбная к пользователям (простая в настройке и т. п.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1672.
 2.  [Smile](https://github.com/haifengl/smile) SmileMiner (Statistical Machine Intelligence and Learning Engine) - набор Java библиотек различных алгоритмов машинного обучения. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1519.
@@ -292,7 +326,7 @@
 15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 
-###2\. Работа с естественными языками (NLP)- 1 проект
+### 2. Работа с естественными языками (NLP)- 1 проект
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 871.
 
@@ -400,9 +434,7 @@
 6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, маштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 825.
 7.  [Spring projects Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 456.
 
-
-
-## 7\. Инструменты для упрощения разработки
+## VII. Инструменты для упрощения разработки
 
 ###1\. IDE- 9 проектов
 
