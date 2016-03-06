@@ -354,12 +354,12 @@
 
 ## V. Интеграция
 
-###1\. Интеграция- 2 проекта
+### 1. Интеграция- 2 проекта
 
 1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) Интеграция JVM с "внешним мира" (программами логирования, мониторинга, графики и т. п.). Лицензия: ?, рейтинг - 708.
 2.  [Apache Camel](https://github.com/apache/camel) Зеркало Apache Camel. Apache Camel - мощный свободный интеграционных фреймворк, основанный на Enterprise Integration Patterns.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 490.
 
-###2\. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling) 6 проектов
+### 2. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling) 6 проектов
 
 1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с подержкой XPath и CSS selector.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3323.
 2.  [Jsoup](https://github.com/jhy/jsoup) jsoup это Java HTML парсер с использованием DOM, CSS, и jquery. http://jsoup.org/ Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2006.
@@ -370,7 +370,7 @@
 7.  [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
 8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
 
-###3\. Работа с Json- 9 проектов
+### 3. Работа с Json - 9 проектов
 
 1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson) Быстрый JSON обработчик. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2605.
 2.  [JSON java](https://github.com/douglascrockford/JSON-java) Набор классов для работы с JSON в Java, конвертации JSON в XML, CDL, cookie lists, HTTP headers и обратно.. Лицензия: Своя open-source лицензия ?, рейтинг - 1561.
@@ -382,7 +382,15 @@
 8.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath — реализация аналога XPATH только для Json, а не XML. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 448.
 9.  [Json schema validator](https://github.com/fge/json-schema-validator) Валидация JSON Schema, реализована на чистой Java, создана с целью проверки Json файлов, используя Json схемы. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг - 411.
 
-###4\. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)- 8 проектов
+### 4. CSV - 3 проекта
+
+*Frameworks and libraries that simplify reading/writing CSV data.*
+
+1. [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
+2. [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
+3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
+
+### 4. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)- 8 проектов
 
 1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборк информации о работе всех его различных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2442.
 2.  [Wizcorp Phonegap facebook plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) Официальный плагин для Facebook в Apache Cordova/PhoneGap. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1587.
@@ -393,7 +401,7 @@
 7.  [Twitter Hbc](https://github.com/twitter/hbc) Java HTTP клиент для работы Twitter's Streaming API. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 498.
 8.  [Spring projects Spring social](https://github.com/spring-projects/spring-social) Spring Social это расширение Spring Framework, которые позволяет интегрировать ваши приложения с Software-as-a-Service (SaaS) провайдерами, такими как Facebook или Twitter. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 409.
 
-###5\. Работа с биткойном - 3 проекта
+### 5. Работа с биткойном - 3 проекта
 
 1.  [XChange](https://github.com/timmolter/XChange) XChange это Java библиотека предоставляющая удобный API для взаимодействия с более чем 50+ Bitcoin и Altcoin обменными биржами . Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 455.
 2.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) Библиотека для работы с Bitcoin. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 453.
