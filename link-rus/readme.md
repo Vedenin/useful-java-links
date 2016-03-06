@@ -1,4 +1,4 @@
-# Список самых полезных ссылок для Java программиста
+# Список полезных ссылок для Java программиста
 
 - [I. Фреймворки и библиотеки](#i-Фреймворки-и-библиотеки)
     - [1. Фреймворки](#1-Фреймворки---17-проектов)
@@ -44,12 +44,14 @@
     - [6. Прочее](#6-Прочее--4-проекта)
 -  [IIX. Облака](#iix-Облака)
     - [1. Системы на Java, работающие с облаками](#1-Системы-на-java-работающие-с-облаками----5-проектов)
+    - 2. Cluster Management
 -  [IX. Тестирование](#ix-Тестирование)
     - [1. Тестирование](#1-Тестирование--13-проектов)
 -  [X. Другие языки программирования, написанные на Java](#x-Другие-языки-программирования-написанные-на-java)
     - [1. Языки программирования, написанные на Java](#1-Языки-программирования-написанные-на-java--7-проектов)
     - [2. Утилиты для других языков программирования, написанные на Java](#2-Утилиты-для-других-языков-программирования-написанные-на-java--3-проекта)
     - [3. javascript](#3-javascript--4-проекта)
+    - 4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода
 -  [XI. Приложения на Java](#xi-Приложения-на-java)
     - [1. Приложения и готовые продукты написанные на Java](#1-Приложения-и-готовые-продукты-написанные-на-java--15-проектов)
     - [2. Игры, написанные Java](#2-Игры-написанные-java--10-проектов)
@@ -454,7 +456,7 @@
 
 ## VII. Инструменты для упрощения разработки
 
-###1\. IDE- 9 проектов
+### 1. IDE- 9 проектов
 
 1.  [JetBrains Intellij Сommunity](https://github.com/JetBrains/intellij-community) IntelliJ IDEA Community Edition — одна из лучший IDE для Java . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2068.
 2.  [JetBrains Ideavim](https://github.com/JetBrains/ideavim) Плагин, эмулирующий Vim для IDE, основанных на IntelliJ платформе. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 1199.
@@ -466,7 +468,7 @@
 8.  [JetBrains MPS](https://github.com/JetBrains/MPS) JetBrains MPS (Meta programming System) служит для быстрой разработки DSL (Domain Specific Language) для любого окружения и с возможностью скомпилировать DSL в множество языков, таких как Java, C, XML и другие. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 525.
 9.  [Idea markdown](https://github.com/nicoulaj/idea-markdown) Поддержка языка разметки Markdown в IntelliJ IDEA.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 405.
 
-### 2\. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений - 10 проектов
+### 2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений - 12 проектов
 
 1.  [Google Bazel](https://github.com/google/bazel) - корректная, воспроизводимая и быстрая билд система для любых ситуаций. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2809.
 2.  [Gradle](https://github.com/gradle/gradle) это мощная система сборки для JVM. http://gradle.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2465.
@@ -478,16 +480,24 @@
 8.  [Puniverse Capsule](https://github.com/puniverse/capsule) это система сборки приложения в один выполняемый JAR файл со всеми артефактами, ресурсами, нативными библиотеками и т.п.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг - 576.
 9.  [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
 10. [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
+11. [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
+12. [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 
-###3\. Производительность- 5 проектов
+
+### 3. Производительность - 9 проектов
+*Библиотеки для оптимизации и решения проблем с производительностью*
 
 1.  [Square Leakcanary](https://github.com/square/leakcanary) утилита для поиска ошибок из-за которых происходит memory leak для Android и Java.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 4168.
 2.  [Dropwizard Metrics](https://github.com/dropwizard/metrics) - библиотека для замера различных метрик в Java приложении для простого понимания что и как код делает во время продакшена.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3188.
 3.  [GCViewer](https://github.com/chewiebug/GCViewer) Форк Tagtraum GCViewer — небольшой инструмент для подробной визуализации GC (garbage collector) логов (включая G1 collector). Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 990.
 4.  [AdoptOpenJDK Jitwatch](https://github.com/AdoptOpenJDK/jitwatch) Анализатор логов Java HotSpot JIT компилятора, показывающий результаты используя JavaFX интерфейс. Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29), рейтинг - 547.
 5.  [Naver Pinpoint](https://github.com/naver/pinpoint) это APM (Application Performance Management) инструмент мониторинга производительности крупномасштабных распределенных систем, написанных на Java. Создан на основе Google's Dapper paper.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 486.
+6. [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
+7. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
+8. [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
+9. [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
 
-### 4\. Генерация кода и изменение байт кода - 6 проектов
+### 4. Генерация кода и изменение байт кода - 6 проектов
 
 1.  [Google Auto](https://github.com/google/auto) - коллекция генераторов исходного кода в Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1442.
 2.  [Square Javapoet](https://github.com/square/javapoet) - библиотека для генерации исходных кодов классов Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1057.
@@ -496,7 +506,7 @@
 5.  [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
 6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
 
-###5\. Анализ исходного кода- 3 проекта
+### 5. Анализ исходного кода- 3 проекта
 
 1.  [SonarQube](https://github.com/SonarSource/sonarqube) это свободная платформа для управлением качеством кода. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 655.
 2.  [Google Error prone](https://github.com/google/error-prone) - обнаружение типовых ошибок в Java коде. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 590.
@@ -513,7 +523,7 @@
 
 ## IIX. Облака
 
-###1\. Системы на Java, работающие с облаками,  - 5 проектов
+### 1. Системы на Java, работающие с облаками,  - 5 проектов
 
 1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - инструменты для поддержки ваших облачных операций. Chaos Monkey это гибкий инструментарий для создания устойчивых к случайным ошибкам приложений.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2892.
 2.  [Netflix Eureka](https://github.com/Netflix/eureka) это REST (Representational State Transfer) — сервис для управления AWS (Amazon Web Services ) облаками, обеспечение load balancing и отказоустойчивости. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1051.
@@ -521,11 +531,17 @@
 4.  [Syncany](https://github.com/syncany/syncany) это облачное хранилище и файл обменное приложение, которое фокусируется на безопансоти и абстрагирования от системы хранения. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 772.
 5.  [Legacy Jclouds](https://github.com/jclouds/legacy-jclouds) это открытая библиотека, которая поможет начать работать с облаками используя ваши навыки разработки на Java. Поддерживает многие виды облаков включая Amazon, VMWare, Azure, и Rackspace.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 507.
 
+## 2. Cluster Management - 2 проекта
+
+*Frameworks which can dynamically manage applications inside of a cluster.*
+
+1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
+2. [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 
 ## IX. Тестирование
 
-###1\. Тестирование- 13 проектов
+### 1. Тестирование - 13 проектов
 
 1.  [Junit](https://github.com/junit-team/junit) Простой и популярный фреймворк для unit тестирования . Лицензия:  [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) , рейтинг - 3662.
 2.  [Mockito](https://github.com/mockito/mockito) Mocking фреймворк для unit тестов, написанных на Java. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 1307.
@@ -541,11 +557,42 @@
 12.  [Assertj core](https://github.com/joel-costigliola/assertj-core) AssertJ это библиотека предоставляющая мощный механизм работы с условиями (assertion) для тестовых фреймворков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 423.
 13.  [Google truth](https://github.com/google/truth) Фреймворк для задания ограничений и утверждений (Assertion/Proposition) в Unit тестах (версия ещё очень альфа, может быть полностью изменена ) . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
 
+### 2. Code Analysis - 6 проектов
 
+*Tools that provide metrics and quality measurements.*
+
+1. [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
+2. [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
+3. [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+4. [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
+5. [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+6. [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+
+### 3. Code Coverage - 4 проекта
+
+*Frameworks and tools that enable collection of code coverage metrics for test suites.*
+
+1. [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
+2. [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
+3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
+4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
+
+### Continuous Integration
+
+*Tools which support continuously building, testing and releasing applications.*
+
+1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
+2. [CircleCI](https://circleci.com/) - Hosted service with a free trial.
+3. [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
+4. [fabric8](http://fabric8.io/) - Integration platform for containers.
+5. [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
+6. [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
+7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
+8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
 
 ## X. Другие языки программирования, написанные на Java
 
-###1\. Языки программирования, написанные на Java- 7 проектов
+### 1. Языки программирования, написанные на Java - 7 проектов
 
 1.  [Clojure](https://github.com/clojure/clojure) Язык программирования Clojure.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 4332.
 2.  [JetBrains Kotlin](https://github.com/JetBrains/kotlin) Язык программирования Kotlin. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1621.
@@ -555,19 +602,23 @@
 6.  [Trifork Erjang](https://github.com/trifork/erjang) Виртуальная JVM машина для языка Erlang . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 484.
 7.  [Apache Incubator groovy](https://github.com/apache/incubator-groovy) Зеркало для Apache Groovy — исходного кода языка программирования Groovy. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 464.
 
-###2\. Утилиты для других языков программирования, написанные на Java- 3 проекта
+### 2. Утилиты для других языков программирования, написанные на Java - 3 проекта
 
 1.  [Go lang idea plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) IDE для языка программирования Goole Go, созданная на основе IntelliJ Platform. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1717.
 2.  [Processing js](https://github.com/jeresig/processing-js) Портирование Processing библиотеку для работы с видео и изображениями в JavaScript.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 1696.
 3.  [Pysonar2](https://github.com/yinwang0/pysonar2) PySonar2 это система индексирования и получения типов в Python, которая проводить сложный анализ с помощью Sourcegraph сотен тысяч открытых Python репозиториев. Лицензия: [GNU](http://www.gnu.org/licenses/agpl-3.0.en.html) [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг - 1654.
 
-###3\. javascript- 4 проекта
+### 3. javascript - 4 проекта
 
 1.  [Yuicompressor](https://github.com/yui/yuicompressor) YUI Compressor — это система сжатия JavaScript и CSS файлов, которая удаляет лишние пробелы, безопасно обфуцирует локальные переменные до минимального возможного имени и т. д.. Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), рейтинг - 1840.
 2.  [Google Closure compiler](https://github.com/google/closure-compiler) Библиотека проверки JavaScript кода и его оптимизации. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1442.
 3.  [Frontend maven plugin](https://github.com/eirslett/frontend-maven-plugin) Maven плагин который скачивает и устанавливает Node и NPM локально и запускает NPM install, Grunt, Gulp и/или Karma. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 586.
 4.  [Dynjs](https://github.com/dynjs/dynjs) Среда выполнения ECMAScript для JVM. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 533.
 
+### 4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода - 2 проекта 
+
+1. [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
+2. [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
 
 
 ## XI. Приложения на Java
