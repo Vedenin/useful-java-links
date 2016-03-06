@@ -11,6 +11,7 @@
     - [8. Сериализация (serializer) и работа с файлами (I/O)](#8-Сериализация-serializer-и-работа-с-файлами-io--4-проекта)
     - [9. Работа с изображением и видео ](#9-Работа-с-изображением-и-видео---5-проектов)
     - [10. Логирование (logging)](#10-Логирование-logging--9-проектов)
+    - 11. Bean Mapping
 - [II. Базы данных и поисковые системы](#ii-Базы-данных-и-поисковые-системы)
     - [1. Базы данных и хранилища](#1-Базы-данных-и-хранилища--25-проектов)
     - [2. Поисковые системы](#2-Поисковые-системы--6-проектов)
@@ -36,9 +37,9 @@
     - [5. Работа с rest](#5-Работа-с-rest--7-проектов)
 -  [VII. Инструменты для упрощения разработки](#vii-Инструменты-для-упрощения-разработки)
     - [1. IDE](#1-ide--9-проектов)
-    - [2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений](#2-Инструменты-и-библиотеки-для-сборки-конфигурирования-и-развертывания-java-приложений--8-проектов)
+    - [2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений](#2-Инструменты-и-библиотеки-для-сборки-конфигурирования-и-развертывания-java-приложений--10-проектов)
     - [3. Производительность](#3-Производительность--5-проектов)
-    - [4. Генерация кода](#4-Генерация-кода--3-проекта)
+    - [4. Генерация кода и изменение байт кода](#4-Генерация-кода--3-проекта)
     - [5. Анализ исходного кода](#5-Анализ-исходного-кода--3-проекта)
     - [6. Прочее](#6-Прочее--4-проекта)
 -  [IIX. Облака](#iix-Облака)
@@ -56,7 +57,7 @@
     - [1. Примеры исходного кода на java](#1-Примеры-исходного-кода-на-java--12-проектов)
     - [2. Результаты сравнения производительности кода на Java (benchmark)](#2-Результаты-сравнения-производительности-кода-на-java-benchmark--2-проекта)
     - [3. Работа с git & github](#3-Работа-с-git--github--2-проекта)
-    
+    - 4. Устаревшие, но ещё использующиеся, проекты
 
 ## I. Фреймворки и библиотеки
 
@@ -195,6 +196,15 @@
 7. [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
 8. [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database.
 9. [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
+
+### 11. Bean Mapping - 5 проектов
+*Фреймворки, упрощающие bean mapping.*
+
+1. [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
+2. [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator which simplifies mappings between different bean types, based on a convention over configuration approach.
+3. [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper is an intelligent object mapping library that automatically maps objects to each other.
+4. [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
+5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
 
 
 ## II. Базы данных и поисковые системы
@@ -456,16 +466,18 @@
 8.  [JetBrains MPS](https://github.com/JetBrains/MPS) JetBrains MPS (Meta programming System) служит для быстрой разработки DSL (Domain Specific Language) для любого окружения и с возможностью скомпилировать DSL в множество языков, таких как Java, C, XML и другие. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 525.
 9.  [Idea markdown](https://github.com/nicoulaj/idea-markdown) Поддержка языка разметки Markdown в IntelliJ IDEA.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 405.
 
-###2\. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений- 8 проектов
+### 2\. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений - 10 проектов
 
 1.  [Google Bazel](https://github.com/google/bazel) - корректная, воспроизводимая и быстрая билд система для любых ситуаций. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2809.
-2.  [Gradle](https://github.com/gradle/gradle) это мощная система сборки для JVM. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2465.
+2.  [Gradle](https://github.com/gradle/gradle) это мощная система сборки для JVM. http://gradle.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2465.
 3.  [Spring Boot](https://github.com/spring-projects/spring-boot) — система быстрого развертывания и создания приложений, которых необходимо только запустить . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2386.
 4.  [Reactor](https://github.com/reactor/reactor) это полнофункциональная библиотека для разработки быстрых data-driven приложений на JVM. Она предоставляет абстракции для Java, Groovy, Clojure и других JVM языков для создания и обработки событий (event) и простой разработки data-driven приложений.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1569.
 5.  [Facebook Buck](https://github.com/facebook/buck) - система сборки, упрощающая создание небольших, повторно используемых модулей. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1449.
 6.  [Spotify Helios](https://github.com/spotify/helios) это Docker orchestration платформа для развертывания и управления контейнерами с помощью HTTP API или командной строки. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 952.
 7.  [Netflix Archaius](https://github.com/Netflix/archaius) - библиотека, реализующая API для управления конфигурациями, используется Netflix. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 614.
 8.  [Puniverse Capsule](https://github.com/puniverse/capsule) это система сборки приложения в один выполняемый JAR файл со всеми артефактами, ресурсами, нативными библиотеками и т.п.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг - 576.
+9.  [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
+10. [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
 
 ###3\. Производительность- 5 проектов
 
@@ -475,11 +487,14 @@
 4.  [AdoptOpenJDK Jitwatch](https://github.com/AdoptOpenJDK/jitwatch) Анализатор логов Java HotSpot JIT компилятора, показывающий результаты используя JavaFX интерфейс. Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29), рейтинг - 547.
 5.  [Naver Pinpoint](https://github.com/naver/pinpoint) это APM (Application Performance Management) инструмент мониторинга производительности крупномасштабных распределенных систем, написанных на Java. Создан на основе Google's Dapper paper.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 486.
 
-###4\. Генерация кода- 3 проекта
+### 4\. Генерация кода и изменение байт кода - 6 проектов
 
 1.  [Google Auto](https://github.com/google/auto) - коллекция генераторов исходного кода в Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1442.
 2.  [Square Javapoet](https://github.com/square/javapoet) - библиотека для генерации исходных кодов классов Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1057.
-3.  [Byte buddy](https://github.com/raphw/byte-buddy) - динамическая генерация кода в Java платформе . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 473.
+3.  [Byte buddy](https://github.com/raphw/byte-buddy) - динамическая генерация кода в Java платформе. http://bytebuddy.net/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 473.
+4.  [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
+5.  [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
+6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
 
 ###5\. Анализ исходного кода- 3 проекта
 
@@ -592,7 +607,7 @@
 
 ## XII. Прочее
 
-###1\. Примеры исходного кода на java- 12 проектов
+### 1. Примеры исходного кода на java- 12 проектов
 
 1.  [Java design patterns](https://github.com/iluwatar/java-design-patterns)  Очень хорошие примеры и справочник по паттернам разработки.  . Лицензия:  [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 6341.
 2.  [Spring projects Spring mvc showcase](https://github.com/spring-projects/spring-mvc-showcase) Примеры, демонстрирующие возможности Spring MVC веб фреймворка. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1338.
@@ -607,13 +622,23 @@
 11.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs это проект который рассматривает простоту разработки и полученное юзабилити (usability benchmark) семи типичных GUI задач на разных фреймворках и языках программирования (Java7 +Swing, Clojure+Seesaw, Scala+ScalaFX, Android и т. п.). Задачей сравнить разные подходы к созданию удобного для пользователя GUI. Лицензия: ?, рейтинг - 404.
 12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-jpa-examples) Примеры использования разных возможностей Spring Data JPA . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 400.
 
-###2\. Результаты сравнения производительности кода на Java (benchmark)- 2 проекта
+### 2. Результаты сравнения производительности кода на Java (benchmark)- 2 проекта
 
 1.  [Jvm serializers](https://github.com/eishay/jvm-serializers) - бенчмарки и сравнения производительности разных библиотек сериализации в JVM . Лицензия: ?, рейтинг - 970.
 2.  [YCSB (Yahoo! Cloud Serving Benchmark)](https://github.com/brianfrankcooper/YCSB) - бэнчмарки (тесты производительности) различных облачных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 869.
 
-###3\. Работа с git &amp; github- 2 проекта
+### 3. Работа с git &amp; github- 2 проекта
 
 1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit это свободный Java Git клиент для управления, просмотр и обслуживания Git репозиторий . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 787.
 2.  [WhisperSystems BitHub](https://github.com/WhisperSystems/BitHub) BitHub - экспериментальный сервис по сбору Bitcoin пожертвований и распределении этих пожертвований каждому кто коммитит в GitHub репозитории. Лицензия: ?, рейтинг - 491.
 
+### 4. Устаревшие, но ещё использующиеся, проекты - 6 проектов
+
+*Эти проекты появились очень давно, на данный момент они считаются устаревшими, однако в некоторых старых проектах продалжают использоваться*
+
+1. [Apache Ant](http://ant.apache.org/) - Build process management with XML.
+2. [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
+3. [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE sponsored by Oracle.
+4. [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
+5. [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
+6. [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
