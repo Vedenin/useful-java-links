@@ -17,48 +17,49 @@
     - [2. Поисковые системы](#2-Поисковые-системы--6-проектов)
     - [3. Клиенты и драйверы баз данных](#3-Клиенты-и-драйверы-баз-данных---21-проектов)
     - [4. Маппинг объектов в базы данных (ORM и т. п.)](#4-Маппинг-объектов-в-базы-данных-orm-и-тп--8-проектов)
--  [III. Работа с данными](#iii-Работа-с-данными)
+- [III. Работа с данными](#iii-Работа-с-данными)
     - [1. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)](#1-Системы-для-обработки-данных-работа-с-грязными-данными-анализ-и-тп--9-проектов)
     - [2. Большие данные (big data)](#2-Большие-данные-big-data--19-проектов)
--  [IV. Машинное обучение, нейроные сети, естественный языки](#iv-Машинное-обучение-нейроные-сети-естественный-языки)
+- [IV. Машинное обучение, нейроные сети, естественный языки](#iv-Машинное-обучение-нейроные-сети-естественный-языки)
     - [1. Машинное обучение и нейроные сети (Machine Learning)](#1-Машинное-обучение-и-нейроные-сети-machine-learning--15-проектов)
     - [2. Работа с естественными языками (NLP)](#2-Работа-с-естественными-языками-nlp--1-проект)
--  [V. Интеграция](#v-Интеграция)
+- [V. Интеграция](#v-Интеграция)
     - [1. Интеграция](#1-Интеграция--2-проекта)
     - [2. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling)](#2-Парсеры-parser-и--веб-паукикраулеры-web-crawling-6-проектов)
     - [3. Работа с Json](#3-Работа-с-json---9-проектов)
-    - [4. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)](#4-Интеграция-с-api-разных-систем-соц-сетей-и-тп--8-проектов)
-    - [5. Работа с биткойном](#5-Работа-с-биткойном---3-проекта)
--  [VI. Работа с сетью](#vi-Работа-с-сетью)
+    - [4. CSV](#3-Работа-с-json---9-проектов)
+    - [5. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)](#5-Интеграция-с-api-разных-систем-соц-сетей-и-тп--8-проектов)
+    - [6. Работа с биткойном](#6-Работа-с-биткойном---3-проекта)
+- [VI. Работа с сетью](#vi-Работа-с-сетью)
     - [1. Веб сервера и сервера приложений (web server &amp; application server)](#1-Веб-сервера-и-сервера-приложений-web-server--application-server--5-проектов)
     - [2. Сеть и сокеты](#2-Сеть-и-сокеты--6-проектов)
     - [3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений](#3-Работа-с-сообщениями-message-очереди-сообщений-и-прием-и-отправка-сообщений--7-проектов)
     - [4. Работа с http и ssh](#4-Работа-с-http-и-ssh--11-проектов)
     - [5. Работа с rest](#5-Работа-с-rest--7-проектов)
--  [VII. Инструменты для упрощения разработки](#vii-Инструменты-для-упрощения-разработки)
+- [VII. Инструменты для упрощения разработки](#vii-Инструменты-для-упрощения-разработки)
     - [1. IDE](#1-ide--9-проектов)
     - [2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений](#2-Инструменты-и-библиотеки-для-сборки-конфигурирования-и-развертывания-java-приложений---12-проектов)
     - [3. Производительность](#3-Производительность---9-проектов)
     - [4. Генерация кода и изменение байт кода](#4-Генерация-кода-и-изменение-байт-кода---6-проектов)
     - [5. Анализ исходного кода](#5-Анализ-исходного-кода--3-проекта)
     - [6. Прочее](#6-Прочее--4-проекта)
--  [IIX. Облака](#iix-Облака)
+- [IIX. Облака](#iix-Облака)
     - [1. Системы на Java, работающие с облаками](#1-Системы-на-java-работающие-с-облаками----5-проектов)
     - [2. Cluster Management](#2-cluster-management---2-проекта)
--  [IX. Тестирование](#ix-Тестирование)
+- [IX. Тестирование](#ix-Тестирование)
     - [1. Тестирование](#1-Тестирование---13-проектов)
     - [2. Code Analysis](#2-code-analysis---6-проектов)
     - [3. Code Coverage](#3-code-coverage---4-проекта)
     - [4. Continuous Integration](#4-continuous-integration---8-проектов)
--  [X. Другие языки программирования, написанные на Java](#x-Другие-языки-программирования-написанные-на-java)
+- [X. Другие языки программирования, написанные на Java](#x-Другие-языки-программирования-написанные-на-java)
     - [1. Языки программирования, написанные на Java](#1-Языки-программирования-написанные-на-java---7-проектов)
     - [2. Утилиты для других языков программирования, написанные на Java](#2-Утилиты-для-других-языков-программирования-написанные-на-java---3-проекта)
     - [3. javascript](#3-javascript---4-проекта)
     - [4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода](#4-Фреймворки-для-создания-парсеров-интерпретаторов-и-компиляторов-кода---2-проекта)
--  [XI. Приложения на Java](#xi-Приложения-на-java)
+- [XI. Приложения на Java](#xi-Приложения-на-java)
     - [1. Приложения и готовые продукты написанные на Java](#1-Приложения-и-готовые-продукты-написанные-на-java--15-проектов)
     - [2. Игры, написанные Java](#2-Игры-написанные-java--10-проектов)
--  [XII. Прочее](#xii-Прочее)
+- [XII. Прочее](#xii-Прочее)
     - [1. Примеры исходного кода на java](#1-Примеры-исходного-кода-на-java--12-проектов)
     - [2. Результаты сравнения производительности кода на Java (benchmark)](#2-Результаты-сравнения-производительности-кода-на-java-benchmark--2-проекта)
     - [3. Работа с git & github](#3-Работа-с-git--github--2-проекта)
@@ -214,14 +215,13 @@
 
 ## II. Базы данных и поисковые системы
 
-### 1. Базы данных и хранилища- 25 проектов"
-
+### 1. Базы данных и хранилища- 26 проектов
 
 1.  [Thinkaurelius Titan](https://github.com/thinkaurelius/titan) - распределенная графическая база данных. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2846.
 2.  [Apache Cassandra](https://github.com/apache/cassandra) - зеркало для Apache Cassandra — база данных с высокой доступностью и высокой расширямостью и отличной производительностью . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2155.
 3.  [Orientdb](https://github.com/orientechnologies/orientdb) это первая база данных с множественной моделью и поддержкой и документного хранилища и графов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)/CDDL 1/Eclipse Distribution 1.0, рейтинг - 1880.
 4.  [Neo4j](https://github.com/neo4j/neo4j) — одна из самых популярных в мире графических баз данных. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License)/ [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг - 1787.
-5.  [Mapdb](https://github.com/jankotek/mapdb) содержит мультипоточные реализации Maps, Sets и Queues, которые могут сохраняться на жестком диске или в off-heap-memory. Это быстрый и простой способ создать embedded Java базу данных.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1484.
+5.  [Mapdb](https://github.com/jankotek/mapdb) содержит мультипоточные реализации Maps, Sets и Queues, которые могут сохраняться на жестком диске или в off-heap-memory. Это быстрый и простой способ создать embedded Java базу данных. http://www.mapdb.org/. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1484.
 6.  [Voldemort](https://github.com/voldemort/voldemort) свободный клон Amazon's Dynamo, распределенное key-value хранилище. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1480.
 7.  [Amplab Tachyon](https://github.com/amplab/tachyon) это распределенное хранилище, ориентированное на работу с оперативной памятью и разделении данных между кластерами. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1459.
 8.  [Opentsdb](https://github.com/OpenTSDB/opentsdb) это распределенная и масштабируемая база данных, работающих с временными рядами (Time Series Database TSDB) работающая поверх Hbase. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 1336.
@@ -230,7 +230,7 @@
 11.  [Apache Lucene solr](https://github.com/apache/lucene-solr) Зеркало Apache Lucene & Solr — тестового поисковой движка. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1069.
 12.  [Java Chronicle](https://github.com/peter-lawrey/Java-Chronicle) Java Indexed Record Chronicle — библиотека, хранения данных, работы с сообщениями и событиями. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 970.
 13.  [Torodb](https://github.com/torodb/torodb) ToroDB база данных. Лицензия: [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг - 951.
-14.  [Crate](https://github.com/crate/crate) CRATE: Your Elastic Data Store — распределенная система, создающая бэкенд (или кластер) на основе nosql баз данных и свободных компонент (Presto, Elasticsearch, Lucene, Netty). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 925.
+14.  [Crate](https://github.com/crate/crate) CRATE: Your Elastic Data Store — распределенная система, создающая бэкенд (или кластер) на основе nosql баз данных и свободных компонент (Presto, Elasticsearch, Lucene, Netty). https://crate.io/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 925.
 15.  [Linkedin Pinot](https://github.com/linkedin/pinot) Linkedin pinot - Распределенный OLAP хранилище, работающее в режиме реального времени, которое используется Linkedin для получение аналитических данных в режиме реального времени.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 854.
 16.  [Solandra](https://github.com/tjake/Solandra) Solandra - распределенный real-time поисковый движок построенный на основе Apache Solr и Apache Cassandra.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 808.
 17.  [Voltdb](https://github.com/VoltDB/voltdb) VoltDB это горизонтально масштабируемая in-memory SQL RDBMS база данных, разработанная для приложений которым требует особенно высокая пропускная способность базы данных на чтение и запись . Лицензия: [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг - 586.
@@ -242,6 +242,7 @@
 23.  [Tinkerpop Rexster](https://github.com/tinkerpop/rexster) это сервер графических баз данных, который может передать любые данные графов через REST и бинарный протокол, называемый RexPro. . Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 402.
 24.  [Tomcat redis session manager](https://github.com/jcoleman/tomcat-redis-session-manager) Основанное на Redis простое хранилище сессий для Apache Tomcat. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 396.
 25.  [Embulk](https://github.com/embulk/embulk) это открытый пакетный (bulk) загрузчик данных, который помогает трансформировать данные между разными базами данных, хранилищ, файловых форматов и облачных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
+26.  [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
 
 ### 2. Поисковые системы- 6 проектов
 
@@ -262,10 +263,10 @@
 6.  [Airbnb Airpal](https://github.com/airbnb/airpal) Веб UI для PrestoDB. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1074.
 7.  [Mongodb hadoop](https://github.com/mongodb/mongo-hadoop) MongoDB клиент для интеграции с Hadoop. Лицензия: ?, рейтинг - 937.
 8.  [Elasticsearch jdbc](https://github.com/jprante/elasticsearch-jdbc) JDBC поддержка для Elasticsearch. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 867.
-9.  [Flyway](https://github.com/flyway/flyway) — инструмент по миграции баз данных . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 851.
+9.  [Flyway](https://github.com/flyway/flyway) — инструмент по миграции баз данных . http://flywaydb.org/ . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 851.
 10.  [Elasticsearch river mongodb](https://github.com/richardwilly98/elasticsearch-river-mongodb) - MongoDB River Plugin для ElasticSearch, использует MongoDB как хранилище для ElasticSearch. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 794.
 11.  [Netflix Astyanax](https://github.com/Netflix/astyanax) Cassandra Java клиент. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 735.
-12.  [Liquibase](https://github.com/liquibase/liquibase) Liquibase — система, позволяющая проводить миграции и обновления баз данных, генерировать SQL скрипты, документацию изменений баз данных, проводить рефакторинг и т. д.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 734.
+12.  [Liquibase](https://github.com/liquibase/liquibase) Liquibase — система, позволяющая проводить миграции и обновления баз данных, генерировать SQL скрипты, документацию изменений баз данных, проводить рефакторинг и т. д. http://www.liquibase.org/ . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 734.
 13.  [Mongodb Morphia](https://github.com/mongodb/morphia) Библиотека для простой сериализации объектов Java в документы MongoDB . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 725.
 14.  [Couchdb lucene](https://github.com/rnewson/couchdb-lucene) Полнотекстовый поиск CouchDB документов, используя Lucene. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 639.
 15.  [Forcedotcom Phoenix](https://github.com/forcedotcom/phoenix) Phoenix это SQL оболочка поверх Hbase с JDBC драйвером. Phoenix обеспечивает очень быстрый отклик (в течении миллисекунд), в отличии от пакетных операций map/reduce. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , рейтинг - 507.
@@ -275,20 +276,21 @@
 19.  [Datastax Java driver](https://github.com/datastax/java-driver) Java клиент для Apache Cassandra и DataStax. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 480.
 20.  [Memcached Java Client](https://github.com/gwhalin/Memcached-Java-Client) java клиент для memcached. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг - 436.
 21.  [Spring data mongodb](https://github.com/spring-projects/spring-data-mongodb) Java клиент к MongoDB для фреймворка Spring . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
+22.  [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
+23.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
 
 ### 4. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)- 8 проектов
 
 1.  [HikariCP](https://github.com/brettwooldridge/HikariCP) HikariCP — быстрая, надежная и легкая библиотека для создания JDBC connection pool с минимальными накладными расходами. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1542.
 2.  [Mybatis 3](https://github.com/mybatis/mybatis-3) MyBatis это фреймворк маппинга Java объектов в базы данных. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1428.
 3.  [Hibernate orm](https://github.com/hibernate/hibernate-orm) Hibernate's ORM фреймворк, один из самых популярных в Java. Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 1275.
-4.  [JOOQ](https://github.com/jOOQ/jOOQ) JOOQ — решение по простой интеграции и мапингу Java приложений с популярными базами данных, такими как Oracle, Microsoft SQL Server, IBM DB2, или SAP Sybase. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 830.
-5.  [Querydsl](https://github.com/querydsl/querydsl) Querydsl это Java фреймворк позволяющий конструировать типобезопасные SQL-подобные запросы для множества backends включая JPA, MongoDB и SQL . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 570.
+4.  [JOOQ](https://github.com/jOOQ/jOOQ) JOOQ — решение по простой интеграции и мапингу Java приложений с популярными базами данных, такими как Oracle, Microsoft SQL Server, IBM DB2, или SAP Sybase. http://www.jooq.org/ . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 830.
+5.  [Querydsl](https://github.com/querydsl/querydsl) Querydsl это Java фреймворк позволяющий конструировать типобезопасные SQL-подобные запросы для множества backends включая JPA, MongoDB и SQL. http://www.querydsl.com/ . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 570.
 6.  [Kundera](https://github.com/impetus-opensource/Kundera) ORM поддерживающий спецификации JPA 2.1 для полиглот маппинга в различные NoSQL хранилища. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 490.
 7.  [Spring data jpa](https://github.com/spring-projects/spring-data-jpa) Spring Data Jpa - обертка Spring фреймворка над JPa провайдерами . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 459.
-8.  [Jdbi](https://github.com/jdbi/jdbi) jDBI предлагает удобный интерфейс над SQL операциями в Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 458.
-9.  [ActiveJDBC](https://github.com/javalite/activejdbc) (**Update**: предложено в комментариях к статье) ActiveJDBC это Java реализация Active Record шаблона проектирования. Вдохновлен ActiveRecord ORM в Ruby on Rails.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 230.
-
-
+8.  [Jdbi](https://github.com/jdbi/jdbi) jDBI предлагает удобный интерфейс над SQL операциями в Java. http://jdbi.org/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 458.
+9.  [ActiveJDBC](https://github.com/javalite/activejdbc)ActiveJDBC это Java реализация Active Record шаблона проектирования. Вдохновлен ActiveRecord ORM в Ruby on Rails.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 230.
+10. [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
 
 ## III. Работа с данными
 
@@ -304,7 +306,7 @@
 8.  [Pulsar](https://github.com/pulsarIO/realtime-analytics) - открытая аналитическая платформа, работающая в реальном времени. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, рейтинг - 435.
 9.  [Suro: Netflix's Data Pipeline](https://github.com/Netflix/suro) — это сервис для сбора, агрегации и управления большим количеством разнообразных событий, включая данные логов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 405.
 
-### 2. Большие данные (big data)- 19 проектов
+### 2. Большие данные (big data)- 20 проектов
 
 1.  [Apache Storm](https://github.com/apache/storm) - зеркало для Apache Storm — свободную и распределенную систему обработки данных в реальном времени, аналог Hadoop, но для быстрой потоковой обработки данных, может использоваться с любым языком программирования.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2098.
 2.  [Druid](https://github.com/druid-io/druid) это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1846.
@@ -315,7 +317,7 @@
 7.  [Apache Hadoop](https://github.com/apache/hadoop) - зеркало Apache Hadoop. Систему для обработки Bigdata. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 803.
 8.  [Google Mr4c](https://github.com/google/mr4c) это фрейворк, который позволяет запускать нативный код в Hadoop. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 702.
 9.  [Alibaba Jstorm](https://github.com/alibaba/jstorm) — распределенная и устойчивая к ошибкам система вычисления результатов в реальном времени, вдохновленная Apache Storm,.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 654.
-10.  [Apache Hive](https://github.com/apache/hive) - зеркало Apache Hive. Фреймворк для созданий SQL подобного языка запросов для Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 619.
+10.  [Apache Hive](https://github.com/apache/hive) - зеркало Apache Hive. Фреймворк для созданий SQL подобного языка запросов для Hadoop. https://hive.apache.org/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 619.
 11.  [Etsy Oculus](https://github.com/etsy/oculus) находит аномальную корреляцию компонент системы Kale system. После того, как вы ввыбрали интересную или аномальную метрику, Oculus найдете все другие метрики в вашей системе, которые выглядят похоже.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 618.
 12.  [Linkedin Datafu](https://github.com/linkedin/datafu) это Hadoop библиотека для крупномасштабных систем обработки данных, на данный момент это проект в Apache Incubator . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 570.
 13.  [Linkedin Gobblin](https://github.com/linkedin/gobblin) это универсальный интеграционный фреймворк работающий на Hadoop для получения, трансформации и загрузки большого количества данных в различные источники данных, такие как базы данных, rest APIs, FTP/SFTP сервера и т.д. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 547.
@@ -325,6 +327,7 @@
 17.  [Elasticsearch hadoop](https://github.com/elastic/elasticsearch-hadoop) - интеграция поиска и анализ ElasticSearch в Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 457.
 18.  [Oryx 2](https://github.com/OryxProject/oryx) - реализация лямбда архитектуры для Apache Spark и Apache Kafka, но со специализацией на машинном обучении в реальном времени. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 456.
 19.  [Yahoo SAMOA (Scalable Advanced Massive Online Analysis)](https://github.com/yahoo/samoa) — открытая платформа для потоковой обработки больших данных (mining big data). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
+20.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.).  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3603.
 
 
 
@@ -393,7 +396,7 @@
 2. [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
 3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
 
-### 4. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)- 8 проектов
+### 5. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)- 8 проектов
 
 1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборк информации о работе всех его различных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2442.
 2.  [Wizcorp Phonegap facebook plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) Официальный плагин для Facebook в Apache Cordova/PhoneGap. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1587.
@@ -404,7 +407,7 @@
 7.  [Twitter Hbc](https://github.com/twitter/hbc) Java HTTP клиент для работы Twitter's Streaming API. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 498.
 8.  [Spring projects Spring social](https://github.com/spring-projects/spring-social) Spring Social это расширение Spring Framework, которые позволяет интегрировать ваши приложения с Software-as-a-Service (SaaS) провайдерами, такими как Facebook или Twitter. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 409.
 
-### 5. Работа с биткойном - 3 проекта
+### 6. Работа с биткойном - 3 проекта
 
 1.  [XChange](https://github.com/timmolter/XChange) XChange это Java библиотека предоставляющая удобный API для взаимодействия с более чем 50+ Bitcoin и Altcoin обменными биржами . Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 455.
 2.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) Библиотека для работы с Bitcoin. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 453.
@@ -534,13 +537,16 @@
 
 ## IIX. Облака
 
-### 1. Системы на Java, работающие с облаками,  - 5 проектов
+### 1. Системы на Java, работающие с облаками,  - 8 проектов
 
 1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - инструменты для поддержки ваших облачных операций. Chaos Monkey это гибкий инструментарий для создания устойчивых к случайным ошибкам приложений.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2892.
 2.  [Netflix Eureka](https://github.com/Netflix/eureka) это REST (Representational State Transfer) — сервис для управления AWS (Amazon Web Services ) облаками, обеспечение load balancing и отказоустойчивости. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1051.
 3.  [Aws sdk java](https://github.com/aws/aws-sdk-java) Официальное зеркало Java AWS SDK (Amazon Web Services). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1008.
 4.  [Syncany](https://github.com/syncany/syncany) это облачное хранилище и файл обменное приложение, которое фокусируется на безопансоти и абстрагирования от системы хранения. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 772.
 5.  [Legacy Jclouds](https://github.com/jclouds/legacy-jclouds) это открытая библиотека, которая поможет начать работать с облаками используя ваши навыки разработки на Java. Поддерживает многие виды облаков включая Amazon, VMWare, Azure, и Rackspace.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 507.
+6.  [Elasticsearch](https://github.com/elastic/elasticsearch) - одна из самых популярных систем распределенного облачного поиска. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 11833.
+7.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) Плагин для работы ElasticSearch с Amazon Web Service (AWS) облаками. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 435.
+8.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг - 395.
 
 ## 2. Cluster Management - 2 проекта
 
