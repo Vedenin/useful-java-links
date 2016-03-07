@@ -12,54 +12,54 @@
     - [9. Работа с изображением и видео ](#9-Работа-с-изображением-и-видео---5-проектов)
     - [10. Логирование (logging)](#10-Логирование-logging--9-проектов)
     - [11. Bean Mapping](#11-bean-mapping---5-проектов)
-- [II. Базы данных и поисковые системы](#ii-Базы-данных-и-поисковые-системы)
+    
+- [II. Базы данных, поисковые системы, Big data и машинное обучение](#ii-Базы-данных-и-поисковые-системы)
     - [1. Базы данных и хранилища](#1-Базы-данных-и-хранилища--25-проектов)
     - [2. Поисковые системы](#2-Поисковые-системы--6-проектов)
     - [3. Клиенты и драйверы баз данных](#3-Клиенты-и-драйверы-баз-данных---21-проектов)
     - [4. Маппинг объектов в базы данных (ORM и т. п.)](#4-Маппинг-объектов-в-базы-данных-orm-и-тп--8-проектов)
-- [III. Работа с данными](#iii-Работа-с-данными)
-    - [1. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)](#1-Системы-для-обработки-данных-работа-с-грязными-данными-анализ-и-тп--9-проектов)
-    - [2. Большие данные (big data)](#2-Большие-данные-big-data--19-проектов)
-- [IV. Машинное обучение, нейроные сети, естественный языки](#iv-Машинное-обучение-нейроные-сети-естественный-языки)
-    - [1. Машинное обучение и нейроные сети (Machine Learning)](#1-Машинное-обучение-и-нейроные-сети-machine-learning--15-проектов)
-    - [2. Работа с естественными языками (NLP)](#2-Работа-с-естественными-языками-nlp--1-проект)
-- [V. Интеграция](#v-Интеграция)
-    - [1. Интеграция](#1-Интеграция--2-проекта)
-    - [2. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling)](#2-Парсеры-parser-и--веб-паукикраулеры-web-crawling-6-проектов)
-    - [3. Работа с Json](#3-Работа-с-json---9-проектов)
-    - [4. CSV](#3-Работа-с-json---9-проектов)
-    - [5. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)](#5-Интеграция-с-api-разных-систем-соц-сетей-и-тп--8-проектов)
-    - [6. Работа с биткойном](#6-Работа-с-биткойном---3-проекта)
-- [VI. Работа с сетью](#vi-Работа-с-сетью)
+    - [5. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)](#1-Системы-для-обработки-данных-работа-с-грязными-данными-анализ-и-тп--9-проектов)
+    - [6. Большие данные (big data)](#2-Большие-данные-big-data--19-проектов)
+    - [7. Машинное обучение и нейроные сети (Machine Learning)](#1-Машинное-обучение-и-нейроные-сети-machine-learning--15-проектов)
+    - [8. Работа с естественными языками (NLP)](#2-Работа-с-естественными-языками-nlp--1-проект)
+- [III. Работа с сетью и интеграция](#vi-Работа-с-сетью)
     - [1. Веб сервера и сервера приложений (web server &amp; application server)](#1-Веб-сервера-и-сервера-приложений-web-server--application-server--5-проектов)
     - [2. Сеть и сокеты](#2-Сеть-и-сокеты--6-проектов)
     - [3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений](#3-Работа-с-сообщениями-message-очереди-сообщений-и-прием-и-отправка-сообщений--7-проектов)
     - [4. Работа с http и ssh](#4-Работа-с-http-и-ssh--11-проектов)
     - [5. Работа с rest](#5-Работа-с-rest--7-проектов)
-- [VII. Инструменты для упрощения разработки](#vii-Инструменты-для-упрощения-разработки)
+    - [6. Интеграция](#1-Интеграция--2-проекта)
+    - [7. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling)](#2-Парсеры-parser-и--веб-паукикраулеры-web-crawling-6-проектов)
+    - [8. Работа с Json](#3-Работа-с-json---9-проектов)
+    - [9. CSV](#3-Работа-с-json---9-проектов)
+    - [10. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)](#5-Интеграция-с-api-разных-систем-соц-сетей-и-тп--8-проектов)
+    - [11. Работа с биткойном](#6-Работа-с-биткойном---3-проекта)
+    - [12. Системы на Java, работающие с облаками](#1-Системы-на-java-работающие-с-облаками----5-проектов)
+    - [13. Cluster Management](#2-cluster-management---2-проекта)
+
+- [IV. Тестирование](#ix-Тестирование)
+    - [1. Тестирование](#1-Тестирование---13-проектов)
+    - [2. Code Analysis](#2-code-analysis---6-проектов)
+    - [3. Code Coverage](#3-code-coverage---4-проекта)
+    - [4. Continuous Integration](#4-continuous-integration---8-проектов)
+    
+- [V. Инструменты для упрощения разработки](#vii-Инструменты-для-упрощения-разработки)
     - [1. IDE](#1-ide--9-проектов)
     - [2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений](#2-Инструменты-и-библиотеки-для-сборки-конфигурирования-и-развертывания-java-приложений---12-проектов)
     - [3. Производительность](#3-Производительность---9-проектов)
     - [4. Генерация кода и изменение байт кода](#4-Генерация-кода-и-изменение-байт-кода---6-проектов)
     - [5. Анализ исходного кода](#5-Анализ-исходного-кода--3-проекта)
     - [6. Прочее](#6-Прочее--4-проекта)
-- [IIX. Облака](#iix-Облака)
-    - [1. Системы на Java, работающие с облаками](#1-Системы-на-java-работающие-с-облаками----5-проектов)
-    - [2. Cluster Management](#2-cluster-management---2-проекта)
-- [IX. Тестирование](#ix-Тестирование)
-    - [1. Тестирование](#1-Тестирование---13-проектов)
-    - [2. Code Analysis](#2-code-analysis---6-проектов)
-    - [3. Code Coverage](#3-code-coverage---4-проекта)
-    - [4. Continuous Integration](#4-continuous-integration---8-проектов)
-- [X. Другие языки программирования, написанные на Java](#x-Другие-языки-программирования-написанные-на-java)
+
+- [VI. Языки программирования и приложения, написанные на Java](#x-Другие-языки-программирования-написанные-на-java)
     - [1. Языки программирования, написанные на Java](#1-Языки-программирования-написанные-на-java---7-проектов)
     - [2. Утилиты для других языков программирования, написанные на Java](#2-Утилиты-для-других-языков-программирования-написанные-на-java---3-проекта)
     - [3. javascript](#3-javascript---4-проекта)
     - [4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода](#4-Фреймворки-для-создания-парсеров-интерпретаторов-и-компиляторов-кода---2-проекта)
-- [XI. Приложения на Java](#xi-Приложения-на-java)
-    - [1. Приложения и готовые продукты написанные на Java](#1-Приложения-и-готовые-продукты-написанные-на-java--15-проектов)
-    - [2. Игры, написанные Java](#2-Игры-написанные-java--10-проектов)
-- [XII. Прочее](#xii-Прочее)
+    - [5. Приложения и готовые продукты написанные на Java](#1-Приложения-и-готовые-продукты-написанные-на-java--15-проектов)
+    - [6. Игры, написанные Java](#2-Игры-написанные-java--10-проектов)
+    
+- [VII. Прочее](#xii-Прочее)
     - [1. Примеры исходного кода на java](#1-Примеры-исходного-кода-на-java--12-проектов)
     - [2. Результаты сравнения производительности кода на Java (benchmark)](#2-Результаты-сравнения-производительности-кода-на-java-benchmark--2-проекта)
     - [3. Работа с git & github](#3-Работа-с-git--github--2-проекта)
@@ -213,7 +213,7 @@
 5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
 
 
-## II. Базы данных и поисковые системы
+## II. Базы данных, поисковые системы, Big data и машинное обучение
 
 ### 1. Базы данных и хранилища - 26 проектов
 
@@ -292,9 +292,7 @@
 9.  [ActiveJDBC](https://github.com/javalite/activejdbc)ActiveJDBC это Java реализация Active Record шаблона проектирования. Вдохновлен ActiveRecord ORM в Ruby on Rails.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 230.
 10. [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
 
-## III. Работа с данными
-
-### 1. Системы, для обработки данных (работа с грязными данными, анализ и т.п.) - 9 проектов
+### 5. Системы, для обработки данных (работа с грязными данными, анализ и т.п.) - 9 проектов
 
 1.  [Storm](https://github.com/nathanmarz/storm) - распределенная и устойчивая к ошибкам обработка данных в реальном времени: потоковая обработка, непрерывные вычисления, распределенный RPC и другое. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 8636.
 2.  [OpenRefine](https://github.com/OpenRefine/OpenRefine) — инструменты для обработки «грязных» плохо структурированных данных и улучшения их. . Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses) , рейтинг - 2939.
@@ -306,7 +304,7 @@
 8.  [Pulsar](https://github.com/pulsarIO/realtime-analytics) - открытая аналитическая платформа, работающая в реальном времени. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, рейтинг - 435.
 9.  [Suro: Netflix's Data Pipeline](https://github.com/Netflix/suro) — это сервис для сбора, агрегации и управления большим количеством разнообразных событий, включая данные логов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 405.
 
-### 2. Большие данные (big data) - 20 проектов
+### 6. Большие данные (big data) - 20 проектов
 
 1.  [Apache Storm](https://github.com/apache/storm) - зеркало для Apache Storm — свободную и распределенную систему обработки данных в реальном времени, аналог Hadoop, но для быстрой потоковой обработки данных, может использоваться с любым языком программирования.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2098.
 2.  [Druid](https://github.com/druid-io/druid) это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1846.
@@ -329,11 +327,7 @@
 19.  [Yahoo SAMOA (Scalable Advanced Massive Online Analysis)](https://github.com/yahoo/samoa) — открытая платформа для потоковой обработки больших данных (mining big data). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
 20.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.).  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3603.
 
-
-
-## IV. Машинное обучение, нейроные сети, естественный языки
-
-### 1. Машинное обучение и нейроные сети (Machine Learning) - 15 проектов
+### 7. Машинное обучение и нейроные сети (Machine Learning) - 15 проектов
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) Библиотека для машинного обучения, дружелюбная к пользователям (простая в настройке и т. п.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1672.
 2.  [Smile](https://github.com/haifengl/smile) SmileMiner (Statistical Machine Intelligence and Learning Engine) - набор Java библиотек различных алгоритмов машинного обучения. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1519.
@@ -352,72 +346,14 @@
 15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 
-### 2. Работа с естественными языками (NLP) - 1 проект
+### 8. Работа с естественными языками (NLP) - 1 проект
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 871.
 
 
 
-## V. Интеграция
-
-### 1. Интеграция - 2 проекта
-
-1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) Интеграция JVM с "внешним мира" (программами логирования, мониторинга, графики и т. п.). Лицензия: ?, рейтинг - 708.
-2.  [Apache Camel](https://github.com/apache/camel) Зеркало Apache Camel. Apache Camel - мощный свободный интеграционных фреймворк, основанный на Enterprise Integration Patterns.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 490.
-
-### 2. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling) - 8 проектов
-
-1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с подержкой XPath и CSS selector.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3323.
-2.  [Jsoup](https://github.com/jhy/jsoup) jsoup это Java HTML парсер с использованием DOM, CSS, и jquery. http://jsoup.org/ Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2006.
-3.  [Webmagic](https://github.com/code4craft/webmagic) Фреймворк для создания интернет ботов для индексирования (crawler), которые реализует все этапы жизненного цикла crawler: скачивание, управление url, выделение контент и сохранение.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1089.
-4.  [Antlr4](https://github.com/antlr/antlr4) ANTLR (ANother Tool для Language Recognition мощный генератор парсеров для чтения, обработки, использование или конвертирования структурированного текста или бинарных файлов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 836.
-5.  [Parboiled](https://github.com/sirthias/parboiled) Элегантный, легкий, простой в использовании и мощный парсер, написанный на Java и Scala. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 775.
-6.  [Pegdown](https://github.com/sirthias/pegdown) Обработчик языка разметки Markdown, основанный на PEG парсере, поддерживающим большое количество расширений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 692.
-7.  [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
-8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
-
-### 3. Работа с Json - 9 проектов
-
-1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson) Быстрый JSON обработчик. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2605.
-2.  [JSON java](https://github.com/douglascrockford/JSON-java) Набор классов для работы с JSON в Java, конвертации JSON в XML, CDL, cookie lists, HTTP headers и обратно.. Лицензия: Своя open-source лицензия ?, рейтинг - 1561.
-3.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) Генерация Java классов из JSON схемы (или примера JSON) с аннотациями для data-binding для Jackson 1.x or 2.x, Gson и т. п.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 914.
-4.  [Square Moshi](https://github.com/square/moshi) JSON библиотека для Android и Java, служит для упрощения парсинга Json в объекты Java . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 765.
-5.  [Instagram Ig json parser](https://github.com/Instagram/ig-json-parser) Быстрый JSON парсер для java проектов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 730.
-6.  [FasterXML Jackson core](https://github.com/FasterXML/jackson-core) Основная часть Jackson библиотеки для реализации работы с низкоуровневым ("streaming") JSON парсера и генераторов JSON файлов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 682.
-7.  [FasterXML Jackson databind](https://github.com/FasterXML/jackson-databind) Основной data-binding пакет для Jackson (2.x) основанный на потоковом API Jackson Сore . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 640.
-8.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath — реализация аналога XPATH только для Json, а не XML. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 448.
-9.  [Json schema validator](https://github.com/fge/json-schema-validator) Валидация JSON Schema, реализована на чистой Java, создана с целью проверки Json файлов, используя Json схемы. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг - 411.
-
-### 4. CSV - 3 проекта
-
-*Frameworks and libraries that simplify reading/writing CSV data.*
-
-1. [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
-2. [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
-3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
-
-### 5. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.) - 8 проектов
-
-1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборк информации о работе всех его различных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2442.
-2.  [Wizcorp Phonegap facebook plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) Официальный плагин для Facebook в Apache Cordova/PhoneGap. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1587.
-3.  [Twitter4j](https://github.com/yusuke/twitter4j) Twitter4J это библиотека для работы с Twitter API в Java (поддерживает работу с JSON, REST Search API, Apache HttpClient, Async API, Streaming API, Async API, Streaming API, HTTP/2). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1551.
-4.  [Netflix Ice](https://github.com/Netflix/ice) AWS Usage Tool — система работы с Amazon Web Services. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1358.
-5.  [Twitter Commons](https://github.com/twitter/commons) Библиотека для работы с Twitter для python и JVM. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 964.
-6.  [Alibaba RocketMQ](https://github.com/alibaba/RocketMQ) RocketMQ - это реализация системы обмена сообщениями MQ (Message queue) для взаимодействия с различными сервисами портала Alibaba. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 627.
-7.  [Twitter Hbc](https://github.com/twitter/hbc) Java HTTP клиент для работы Twitter's Streaming API. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 498.
-8.  [Spring projects Spring social](https://github.com/spring-projects/spring-social) Spring Social это расширение Spring Framework, которые позволяет интегрировать ваши приложения с Software-as-a-Service (SaaS) провайдерами, такими как Facebook или Twitter. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 409.
-
-### 6. Работа с биткойном - 3 проекта
-
-1.  [XChange](https://github.com/timmolter/XChange) XChange это Java библиотека предоставляющая удобный API для взаимодействия с более чем 50+ Bitcoin и Altcoin обменными биржами . Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 455.
-2.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) Библиотека для работы с Bitcoin. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 453.
-3.  [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner) OpenCL майнер для Bitcoin. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 443.
-
-
-
-## VI. Работа с сетью
-
-###1\. Веб сервера и сервера приложений (web server &amp; application server) - 5 проектов
+## III. Работа с сетью и интеграция
+### 1. Веб сервера и сервера приложений (web server &amp; application server) - 5 проектов
 
 1.  [Wildfly](https://github.com/wildfly/wildfly) - сервер приложений (Application Server). Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 1386.
 2.  [Undertow io Undertow](https://github.com/undertow-io/undertow) - высокопроизводительный неблокирующий вебсервер. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 721.
@@ -425,7 +361,7 @@
 4.  [Nginx clojure](https://github.com/nginx-clojure/nginx-clojure) - Nginx модуль с использованием Clojure или Java или Groovy программ. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , рейтинг - 514.
 5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Http сервер и контейнер сервлетов . Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).0, рейтинг - 512.
 
-###2\. Сеть и сокеты - 6 проектов
+### 2. Сеть и сокеты - 6 проектов
 
 1.  [Netty](https://github.com/netty/netty) низкоуровневый асинхроно-событийный фреймворк для быстрого создания высокопроизводительных клиент-серверных соединений. Более удобный аналог ассинхронным сокетам из модуля java.nio из JDK.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 4847.
 2.  [Netty socketio](https://github.com/mrniko/netty-socketio) Реализация Socket.IO сервера на Java. Основан на Netty фреймворке, служит для обеспечение работы с сетевыми соединениями и сокетами. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 754.
@@ -434,7 +370,7 @@
 5.  [Socket.io client.java](https://github.com/nkzawa/socket.io-client.java) Полнофункциональная Socket.IO клиентская библиотека для Java, совместимая с Socket.IO v1.0 и выше.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 603.
 6.  [EsotericSoftware Kryonet](https://github.com/EsotericSoftware/kryonet) TCP/UDP клиентская и серверная библиотека для Java, основанная на Kryo. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 539.
 
-###3\. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений - 7 проектов
+### 3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений - 7 проектов
 
 1.  [LMAX Exchange Disruptor](https://github.com/LMAX-Exchange/disruptor) Высокопроизводительная библиотека для поддержки межпоточных сообщений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3137.
 2.  [Gifsockets](https://github.com/videlalvaro/gifsockets) Коммуникационная библиотека, работающая в режиме реального времени и использующая Animated Gifs как транспорт. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг - 1414.
@@ -444,7 +380,7 @@
 6.  [Igniterealtime Openfire](https://github.com/igniterealtime/Openfire) Openfire это RTC (real time collaboration) сервер использующий широко распространенные протоколы обмена сообщениями, такие как XMPP (так же называемый Jabber). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 470.
 7.  [Zeromq Jzmq](https://github.com/zeromq/jzmq) JZMQ это клиент для интеграции Java приложения с libzmq (например ZeroMQ, 0MQ). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 415.
 
-###4\. Работа с http и ssh - 11 проектов
+### 4. Работа с http и ssh - 11 проектов
 
 1.  [Square Okhttp](https://github.com/square/okhttp) HTTP & SPDY (новый формат HTTP от гугла) клиент для Android и Java.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5022.
 2.  [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client) Асинхронная Http и WebSocket клиентская библиотека для Java . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2149.
@@ -458,7 +394,7 @@
 10.  [Sshj](https://github.com/hierynomus/sshj) Поддержка ssh, scp и sftp для java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 500.
 11.  [Netflix Feign](https://github.com/Netflix/feign) Feign позволяет создавать Java Http клиента проще и быстрее. Feign основан на Retrofit, JAXRS-2.0 и WebSocket. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 485.
 
-###5\. Работа с rest - 7 проектов
+### 5. Работа с rest - 7 проектов
 
 1.  [Square Retrofit](https://github.com/square/retrofit) Типобезопасная библиотека для создания REST клиента для Android и Java.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5945.
 2.  [Dropwizard](https://github.com/dropwizard/dropwizard) фреймворк для создания RESTful сервисов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3427.
@@ -468,7 +404,130 @@
 6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, маштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 825.
 7.  [Spring projects Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 456.
 
-## VII. Инструменты для упрощения разработки
+### 6. Интеграция - 2 проекта
+
+1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) Интеграция JVM с "внешним мира" (программами логирования, мониторинга, графики и т. п.). Лицензия: ?, рейтинг - 708.
+2.  [Apache Camel](https://github.com/apache/camel) Зеркало Apache Camel. Apache Camel - мощный свободный интеграционных фреймворк, основанный на Enterprise Integration Patterns.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 490.
+
+### 7. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling) - 8 проектов
+
+1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с подержкой XPath и CSS selector.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3323.
+2.  [Jsoup](https://github.com/jhy/jsoup) jsoup это Java HTML парсер с использованием DOM, CSS, и jquery. http://jsoup.org/ Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2006.
+3.  [Webmagic](https://github.com/code4craft/webmagic) Фреймворк для создания интернет ботов для индексирования (crawler), которые реализует все этапы жизненного цикла crawler: скачивание, управление url, выделение контент и сохранение.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1089.
+4.  [Antlr4](https://github.com/antlr/antlr4) ANTLR (ANother Tool для Language Recognition мощный генератор парсеров для чтения, обработки, использование или конвертирования структурированного текста или бинарных файлов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 836.
+5.  [Parboiled](https://github.com/sirthias/parboiled) Элегантный, легкий, простой в использовании и мощный парсер, написанный на Java и Scala. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 775.
+6.  [Pegdown](https://github.com/sirthias/pegdown) Обработчик языка разметки Markdown, основанный на PEG парсере, поддерживающим большое количество расширений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 692.
+7.  [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
+8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
+
+### 8. Работа с Json - 9 проектов
+
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson) Быстрый JSON обработчик. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2605.
+2.  [JSON java](https://github.com/douglascrockford/JSON-java) Набор классов для работы с JSON в Java, конвертации JSON в XML, CDL, cookie lists, HTTP headers и обратно.. Лицензия: Своя open-source лицензия ?, рейтинг - 1561.
+3.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) Генерация Java классов из JSON схемы (или примера JSON) с аннотациями для data-binding для Jackson 1.x or 2.x, Gson и т. п.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 914.
+4.  [Square Moshi](https://github.com/square/moshi) JSON библиотека для Android и Java, служит для упрощения парсинга Json в объекты Java . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 765.
+5.  [Instagram Ig json parser](https://github.com/Instagram/ig-json-parser) Быстрый JSON парсер для java проектов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 730.
+6.  [FasterXML Jackson core](https://github.com/FasterXML/jackson-core) Основная часть Jackson библиотеки для реализации работы с низкоуровневым ("streaming") JSON парсера и генераторов JSON файлов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 682.
+7.  [FasterXML Jackson databind](https://github.com/FasterXML/jackson-databind) Основной data-binding пакет для Jackson (2.x) основанный на потоковом API Jackson Сore . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 640.
+8.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath — реализация аналога XPATH только для Json, а не XML. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 448.
+9.  [Json schema validator](https://github.com/fge/json-schema-validator) Валидация JSON Schema, реализована на чистой Java, создана с целью проверки Json файлов, используя Json схемы. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг - 411.
+
+### 9. CSV - 3 проекта
+
+*Frameworks and libraries that simplify reading/writing CSV data.*
+
+1. [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
+2. [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
+3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
+
+### 10. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.) - 8 проектов
+
+1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборк информации о работе всех его различных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2442.
+2.  [Wizcorp Phonegap facebook plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) Официальный плагин для Facebook в Apache Cordova/PhoneGap. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1587.
+3.  [Twitter4j](https://github.com/yusuke/twitter4j) Twitter4J это библиотека для работы с Twitter API в Java (поддерживает работу с JSON, REST Search API, Apache HttpClient, Async API, Streaming API, Async API, Streaming API, HTTP/2). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1551.
+4.  [Netflix Ice](https://github.com/Netflix/ice) AWS Usage Tool — система работы с Amazon Web Services. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1358.
+5.  [Twitter Commons](https://github.com/twitter/commons) Библиотека для работы с Twitter для python и JVM. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 964.
+6.  [Alibaba RocketMQ](https://github.com/alibaba/RocketMQ) RocketMQ - это реализация системы обмена сообщениями MQ (Message queue) для взаимодействия с различными сервисами портала Alibaba. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 627.
+7.  [Twitter Hbc](https://github.com/twitter/hbc) Java HTTP клиент для работы Twitter's Streaming API. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 498.
+8.  [Spring projects Spring social](https://github.com/spring-projects/spring-social) Spring Social это расширение Spring Framework, которые позволяет интегрировать ваши приложения с Software-as-a-Service (SaaS) провайдерами, такими как Facebook или Twitter. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 409.
+
+### 11. Работа с биткойном - 3 проекта
+
+1.  [XChange](https://github.com/timmolter/XChange) XChange это Java библиотека предоставляющая удобный API для взаимодействия с более чем 50+ Bitcoin и Altcoin обменными биржами . Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 455.
+2.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) Библиотека для работы с Bitcoin. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 453.
+3.  [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner) OpenCL майнер для Bitcoin. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 443.
+
+### 12. Системы на Java, работающие с облаками - 8 проектов
+
+1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - инструменты для поддержки ваших облачных операций. Chaos Monkey это гибкий инструментарий для создания устойчивых к случайным ошибкам приложений.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2892.
+2.  [Netflix Eureka](https://github.com/Netflix/eureka) это REST (Representational State Transfer) — сервис для управления AWS (Amazon Web Services ) облаками, обеспечение load balancing и отказоустойчивости. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1051.
+3.  [Aws sdk java](https://github.com/aws/aws-sdk-java) Официальное зеркало Java AWS SDK (Amazon Web Services). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1008.
+4.  [Syncany](https://github.com/syncany/syncany) это облачное хранилище и файл обменное приложение, которое фокусируется на безопансоти и абстрагирования от системы хранения. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 772.
+5.  [Legacy Jclouds](https://github.com/jclouds/legacy-jclouds) это открытая библиотека, которая поможет начать работать с облаками используя ваши навыки разработки на Java. Поддерживает многие виды облаков включая Amazon, VMWare, Azure, и Rackspace.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 507.
+6.  [Elasticsearch](https://github.com/elastic/elasticsearch) - одна из самых популярных систем распределенного облачного поиска. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 11833.
+7.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) Плагин для работы ElasticSearch с Amazon Web Service (AWS) облаками. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 435.
+8.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг - 395.
+
+## 13. Cluster Management - 2 проекта
+
+*Frameworks which can dynamically manage applications inside of a cluster.*
+
+1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
+2. [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
+
+## IV. Тестирование
+
+### 1. Тестирование - 13 проектов
+
+1.  [Junit](https://github.com/junit-team/junit) Простой и популярный фреймворк для unit тестирования . Лицензия:  [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) , рейтинг - 3662.
+2.  [Mockito](https://github.com/mockito/mockito) Mocking фреймворк для unit тестов, написанных на Java. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 1307.
+3.  [Selenium](https://github.com/SeleniumHQ/selenium) Фреймворк для автоматического тестирования в браузере . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1305.
+4.  [Spock](https://github.com/spockframework/spock) Spock это фреймворк тестирования и создания спецификаций для Java и Groovy приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 669.
+5.  [Google Firing range](https://github.com/google/firing-range) Google Firing Range это тестовый вебсервер для приложений-сканеров уязвимостей вебсайтов. Firing Range создает широкий спектр синтетических уязвимостей. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 650.
+6.  [Fitnesse](https://github.com/unclebob/fitnesse) FitNesse это система тестирования, вебсервер и вики. Лицензия: [CPL-1.0](https://opensource.org/licenses/cpl1.0.php), рейтинг - 618.
+7.  [Sikuli](https://github.com/sikuli/sikuli) Sikuli служит для написания скриптов, служащих для автоматизации работы со всем что вы ведите на экране.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 609.
+8.  [JavaHamcrest](https://github.com/hamcrest/JavaHamcrest) Hamcrest это фреймворк для создания условий и правил в программных тестах, написанных на Java, он позволяет создать сложные выражения для этих условий (assertion matcher), которые потом могут использовать в системах unit тестирования, таких как JUnit или jMock. . Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 561.
+9.  [Wiremock](https://github.com/tomakehurst/wiremock) Инструментарий для создания mock'ов (заглушек для тестирования) HTTP сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 508.
+10.  [Testng](https://github.com/cbeust/testng) TestNG фреймворк для тестирования. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 477.
+11.  [Galenframework Galen](https://github.com/galenframework/galen) Galen Framework это мощный фреймворк для автоматического тестирования дизайна и функционала вебсайтов. Использует Selenium для работы с браузером и автоматического тестирования вебсайтов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 449.
+12.  [Assertj core](https://github.com/joel-costigliola/assertj-core) AssertJ это библиотека предоставляющая мощный механизм работы с условиями (assertion) для тестовых фреймворков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 423.
+13.  [Google truth](https://github.com/google/truth) Фреймворк для задания ограничений и утверждений (Assertion/Proposition) в Unit тестах (версия ещё очень альфа, может быть полностью изменена ) . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
+
+### 2. Code Analysis - 6 проектов
+
+*Tools that provide metrics and quality measurements.*
+
+1. [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
+2. [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
+3. [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+4. [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
+5. [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+6. [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+
+### 3. Code Coverage - 4 проекта
+
+*Frameworks and tools that enable collection of code coverage metrics for test suites.*
+
+1. [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
+2. [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
+3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
+4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
+
+### 4. Continuous Integration - 8 проектов
+
+*Tools which support continuously building, testing and releasing applications.*
+
+1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
+2. [CircleCI](https://circleci.com/) - Hosted service with a free trial.
+3. [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
+4. [fabric8](http://fabric8.io/) - Integration platform for containers.
+5. [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
+6. [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
+7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
+8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
+
+
+## V. Инструменты для упрощения разработки
 
 ### 1. IDE - 9 проектов
 
@@ -533,81 +592,7 @@
 3.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) Система для реверс-инженеринга Java и Android (декомпилятор, редактор, отладчик и т. д.). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 617.
 4.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: Своя open-source лицензия, рейтинг - 514.
 
-
-
-## IIX. Облака
-
-### 1. Системы на Java, работающие с облаками - 8 проектов
-
-1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - инструменты для поддержки ваших облачных операций. Chaos Monkey это гибкий инструментарий для создания устойчивых к случайным ошибкам приложений.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2892.
-2.  [Netflix Eureka](https://github.com/Netflix/eureka) это REST (Representational State Transfer) — сервис для управления AWS (Amazon Web Services ) облаками, обеспечение load balancing и отказоустойчивости. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1051.
-3.  [Aws sdk java](https://github.com/aws/aws-sdk-java) Официальное зеркало Java AWS SDK (Amazon Web Services). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1008.
-4.  [Syncany](https://github.com/syncany/syncany) это облачное хранилище и файл обменное приложение, которое фокусируется на безопансоти и абстрагирования от системы хранения. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 772.
-5.  [Legacy Jclouds](https://github.com/jclouds/legacy-jclouds) это открытая библиотека, которая поможет начать работать с облаками используя ваши навыки разработки на Java. Поддерживает многие виды облаков включая Amazon, VMWare, Azure, и Rackspace.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 507.
-6.  [Elasticsearch](https://github.com/elastic/elasticsearch) - одна из самых популярных систем распределенного облачного поиска. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 11833.
-7.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) Плагин для работы ElasticSearch с Amazon Web Service (AWS) облаками. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 435.
-8.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг - 395.
-
-## 2. Cluster Management - 2 проекта
-
-*Frameworks which can dynamically manage applications inside of a cluster.*
-
-1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
-2. [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
-
-
-## IX. Тестирование
-
-### 1. Тестирование - 13 проектов
-
-1.  [Junit](https://github.com/junit-team/junit) Простой и популярный фреймворк для unit тестирования . Лицензия:  [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) , рейтинг - 3662.
-2.  [Mockito](https://github.com/mockito/mockito) Mocking фреймворк для unit тестов, написанных на Java. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 1307.
-3.  [Selenium](https://github.com/SeleniumHQ/selenium) Фреймворк для автоматического тестирования в браузере . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1305.
-4.  [Spock](https://github.com/spockframework/spock) Spock это фреймворк тестирования и создания спецификаций для Java и Groovy приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 669.
-5.  [Google Firing range](https://github.com/google/firing-range) Google Firing Range это тестовый вебсервер для приложений-сканеров уязвимостей вебсайтов. Firing Range создает широкий спектр синтетических уязвимостей. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 650.
-6.  [Fitnesse](https://github.com/unclebob/fitnesse) FitNesse это система тестирования, вебсервер и вики. Лицензия: [CPL-1.0](https://opensource.org/licenses/cpl1.0.php), рейтинг - 618.
-7.  [Sikuli](https://github.com/sikuli/sikuli) Sikuli служит для написания скриптов, служащих для автоматизации работы со всем что вы ведите на экране.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 609.
-8.  [JavaHamcrest](https://github.com/hamcrest/JavaHamcrest) Hamcrest это фреймворк для создания условий и правил в программных тестах, написанных на Java, он позволяет создать сложные выражения для этих условий (assertion matcher), которые потом могут использовать в системах unit тестирования, таких как JUnit или jMock. . Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 561.
-9.  [Wiremock](https://github.com/tomakehurst/wiremock) Инструментарий для создания mock'ов (заглушек для тестирования) HTTP сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 508.
-10.  [Testng](https://github.com/cbeust/testng) TestNG фреймворк для тестирования. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 477.
-11.  [Galenframework Galen](https://github.com/galenframework/galen) Galen Framework это мощный фреймворк для автоматического тестирования дизайна и функционала вебсайтов. Использует Selenium для работы с браузером и автоматического тестирования вебсайтов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 449.
-12.  [Assertj core](https://github.com/joel-costigliola/assertj-core) AssertJ это библиотека предоставляющая мощный механизм работы с условиями (assertion) для тестовых фреймворков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 423.
-13.  [Google truth](https://github.com/google/truth) Фреймворк для задания ограничений и утверждений (Assertion/Proposition) в Unit тестах (версия ещё очень альфа, может быть полностью изменена ) . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
-
-### 2. Code Analysis - 6 проектов
-
-*Tools that provide metrics and quality measurements.*
-
-1. [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
-2. [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
-3. [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
-4. [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
-5. [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
-6. [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
-
-### 3. Code Coverage - 4 проекта
-
-*Frameworks and tools that enable collection of code coverage metrics for test suites.*
-
-1. [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
-2. [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
-3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
-4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
-
-### 4. Continuous Integration - 8 проектов
-
-*Tools which support continuously building, testing and releasing applications.*
-
-1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
-2. [CircleCI](https://circleci.com/) - Hosted service with a free trial.
-3. [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
-4. [fabric8](http://fabric8.io/) - Integration platform for containers.
-5. [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
-6. [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
-8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
-
-## X. Другие языки программирования, написанные на Java
+## VI. Языки программирования и приложения, написанные на Java
 
 ### 1. Языки программирования, написанные на Java - 7 проектов
 
@@ -638,9 +623,7 @@
 2. [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
 
 
-## XI. Приложения на Java
-
-### 1. Приложения и готовые продукты написанные на Java - 15 проектов
+### 5. Приложения и готовые продукты написанные на Java - 15 проектов
 
 1.  [Square Keywhiz](https://github.com/square/keywhiz) - cистема для хранения и управления секретными данными (TLS сертификаты, GPG ключи, API токены, данные доступа к базам данным) . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 979.
 2.  [Rundeck](https://github.com/rundeck/rundeck) это автоматический сервис-планировщик по управлению заданиями, job'aми с вебконсолью, инструментами командной строки и WebAPI. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 853.
@@ -658,7 +641,7 @@
 14.  [Geoserver](https://github.com/geoserver/geoserver) это приложение, написанное на Java, которое используется для обмена и редактирования geo данных. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, рейтинг - 435.
 15.  [Languagetool](https://github.com/languagetool-org/languagetool) - система стилистической и грамматической проверки текста более чем на 25 разных языках (английский, франц узкий, немецкий, русский, польский и т. д.). Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 416.
 
-### 2. Игры, написанные Java - 10 проектов
+### 6. Игры, написанные Java - 10 проектов
 
 1.  [Bukkit](https://github.com/Bukkit/Bukkit) Мод для Minecraft API. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 1600.
 2.  [MovingBlocks Terasology](https://github.com/MovingBlocks/Terasology) Terasology это расширение для игры Minecraft . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1070.
@@ -673,7 +656,7 @@
 
 
 
-## XII. Прочее
+## VII. Прочее
 
 ### 1. Примеры исходного кода на java - 12 проектов
 
