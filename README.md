@@ -16,7 +16,6 @@
     - [13. Bean Mapping](#13-bean-mapping)
     - [14. Code generation and changing byte code](#14-code-generation-and-bytecode-manipulation)
     - [15. Distributed Applications](#15-distributed-applications)
-
     - [16. Science](#16-science)
        
 - [II. Databases, search engines, big data and machine learning](#ii-databases-search-engines-big-data-and-machine-learning)
@@ -38,7 +37,7 @@
     - [5. Rest Frameworks](#5-rest-frameworks)
     - [6. Integration frameworks](#6-integration-frameworks)
     - [7. Web Crawling and HTML parsering](#7-web-crawling-and-html-parsering)
-    - [8. Json](#i-test)
+    - [8. Json](#8-json)
     - [9. CSV](#9-csv)
     - [10. Integratin with API](#10-integratin-with-api)
     - [11. Bitcoin](#11-bitcoin)
