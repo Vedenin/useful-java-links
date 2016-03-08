@@ -7,15 +7,17 @@ In progress...
     - [2. General libraries](#i-test)
     - [3. Add new features in Java language and JVM](#i-test)
     - [4. Web Frameworks](#i-test)
-    - [5. Game Development](#i-test)
-    - [6. Security](#i-test)
-    - [7. Business process frameworks](#i-test)
-    - [8. Serializer and I/O](#i-test)
-    - [9. Working with image and video](#i-test)
-    - [10. Logging](#i-test)
-    - [11. Bean Mapping](#i-test)
-    - [12. Code generation and changing byte code](#i-test)
-    - [13. Distributed Applications](#i-test)
+    - [5. GUI](#i-test)
+    - [6. Game Development](#i-test)
+    - [7. Security](#i-test)
+    - [8. High Performance](#i-test)
+    - [9. Business process frameworks](#i-test)
+    - [10. Serializer and I/O](#i-test)
+    - [11. Imagery and Video](#i-test)
+    - [12. Logging](#i-test)
+    - [13. Bean Mapping](#i-test)
+    - [14. Code generation and changing byte code](#i-test)
+    - [15. Distributed Applications](#i-test)
        
 - [II. Databases, search engines, big data and machine learning](#i-test)
     - [1. Databases and storages](#i-test)
@@ -42,6 +44,7 @@ In progress...
     - [11. Bitcoin](#i-test)
     - [12. Clouds](#i-test)
     - [13. Cluster Management](#i-test)
+    - [14. Document Processing](#i-test)
 
 - [IV. Testing](#i-test)
     - [1. Testing](#i-test)
@@ -106,16 +109,64 @@ In progress...
 * [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
 * [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
 
+#### Functional Programming
+
+*Libraries that facilitate functional programming.*
+
+* [Cyclops](https://github.com/aol/cyclops) - Monad and stream utilities, comprehensions, pattern matching, trampolines and much more.
+* [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
+* [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
+* [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
+* [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
+* [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
 ### 3. Add new features in Java language and JVM
 ### 4. Web Frameworks
-### 5. Game Development
-### 6. Security
-### 7. Business process frameworks
-### 8. Serializer and I/O
-### 9. Working with image and video
-### 10. Logging
-### 11. Bean Mapping
+### 5. GUI
+
+*Libraries to create modern graphical user interfaces.*
+
+* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
+* [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
+* [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) is a graphical widget toolkit for use with the Java platform.
+
+### 6. Game Development
+
+*Frameworks that support the development of games.*
+
+* [jMonkeyEngine](http://jmonkeyengine.org/) - Game engine for modern 3D development.
+* [libGDX](https://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
+* [LWJGL](http://www.lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
+
+### 7. Security
+### 8. High Performance
+
+*Everything about high performance computation, from collections to specific libraries.*
+
+* [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
+* [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
+* [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
+* [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
+* [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
+* [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
+* [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
+* [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
+* [Trove](http://trove.starlight-systems.com/) - Primitive collections.
+
+### 9. Business process frameworks
+### 10. Serializer and I/O
+### 11. Imagery and Video
+#### Imagery 
+
+*Libraries that assist with the creation, evaluation or manipulation of graphical images.*
+
+* [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Simple and efficient hardware-accelerated image-scaling library implemented in pure Java 2D.
+* [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
+* [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
+* [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
+
+### 12. Logging
+### 13. Bean Mapping
 *Frameworks that ease bean mapping.*
 
 * [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
@@ -125,7 +176,7 @@ In progress...
 * [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
  
 
-### 12. Code generation and Bytecode Manipulation
+### 14. Code generation and Bytecode Manipulation
 #### Bytecode Manipulation
 
 *Libraries to manipulate bytecode programmatically.*
@@ -135,7 +186,7 @@ In progress...
 * [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
 * [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
 
-### 13. Distributed Applications
+### 15. Distributed Applications
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
@@ -172,6 +223,16 @@ In progress...
 * [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
 * [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
 
+#### Distributed Databases
+
+*Databases in a distributed system that appear to applications as a single data source.*
+
+* [Apache Cassandra](http://cassandra.apache.org) - Column-oriented and providing high availability with no single point of failure.
+* [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
+* [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
+* [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
+* [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
+
 ### 2. Data structures
 
 *Efficient and specific data structures.*
@@ -192,6 +253,7 @@ In progress...
 ### 7. Big data
 ### 8. Machine Learning
 ### 9. Natural language processing (NLP)
+
 ## III. Network and integration
 ### 1. Web server and application server
 ### 2. Network and sockets
@@ -201,6 +263,14 @@ In progress...
 ### 6. Integration frameworks
 ### 7. Parser and web-crawling
 ### 8. Json
+
+*Libraries that simplify JSON processing.*
+
+* [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java to JSON conversion library.
+* [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
+* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
+* [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
+
 ### 9. CSV
 
 *Frameworks and libraries that simplify reading/writing CSV data.*
@@ -219,6 +289,13 @@ In progress...
 * [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
 * [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
  
+### 14. Document Processing
+
+*Libraries that assist with processing office document formats.*
+
+* [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
+* [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
+* [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
 
 ## IV. Testing
 ### 1. Testing
@@ -247,6 +324,13 @@ In progress...
 
 ## V. Tools for developing
 ### 1. IDE
+
+*Integrated development environments that try to simplify several aspects of development.*
+
+* [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
+* [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
+* [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features from database access to HTML5.
+
 ### 2. Deploy, config and build
 #### Build
 
@@ -255,12 +339,26 @@ In progress...
 * [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
 * [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
 * [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+
 #### Configuration
 
 *Libraries that provide external configuration.*
 
 * [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
 * [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+
+#### Distribution
+
+*Tools which handle the distribution of applications in native formats.*
+
+* [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans.
+* [Capsule](http://www.capsule.io/) - Simple and powerful packaging and deployment. A fat JAR on steroids or a "Docker for Java" that supports JVM-optimized containers.
+* [Central Repository](http://search.maven.org/) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven and available in all other build tools.
+* [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
+* [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
+* [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
+* [Nexus](http://www.sonatype.com/nexus) - Binary management with proxy and caching capabilities.
+* [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
 
 ### 3. Perfomance tools
 
@@ -316,19 +414,6 @@ In progress...
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Dependency Injection](#dependency-injection)
-    - [Development](#development)
-    - [Distributed Applications](#distributed-applications)
-    - [Distributed Databases](#distributed-databases)
-    - [Distribution](#distribution)
-    - [Document Processing](#document-processing)
-    - [Formal Verification](#formal-verification)
-    - [Functional Programming](#functional-programming)
-    - [Game Development](#game-development)
-    - [GUI](#gui)
-    - [High Performance](#high-performance)
-    - [IDE](#ide)
-    - [Imagery](#imagery)
     - [JSON](#json)
     - [JVM and JDK](#jvm-and-jdk)
     - [Logging](#logging)
@@ -372,117 +457,23 @@ A curated list of awesome Java frameworks, libraries and software.
 
 
 
-## Distributed Databases
 
-*Databases in a distributed system that appear to applications as a single data source.*
 
-* [Apache Cassandra](http://cassandra.apache.org) - Column-oriented and providing high availability with no single point of failure.
-* [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
-* [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
-* [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
-* [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
 
-## Distribution
 
-*Tools which handle the distribution of applications in native formats.*
 
-* [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans.
-* [Capsule](http://www.capsule.io/) - Simple and powerful packaging and deployment. A fat JAR on steroids or a "Docker for Java" that supports JVM-optimized containers.
-* [Central Repository](http://search.maven.org/) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven and available in all other build tools.
-* [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
-* [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
-* [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
-* [Nexus](http://www.sonatype.com/nexus) - Binary management with proxy and caching capabilities.
-* [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
 
-## Document Processing
 
-*Libraries that assist with processing office document formats.*
 
-* [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
-* [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
-* [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
 
-## Formal Verification
 
-*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
 
-* [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
-* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
-* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
-* [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
-* [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
-* [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
-* [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
-* [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
-* [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
 
-## Functional Programming
 
-*Libraries that facilitate functional programming.*
 
-* [Cyclops](https://github.com/aol/cyclops) - Monad and stream utilities, comprehensions, pattern matching, trampolines and much more.
-* [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
-* [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
-* [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
-* [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
-* [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
-## Game Development
 
-*Frameworks that support the development of games.*
 
-* [jMonkeyEngine](http://jmonkeyengine.org/) - Game engine for modern 3D development.
-* [libGDX](https://libgdx.badlogicgames.com/) - All-round cross-platform, high-level framework.
-* [LWJGL](http://www.lwjgl.org/) - Robust framework that abstracts libraries like OpenGL/CL/AL.
-
-## GUI
-
-*Libraries to create modern graphical user interfaces.*
-
-* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
-* [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
-* [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) is a graphical widget toolkit for use with the Java platform.
-
-## High Performance
-
-*Everything about high performance computation, from collections to specific libraries.*
-
-* [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
-* [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
-* [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
-* [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
-* [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
-* [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
-* [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
-* [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
-* [Trove](http://trove.starlight-systems.com/) - Primitive collections.
-
-## IDE
-
-*Integrated development environments that try to simplify several aspects of development.*
-
-* [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
-* [IntelliJ IDEA](http://www.jetbrains.com/idea/) - Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector.
-* [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features from database access to HTML5.
-
-## Imagery
-
-*Libraries that assist with the creation, evaluation or manipulation of graphical images.*
-
-* [Imgscalr](https://github.com/thebuzzmedia/imgscalr) - Simple and efficient hardware-accelerated image-scaling library implemented in pure Java 2D.
-* [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
-* [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
-* [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
-
-## JSON
-
-*Libraries that simplify JSON processing.*
-
-* [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java to JSON conversion library.
-* [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
-* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
-* [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
 
 ## JVM and JDK
 
@@ -760,6 +751,20 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
+## Formal Verification
+
+*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+
+* [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
+* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
+* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
+* [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
+* [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
+* [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
+* [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
+* [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
+* [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
+
 # Resources
 
 ## Communities
@@ -840,8 +845,3 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
 
-# Contributing
-
-Contributions are very welcome!
-
-Please have a look at [CONTRIBUTING](https://github.com/akullpp/awesome-java/blob/master/CONTRIBUTING.md) for guidelines.
