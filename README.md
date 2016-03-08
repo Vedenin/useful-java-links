@@ -1,10 +1,8 @@
 # Awesome Java links (fork from [awesome link](https://github.com/akullpp/awesome-java) and extending)
 
-In progress... 
-
 - [I. General frameworks and libraries](#i-test)
     - [1. General frameworks](#i-test)
-    - [2. General libraries](#i-test)
+    - [2. General utility libraries](#i-test)
     - [3. Add new features in Java language and JVM](#i-test)
     - [4. Web Frameworks](#i-test)
     - [5. GUI](#i-test)
@@ -37,7 +35,7 @@ In progress...
     - [4. Http and ssh](#i-test)
     - [5. Rest Frameworks](#i-test)
     - [6. Integration frameworks](#i-test)
-    - [7. Parser and web-crawling](#i-test)
+    - [7. Web Crawling and HTML parsering](#i-test)
     - [8. Json](#i-test)
     - [9. CSV](#i-test)
     - [10. Integratin with API](#i-test)
@@ -45,11 +43,13 @@ In progress...
     - [12. Clouds](#i-test)
     - [13. Cluster Management](#i-test)
     - [14. Document Processing (XLS, DOC and PDF)](#i-test)
+    - [15. Native](#i-test)
 
 - [IV. Testing](#i-test)
     - [1. Testing](#i-test)
     - [2. Code Coverage](#i-test)
     - [3. Continuous Integration](#i-test)
+    - [4. Formal Verification](#i-test)
     
 - [V. Tools for developing](#i-test)
     - [1. IDE](#i-test)
@@ -75,7 +75,21 @@ In progress...
 
 ## I. General frameworks and libraries
 ### 1. General frameworks
-### 2. General libraries
+### 2. General utility libraries
+
+*Libraries which provide general utility functions.*
+
+* [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
+* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
+* [CRaSH](http://www.crashub.org) - Provides a CLI for running processes.
+* [Gephi](https://github.com/gephi/gephi/) - Cross-platform for visualizing and manipulating large graph networks.
+* [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
+* [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
+* [javatuples](http://www.javatuples.org/) - Tuples.
+* [JCommander](http://jcommander.org/) - Command line arguments parser.
+* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
+
+
 #### Date and Time
 
 *Libraries related to handling date and time.*
@@ -121,8 +135,32 @@ In progress...
 * [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
 * [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
+#### Reactive libraries
+
+*Libraries for developing reactive applications.*
+
+* [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
+* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
+* [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
+
 ### 3. Add new features in Java language and JVM
 ### 4. Web Frameworks
+
+*Frameworks that handle the communication between the layers of an web application.*
+
+* [Apache Tapestry](http://tapestry.apache.org/) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
+* [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
+* [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
+* [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
+* [Ninja](http://www.ninjaframework.org/) - Full stack web framework.
+* [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
+* [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
+* [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
+* [Ratpack](http://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
+* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
+* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
+* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+
 ### 5. GUI
 
 *Libraries to create modern graphical user interfaces.*
@@ -380,7 +418,14 @@ In progress...
 * [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
 
 ### 6. Integration frameworks
-### 7. Parser and web-crawling
+### 7. Web Crawling and HTML parsering
+
+*Libraries that analyze the content of websites.*
+
+* [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
+* [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
+* [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
+*
 ### 8. Json
 
 *Libraries that simplify JSON processing.*
@@ -426,6 +471,12 @@ In progress...
 * [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
 * [iText](http://itextpdf.com/) - Creates PDF files programmatically but requires a license for commercial purposes.
 * [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
+
+### 15. Native
+*For working with platform-specific native libraries.*
+
+* [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
+* [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
 
 ## IV. Testing
 ### 1. Testing
@@ -479,6 +530,20 @@ In progress...
 * [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 * [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
 * [Travis](https://travis-ci.org) - Hosted service often used for open-source projects. 
+
+### 4. Formal Verification
+
+*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+
+* [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
+* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
+* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
+* [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
+* [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
+* [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
+* [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
+* [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
+* [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
 
 ## V. Tools for developing
 ### 1. IDE
@@ -591,10 +656,6 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Native](#native)
     - [Reactive libraries](#reactive-libraries)
     - [Science](#science)
-    - [Search](#search)
-    - [Security](#security)
-    - [Serialization](#serialization)
-    - [Server](#server)
     - [Template Engine](#template-engine)
     - [Utility](#utility)
     - [Web Crawling](#web-crawling)
@@ -644,11 +705,6 @@ A curated list of awesome Java frameworks, libraries and software.
 
 
 
-## Native
-*For working with platform-specific native libraries.*
-
-* [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
-* [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
 
 
 
@@ -657,13 +713,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 
 
-## Reactive libraries
 
-*Libraries for developing reactive applications.*
-
-* [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
-* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
-* [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 
 
 ## Science
@@ -688,44 +738,9 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
 
-## Utility
 
-*Libraries which provide general utility functions.*
 
-* [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
-* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
-* [CRaSH](http://www.crashub.org) - Provides a CLI for running processes.
-* [Gephi](https://github.com/gephi/gephi/) - Cross-platform for visualizing and manipulating large graph networks.
-* [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
-* [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
-* [javatuples](http://www.javatuples.org/) - Tuples.
-* [JCommander](http://jcommander.org/) - Command line arguments parser.
-* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 
-## Web Crawling
-
-*Libraries that analyze the content of websites.*
-
-* [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
-* [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
-* [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
-
-## Web Frameworks
-
-*Frameworks that handle the communication between the layers of an web application.*
-
-* [Apache Tapestry](http://tapestry.apache.org/) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
-* [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
-* [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
-* [Grails](https://grails.org/) - Groovy framework with the aim to provide a highly productive environment by favoring convention over configuration, no XML and support for mixins.
-* [Ninja](http://www.ninjaframework.org/) - Full stack web framework.
-* [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
-* [Play](https://www.playframework.com/) - Uses convention over configuration, hot code reloading and display of errors in the browser.
-* [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
-* [Ratpack](http://ratpack.io/) - Set of libraries that facilitate fast, efficient, evolvable and well tested HTTP applications.
-* [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
-* [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
-* [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
 
 ## JVM and JDK
 
@@ -736,19 +751,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
 * [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 
-## Formal Verification
 
-*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
-
-* [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
-* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
-* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
-* [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
-* [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
-* [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
-* [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
-* [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
-* [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
 
 ## Miscellaneous
 
