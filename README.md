@@ -67,6 +67,71 @@ In progress...
     - [3. Working with git and github](#i-test)
     - [4. Ancients](#i-test)
 
+## I. General frameworks and libraries
+### 1. General frameworks
+### 2. General libraries
+### 3. Add new features in Java language and JVM
+### 4. Web Frameworks
+### 5. Game Development
+### 6. Security
+### 7. Business process frameworks
+### 8. Serializer and I/O
+### 9. Working with image and video
+### 10. Logging
+### 11. Bean Mapping
+    
+## II. Databases, search engines, big data and machine learning
+### 1. Databases and storages
+### 2. Search engines
+### 3. Client and drivers for databases
+### 4. Object Mapping (ORM and so on)
+### 5. Working with data
+### 6. Big data
+### 7. Machine Learning
+### 8. Natural language processing (NLP)
+## III. Network and integration
+### 1. Web server and application server
+### 2. Network and sockets
+### 3. Message, message broker and message queue
+### 4. Http and ssh
+### 5. Rest
+### 6. Integration frameworks
+### 7. Parser and web-crawling
+### 8. Json
+### 9. CSV
+### 10. Integratin with API
+### 11. Bitcoin
+### 12. Clouds
+### 13. Cluster Management
+
+## IV. Testing
+### 1. Testing
+### 2. Code Analysis
+### 3. Code Coverage
+### 4. Continuous Integration
+    
+## V. Tools for developing
+### 1. IDE
+### 2. Deploy, config and build
+### 3. Perfomance tools
+### 4. Code generation and changing byte code
+### 5. Code Analysis
+### 6. Other
+
+## VI. Program languages and applications, that was written with Java
+### 1. Program languages, that was written with Java
+### 2. Other program languages tools, that was written with Java
+### 3. Javascript
+### 4. Parser frameworks, comiler for write new program languages
+### 5. Applications, that was written with Java
+### 6. Games, that was written with Java
+    
+## VII. Other
+### 1. Source code examples
+### 2. Benchmark results
+### 3. Working with git and github
+### 4. Ancients
+
 
 A curated list of awesome Java frameworks, libraries and software.
 
