@@ -86,8 +86,17 @@ In progress...
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper is an intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
 * [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
-* 
+ 
+
 ### 12. Code generation and Bytecode Manipulation
+#### Bytecode Manipulation
+
+*Libraries to manipulate bytecode programmatically.*
+
+* [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
+* [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
+* [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
+* [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
 
 ## II. Databases, search engines, big data and machine learning
 ### 1. Databases and storages
@@ -111,11 +120,26 @@ In progress...
 ### 10. Integratin with API
 ### 11. Bitcoin
 ### 12. Clouds
+
 ### 13. Cluster Management
+*Frameworks which can dynamically manage applications inside of a cluster.*
+
+* [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
+* [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
+ 
 
 ## IV. Testing
 ### 1. Testing
+
 ### 2. Code Coverage
+
+*Frameworks and tools that enable collection of code coverage metrics for test suites.*
+
+* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
+* [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
+* [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
+* [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
+
 ### 3. Continuous Integration
     
 ## V. Tools for developing
@@ -128,16 +152,46 @@ In progress...
 * [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
 * [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
 * [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+#### Configuration
+
+*Libraries that provide external configuration.*
+
+* [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
+* [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 
 ### 3. Perfomance tools
+
+*Libraries that help on implementing optimization and satisfiability problems.*
+
+* [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
+* [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
+* [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
+* [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
+
 ### 4. Code Analysis
+
+*Tools that provide metrics and quality measurements.*
+* [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
+* [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
+* [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+* [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
+* [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+* [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
+
 ### 5. Other
 
 ## VI. Program languages and applications, that was written with Java
 ### 1. Program languages, that was written with Java
 ### 2. Other program languages tools, that was written with Java
 ### 3. Javascript
-### 4. Parser frameworks, comiler for write new program languages
+
+### 4. Frameworks that help to create parsers, interpreters or compilers
+* Frameworks that help to create parsers, interpreters or compilers.*
+
+* [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
+* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
+
+
 ### 5. Applications, that was written with Java
 ### 6. Games, that was written with Java
     
@@ -159,12 +213,6 @@ In progress...
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Bytecode Manipulation](#bytecode-manipulation)
-    - [Cluster Management](#cluster-management)
-    - [Code Analysis](#code-analysis)
-    - [Code Coverage](#code-coverage)
-    - [Compiler-compiler](#compiler-compiler)
-    - [Configuration](#configuration)
     - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
     - [Continuous Integration](#continuous-integration)
     - [CSV](#csv)
@@ -217,65 +265,6 @@ A curated list of awesome Java frameworks, libraries and software.
 - [Contributing](#contributing)
 
 
-
-
-## Bytecode Manipulation
-
-*Libraries to manipulate bytecode programmatically.*
-
-* [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
-* [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
-* [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
-* [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
-
-## Cluster Management
-
-*Frameworks which can dynamically manage applications inside of a cluster.*
-
-* [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
-* [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
-
-## Code Analysis
-
-*Tools that provide metrics and quality measurements.*
-* [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
-* [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
-* [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
-* [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
-* [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
-* [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
-
-## Code Coverage
-
-*Frameworks and tools that enable collection of code coverage metrics for test suites.*
-
-* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
-* [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
-* [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
-* [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
-
-## Compiler-compiler
-
-*Frameworks that help to create parsers, interpreters or compilers.*
-
-* [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
-* [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
-
-## Configuration
-
-*Libraries that provide external configuration.*
-
-* [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
-* [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
-
-## Constraint Satisfaction Problem Solver
-
-*Libraries that help on implementing optimization and satisfiability problems.*
-
-* [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
-* [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
-* [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
-* [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
 
 ## Continuous Integration
 
