@@ -15,7 +15,8 @@ In progress...
     - [10. Logging](#i-test)
     - [11. Bean Mapping](#i-test)
     - [12. Code generation and changing byte code](#i-test)
-         
+    - [13. Distributed Applications](#i-test)
+       
 - [II. Databases, search engines, big data and machine learning](#i-test)
     - [1. Databases and storages](#i-test)
     - [2. Data structures](#i-test)
@@ -71,6 +72,41 @@ In progress...
 ## I. General frameworks and libraries
 ### 1. General frameworks
 ### 2. General libraries
+#### Date and Time
+
+*Libraries related to handling date and time.*
+
+* [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - Simple conversion between different calendar systems.
+* [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
+* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
+* [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
+
+#### Dependency Injection
+
+*Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
+
+* [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
+* [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
+* [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
+* [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
+
+#### Development
+
+*Augmentation of the development process at a fundamental level.*
+
+* [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
+* [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
+* [Auto](https://github.com/google/auto) - Collection of source code generators.
+* [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
+* [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
+* [Immutables](http://immutables.github.io/) - Scala-like case classes.
+* [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
+* [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
+* [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
+* [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
+* [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
+
+
 ### 3. Add new features in Java language and JVM
 ### 4. Web Frameworks
 ### 5. Game Development
@@ -98,6 +134,21 @@ In progress...
 * [Byte Buddy](http://bytebuddy.net/) - Further simplifies bytecode generation with a fluent API.
 * [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
 * [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
+
+### 13. Distributed Applications
+
+*Libraries and frameworks for writing distributed and fault-tolerant applications.*
+
+* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault tolerant event-driven applications.
+* [Apache Storm](http://storm.apache.org/) - Realtime computation system.
+* [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
+* [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
+* [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
+* [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
+* [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
+* [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional actors.
+* [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
+
 
 ## II. Databases, search engines, big data and machine learning
 ### 1. Databases and storages
@@ -265,9 +316,6 @@ In progress...
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Data structures](#data-structures)
-    - [Database](#database)
-    - [Date and Time](#date-and-time)
     - [Dependency Injection](#dependency-injection)
     - [Development](#development)
     - [Distributed Applications](#distributed-applications)
@@ -322,53 +370,7 @@ A curated list of awesome Java frameworks, libraries and software.
 
 
 
-## Date and Time
 
-*Libraries related to handling date and time.*
-
-* [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - Simple conversion between different calendar systems.
-* [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
-* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
-* [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
-
-## Dependency Injection
-
-*Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
-
-* [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
-* [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
-* [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
-* [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
-
-## Development
-
-*Augmentation of the development process at a fundamental level.*
-
-* [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
-* [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
-* [Auto](https://github.com/google/auto) - Collection of source code generators.
-* [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
-* [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
-* [Immutables](http://immutables.github.io/) - Scala-like case classes.
-* [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
-* [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
-* [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
-* [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
-* [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
-
-## Distributed Applications
-
-*Libraries and frameworks for writing distributed and fault-tolerant applications.*
-
-* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault tolerant event-driven applications.
-* [Apache Storm](http://storm.apache.org/) - Realtime computation system.
-* [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
-* [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
-* [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
-* [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
-* [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
-* [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional actors.
-* [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 
 ## Distributed Databases
 
