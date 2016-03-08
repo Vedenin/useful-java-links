@@ -18,13 +18,14 @@ In progress...
          
 - [II. Databases, search engines, big data and machine learning](#i-test)
     - [1. Databases and storages](#i-test)
-    - [2. Search engines](#i-test)
-    - [3. Client and drivers for databases](#i-test)
-    - [4. Object Mapping (ORM and so on)](#i-test)
-    - [5. Working with data](#i-test)
-    - [6. Big data](#i-test)
-    - [7. Machine Learning](#i-test)
-    - [8. Natural language processing (NLP)](#i-test)
+    - [2. Data structures](#i-test)
+    - [3. Search engines](#i-test)
+    - [4. Client and drivers for databases](#i-test)
+    - [5. Object Mapping (ORM and so on)](#i-test)
+    - [6. Working with data](#i-test)
+    - [7. Big data](#i-test)
+    - [8. Machine Learning](#i-test)
+    - [9. Natural language processing (NLP)](#i-test)
     
 - [III. Network and integration](#i-test)
     - [1. Web server and application server](#i-test)
@@ -100,13 +101,46 @@ In progress...
 
 ## II. Databases, search engines, big data and machine learning
 ### 1. Databases and storages
-### 2. Search engines
-### 3. Client and drivers for databases
-### 4. Object Mapping (ORM and so on)
-### 5. Working with data
-### 6. Big data
-### 7. Machine Learning
-### 8. Natural language processing (NLP)
+
+*Everything which simplifies interactions with the database.*
+
+* [Apache Hive](https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
+* [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
+* [Crate](https://crate.io/) - Distributed data store that implements data synchronization, sharding, scaling, and replication. In addition, it provides a SQL-based syntax to execute queries across a cluster.
+* [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
+* [Flyway](http://flywaydb.org/) - Simple database migration tool.
+* [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
+* [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
+* [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
+* [Jedis](https://github.com/xetorthio/jedis) - A small client for interaction with redis, with methods for commands.
+* [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
+* [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
+* [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
+* [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
+* [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
+* [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
+* [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
+
+### 2. Data structures
+
+*Efficient and specific data structures.*
+
+* [Apache Avro](https://avro.apache.org/) - Data interchange format featuring among others: dynamic typing, untagged data, absence of manually assigned IDs.
+* [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for hadoop based workloads.
+* [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from the Dremel paper by Google.
+* [Apache Thrift](https://thrift.apache.org/) - Data interchange format that originated at Facebook.
+* [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
+* [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
+* [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
+* [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
+
+### 3. Search engines
+### 4. Client and drivers for databases
+### 5. Object Mapping (ORM and so on)
+### 6. Working with data
+### 7. Big data
+### 8. Machine Learning
+### 9. Natural language processing (NLP)
 ## III. Network and integration
 ### 1. Web server and application server
 ### 2. Network and sockets
@@ -117,6 +151,13 @@ In progress...
 ### 7. Parser and web-crawling
 ### 8. Json
 ### 9. CSV
+
+*Frameworks and libraries that simplify reading/writing CSV data.*
+
+* [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
+* [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
+* [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
+
 ### 10. Integratin with API
 ### 11. Bitcoin
 ### 12. Clouds
@@ -141,7 +182,18 @@ In progress...
 * [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
 
 ### 3. Continuous Integration
-    
+
+*Tools which support continuously building, testing and releasing applications.*
+
+* [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
+* [CircleCI](https://circleci.com/) - Hosted service with a free trial.
+* [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
+* [fabric8](http://fabric8.io/) - Integration platform for containers.
+* [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
+* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
+* [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
+* [Travis](https://travis-ci.org) - Hosted service often used for open-source projects. 
+
 ## V. Tools for developing
 ### 1. IDE
 ### 2. Deploy, config and build
@@ -213,9 +265,6 @@ In progress...
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-    - [Continuous Integration](#continuous-integration)
-    - [CSV](#csv)
     - [Data structures](#data-structures)
     - [Database](#database)
     - [Date and Time](#date-and-time)
@@ -266,60 +315,12 @@ A curated list of awesome Java frameworks, libraries and software.
 
 
 
-## Continuous Integration
 
-*Tools which support continuously building, testing and releasing applications.*
 
-* [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
-* [CircleCI](https://circleci.com/) - Hosted service with a free trial.
-* [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
-* [fabric8](http://fabric8.io/) - Integration platform for containers.
-* [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-* [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
-* [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
 
-## CSV
 
-*Frameworks and libraries that simplify reading/writing CSV data.*
 
-* [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
-* [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
-* [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
 
-## Database
-
-*Everything which simplifies interactions with the database.*
-
-* [Apache Hive](https://hive.apache.org/) - Data warehouse infrastructure built on top of Hadoop.
-* [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
-* [Crate](https://crate.io/) - Distributed data store that implements data synchronization, sharding, scaling, and replication. In addition, it provides a SQL-based syntax to execute queries across a cluster.
-* [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
-* [Flyway](http://flywaydb.org/) - Simple database migration tool.
-* [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
-* [HikariCP](https://github.com/brettwooldridge/HikariCP) - High performance JDBC connection pool.
-* [JDBI](http://jdbi.org/) - Convenient abstraction of JDBC.
-* [Jedis](https://github.com/xetorthio/jedis) - A small client for interaction with redis, with methods for commands.
-* [jOOQ](http://www.jooq.org/) - Generates typesafe code based on SQL schema.
-* [Liquibase](http://www.liquibase.org/) - Database-independent library for tracking, managing and applying database schema changes.
-* [MapDB](http://www.mapdb.org/) - Embedded database engine that provides concurrent collections backed on disk or in off-heap memory.
-* [Presto](https://github.com/facebook/presto) - Distributed SQL query engine for big data.
-* [Querydsl](http://www.querydsl.com/) - Typesafe unified queries.
-* [Redisson](https://github.com/mrniko/redisson) - Allows for distributed and scalable data structures on top of a Redis server.
-* [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
-
-## Data structures
-
-*Efficient and specific data structures.*
-
-* [Apache Avro](https://avro.apache.org/) - Data interchange format featuring among others: dynamic typing, untagged data, absence of manually assigned IDs.
-* [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for hadoop based workloads.
-* [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from the Dremel paper by Google.
-* [Apache Thrift](https://thrift.apache.org/) - Data interchange format that originated at Facebook.
-* [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
-* [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
-* [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
-* [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
 
 ## Date and Time
 
