@@ -14,7 +14,8 @@ In progress...
     - [9. Working with image and video](#i-test)
     - [10. Logging](#i-test)
     - [11. Bean Mapping](#i-test)
-    
+    - [12. Code generation and changing byte code](#i-test)
+         
 - [II. Databases, search engines, big data and machine learning](#i-test)
     - [1. Databases and storages](#i-test)
     - [2. Search engines](#i-test)
@@ -24,6 +25,7 @@ In progress...
     - [6. Big data](#i-test)
     - [7. Machine Learning](#i-test)
     - [8. Natural language processing (NLP)](#i-test)
+    
 - [III. Network and integration](#i-test)
     - [1. Web server and application server](#i-test)
     - [2. Network and sockets](#i-test)
@@ -41,17 +43,15 @@ In progress...
 
 - [IV. Testing](#i-test)
     - [1. Testing](#i-test)
-    - [2. Code Analysis](#i-test)
-    - [3. Code Coverage](#i-test)
-    - [4. Continuous Integration](#i-test)
+    - [2. Code Coverage](#i-test)
+    - [3. Continuous Integration](#i-test)
     
 - [V. Tools for developing](#i-test)
     - [1. IDE](#i-test)
     - [2. Deploy, config and build](#i-test)
     - [3. Perfomance tools](#i-test)
-    - [4. Code generation and changing byte code](#i-test)
-    - [5. Code Analysis](#i-test)
-    - [6. Other](#i-test)
+    - [4. Code Analysis](#i-test)
+    - [5. Other](#i-test)
 
 - [VI. Program languages and applications, that was written with Java](#i-test)
     - [1. Program languages, that was written with Java](#i-test)
@@ -86,7 +86,9 @@ In progress...
 * [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper is an intelligent object mapping library that automatically maps objects to each other.
 * [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
 * [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
-    
+* 
+### 12. Code generation and Bytecode Manipulation
+
 ## II. Databases, search engines, big data and machine learning
 ### 1. Databases and storages
 ### 2. Search engines
@@ -113,9 +115,8 @@ In progress...
 
 ## IV. Testing
 ### 1. Testing
-### 2. Code Analysis
-### 3. Code Coverage
-### 4. Continuous Integration
+### 2. Code Coverage
+### 3. Continuous Integration
     
 ## V. Tools for developing
 ### 1. IDE
@@ -129,9 +130,8 @@ In progress...
 * [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
 
 ### 3. Perfomance tools
-### 4. Code generation and changing byte code
-### 5. Code Analysis
-### 6. Other
+### 4. Code Analysis
+### 5. Other
 
 ## VI. Program languages and applications, that was written with Java
 ### 1. Program languages, that was written with Java
@@ -159,7 +159,6 @@ In progress...
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
     - [Code Analysis](#code-analysis)
