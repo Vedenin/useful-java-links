@@ -16,6 +16,7 @@
     - [13. Bean Mapping](#i-test)
     - [14. Code generation and changing byte code](#i-test)
     - [15. Distributed Applications](#i-test)
+    - [16. Science](#i-test)
        
 - [II. Databases, search engines, big data and machine learning](#i-test)
     - [1. Databases and storages](#i-test)
@@ -23,7 +24,7 @@
     - [3. Search engines](#i-test)
     - [4. Client and drivers for databases](#i-test)
     - [5. ORM](#i-test)
-    - [6. Working with data](#i-test)
+    - [6. Working with messy data](#i-test)
     - [7. Big data](#i-test)
     - [8. Machine Learning](#i-test)
     - [9. Natural Language Processing (NLP) (NLP)](#i-test)
@@ -72,6 +73,12 @@
     - [2. Benchmark results](#i-test)
     - [3. Working with git and github](#i-test)
     - [4. Ancients](#i-test)
+
+- [VIII. Resources](#resources)
+    - [1. Communities](#communities)
+    - [2. Influential Books](#influential-books)
+    - [3. Websites](#websites)
+
 
 ## I. General frameworks and libraries
 ### 1. General frameworks
@@ -160,6 +167,15 @@
 * [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
 * [Spring](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
 * [Vaadin](https://vaadin.com/) - Event-driven framework build on top of GWT. Uses server-side architecture with Ajax on the client-side.
+
+#### Template Engine
+
+*Tools which substitute expressions in a template.*
+
+* [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
+* [FreeMarker](http://freemarker.incubator.apache.org/) - General templating engine without any heavyweight or opinionated dependencies.
+* [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
+* [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
 ### 5. GUI
 
@@ -342,7 +358,10 @@
 * [MyBatis](http://mybatis.org/mybatis-3/) - Couples objects with stored procedures or SQL statements.
 * [OrmLite](http://ormlite.com/) - Lightweight package avoiding the complexity and overhead of other ORM products.
 
-### 6. Working with data
+### 6. Working with messy data
+
+* [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
+
 ### 7. Big data
 ### 8. Machine Learning
 
@@ -477,6 +496,16 @@
 
 * [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
 * [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
+
+### 16. Science
+
+*Libraries for scientific computing and analysis.*
+
+* [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
+* [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
+* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
+
+
 
 ## IV. Testing
 ### 1. Testing
@@ -620,6 +649,15 @@
 
 ### 6. Other
 
+#### JVM and JDK
+
+*Current implementations of the JVM/JDK.*
+
+* [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
+* [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
+* [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
+* [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
+
 ## VI. Program languages and applications, that was written with Java
 ### 1. Program languages, that was written with Java
 ### 2. Other program languages tools, that was written with Java
@@ -637,6 +675,10 @@
     
 ## VII. Other
 ### 1. Source code examples
+
+ * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
+ * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
+
 ### 2. Benchmark results
 ### 3. Working with git and github
 ### 4. Ancients
@@ -650,106 +692,7 @@
 * [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
 
 
-A curated list of awesome Java frameworks, libraries and software.
 
-- [Awesome Java](#awesome-java)
-    - [Native](#native)
-    - [Reactive libraries](#reactive-libraries)
-    - [Science](#science)
-    - [Template Engine](#template-engine)
-    - [Utility](#utility)
-    - [Web Crawling](#web-crawling)
-    - [Web Frameworks](#web-frameworks)
-- [Resources](#resources)
-    - [Communities](#communities)
-    - [Influential Books](#influential-books)
-    - [Podcasts](#podcasts)
-    - [Twitter](#twitter)
-    - [Websites](#websites)
-- [Contributing](#contributing)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Science
-
-*Libraries for scientific computing and analysis.*
-
-* [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
-* [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
-* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
-
-
-
-
-
-## Template Engine
-
-*Tools which substitute expressions in a template.*
-
-* [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
-* [FreeMarker](http://freemarker.incubator.apache.org/) - General templating engine without any heavyweight or opinionated dependencies.
-* [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
-* [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
-
-
-
-
-
-
-## JVM and JDK
-
-*Current implementations of the JVM/JDK.*
-
-* [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
-* [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
-* [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
-* [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 
 
 
@@ -757,17 +700,14 @@ A curated list of awesome Java frameworks, libraries and software.
 
 *Everything else.*
 
-* [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
 * [Jimfs](https://github.com/google/jimfs) - In-memory file system.
 * [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
 * [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
-* [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
-* [OpenRefine](http://openrefine.org/) - Tool for working with messy data: cleaning, transforming, extending it with web services and linking it to databases.
-* [RoboVM](https://robovm.com/) - Commercial framework with a free trial to write native iOS apps.
 
-# Resources
 
-## Communities
+## VIII. Resources
+
+### 1. Communities
 
 *Active discussions.*
 
@@ -775,7 +715,7 @@ A curated list of awesome Java frameworks, libraries and software.
 * [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
 * [vJUG](http://virtualjug.com/) - Virtual Java User Group.
 
-## Influential Books
+### 2. Influential Books
 
 *Books that had a high impact and are still worth reading.*
 
@@ -784,47 +724,8 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
-## Podcasts
 
-*Something to listen to while programming.*
-
-* [The Java Council](http://virtualjug.com/podcast/)
-* [The Java Posse](http://www.javaposse.com/) - Discontinued as of 02/2015.
-
-## Twitter
-
-*Active accounts to follow. Descriptions from Twitter.*
-
-* [Adam Bien](https://twitter.com/AdamBien/) - Freelancer: Author, JavaONE Rockstar Speaker, Consultant, Java Champion.
-* [Aleksey Shipilëv](https://twitter.com/shipilev) - Performance Geek, Benchmarking Tzar, Concurrency Bug Hunter.
-* [Antonio Goncalves](https://twitter.com/agoncal/) - Java Champion, JUG Leader, Devoxx France, Java EE 6/7, JCP, Author.
-* [Arun Gupta](https://twitter.com/arungupta/) - Java Champion, JavaOne Rockstar, JUG Leader, Devoxx4Kids-er, VP of Developer Advocacy at Couchbase.
-* [Brian Goetz](https://twitter.com/BrianGoetz) - Java Language Architect at Oracle.
-* [Bruno Borges](https://twitter.com/brunoborges) - Product Manager/Java Jock at Oracle.
-* [Ed Burns](https://twitter.com/edburns) - Consulting Member of the Technical Staff at Oracle.
-* [Eugen Paraschiv](https://twitter.com/baeldung) - Author of the Spring Security Course.
-* [James Weaver](https://twitter.com/JavaFXpert) - Java/JavaFX/IoT developer, author and speaker.
-* [Java EE](https://twitter.com/Java_EE/) - Official Java EE Twitter account.
-* [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
-* [Java.net](https://twitter.com/javanetbuzz/) - Official Java.net account.
-* [Java](https://twitter.com/java/) - Official Java Twitter account.
-* [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
-* [Lukas Eder](https://twitter.com/lukaseder) - Founder and CEO Data Geekery (jOOQ).
-* [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, JUG coordinator, frequent speaker and author.
-* [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group, Oracle.
-* [Markus Eisele](https://twitter.com/myfear) - Java EE evangelist, Red Hat.
-* [Martijn Verburg](https://twitter.com/karianna) - London JUG co-leader, speaker, author, Java Champion and much more.
-* [Martin Thompson](https://twitter.com/mjpt777) - Pasty faced performance gangster.
-* [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
-* [Peter Lawrey](https://twitter.com/PeterLawrey) - Peter Lawrey, Java performance expert.
-* [Reza Rahman](https://twitter.com/reza_rahman) - Java EE/GlassFish/WebLogic evangelist, author, speaker, open source hacker.
-* [Roberto Cortez](https://twitter.com/radcortez) - Java EE/JPA expert, speaker, open source.
-* [Simon Maple](https://twitter.com/sjmaple) - Java Champion, virtualJUG founder, LJC leader, RebelLabs author.
-* [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, speaker.
-* [Tim Boudreau](https://twitter.com/kablosna) - Author and NetBeans guru.
-* [Trisha Gee](https://twitter.com/trisha_gee) - Java Champion and speaker.
-
-## Websites
+### 3. Websites
 
 *Sites to read.*
 
@@ -844,4 +745,3 @@ A curated list of awesome Java frameworks, libraries and software.
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
-
