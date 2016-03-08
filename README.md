@@ -1,21 +1,21 @@
 # Awesome Java links (fork from [awesome link](https://github.com/akullpp/awesome-java) and extending)
 
-- [I. General frameworks and libraries](#i-test)
-    - [1. General frameworks](#i-test)
-    - [2. General utility libraries](#i-test)
-    - [3. Add new features in Java language and JVM](#i-test)
-    - [4. Web Frameworks](#i-test)
-    - [5. GUI](#i-test)
-    - [6. Game Development](#i-test)
-    - [7. Security](#i-test)
-    - [8. High Performance](#i-test)
-    - [9. Business process frameworks](#i-test)
-    - [10. Serialization and I/O](#i-test)
-    - [11. Imagery and Video](#i-test)
-    - [12. Logging](#i-test)
-    - [13. Bean Mapping](#i-test)
-    - [14. Code generation and changing byte code](#i-test)
-    - [15. Distributed Applications](#i-test)
+- [I. General frameworks and libraries](#i-general-frameworks-and-libraries)
+    - [1. General frameworks](#1-general-frameworks)
+    - [2. General utility libraries](#2-general-utility-libraries)
+    - [3. Add new features in Java language and JVM](#3-add-new-features-in-java-language-and-jvm)
+    - [4. Web Frameworks](#4-web-frameworks)
+    - [5. GUI](#5-gui)
+    - [6. Game Development](#6-game-development)
+    - [7. Security](#7-security)
+    - [8. High Performance](#8-high-performance)
+    - [9. Business process frameworks](#9-business-process-frameworks)
+    - [10. Serialization and I/O](#10-serialization-and-io)
+    - [11. Imagery and Video](#11-imagery-and-video)
+    - [12. Logging](#12-logging)
+    - [13. Bean Mapping](#13-bean-mapping)
+    - [14. Code generation and changing byte code](#14-code-generation-and-bytecode-manipulation)
+    - [15. Distributed Applications](#15-distributed-applications)
     - [16. Science](#i-test)
        
 - [II. Databases, search engines, big data and machine learning](#i-test)
@@ -294,6 +294,13 @@
 * [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional actors.
 * [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 
+### 16. Science
+
+*Libraries for scientific computing and analysis.*
+
+* [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
+* [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
+* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
 
 ## II. Databases, search engines, big data and machine learning
 ### 1. Databases and storages
@@ -496,15 +503,6 @@
 
 * [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
 * [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
-
-### 16. Science
-
-*Libraries for scientific computing and analysis.*
-
-* [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
-* [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
-* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
-
 
 
 ## IV. Testing
