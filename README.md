@@ -79,6 +79,13 @@ In progress...
 ### 9. Working with image and video
 ### 10. Logging
 ### 11. Bean Mapping
+*Frameworks that ease bean mapping.*
+
+* [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
+* [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator which simplifies mappings between different bean types, based on a convention over configuration approach.
+* [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper is an intelligent object mapping library that automatically maps objects to each other.
+* [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
+* [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
     
 ## II. Databases, search engines, big data and machine learning
 ### 1. Databases and storages
@@ -113,6 +120,14 @@ In progress...
 ## V. Tools for developing
 ### 1. IDE
 ### 2. Deploy, config and build
+#### Build
+
+*Tools which handle the build cycle and dependencies of an application.*
+
+* [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
+* [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
+* [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+
 ### 3. Perfomance tools
 ### 4. Code generation and changing byte code
 ### 5. Code Analysis
@@ -131,13 +146,19 @@ In progress...
 ### 2. Benchmark results
 ### 3. Working with git and github
 ### 4. Ancients
+*In existence since the beginning of time and which will continue being used long after the hype has waned.*
+
+* [Apache Ant](http://ant.apache.org/) - Build process management with XML.
+* [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
+* [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE sponsored by Oracle.
+* [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
+* [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
+* [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
 
 
 A curated list of awesome Java frameworks, libraries and software.
 
 - [Awesome Java](#awesome-java)
-    - [Ancients](#ancients)
-    - [Bean Mapping](#bean-mapping)
     - [Build](#build)
     - [Bytecode Manipulation](#bytecode-manipulation)
     - [Cluster Management](#cluster-management)
@@ -196,34 +217,8 @@ A curated list of awesome Java frameworks, libraries and software.
     - [Websites](#websites)
 - [Contributing](#contributing)
 
-## Ancients
 
-*In existence since the beginning of time and which will continue being used long after the hype has waned.*
 
-* [Apache Ant](http://ant.apache.org/) - Build process management with XML.
-* [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
-* [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE sponsored by Oracle.
-* [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
-* [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
-* [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
-
-## Bean Mapping
-
-*Frameworks that ease bean mapping.*
-
-* [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
-* [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator which simplifies mappings between different bean types, based on a convention over configuration approach.
-* [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper is an intelligent object mapping library that automatically maps objects to each other.
-* [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
-* [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
-
-## Build
-
-*Tools which handle the build cycle and dependencies of an application.*
-
-* [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
-* [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
-* [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
 
 ## Bytecode Manipulation
 
