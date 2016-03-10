@@ -1,5 +1,5 @@
 # Useful Java links 
-It's fork of [awesome link](https://github.com/akullpp/awesome-java) with ne structure and a lot of new links
+It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new structure and a lot of new links
 
 - [I. General frameworks and libraries](#i-general-frameworks-and-libraries)
     - [1. General frameworks](#1-general-frameworks)
