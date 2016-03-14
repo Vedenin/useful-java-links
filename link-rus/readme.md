@@ -119,25 +119,25 @@
 
 *Libraries which provide general utility functions.*
 
-1. [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
-2. [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
-3. [CRaSH](http://www.crashub.org) - Provides a CLI for running processes.
-4. [Gephi](https://github.com/gephi/gephi/) - Cross-platform for visualizing and manipulating large graph networks.
-5. [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
-6. [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
-7. [javatuples](http://www.javatuples.org/) - Tuples.
-8. [JCommander](http://jcommander.org/) - Command line arguments parser.
-9. [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
+1. [Apache Commons](http://commons.apache.org/) - Реализует различные функции, такие как конфигурирование, валидирование, коллекции, загрузка файлов или работу с XML,
+2. [args4j](http://args4j.kohsuke.org/) - Парсер командной строки,
+3. [CRaSH](http://www.crashub.org) - Реализует интерпретатор командной строки (CLI) для запущенныз процессов,
+4. [Gephi](https://github.com/gephi/gephi/) - Кросплатформенная система для визуализации, изменения и управления большими графами,
+5. [Guava](https://github.com/google/guava) - Система реализующая коллекции, кэширование, функции работы с примитивами, библиотеки работы с многопоточностью, аннотациями, строками, I/O, и т.п.,
+6. [JADE](http://jade.tilab.com/) - Фреймворк и экосистема для разработки и отладки multi-agent систем,
+7. [javatuples](http://www.javatuples.org/) - Кортежи (Tuples).
+8. [JCommander](http://jcommander.org/) - Парсер командной строки.
+9. [Protégé](http://protege.stanford.edu/) - Реализует редактов онтология и фреймворк для экспертных систем.
 
 
 #### Date and Time
 
-*Libraries related to handling date and time.*
+* Библиотеки для обработки даты и времени.*
 
-1. [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - Simple conversion between different calendar systems.
-2. [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
-3. [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
-4. [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
+1. [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - простые преобразования между различными календарными системами.
+2. [Joda-Time](http://www.joda.org/joda-time/) - Де факто стандартная библиотеки даты и времени до появления Java 8.
+3. [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Порт с JSR 310 (java.time package) от автора Joda-Time.
+4. [Time4J](https://github.com/MenoData/Time4J) - Продвинутая бибилоека работы с датой и временем.
 
 #### Dependency Injection
 
