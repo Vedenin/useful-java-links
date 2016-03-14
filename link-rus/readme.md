@@ -1,23 +1,23 @@
 # Список полезных ссылок для Java программиста
 
 - [I. Фреймворки и библиотеки](#i-Фреймворки-и-библиотеки)
-    - [1. Фреймворки общего назначения](#1-Фреймворки---17-проектов)
-    - [2. Полезные библиотеки](#2-Полезные-библиотеки---11-проектов)
-    - [3. Добавление новых возможностей в язык Java и JVM](#3-Добавление-новых-возможностей-в-язык-java-и-jvm---10-проектов)
-    - [4. Вебфреймворки (Web Frameworks)](#4-Вебфреймворки-web-frameworks---26-проектов)
-    - [5. Создания GUI](#4-Вебфреймворки-web-frameworks---26-проектов)
-    - [6. Игровые фреймворки (Game Development)](#5-Игровые-фреймворки-game-development---6-проектов)
-    - [7. Безопасность и авторизация](#7-security)
-    - [8. Сериализация (serializer) и работа с файлами (I/O)](#8-Сериализация-serializer-и-работа-с-файлами-io--4-проекта)
-    - [8. Производительность](#8-high-performance)
-    - [9. Создание бизнес приложений](#9-business-process-frameworks)
-    - [10. Сериализация (Serialization) и работа с файлами (I/O)](#10-serialization-and-io)
-    - [11. Изображения и Видео](#11-imagery-and-video)
-    - [12. Логирования](#12-logging)
-    - [13. Bean Mapping](#13-bean-mapping)
-    - [14. Кодогенерация и изменения байт кода](#14-code-generation-and-bytecode-manipulation)
-    - [15. Распределенные приложения](#15-distributed-applications)
-    - [16. Наука](#16-science)   
+    - [1. Фреймворки общего назначения](#1-Фреймворки-общего-назначения)
+    - [2. Полезные библиотеки](#2-Полезные-библиотеки)
+    - [3. Добавление новых возможностей в язык Java и JVM](#3-Добавление-новых-возможностей-в-язык-java-и-jvm)
+    - [4. Вебфреймворки (Web Frameworks)](#4-Вебфреймворки-web-frameworks)
+    - [5. Создания GUI](#5-Создания-gui)
+    - [6. Игровые фреймворки (Game Development)](#6-Игровые-фреймворки-game-development)
+    - [7. Безопасность и авторизация](#7-Безопасность-и-авторизация)
+    - [8. Сериализация (serializer) и работа с файлами (I/O)](#8-Производительность)
+    - [9. Высокая производительность](#8-Производительность)
+    - [10. Создание бизнес приложений](#9-Создание-бизнес-приложений)
+    - [11. Сериализация (Serialization) и работа с файлами (I/O)](#10-serialization-and-io)
+    - [12. Изображения и Видео](#11-imagery-and-video)
+    - [13. Логирования](#12-logging)
+    - [14. Bean Mapping](#13-bean-mapping)
+    - [15. Кодогенерация и изменения байт кода](#14-code-generation-and-bytecode-manipulation)
+    - [16. Распределенные приложения](#15-distributed-applications)
+    - [17. Наука](#16-science)   
     
 - [II. Базы данных, поисковые системы, Big data и машинное обучение](#ii-Базы-данных-и-поисковые-системы)
     - [1. Базы данных и хранилища](#1-Базы-данных-и-хранилища--25-проектов)
@@ -267,7 +267,7 @@
 10. [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
 11. [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
 
-### 8. Производительность
+### 9. Высокая производительность
 *Everything about high performance computation, from collections to specific libraries.*
 
 1. [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
@@ -290,7 +290,7 @@
 4. [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
 
 
-### 9. Создание бизнес приложений
+### 10. Создание бизнес приложений
 Фреймворки и библиотеки для создания бизнес приложений на Java
 
 1.  [Codecademy EventHub](https://github.com/Codecademy/EventHub) — позволяет анализировать бизнес события, чтобы получать KPI, conversion rate и т. п. Бизнес метрики событий. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 1043.
@@ -301,7 +301,7 @@
 6.  [Droolsjbpm Drools](https://github.com/droolsjbpm/drools) это приложение Business Rules Management System (BRMS), которое реализует Business Rules Engine (BRE), механизма авторизации, управления правилами (rules), управление приложением (Drools Workbench) и плагин для разработки под Eclipse IDE.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 421.
 7.  [Spring Roo](https://github.com/spring-projects/spring-roo) — фреймворк с открытым исходным кодом для быстрого создания бизнес-приложений на Java. Полученные в результате приложения используют общие технологии Java, такие как Spring Framework, Java Persistence API, JSP, Apache Maven и AspectJ. Spring Roo является частью проекта Spring.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 399.
 
-### 10. Сериализация (serializer) и работа с файлами (I/O) - 4 проекта
+### 11. Сериализация (serializer) и работа с файлами (I/O) - 4 проекта
 
 1.  [Square Okio](https://github.com/square/okio) Современный I/O API для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1243.
 2.  [Square type](https://github.com/square/tape) Легкий, быстрый, транзакционный, файловый FIFO для Android и Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1073.
@@ -313,7 +313,7 @@
 8. [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format.
 
 
-### 11. Изображения и Видео
+### 12. Изображения и Видео
 
 1.  [Facebook Rebound](https://github.com/facebook/rebound) Это Java библиотека которая моделирует поведение физики реального мира в вашем приложении. Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), рейтинг github'а - 2219.
 2.  [Processing](https://github.com/processing/processing) Исходный код для Processing Development Environment (PDE) — программному языку для обработки видео и графики. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1896.
@@ -324,7 +324,7 @@
 7. [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
 8. [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
 
-### 12. Логирования
+### 13. Логирования
 
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) свободная и открытая система логирования. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1308.
 2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java. http://logback.qos.ch/. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 497.
@@ -337,7 +337,7 @@
 9. [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
 
 
-### 13. Bean Mapping 
+### 14. Bean Mapping 
 *Фреймворки, упрощающие bean mapping.*
 
 1. [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
@@ -346,7 +346,7 @@
 4. [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
 5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
 
-### 14. Кодогенерация и изменения байт кода
+### 15. Кодогенерация и изменения байт кода
 
 *Libraries to manipulate bytecode programmatically.*
 
@@ -357,7 +357,7 @@
 5.  [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
 6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
 
-### 15. Распределенные приложения
+### 16. Распределенные приложения
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
@@ -371,7 +371,7 @@
 8. [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional actors.
 9. [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 
-### 16. Наука
+### 17. Наука
 
 *Libraries for scientific computing and analysis.*
 
