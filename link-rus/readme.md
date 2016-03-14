@@ -790,7 +790,7 @@
 
 ### 1. IDE
 
-1.  [JetBrains Intellij Сommunity](https://github.com/JetBrains/intellij-community) IntelliJ IDEA Community Edition — одна из лучший IDE для Java . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2068.
+1.  [JetBrains Intellij Сommunity](https://github.com/JetBrains/intellij-community) IntelliJ IDEA Community Edition — одна из лучший IDE для Java . http://www.jetbrains.com/idea/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2068.
 2.  [JetBrains Ideavim](https://github.com/JetBrains/ideavim) Плагин, эмулирующий Vim для IDE, основанных на IntelliJ платформе. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1199.
 3.  [Rstudio](https://github.com/rstudio/rstudio) RStudio это IDE для языка R. Лицензия: [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг github'а - 1048.
 4.  [Vrapper](https://github.com/vrapper/vrapper) Плагин по добавлению Vim-подобного редактора в Eclipse. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, рейтинг github'а - 669.
@@ -799,6 +799,8 @@
 7.  [Eclim](https://github.com/ervandew/eclim) Добавление в редактор Vim возможностей Eclipse IDE. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 590.
 8.  [JetBrains MPS](https://github.com/JetBrains/MPS) JetBrains MPS (Meta programming System) служит для быстрой разработки DSL (Domain Specific Language) для любого окружения и с возможностью скомпилировать DSL в множество языков, таких как Java, C, XML и другие. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 525.
 9.  [Idea markdown](https://github.com/nicoulaj/idea-markdown) Поддержка языка разметки Markdown в IntelliJ IDEA.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 405.
+10. [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
+11. [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features from database access to HTML5.
 
 ### 2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений
 
@@ -815,6 +817,31 @@
 11. [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
 12. [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 
+*Tools which handle the build cycle and dependencies of an application.*
+
+1. [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
+2. [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
+3. [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+
+#### Configuration
+
+*Libraries that provide external configuration.*
+
+1. [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
+2. [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+
+#### Distribution
+
+*Tools which handle the distribution of applications in native formats.*
+
+1. [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans.
+2. [Capsule](http://www.capsule.io/) - Simple and powerful packaging and deployment. A fat JAR on steroids or a "Docker for Java" that supports JVM-optimized containers.
+3. [Central Repository](http://search.maven.org/) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven and available in all other build tools.
+4. [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
+5. [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
+6. [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
+7. [Nexus](http://www.sonatype.com/nexus) - Binary management with proxy and caching capabilities.
+8. [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
 
 ### 3. Инструменты для оптимизации производительности
 *Библиотеки для оптимизации и решения проблем с производительностью*
@@ -828,14 +855,33 @@
 7. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
 8. [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
 9. [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
+10. [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls.
+11. [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM.
+12. [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial profiler.
+13. [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting.
+14. [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications.
+15. [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.
 
 ### 4. Анализ исходного кода
 
-1.  [SonarQube](https://github.com/SonarSource/sonarqube) это свободная платформа для управлением качеством кода. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 655.
+1.  [SonarQube](https://github.com/SonarSource/sonarqube) это свободная платформа для управлением качеством кода. http://www.sonarqube.org Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 655.
 2.  [Google Error prone](https://github.com/google/error-prone) - обнаружение типовых ошибок в Java коде. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 590.
 3.  [OpenGrok](https://github.com/OpenGrok/OpenGrok) Это быстрый и полезные поиск в исходном коде проекта, поиск кросс-ссылок в классах и навигации по дереву исходного кода, он поддерживает разные системы управления кодов, такие как SCCS, RCS, CVS, Subversion, Mercurial и т.п.c.. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0), рейтинг github'а - 570.
+4. [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
+5. [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
+6. [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
+7. [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
 
 ### 5. Monitoring
+*Tools that monitor applications in production.*
+
+1. [AppDynamics](http://www.appdynamics.com/) - Commercial performance monitor.
+2. [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
+3. [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
+4. [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
+5. [New Relic](http://newrelic.com/) - Commercial performance monitor.
+6. [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
+7. [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
 
 ### 6. Прочее
 
@@ -843,6 +889,13 @@
 2.  [Spring loaded](https://github.com/spring-projects/spring-loaded) - Java агент, которые позволяет перегружать Java классы прямо во время работы JVM . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 807.
 3.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) Система для реверс-инженеринга Java и Android (декомпилятор, редактор, отладчик и т. д.). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 617.
 4.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: Своя open-source лицензия, рейтинг github'а - 514.
+
+*Current implementations of the JVM/JDK.*
+
+1. [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
+2. [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
+3. [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
+4. [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
 
 ## VI. Языки программирования и приложения, написанные на Java
 
@@ -924,6 +977,7 @@
 10.  [Databricks Learning spark](https://github.com/databricks/learning-spark) Примеры кода для книги Learning Spark. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 412.
 11.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs это проект который рассматривает простоту разработки и полученное юзабилити (usability benchmark) семи типичных GUI задач на разных фреймворках и языках программирования (Java7 +Swing, Clojure+Seesaw, Scala+ScalaFX, Android и т. п.). Задачей сравнить разные подходы к созданию удобного для пользователя GUI. Лицензия: ?, рейтинг github'а - 404.
 12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-jpa-examples) Примеры использования разных возможностей Spring Data JPA . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 400.
+13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
 
 ### 2. Результаты сравнения производительности кода на Java (benchmark) 
 
