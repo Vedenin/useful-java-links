@@ -74,7 +74,8 @@
     - [2. Результаты сравнения производительности кода на Java (benchmark)](#2-Результаты-сравнения-производительности-кода-на-java-benchmark--2-проекта)
     - [3. Работа с git & github](#3-Работа-с-git--github--2-проекта)
     - [4. Устаревшие, но ещё использующиеся, проекты](#4-Устаревшие-но-ещё-использующиеся-проекты---6-проектов)
-
+    - [5. Прочее](#4-Устаревшие-но-ещё-использующиеся-проекты---6-проектов)
+    
 - [VIII. Resources](#viii-resources)
     - [1. Communities](#1-communities)
     - [2. Influential Books](#2-influential-books)
@@ -999,6 +1000,13 @@
 4. [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
 5. [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
 6. [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
+
+### 5. Прочее
+*Everything else.*
+
+* [Jimfs](https://github.com/google/jimfs) - In-memory file system.
+* [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
+* [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
 
 ## VIII. Resources
 
