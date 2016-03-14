@@ -143,10 +143,10 @@
 
 *Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
-1. [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
-2. [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
-3. [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
-4. [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
+1. [Apache DeltaSpike](https://deltaspike.apache.org/) - фреймворк, расширяющий CDI.
+2. [Dagger2](http://google.github.io/dagger/) - Dependency Injection фреймворк, работающий во время компиляции и не использующий рефлексию.
+3. [Guice](https://github.com/google/guice) - Легкий, но мощный фреймворк, из которого получился Dagger.
+4. [HK2](https://hk2.java.net) - Легкий и динамичный dependency injection фреймворк.
 
 #### Development
 
