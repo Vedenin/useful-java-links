@@ -119,69 +119,69 @@
 
 *Libraries which provide general utility functions.*
 
-* [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
-* [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
-* [CRaSH](http://www.crashub.org) - Provides a CLI for running processes.
-* [Gephi](https://github.com/gephi/gephi/) - Cross-platform for visualizing and manipulating large graph networks.
-* [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
-* [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
-* [javatuples](http://www.javatuples.org/) - Tuples.
-* [JCommander](http://jcommander.org/) - Command line arguments parser.
-* [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
+1. [Apache Commons](http://commons.apache.org/) - Provides different general purpose functions like configuration, validation, collections, file upload or XML processing.
+2. [args4j](http://args4j.kohsuke.org/) - Command line arguments parser.
+3. [CRaSH](http://www.crashub.org) - Provides a CLI for running processes.
+4. [Gephi](https://github.com/gephi/gephi/) - Cross-platform for visualizing and manipulating large graph networks.
+5. [Guava](https://github.com/google/guava) - Collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.
+6. [JADE](http://jade.tilab.com/) - Framework and environment for building and to debugging multi-agent systems.
+7. [javatuples](http://www.javatuples.org/) - Tuples.
+8. [JCommander](http://jcommander.org/) - Command line arguments parser.
+9. [Protégé](http://protege.stanford.edu/) - Provides an ontology editor and a framework to build knowledge-based systems.
 
 
 #### Date and Time
 
 *Libraries related to handling date and time.*
 
-* [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - Simple conversion between different calendar systems.
-* [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
-* [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
-* [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
+1. [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - Simple conversion between different calendar systems.
+2. [Joda-Time](http://www.joda.org/joda-time/) - De facto standard date/time-library before Java 8.
+3. [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Port of JSR 310 (java.time package) by the author of Joda-Time.
+4. [Time4J](https://github.com/MenoData/Time4J) - Advanced date and time library.
 
 #### Dependency Injection
 
 *Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
 
-* [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
-* [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
-* [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
-* [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
+1. [Apache DeltaSpike](https://deltaspike.apache.org/) - CDI extension framework.
+2. [Dagger2](http://google.github.io/dagger/) - Compile-time injection framework without reflection.
+3. [Guice](https://github.com/google/guice) - Lightweight but powerful framework that completes Dagger.
+4. [HK2](https://hk2.java.net) - Light-weight and dynamic dependency injection framework.
 
 #### Development
 
 *Augmentation of the development process at a fundamental level.*
 
-* [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
-* [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
-* [Auto](https://github.com/google/auto) - Collection of source code generators.
-* [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
-* [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
-* [Immutables](http://immutables.github.io/) - Scala-like case classes.
-* [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
-* [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
-* [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
-* [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
-* [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
+1. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
+2. [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
+3. [Auto](https://github.com/google/auto) - Collection of source code generators.
+4. [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
+5. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
+6. [Immutables](http://immutables.github.io/) - Scala-like case classes.
+7. [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
+8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
+9. [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
+10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
+11. [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
 
 #### Functional Programming
 
 *Libraries that facilitate functional programming.*
 
-* [Cyclops](https://github.com/aol/cyclops) - Monad and stream utilities, comprehensions, pattern matching, trampolines and much more.
-* [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
-* [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
-* [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
-* [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
-* [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
+1. [Cyclops](https://github.com/aol/cyclops) - Monad and stream utilities, comprehensions, pattern matching, trampolines and much more.
+2. [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
+3. [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
+4. [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
+5. [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
+6. [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
 
 #### Reactive libraries
 
 *Libraries for developing reactive applications.*
 
-* [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
-* [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
-* [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
+1. [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
+2. [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
+3. [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
 
 ### 3. Добавление новых возможностей в язык Java и JVM
 
@@ -231,17 +231,17 @@
 
 *Tools which substitute expressions in a template.*
 
-* [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
-* [FreeMarker](http://freemarker.incubator.apache.org/) - General templating engine without any heavyweight or opinionated dependencies.
-* [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
-* [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
+1. [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
+2. [FreeMarker](http://freemarker.incubator.apache.org/) - General templating engine without any heavyweight or opinionated dependencies.
+3. [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
+4. [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
 
 ### 5. Создания GUI
 *Libraries to create modern graphical user interfaces.*
 
-* [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
-* [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
-* [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) is a graphical widget toolkit for use with the Java platform.
+1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
+2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
+3. [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) is a graphical widget toolkit for use with the Java platform.
 
 ### 6. Игровые фреймворки (Game Development)
 
@@ -269,24 +269,24 @@
 ### 8. Производительность
 *Everything about high performance computation, from collections to specific libraries.*
 
-* [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
-* [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
-* [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
-* [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
-* [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
-* [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
-* [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
-* [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
-* [Trove](http://trove.starlight-systems.com/) - Primitive collections.
+1. [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
+2. [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
+3. [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
+4. [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
+5. [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
+6. [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
+7. [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
+8. [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
+9. [Trove](http://trove.starlight-systems.com/) - Primitive collections.
 
 #### Constraint Satisfaction Problem Solver
 
 *Libraries that help on implementing optimization and satisfiability problems.*
 
-* [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
-* [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
-* [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
-* [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
+1. [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
+2. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
+3. [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
+4. [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
 
 
 ### 9. Создание бизнес приложений
@@ -360,23 +360,23 @@
 
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 
-* [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault tolerant event-driven applications.
-* [Apache Storm](http://storm.apache.org/) - Realtime computation system.
-* [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
-* [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
-* [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
-* [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
-* [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
-* [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional actors.
-* [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
+1. [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault tolerant event-driven applications.
+2. [Apache Storm](http://storm.apache.org/) - Realtime computation system.
+3. [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
+4. [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
+5. [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
+6. [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
+7. [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
+8. [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional actors.
+9. [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
 
 ### 16. Наука
 
 *Libraries for scientific computing and analysis.*
 
-* [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
-* [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
-* [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
+1. [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
+2. [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
+3. [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
 
 ## II. Базы данных, поисковые системы, Big data и машинное обучение
 
@@ -411,23 +411,23 @@
 
 *Databases in a distributed system that appear to applications as a single data source.*
 
-* [Apache Cassandra](http://cassandra.apache.org) - Column-oriented and providing high availability with no single point of failure.
-* [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
-* [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
-* [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
-* [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
+1. [Apache Cassandra](http://cassandra.apache.org) - Column-oriented and providing high availability with no single point of failure.
+2. [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
+3. [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
+4. [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
+5. [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
 
 ### 2. Структуры данных
 *Efficient and specific data structures.*
 
-* [Apache Avro](https://avro.apache.org/) - Data interchange format featuring among others: dynamic typing, untagged data, absence of manually assigned IDs.
-* [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for hadoop based workloads.
-* [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from the Dremel paper by Google.
-* [Apache Thrift](https://thrift.apache.org/) - Data interchange format that originated at Facebook.
-* [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
-* [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
-* [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
-* [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
+1. [Apache Avro](https://avro.apache.org/) - Data interchange format featuring among others: dynamic typing, untagged data, absence of manually assigned IDs.
+2. [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for hadoop based workloads.
+3. [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from the Dremel paper by Google.
+4. [Apache Thrift](https://thrift.apache.org/) - Data interchange format that originated at Facebook.
+5. [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
+6. [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
+7. [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
+8. [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
 
 
 ### 3. Поисковые системы
@@ -548,11 +548,14 @@
 ## III. Работа с сетью и интеграция
 ### 1. Веб сервера и сервера приложений (web server &amp; application server)
 
-1.  [Wildfly](https://github.com/wildfly/wildfly) - сервер приложений (Application Server). Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 1386.
+1.  [Wildfly](https://github.com/wildfly/wildfly) - сервер приложений (Application Server), ранее известный как JBOSS, разработанный Red Hat с расширенной поддержки Java EE. Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 1386.
 2.  [Undertow io Undertow](https://github.com/undertow-io/undertow) - высокопроизводительный неблокирующий вебсервер. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 721.
-3.  [Apache Tomcat](https://github.com/apache/tomcat) - зеркало Apache Tomcat — открытый web сервер с поддержкой сервлетов, jsp и некоторых аспектов J2EE. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 531.
+3.  [Apache Tomcat](https://github.com/apache/tomcat) - зеркало Apache Tomcat — открытый web сервер с поддержкой сервлетов, jsp и некоторых аспектов J2EE. Проверенный и всесторонний сервер для сервлет и jsp. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 531.
 4.  [Nginx clojure](https://github.com/nginx-clojure/nginx-clojure) - Nginx модуль с использованием Clojure или Java или Groovy программ. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , рейтинг github'а - 514.
-5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Http сервер и контейнер сервлетов . Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).0, рейтинг github'а - 512.
+5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Http сервер и контейнер сервлетов. Легкий, маленький сервер, часто встраиваемый (embedded) в приложения. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).0, рейтинг github'а - 512.
+6. [Apache TomEE](http://tomee.apache.org/) - Apache Tomcat сервер к которому добавили поддержку Java EE.
+7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM.
+
 
 ### 2. Сеть и сокеты 
 
@@ -562,16 +565,28 @@
 4.  [Socket.io java client](https://github.com/Gottox/socket.io-java-client) Реализация Socket.IO клиента на Java. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 688.
 5.  [Socket.io client.java](https://github.com/nkzawa/socket.io-client.java) Полнофункциональная Socket.IO клиентская библиотека для Java, совместимая с Socket.IO v1.0 и выше.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 603.
 6.  [EsotericSoftware Kryonet](https://github.com/EsotericSoftware/kryonet) TCP/UDP клиентская и серверная библиотека для Java, основанная на Kryo. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 539.
+7. [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
+8. [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
+9. [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
+10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
+11. [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
 
 ### 3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений
 
 1.  [LMAX Exchange Disruptor](https://github.com/LMAX-Exchange/disruptor) Высокопроизводительная библиотека для поддержки межпоточных сообщений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3137.
 2.  [Gifsockets](https://github.com/videlalvaro/gifsockets) Коммуникационная библиотека, работающая в режиме реального времени и использующая Animated Gifs как транспорт. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг github'а - 1414.
 3.  [Real logic Aeron](https://github.com/real-logic/Aeron) Эффективная и надежная система отправки и получения одноадресных и многоадресных сообщения по сети (Publisher, Subscriber, Event, Monitoring и т.п.).. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1103.
-4.  [Zeromq Jeromq](https://github.com/zeromq/jeromq) ZeroMQ — система для работы с распределенными сообщениями, очередями, подписками и т.д.. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 834.
+4.  [JeroMQ](https://github.com/zeromq/jeromq) ZeroMQ — система для работы с распределенными сообщениями, очередями, подписками и т.д.. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 834.
 5.  [Metamorphosis](https://github.com/killme2008/Metamorphosis) Высокопроизводительная распределенная система обмена сообщениями . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 580.
 6.  [Igniterealtime Openfire](https://github.com/igniterealtime/Openfire) Openfire это RTC (real time collaboration) сервер использующий широко распространенные протоколы обмена сообщениями, такие как XMPP (так же называемый Jabber). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 470.
 7.  [Zeromq Jzmq](https://github.com/zeromq/jzmq) JZMQ это клиент для интеграции Java приложения с libzmq (например ZeroMQ, 0MQ). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 415.
+8. [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable unicast and multicast message transport.
+9. [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication.
+10. [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
+11. [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
+12. [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
+13. [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
+14. [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
 
 ### 4. Работа с http и ssh 
 
@@ -590,12 +605,17 @@
 ### 5. Работа с rest
 
 1.  [Square Retrofit](https://github.com/square/retrofit) Типобезопасная библиотека для создания REST клиента для Android и Java.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5945.
-2.  [Dropwizard](https://github.com/dropwizard/dropwizard) фреймворк для создания RESTful сервисов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3427.
-3.  [Swagger core](https://github.com/swagger-api/swagger-core) Примеры и сервер интеграция для генерации Swagger API спецификаий, которые позволяют создать легкий доступ к вашему REST API. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2657.
+2.  [Dropwizard](https://github.com/dropwizard/dropwizard) фреймворк для создания RESTful сервисов c использованием Jetty, Jackson, Jersey и Metrics. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3427.
+3.  [Swagger](https://github.com/swagger-api/swagger-core) Примеры и сервер интеграция для генерации Swagger API спецификаий, которые позволяют создать легкий доступ к вашему REST API. http://swagger.io/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2657.
 4.  [Generator jhipster](https://github.com/jhipster/generator-jhipster) Хипстер стек для Java разработчиков: Yeoman + Maven + Spring + AngularJS в одном генераторе. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2352.
 5.  [Jersey](https://github.com/jersey/jersey) Зеркало Jersey 2.x. Jersey это REST фреймворк реализующий JAX-RS спецификацию. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.)1, рейтинг github'а - 864.
 6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, маштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 825.
-7.  [Spring projects Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 456.
+7.  [Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 456.
+8. [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
+9. [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
+10. [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance.
+11. [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
+12. [Spark](http://sparkjava.com/) - Sinatra inspired framework.
 
 ### 6. Интеграционные фреймворки
 
@@ -624,6 +644,10 @@
 7.  [FasterXML Jackson databind](https://github.com/FasterXML/jackson-databind) Основной data-binding пакет для Jackson (2.x) основанный на потоковом API Jackson Сore . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 640.
 8.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath — реализация аналога XPATH только для Json, а не XML. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 448.
 9.  [Json schema validator](https://github.com/fge/json-schema-validator) Валидация JSON Schema, реализована на чистой Java, создана с целью проверки Json файлов, используя Json схемы. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 411.
+10. [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java to JSON conversion library.
+11. [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
+12. [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
+13. [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
 
 ### 9. CSV
 
@@ -667,8 +691,31 @@
 
 1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
 2. [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
+
 ### 14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-document-processing-xls-doc-and-pdf)
+*Libraries that assist with processing office document formats.*
+
+1. [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
+2. [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
+3. [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
+
+#### PDF
+
+*Everything that helps with the creation of PDF files.*
+
+1. [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO.
+2. [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF.
+3. [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
+4. [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
+5. [iText](http://itextpdf.com/) - Creates PDF files programmatically but requires a license for commercial purposes.
+6. [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
+
+
 ### 15. Работа с нативным API разных ОС](#15-native)
+*For working with platform-specific native libraries.*
+
+1. [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
+2. [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
 
 ## IV. Тестирование
 
@@ -685,21 +732,26 @@
 9.  [Wiremock](https://github.com/tomakehurst/wiremock) Инструментарий для создания mock'ов (заглушек для тестирования) HTTP сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 508.
 10.  [Testng](https://github.com/cbeust/testng) TestNG фреймворк для тестирования. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 477.
 11.  [Galenframework Galen](https://github.com/galenframework/galen) Galen Framework это мощный фреймворк для автоматического тестирования дизайна и функционала вебсайтов. Использует Selenium для работы с браузером и автоматического тестирования вебсайтов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 449.
-12.  [Assertj core](https://github.com/joel-costigliola/assertj-core) AssertJ это библиотека предоставляющая мощный механизм работы с условиями (assertion) для тестовых фреймворков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 423.
+12.  [AssertJ](https://github.com/joel-costigliola/assertj-core) AssertJ это библиотека предоставляющая мощный механизм работы с условиями (assertion) для тестовых фреймворков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 423.
 13.  [Google truth](https://github.com/google/truth) Фреймворк для задания ограничений и утверждений (Assertion/Proposition) в Unit тестах (версия ещё очень альфа, может быть полностью изменена ) . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
+14. [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
+15. [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
+16. [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
+17. [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging.
+18. [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
+19. [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
+20. [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
+21. [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
+22. [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
+23. [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
+24. [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
+25. [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
+26. [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
+27. [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
+28. [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
+29. [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
 
-### 2. Code Analysis
-
-*Tools that provide metrics and quality measurements.*
-
-1. [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
-2. [Error Prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors.
-3. [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
-4. [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
-5. [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
-6. [SonarQube](http://www.sonarqube.org/) - Integrates other analysis components via plugins and provides an overview of the metrics over time.
-
-### 3. Code Coverage
+### 2. Code Coverage
 
 *Frameworks and tools that enable collection of code coverage metrics for test suites.*
 
@@ -708,7 +760,7 @@
 3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
 4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
 
-### 4. Continuous Integration
+### 3. Continuous Integration
 
 *Tools which support continuously building, testing and releasing applications.*
 
@@ -719,9 +771,20 @@
 5. [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
 6. [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
 7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
-8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects.
+8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects. 
 
 ### 4. Formal Verification
+*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+
+1. [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
+2. [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
+3. [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
+4. [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
+5. [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
+6. [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
+7. [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
+8. [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
+9. [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
 
 ## V. Инструменты для упрощения разработки
 
