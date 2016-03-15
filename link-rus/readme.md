@@ -8,7 +8,7 @@
     - [5. Создания GUI](#5-Создания-gui)
     - [6. Игровые фреймворки (Game Development)](#6-Игровые-фреймворки-game-development)
     - [7. Безопасность и авторизация](#7-Безопасность-и-авторизация)
-    - [8. Высокая производительность](#8-Производительность)
+    - [8. Высокая производительность](#8-Высокая-производительность)
     - [9. Создание бизнес приложений](#9-Создание-бизнес-приложений)
     - [10. Сериализация (Serialization) и работа с файлами (I/O)](#10-serialization-and-io)
     - [11. Изображения и Видео](#11-imagery-and-video)
@@ -300,7 +300,7 @@
 6.  [Droolsjbpm Drools](https://github.com/droolsjbpm/drools) это приложение Business Rules Management System (BRMS), которое реализует Business Rules Engine (BRE), механизма авторизации, управления правилами (rules), управление приложением (Drools Workbench) и плагин для разработки под Eclipse IDE.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 421.
 7.  [Spring Roo](https://github.com/spring-projects/spring-roo) — фреймворк с открытым исходным кодом для быстрого создания бизнес-приложений на Java. Полученные в результате приложения используют общие технологии Java, такие как Spring Framework, Java Persistence API, JSP, Apache Maven и AspectJ. Spring Roo является частью проекта Spring.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 399.
 
-### 10. Сериализация (serializer) и работа с файлами (I/O) - 4 проекта
+### 10. Сериализация (serializer) и работа с файлами (I/O)
 
 1.  [Square Okio](https://github.com/square/okio) Современный I/O API для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1243.
 2.  [Square type](https://github.com/square/tape) Легкий, быстрый, транзакционный, файловый FIFO для Android и Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1073.
