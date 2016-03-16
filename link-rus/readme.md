@@ -141,12 +141,13 @@
 
 #### Dependency Injection
 
-*Libraries that help to realize the [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm.*
+* Бибилиотеки и фреймворки, которые реализуют парадигму [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control).*
 
 1. [Apache DeltaSpike](https://deltaspike.apache.org/) - фреймворк, расширяющий CDI.
 2. [Dagger2](http://google.github.io/dagger/) - Dependency Injection фреймворк, работающий во время компиляции и не использующий рефлексию.
 3. [Guice](https://github.com/google/guice) - Легкий, но мощный фреймворк, из которого получился Dagger.
 4. [HK2](https://hk2.java.net) - Легкий и динамичный dependency injection фреймворк.
+5.  [Spring framework](https://github.com/spring-projects/spring-framew ork) Spring — наверное, самый распространенный фреймворк Java в мире, которые в том числе реализует Dependency Injection. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5921.
 
 #### Development
 
@@ -154,7 +155,7 @@
 
 1. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
 2. [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
-3. [Auto](https://github.com/google/auto) - Collection of source code generators.
+3. [Auto](https://github.com/google/auto) - Коллекция генераторов исходного кода.
 4. [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
 5. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
 6. [Immutables](http://immutables.github.io/) - Scala-like case classes.
@@ -166,22 +167,22 @@
 
 #### Functional Programming
 
-*Libraries that facilitate functional programming.*
+* Библиотеки, реализующие функциональное программирование.*
 
-1. [Cyclops](https://github.com/aol/cyclops) - Monad and stream utilities, comprehensions, pattern matching, trampolines and much more.
-2. [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms.
-3. [Fugue](https://bitbucket.org/atlassian/fugue) - Functional extensions to Guava.
-4. [Functional Java](http://www.functionaljava.org) - Implements numerous basic and advanced programming abstractions that assist composition-oriented development.
-5. [Javaslang](http://javaslang.com) - Functional component library that provides persistent data types and functional control structures.
-6. [jOOλ](https://github.com/jOOQ/jOOL) - Extension to Java 8 which aims to fix gaps in lambda, providing numerous missing types and a rich set of sequential Stream API additions.
+1. [Cyclops](https://github.com/aol/cyclops) - Добавляет монады, потоковые утилиты и такие возможности функционального программирования как: comprehensions, pattern matching, trampolines и многое другое.
+2. [derive4j](https://github.com/derive4j/derive4j) - Процессор, работающий с Java 8 аннотациями, и фреймворк для реализации: deriving algebraic data types constructors, pattern-matching, morphisms и т.п.
+3. [Fugue](https://bitbucket.org/atlassian/fugue) - Функциональное расширение библиотеки Guava.
+4. [Functional Java](http://www.functionaljava.org) - Реализует большое количество простых и сложных видов абстракций для  composition-oriented программирования.
+5. [Javaslang](http://javaslang.com) - Библиотека для реализации функцуонального программирования которая реализаует persistent типы данных и functional control структоры.
+6. [jOOλ](https://github.com/jOOQ/jOOL) - Расширение для Java 8, которое стремиться исправить недоработки стандартной реализации лямбда в Java 8, реализующе большое количество нереализованных возможностей функционального программирования и предоставляет богатый набор возможностей к стандартному Stream API.
 
 #### Reactive libraries
 
-*Libraries for developing reactive applications.*
+*Библиотеки для разработки reactive приложений.*
 
-1. [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Provide a standard for asynchronous stream processing with non-blocking backpressure.
-2. [Reactor](http://projectreactor.io/) - Library for building reactive fast-data applications.
-3. [RxJava](https://github.com/ReactiveX/RxJava) - Library for composing asynchronous and event-based programs using observable sequences from the JVM.
+1. [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Реализует стандарт для ассинхронных потоковой обработки с неблокирующим "Backpressure".
+2. [Reactor](http://projectreactor.io/) - Библиотеки для разработки reactive fast-data приложений.
+3. [RxJava](https://github.com/ReactiveX/RxJava) - Библиотеки для создания асинхронных и событинно-ориентированных приложений использую observable sequences в JVM.
 
 ### 3. Добавление новых возможностей в язык Java и JVM
 
