@@ -226,22 +226,22 @@
 17.  [Netflix Zuul](https://github.com/Netflix/zuul) это сервис (edge service), обрабатывающий все запросы от всех устройств и вебсайтов к backend всех Netflix потоковых приложений, он обеспечивает динамическую маршрутизацию, мониторинг, отказоустойчивость и безопасность.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 407.
 18.  [Vaadin](https://github.com/vaadin/vaadin) — фреймворк для разработки веб-приложений, основанный на GWT, с server-side моделью программирования и состоянием UI на сервере.https://vaadin.com/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 398.
 19.  [ZK framework](https://github.com/zkoss/zk)  Java фреймворк для создания высокопроизводительных веб и мобильных приложений.. Лицензия: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 161.
-20. [Apache Tapestry](http://tapestry.apache.org/) - Component-oriented framework for creating dynamic, robust, highly scalable web applications.
-21. [Apache Wicket](http://wicket.apache.org/) - Component-based web application framework similar to Tapestry with a stateful GUI.
-22. [Google Web Toolkit](http://www.gwtproject.org/) - Toolbox which includes a Java-to-JavaScript compiler for client-side code, XML parser, API for RPC, JUnit integration, internationalization support and widgets for the GUI.
-23. [Pippo](http://www.pippo.ro/) - Small, highly modularized Sinatra-like framework.
-24. [PrimeFaces](http://primefaces.org/) - JSF framework which has a free and a commercial version with support. Provides several frontend components.
-25. [Spring Boot](http://projects.spring.io/spring-boot/) - Microframework which simplifies the development of new Spring applications.
-26. [Spring MVC](http://projects.spring.io/spring-framework/) - Provides many packages ranging from dependency injection to aspect-oriented programming to security.
+20. [Apache Tapestry](http://tapestry.apache.org/) - Компонентно-ориентированный фреймворк для создания динамичных, надежных, легко маштабируемый веб приложений.
+21. [Apache Wicket](http://wicket.apache.org/) - Компонентно-ориентированный вебфреймворк, похожий на Tapestry с stateful GUI.
+22. [Google Web Toolkit](http://www.gwtproject.org/) - Набор инструментов разработки, включающий  компилятор из Java кода в JavaScript для создания кода, исполняемого в браузере, XML парсер, API для RPC, интеграция с JUnit, поддержка разных языков и локалей и виджеты для создания GUI.
+23. [Pippo](http://www.pippo.ro/) - Небольшой, модульный Sinatra-подобный фреймворк.
+24. [PrimeFaces](http://primefaces.org/) - JSF фреймворк который имеет как свободную, так и комерческую версию с полноценной поддержкой. Предоставляет несколько frontend компонентов.
+25. [Spring Boot](http://projects.spring.io/spring-boot/) - Микрофреймворк для упрощения разработки новых Spring приложений.
+26. [Spring MVC](http://projects.spring.io/spring-framework/) - Предоставляет много различных возможностей для разработки вебприложений от dependency injection до аспектно-ориентированного программирования и поддержки security.
 
 #### Template Engine
 
-*Tools which substitute expressions in a template.*
+*Инструменты для замены выражений в шаблонах на реальные данные.*
 
-1. [Apache Velocity](http://velocity.apache.org/) - Templates for HTML pages, emails or source code generation in general.
-2. [FreeMarker](http://freemarker.incubator.apache.org/) - General templating engine without any heavyweight or opinionated dependencies.
-3. [Handlebars.java](http://jknack.github.io/handlebars.java/) - Logic-less and semantic Mustache templates.
-4. [Thymeleaf](http://www.thymeleaf.org/) - Aims to be a substitute for JSP and works for XML files in general.
+1. [Apache Velocity](http://velocity.apache.org/) - Работает с шаблонами для генерации HTML страниц, emails или даже кодогенерация в целом.
+2. [FreeMarker](http://freemarker.incubator.apache.org/) - Библиотека поддережки универсальный шаблонов без тяжелых или запутанных зависимостей на другие библиотеки.
+3. [Handlebars.java](http://jknack.github.io/handlebars.java/) - Семантически подобен шаблонам Mustache, но с меньшим количеством бизнес логии в шаблонах.
+4. [Thymeleaf](http://www.thymeleaf.org/) - Цель заменять JSP и работать с XML файлами в целом.
 
 ### 5. Создания GUI
 *Libraries to create modern graphical user interfaces.*
