@@ -110,17 +110,16 @@
 
 ### 2. Полезные библиотеки
 
-1.  [zxing](https://github.com/zxing/zxing) открытая разноформатная библиотека для обработки 1D/2D barcode изображений с реализацией на Java и портированием на другие языки.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5314.
-2.  [Google Guava](https://github.com/google/guava) Очень популярная библиотека от гугла, расширяющая возможности JDK, в том числе определяющая новые коллекции, добавляющая элементы функционального программирования в Java и т.п. Работает с JDK1.6 и выше. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3813.
-3.  [Java Native Access](https://github.com/twall/jna) Java Native Access — система доступа к нативному API. Лицензия: LGPL 2.1/[Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1750.
-4.  [Tobie ua-parser](https://github.com/tobie/ua-parser) много языковой портирование парсера параметра user agent браузером. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)/[MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)/Perl, рейтинг github'а - 1497.
-5.  [Typesafehub config](https://github.com/typesafehub/config) библиотека для работы с разными типами конфигурационных файлов для JVM языков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1369.
-6.  [Athou commafeed](https://github.com/Athou/commafeed) RSS reader, основанный Dropwizard и AngularJS, вдохновленный Google Reader . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1226.
-7.  [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) Flying Saucer это Java библиотека для использования XML или XHTML с использованием CSS 2.1 для генерации PDF, изображений или Swing panels.. Лицензия: [](https://en.wikipedia.org/wiki/GNU_General_Public_License)[GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).1, рейтинг github'а - 504.
-8.  [jcommander](https://github.com/cbeust/jcommander) Библиотека для парсинга параметров командных строк . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 445.
-9.  [Smack](https://github.com/igniterealtime/Smack) Библиотека для создания XMPP клиента для JVMs и Android. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 426.
-10.  [CSSEmbed](https://github.com/nzakas/cssembed) это небольшая программ/библиотека для автоматического добавления URIs в CSS files. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 407.
-11.  [Jline](https://github.com/jline/jline2) это java библиотека для работы с консолью (ввод, редактирование в emacs и vi режимах), так же как библиотеки Readline и Editline, однако при этом так как Jline почти полностью написана на Java является полностью платформонезависимой.. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг github'а - 396.
+1.  [Google Guava](https://github.com/google/guava) Очень популярная библиотека от гугла, расширяющая возможности JDK, в том числе определяющая новые коллекции, добавляющая элементы функционального программирования в Java и т.п. Работает с JDK1.6 и выше. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3813.
+2.  [Java Native Access](https://github.com/twall/jna) Java Native Access — система доступа к нативному API. Лицензия: LGPL 2.1/[Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1750.
+3.  [Tobie ua-parser](https://github.com/tobie/ua-parser) много языковой портирование парсера параметра user agent браузером. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)/[MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)/Perl, рейтинг github'а - 1497.
+4.  [Typesafehub config](https://github.com/typesafehub/config) библиотека для работы с разными типами конфигурационных файлов для JVM языков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1369.
+5.  [Athou commafeed](https://github.com/Athou/commafeed) RSS reader, основанный Dropwizard и AngularJS, вдохновленный Google Reader . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1226.
+6.  [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) Flying Saucer это Java библиотека для использования XML или XHTML с использованием CSS 2.1 для генерации PDF, изображений или Swing panels.. Лицензия: [](https://en.wikipedia.org/wiki/GNU_General_Public_License)[GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).1, рейтинг github'а - 504.
+7.  [jcommander](https://github.com/cbeust/jcommander) Библиотека для парсинга параметров командных строк . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 445.
+8.  [Smack](https://github.com/igniterealtime/Smack) Библиотека для создания XMPP клиента для JVMs и Android. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 426.
+9.  [CSSEmbed](https://github.com/nzakas/cssembed) это небольшая программ/библиотека для автоматического добавления URIs в CSS files. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 407.
+10.  [Jline](https://github.com/jline/jline2) это java библиотека для работы с консолью (ввод, редактирование в emacs и vi режимах), так же как библиотеки Readline и Editline, однако при этом так как Jline почти полностью написана на Java является полностью платформонезависимой.. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг github'а - 396.
 
 
 *Libraries which provide general utility functions.*
@@ -246,9 +245,9 @@
 ### 5. Создания GUI
 *Libraries to create modern graphical user interfaces.*
 
-1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - The successor of Swing.
-2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Visual layout tool for JavaFX applications.
-3. [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) is a graphical widget toolkit for use with the Java platform.
+1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Правопреемник Swing.
+2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Визуальный инструмент разработки GUI для приложений JavaFX. 
+3. [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) это набор бибилиотек и инструментария для создания графических виджетов в платформе Java.
 
 ### 6. Игровые фреймворки (Game Development)
 
@@ -266,29 +265,29 @@
 3.  [Jasig CAS (Central Authentication Service)](https://github.com/Jasig/cas) - обеспечивает стандартный механизм аутентификация пользователей для веб приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 740.
 4.  [Spring security](https://github.com/spring-projects/spring-security) — Spring фреймворк для авторизации и управлению пользователями и безопасностью приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 732.
 5.  [Play Authenticate](https://github.com/joscha/play-authenticate) - аутентификацонный плагин для Play фреймворка. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 646.
-6. [Apache Shiro](http://shiro.apache.org/) - Performs authentication, authorization, cryptography and session management.
-7. [Bouncy Castle](https://www.bouncycastle.org/java.html) - All-purpose cryptographic library. JCA provider, wide range of functions from basic helpers to PGP/SMIME operations.
-8. [Cryptomator](https://cryptomator.org/) - Multiplatform transparent client-side encryption of files in the cloud.
-9. [Google Keyczar](https://github.com/google/keyczar) - Easy to use, yet safe encryption framework with key versioning.
-10. [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.
-11. [PicketLink](http://picketlink.org/) - Umbrella project for security and identity management.
+6. [Apache Shiro](http://shiro.apache.org/) - Обеспечивает аутентификацию, авторизацию, шифрование и управление сеансами.
+7. [Bouncy Castle](https://www.bouncycastle.org/java.html) - Универсальная криптографическая библиотека, содержит JCA провайдер, широкий спектр функций по работе с PGP/SMIME.
+8. [Cryptomator](https://cryptomator.org/) - Мультиплатформенное клиент-ориентирование шифрование файлов в облаке.
+9. [Google Keyczar](https://github.com/google/keyczar) - Легкий в использовании, но безопасный фреймворк шифрования с управлением версиями.
+10. [Keycloak](http://keycloak.jboss.org/) - Интеграция с SSO и IDM, как для приложений, работающих в браузере, так и для RESTful веб сервисов.
+11. [PicketLink](http://picketlink.org/) - Umbrella проект для обеспечения безопасности и индетификации пользователей .
 
 ### 8. Высокая производительность
-*Everything about high performance computation, from collections to specific libraries.*
+*Все для высокопроизводительных решенией от коллекций до специальных библиотек.*
 
-1. [Agrona](https://github.com/real-logic/Agrona) - Data structures and utility methods that are common in high-performance applications.
-2. [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library.
-3. [fastutil](http://fastutil.di.unimi.it/) - Fast and compact type-specific collections.
-4. [GS Collections](https://github.com/goldmansachs/gs-collections) - Collection framework inspired by Smalltalk.
-5. [HPPC](http://labs.carrotsearch.com/hppc.html) - Primitive collections.
-6. [Javolution](http://javolution.org/) - Library for real-time and embedded systems.
-7. [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK.
-8. [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps.
-9. [Trove](http://trove.starlight-systems.com/) - Primitive collections.
+1. [Agrona](https://github.com/real-logic/Agrona) - Структуры данных и функции, которые будут полезны для высоконагруженных приложений.
+2. [Disruptor](http://lmax-exchange.github.io/disruptor/) - библиотека, обеспечивающая межпоточный обмен сообщениями.
+3. [fastutil](http://fastutil.di.unimi.it/) - Быстрые и компактные типобезопасные коллекции.
+4. [GS Collections](https://github.com/goldmansachs/gs-collections) - Фреймворк коллекций основанный на идеях из Smalltalk.
+5. [HPPC](http://labs.carrotsearch.com/hppc.html) - Фреймворк по работе с примитивными коллекциями.
+6. [Javolution](http://javolution.org/) - Библиотека для систем реального времени и встроенных систем.
+7. [JCTools](https://github.com/JCTools/JCTools) - Набор функций по работе с многопоточности, которые на данный момент отсутствуют в JDK.
+8. [Koloboke](https://github.com/OpenHFT/Koloboke) - Фреймворк по работе с быстрыми Hash sets и hash maps.
+9. [Trove](http://trove.starlight-systems.com/) - Библиотека работы с примитивными коллекциями.
 
 #### Constraint Satisfaction Problem Solver
 
-*Libraries that help on implementing optimization and satisfiability problems.*
+* Библиотеки, которые помогают в оптимизации и решении проблем с производительностью.*
 
 1. [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
 2. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
@@ -313,10 +312,10 @@
 2.  [Square type](https://github.com/square/tape) Легкий, быстрый, транзакционный, файловый FIFO для Android и Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1073.
 3.  [Simple Binary Encoding (SBE)](https://github.com/real-logic/simple-binary-encoding) это реализация кодирования и декодирования сообщений приложения бинарный формат для систем требующих очень быстрое время ответа. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 612.
 4.  [MessagePack](https://github.com/msgpack/msgpack-java) - реализация быстрой сериализации в компактный бинарный формат для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 448.
-5. [FlatBuffers](https://github.com/google/flatbuffers) - Memory efficient serialization library that can access serialized data without unpacking and parsing it.
-6. [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK compatible high performance object graph serialization.
-7. [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework.
-8. [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format.
+5. [FlatBuffers](https://github.com/google/flatbuffers) - Библиотека сериализации, оптимизированная на сокращение затрат памяти, которая предоставляет доступ к сериализованным данным без разархивирования и парсинга.
+6. [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK совместимая высокопроизводительная библиотека сериализации.
+7. [Kryo](https://github.com/EsotericSoftware/kryo) - Быстрый и эффекстивный фреймворк сериализации.
+8. [MessagePack](https://github.com/msgpack/msgpack-java) - Эффекстивный бинарный формат сериализации.
 
 
 ### 11. Изображения и Видео
@@ -326,9 +325,8 @@
 3.  [JavaCV](https://github.com/bytedeco/javacv) JavaCV использует конвертер Java-C++ JavaCPP Presets для простого использования библиотек для работы с компьютерным зрением (OpenCV, FFmpeg, libdc1394, PGR FlyCapture, OpenKinect, videoInput, ARToolKitPlus, and flandmark) и реализует классы-утилиты для облегчения работы с этими библиотеками на платформе Java . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 503.
 4.  [imgscalr](https://github.com/thebuzzmedia/imgscalr) Простая и эффективная библиотека Java для масштабирования изображений основанная на чистом Java 2D. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 451.
 5.  [webcam-capture](https://github.com/sarxos/webcam-capture) Данный проект позволяет получить доступ к USB вебкамере или remote IP / сетевой камере напрямую из Java кода. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 437.
-6. [Picasso](http://square.github.io/picasso/) - Image downloading and caching library for Android.
-7. [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator is a high-quality thumbnail generation library for Java.
-8. [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
+6. [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator это библиотека генерации высококачественных миниатюр для Java.
+7.  [zxing](https://github.com/zxing/zxing) открытая разноформатная библиотека для обработки 1D/2D barcode изображений с реализацией на Java и портированием на другие языки.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5314.
 
 ### 12. Логирования
 
