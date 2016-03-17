@@ -157,19 +157,19 @@
 
 #### Development
 
-*Augmentation of the development process at a fundamental level.*
+* Добавления дополнительных возможностей в процесс разработки на фундаментальном уровне*
 
-1. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 code generator for algebraic data types.
-2. [AspectJ](https://eclipse.org/aspectj/) - Seamless aspect-oriented programming extension.
+1. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 код генератор для algebraic data types.
+2. [AspectJ](https://eclipse.org/aspectj/) - Аспект-ориентированное расширение, легко встраиваемое в существующие приложения
 3. [Auto](https://github.com/google/auto) - Коллекция генераторов исходного кода.
-4. [DCEVM](http://dcevm.github.io/) - Modification of the JVM that allows unlimited redefinition of loaded classes at runtime.
-5. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Unlimited runtime class and resource redefinition.
-6. [Immutables](http://immutables.github.io/) - Scala-like case classes.
-7. [JHipster](https://github.com/jhipster/generator-jhipster) - Yeoman source code generator to create applications based on Spring Boot and AngularJS.
-8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Commercial software that instantly reloads code and configuration changes without redeploys.
-9. [Lombok](https://projectlombok.org/) - Code-generator which aims to reduce the verbosity.
-10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Class reloading agent.
-11. [vert.x](http://vertx.io/) - Polyglot event-driven application framework.
+4. [DCEVM](http://dcevm.github.io/) - Модификация JVM, которая позволяет неограниченное переопределение загруженных классов во время выполнения.
+5. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Неограниченное переопределение классов и ресурсов во время выполнения.
+6. [Immutables](http://immutables.github.io/) - Добавлет Scala-подобные классы.
+7. [JHipster](https://github.com/jhipster/generator-jhipster) - генератор кода, которые позволяет создавить приложения основанные на Spring Boot и AngularJS.
+8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера.
+9. [Lombok](https://projectlombok.org/) - Генератор кода, целью которого является сокращения реализации рутинного кода.
+10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов.
+11. [vert.x](http://vertx.io/) - Событийно-ориентированный полиглотный фреймворк.
 
 #### Functional Programming
 
