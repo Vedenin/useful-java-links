@@ -124,7 +124,7 @@
 10.  [Jline](https://github.com/jline/jline2) это java библиотека для работы с консолью (ввод, редактирование в emacs и vi режимах), так же как библиотеки Readline и Editline, однако при этом так как Jline почти полностью написана на Java является полностью платформонезависимой.. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг github'а - 396.
 
 
-*Libraries which provide general utility functions.*
+*Библиотеки, предоставляющие общие утилитарные функции.*
 
 1. [Apache Commons](http://commons.apache.org/) - Реализует различные функции, такие как конфигурирование, валидирование, коллекции, загрузка файлов или работу с XML,
 2. [args4j](http://args4j.kohsuke.org/) - Парсер командной строки,
@@ -247,7 +247,7 @@
 4. [Thymeleaf](http://www.thymeleaf.org/) - Цель заменять JSP и работать с XML файлами в целом.
 
 ### 5. Создания GUI
-*Libraries to create modern graphical user interfaces.*
+*Библиотеки для создания современного графического интерфейса.*
 
 1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Правопреемник Swing.
 2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Визуальный инструмент разработки GUI для приложений JavaFX. 
@@ -336,12 +336,12 @@
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) свободная и открытая система логирования. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1308.
 2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java. http://logback.qos.ch/. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 497.
 3.  [slf4j](https://github.com/qos-ch/slf4j) Библиотека предлагает Facade логирования для простого переключения между разными библиотеками логирования (java.util.logging, logback, log4j и т. п.). http://www.slf4j.org/ Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 384.
-4. [Apache Log4j 2](http://logging.apache.org/log4j/) - Complete rewrite with a powerful plugin and configuration architecture.
-5. [graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management.
-6. [kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment.
-7. [logstash](https://www.elastic.co/products/logstash) - Tool for managing log files.
-8. [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database.
-9. [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class.
+4. [Apache Log4j 2](http://logging.apache.org/log4j/) - Полностью пересмотренная вторая версия Log4j с мощными плагинами и легко настраиваемой архитектурой.
+5. [graylog](https://www.graylog.org/) - Открытый агрегатор, подходящий для сложных ролей пользователей и системы привилегий.
+6. [kibana](https://www.elastic.co/products/kibana) - Анализ и визуализация логов, некоторые возможносте предоставляются только платно.
+7. [logstash](https://www.elastic.co/products/logstash) - Инструменты для управления файлами логов.
+8. [Metrics](https://github.com/dropwizard/metrics) - Собирает метрики через JMX или HTTP и может записать их в базу.
+9. [tinylog](http://www.tinylog.org/) - Легкий фреймворк логировани со статическими классами логирования.
 
 
 ### 13. Bean Mapping 
@@ -369,23 +369,23 @@
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Akka](http://akka.io) - Toolkit and runtime for building concurrent, distributed, and fault tolerant event-driven applications.
-2. [Apache Storm](http://storm.apache.org/) - Realtime computation system.
-3. [Apache ZooKeeper](http://zookeeper.apache.org/) - Coordination service with distributed configuration, synchronization, and naming registry for large distributed systems.
-4. [Axon Framework](http://www.axonframework.org/) - Framework for creating CQRS applications.
-5. [Hazelcast](http://hazelcast.org/) - Highly scalable in-memory datagrid.
-6. [Hystrix](https://github.com/Netflix/Hystrix) - Provides latency and fault tolerance.
-7. [JGroups](http://www.jgroups.org/) - Toolkit for reliable messaging and creating clusters.
-8. [Orbit](http://orbit.bioware.com/) - Virtual Actors, adding another level of abstraction to traditional actors.
-9. [Quasar](http://www.paralleluniverse.co/quasar/) - Lightweight threads and actors for the JVM.
+1. [Akka](http://akka.io) - Набор инструментов и среда выполнения для создания многопоточных, распределенных и устойчивых к ошибкам событийно-ориентированных приложений.
+2. [Apache Storm](http://storm.apache.org/) - Система вычислений в режиме реального времени.
+3. [Apache ZooKeeper](http://zookeeper.apache.org/) - Системы координации для развертывания конфигураций, синхроизации и регистрации имен для больших распределенных систем.
+4. [Axon Framework](http://www.axonframework.org/) - Фреймворк для создания CQRS приложений.
+5. [Hazelcast](http://hazelcast.org/) - Легко расширяемый in-memory datagrid.
+6. [Hystrix](https://github.com/Netflix/Hystrix) - Предоставляет возможность создавать системы, устойчивые к ошибкам и с минимальным откликом.
+7. [JGroups](http://www.jgroups.org/) - Набор инструментов для надежного обмена сообщениями и создания кластеров.
+8. [Orbit](http://orbit.bioware.com/) - Виртуальные акторы (Virtual Actors), добавления дополнительного уровня абстракции к традиционных акторам.
+9. [Quasar](http://www.paralleluniverse.co/quasar/) - Легковесные потоки и акторы (actors) для JVM.
 
 ### 16. Наука
-*Libraries for scientific computing and analysis.*
+*Библиотеки для научных расчетов и анализа.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [DataMelt](http://jwork.org/dmelt/) - Environment for scientific computation, data analysis and data visualization.
-2. [JGraphT](https://github.com/jgrapht/jgrapht) - Graph library that provides mathematical graph-theory objects and algorithms.
-3. [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units.
+1. [DataMelt](http://jwork.org/dmelt/) - Среда для научных расчетов, анализа и визуализаци данных.
+2. [JGraphT](https://github.com/jgrapht/jgrapht) - Графическая библиотека, которая предоставляет объект и алгоритмы из математической теории графов.
+3. [JScience](http://jscience.org/) - Предоставляет набор классов для работы с научными измерениями и объектами.
 
 ## II. Базы данных, поисковые системы, Big data и машинное обучение
 
