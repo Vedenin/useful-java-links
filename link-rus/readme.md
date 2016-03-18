@@ -1016,15 +1016,15 @@
 
 ### 1. Communities
 
-*Active discussions.*
+* Ресурсы для дискуссий и обсуждений (на английском).*
 
-* [r/java](https://www.reddit.com/r/java) - Subreddit for the Java community.
-* [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
+* [r/java](https://www.reddit.com/r/java) - Subreddit для Java пользователей.
+* [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Популярная платформа для вопросов/ответов
 * [vJUG](http://virtualjug.com/) - Virtual Java User Group.
 
 ### 2. Influential Books
 
-*Books that had a high impact and are still worth reading.*
+* Книги которые оказали огромное влияние на Java мир и которые действительно стоят того чтобы их прочитать (на английском).*
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 * [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
@@ -1034,7 +1034,7 @@
 
 ### 3. Websites
 
-*Sites to read.*
+*Полезные сайты.*
 
 * [Android Arsenal](https://android-arsenal.com)
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
