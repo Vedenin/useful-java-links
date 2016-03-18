@@ -27,7 +27,7 @@
 - [II. Базы данных, поисковые системы, Big data и машинное обучение](#ii-Базы-данных-поисковые-системы-big-data-и-машинное-обучение)
     - [1. Базы данных и хранилища](#1-Базы-данных-и-хранилища)
     - [2. Структуры данных](#2-Структуры-данных)
-    - [3. Поисковые системы](#3-Поисковые-системы)    - 
+    - [3. Поисковые системы](#3-Поисковые-системы)     
     - [4. Клиенты и драйверы баз данных](#4-Клиенты-и-драйверы-баз-данных)
     - [5. Маппинг объектов в базы данных (ORM и т. п.)](#5-Маппинг-объектов-в-базы-данных-orm-и-тп)
     - [6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)](#6-Системы-для-обработки-данных-работа-с-грязными-данными-анализ-и-тп)
@@ -850,23 +850,23 @@
 6.  [Spotify Helios](https://github.com/spotify/helios) это Docker orchestration платформа для развертывания и управления контейнерами с помощью HTTP API или командной строки. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 952.
 7.  [Netflix Archaius](https://github.com/Netflix/archaius) - библиотека, реализующая API для управления конфигурациями, используется Netflix. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614.
 8.  [Puniverse Capsule](https://github.com/puniverse/capsule) это система сборки приложения в один выполняемый JAR файл со всеми артефактами, ресурсами, нативными библиотеками и т.п.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг github'а - 576.
-9.  [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
-10. [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
-11. [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
-12. [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+9.  [Apache Maven](http://maven.apache.org/) - Система декларативной сборки и управления зависимостями, которая упрощает конфигурирование приложения. Это может быть предпочтительнее Apache Ant, используещего более процедурный подход, который сложнее поддерживать в большинстве случаев.
+10. [Bazel](http://bazel.io) - Инструмент для сборки от Google, который позволяет собирать код быстро и надежно.
+11. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков.
+12. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties.
 
 *Tools which handle the build cycle and dependencies of an application.*
 
-1. [Apache Maven](http://maven.apache.org/) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain.
-2. [Bazel](http://bazel.io) - Build tool from Google that builds code quickly and reliably.
-3. [Gradle](http://gradle.org/) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management.
+1. [Apache Maven](http://maven.apache.org/) - Система декларативной сборки и управления зависимостями, которая упрощает конфигурирование приложения. Это может быть предпочтительнее Apache Ant, используещего более процедурный подход, который сложнее поддерживать в большинстве случаев.
+2. [Bazel](http://bazel.io) -  Инструмент для сборки от Google, который позволяет собирать код быстро и надежно.
+3. [Gradle](http://gradle.org/) - Система инкрементальной сборки, использующая для конфигурирования Groovy вместо XML. Хорошо совместима с Maven конфигурациями.
 
 #### Configuration
-*Libraries that provide external configuration.*
+*Библиотеки, управлящие конфигурированием*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [config](https://github.com/typesafehub/config) - Configuration library for JVM languages.
-2. [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
+1. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков.
+2. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties.
 
 #### Distribution
 *Tools which handle the distribution of applications in native formats.*
