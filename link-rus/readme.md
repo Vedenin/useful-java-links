@@ -929,8 +929,8 @@
 
 ### 4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода
 
-1. [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing.
-2. [JavaCC](https://javacc.java.net/) - More specific and slightly easier to learn. Has syntactic lookahead.
+1. [ANTLR](http://www.antlr.org/) - Многоцелевой полноценный фреймворк для top-down парсинга.
+2. [JavaCC](https://javacc.java.net/) - Более специфичный и простой в обучении, имеет синтаксический предпросмотр.
 
 
 ### 5. Приложения и готовые продукты написанные на Java
@@ -982,7 +982,7 @@
 10.  [Databricks Learning spark](https://github.com/databricks/learning-spark) Примеры кода для книги Learning Spark. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 412.
 11.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs это проект который рассматривает простоту разработки и полученное юзабилити (usability benchmark) семи типичных GUI задач на разных фреймворках и языках программирования (Java7 +Swing, Clojure+Seesaw, Scala+ScalaFX, Android и т. п.). Задачей сравнить разные подходы к созданию удобного для пользователя GUI. Лицензия: ?, рейтинг github'а - 404.
 12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-jpa-examples) Примеры использования разных возможностей Spring Data JPA . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 400.
-13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
+13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд.
 
 ### 2. Результаты сравнения производительности кода на Java (benchmark) 
 
@@ -998,19 +998,19 @@
 
 *Эти проекты появились очень давно, на данный момент они считаются устаревшими, однако в некоторых старых проектах продалжают использоваться*
 
-1. [Apache Ant](http://ant.apache.org/) - Build process management with XML.
-2. [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
-3. [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE sponsored by Oracle.
-4. [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
-5. [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
-6. [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
+1. [Apache Ant](http://ant.apache.org/) - Инструмент для сборки проиложений, использующий XML для конфигурационных файлов.
+2. [cglib](https://github.com/cglib/cglib) - Библиотека генерации байткода.
+3. [GlassFish](https://glassfish.java.net/) - Сервер приложений и образцовая реализация Java EE от Oracle.
+4. [Hudson](http://hudson-ci.org/) - Сервер непрерывной реализации для активной разработки
+5. [JavaServer Faces](https://javaserverfaces.java.net/) - Открытая реализация JSF стандарта от Oracle.
+6. [JavaServer Pages](https://jsp.java.net/) - Популярная Java технология шаблонов для создания вебсайтов с реализацией пользовательских тегов.
 
 ### 5. Прочее
-*Everything else.*
+*Все прочее.*
 
-* [Jimfs](https://github.com/google/jimfs) - In-memory file system.
-* [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
-* [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
+* [Jimfs](https://github.com/google/jimfs) - Файловая система, работающая в памяти.
+* [Lanterna](https://code.google.com/p/lanterna/) - Легковесная библиотека, реализующая консольно-текстовый GUI, похожий на curses.
+* [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений.
 
 ## VIII. Resources
 
