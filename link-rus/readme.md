@@ -551,8 +551,7 @@
 15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
 
 #### Constraint Satisfaction Problem Solver
-
-* Библиотеки, которые помогают в оптимизации и решении проблем с производительностью.*
+*Библиотеки, которые помогают в такой задачи искусственного интеллекта (ИИ) как удовлетворения ограничений (УО) (constraint satisfaction problem).*
 
 1. [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
 2. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
