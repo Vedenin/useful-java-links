@@ -579,7 +579,7 @@
 4.  [Nginx clojure](https://github.com/nginx-clojure/nginx-clojure) - Nginx модуль с использованием Clojure или Java или Groovy программ. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , рейтинг github'а - 514.
 5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Http сервер и контейнер сервлетов. Легкий, маленький сервер, часто встраиваемый (embedded) в приложения. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).0, рейтинг github'а - 512.
 6. [Apache TomEE](http://tomee.apache.org/) - Apache Tomcat сервер к которому добавили поддержку Java EE.
-7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM.
+7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Легковесный, модульный сервер, разработанный IBM.
 
 
 ### 2. Сеть и сокеты 
@@ -591,11 +591,11 @@
 4.  [Socket.io java client](https://github.com/Gottox/socket.io-java-client) Реализация Socket.IO клиента на Java. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 688.
 5.  [Socket.io client.java](https://github.com/nkzawa/socket.io-client.java) Полнофункциональная Socket.IO клиентская библиотека для Java, совместимая с Socket.IO v1.0 и выше.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 603.
 6.  [EsotericSoftware Kryonet](https://github.com/EsotericSoftware/kryonet) TCP/UDP клиентская и серверная библиотека для Java, основанная на Kryo. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 539.
-7. [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
-8. [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
-9. [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
-10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
-11. [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
+7. [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Ассинхронная HTTP и вебсокет клиентская библиотека.
+8. [Comsat](https://github.com/puniverse/comsat) - Интегрирует стандартный Java веб API c Quasar fibers и actors.
+9. [Grizzly](https://grizzly.java.net/) - NIO фреймворк. Использует как сетевой слой в Glassfish.
+10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY клиент.
+11. [Undertow](http://undertow.io/) - Вебсервер, предоставляющий блокирующий и неблокирующий API, основанный на NIO. Испольхуется как сетевой слой в WildFly.
 
 ### 3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -661,8 +661,8 @@
 4.  [Antlr4](https://github.com/antlr/antlr4) ANTLR (ANother Tool для Language Recognition мощный генератор парсеров для чтения, обработки, использование или конвертирования структурированного текста или бинарных файлов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 836.
 5.  [Parboiled](https://github.com/sirthias/parboiled) Элегантный, легкий, простой в использовании и мощный парсер, написанный на Java и Scala. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 775.
 6.  [Pegdown](https://github.com/sirthias/pegdown) Обработчик языка разметки Markdown, основанный на PEG парсере, поддерживающим большое количество расширений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 692.
-7.  [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
-8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
+7.  [Apache Nutch](http://nutch.apache.org/) - Хорошо расширяемый, хорошо маштабированный вебпаук с рабочей экосистемой.
+8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Простой и легковесный вебпаук.
 
 ### 8. Работа с Json 
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
