@@ -1016,7 +1016,7 @@
 
 ### 1. Communities
 
-* Ресурсы для дискуссий и обсуждений (на английском).*
+*Ресурсы для дискуссий и обсуждений (на английском).*
 
 * [r/java](https://www.reddit.com/r/java) - Subreddit для Java пользователей.
 * [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Популярная платформа для вопросов/ответов
@@ -1024,7 +1024,7 @@
 
 ### 2. Influential Books
 
-* Книги которые оказали огромное влияние на Java мир и которые действительно стоят того чтобы их прочитать (на английском).*
+*Книги которые оказали огромное влияние на Java мир и которые действительно стоят того чтобы их прочитать (на английском).*
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 * [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
