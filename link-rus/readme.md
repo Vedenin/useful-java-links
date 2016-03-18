@@ -345,14 +345,14 @@
 
 
 ### 13. Bean Mapping 
-*Фреймворки, упрощающие bean mapping.*
+*Фреймворки, упрощающие маппинг одних типов данных в другие.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Dozer](https://github.com/DozerMapper/dozer/) - Mapper that copies data from one object to another, using annotations, API or XML configuration.
-2. [MapStruct](https://github.com/mapstruct/mapstruct) - Code generator which simplifies mappings between different bean types, based on a convention over configuration approach.
-3. [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper is an intelligent object mapping library that automatically maps objects to each other.
-4. [Orika](https://github.com/orika-mapper) - Orika is a Java Bean mapping framework that recursively copies (among other capabilities) data from one object to another.
-5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma is an Annotation Processor Based bean mapper.
+1. [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой используя аннотации, API или XML конфигурацию.
+2. [MapStruct](https://github.com/mapstruct/mapstruct) - Код генератор, который упрощает маппинг между разными типами данных, основываясь на конфигурации маппинга.
+3. [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper это интеллектуальная библиотека для автоматического маппинга одних объектов на другие.
+4. [Orika](https://github.com/orika-mapper) - Orika это Java Bean маппинг фреймворк, который рекурсивно копирует (и при необходимости изменяет) информацию из одного объекта в другой.
+5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma это маппер построенный на аннотациеях классов.
 
 ### 14. Кодогенерация и изменения байт кода
 *Libraries to manipulate bytecode programmatically.*
