@@ -14,7 +14,6 @@
     - [6. Игровые фреймворки (Game Development)](#6-Игровые-фреймворки-game-development)
     - [7. Безопасность и авторизация](#7-Безопасность-и-авторизация)
     - [8. Высокая производительность](#8-Высокая-производительность)
-         - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
     - [9. Создание бизнес приложений](#9-Создание-бизнес-приложений)
     - [10. Сериализация (Serialization) и работа с файлами (I/O)](#10-Сериализация-serializer-и-работа-с-файлами-io)
     - [11. Изображения и Видео](#11-Изображения-и-Видео)
@@ -33,6 +32,7 @@
     - [6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)](#6-Системы-для-обработки-данных-работа-с-грязными-данными-анализ-и-тп)
     - [7. Большие данные (big data)](#7-Большие-данные-big-data)
     - [8. Машинное обучение и нейроные сети (Machine Learning)](#8-Машинное-обучение-и-нейроные-сети-machine-learning)
+          - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
     - [9. Работа с естественными языками (NLP)](#9-Работа-с-естественными-языками-nlp)
     
 - [III. Работа с сетью и интеграция](#iii-Работа-с-сетью-и-интеграция)
@@ -292,14 +292,6 @@
 8. [Koloboke](https://github.com/OpenHFT/Koloboke) - Фреймворк по работе с быстрыми Hash sets и hash maps.
 9. [Trove](http://trove.starlight-systems.com/) - Библиотека работы с примитивными коллекциями.
 
-#### Constraint Satisfaction Problem Solver
-
-* Библиотеки, которые помогают в оптимизации и решении проблем с производительностью.*
-
-1. [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
-2. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
-3. [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
-4. [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
 
 
 ### 9. Создание бизнес приложений
@@ -557,6 +549,15 @@
 13. [H2o](https://github.com/h2oai/h2o-2) = добавляет математические операции в Hadoop, h2o позволяет быстро вычислять статистику, машинное обучение и математические операции для bigdata.http://h2o.ai/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1725.
 14. [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
 15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
+
+#### Constraint Satisfaction Problem Solver
+
+* Библиотеки, которые помогают в оптимизации и решении проблем с производительностью.*
+
+1. [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
+2. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
+3. [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
+4. [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
 
 ### 9. Работа с естественными языками (NLP)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
