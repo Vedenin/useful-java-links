@@ -562,12 +562,9 @@
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 871.
-2. [Apache OpenNLP](https://opennlp.apache.org/) - Toolkit for common tasks like tokenization.
-3. [CoreNLP](http://nlp.stanford.edu/software/corenlp.shtml) - Stanford's CoreNLP provides a set of fundamental tools for tasks like tagging, named entity recognition, sentiment analysis and many more.
-4. [LingPipe](http://alias-i.com/lingpipe/) - Toolkit for a variety of tasks ranging from POS tagging to sentiment analysis.
-5. [Mallet](http://mallet.cs.umass.edu/) - Statistical natural language processing, document classification, clustering, topic modeling and more.
-
-
+2. [Apache OpenNLP](https://opennlp.apache.org/) - Набор инструментов для типовых задач таких как tokenization.
+3. [LingPipe](http://alias-i.com/lingpipe/) - Набор инструментов для различных видов задач от POS tagging до анализа предложений.
+4. [Mallet](http://mallet.cs.umass.edu/) - Статистическая обработка естественных языков, классификация документов, кластеризация, topic modeling и многое другое.
 
 ## III. Работа с сетью и интеграция
 ### 1. Веб сервера и сервера приложений (web server &amp; application server)
