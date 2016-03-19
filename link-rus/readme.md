@@ -1,5 +1,4 @@
 # Список полезных ссылок для Java программиста
-<p style="color:red">h</p>
 
 - [I. Фреймворки и библиотеки](#i-Фреймворки-и-библиотеки)
     - [1. Фреймворки общего назначения](#1-Фреймворки-общего-назначения)
@@ -169,7 +168,7 @@
 5. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Неограниченное переопределение классов и ресурсов во время выполнения, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 6. [Immutables](http://immutables.github.io/) - Добавлет Scala-подобные классы, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
 7. [JHipster](https://github.com/jhipster/generator-jhipster) - генератор кода, которые позволяет создавить приложения основанные на Spring Boot и AngularJS, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
-8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, Лицензия: Проприетарная, планое ПО, ![text](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/colortext.svg)
+8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, *Лицензия: Проприетарная, платное ПО,*
 9. [Lombok](https://projectlombok.org/) - Генератор кода, целью которого является сокращения реализации рутинного кода.
 10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов.
 11. [vert.x](http://vertx.io/) - Событийно-ориентированный полиглотный фреймворк.
