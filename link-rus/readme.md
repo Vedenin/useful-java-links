@@ -604,7 +604,7 @@
 5.  [Metamorphosis](https://github.com/killme2008/Metamorphosis) Высокопроизводительная распределенная система обмена сообщениями . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 580.
 6.  [Igniterealtime Openfire](https://github.com/igniterealtime/Openfire) Openfire это RTC (real time collaboration) сервер использующий широко распространенные протоколы обмена сообщениями, такие как XMPP (так же называемый Jabber). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 470.
 7.  [Zeromq Jzmq](https://github.com/zeromq/jzmq) JZMQ это клиент для интеграции Java приложения с libzmq (например ZeroMQ, 0MQ). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 415.
-8. [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable unicast and multicast message transport.
+8. [Aeron](https://github.com/real-logic/Aeron) - Эффективный и надежный unicast и multicast транспорт сообщений.
 9. [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication.
 10. [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
 11. [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
