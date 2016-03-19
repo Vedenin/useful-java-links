@@ -126,48 +126,49 @@
 
 *Библиотеки, предоставляющие общие утилитарные функции.*
 
-1. [Apache Commons](http://commons.apache.org/) - Реализует различные функции, такие как конфигурирование, валидирование, коллекции, загрузка файлов или работу с XML,
-2. [args4j](http://args4j.kohsuke.org/) - Парсер командной строки,
-3. [CRaSH](http://www.crashub.org) - Реализует интерпретатор командной строки (CLI) для запущенныз процессов,
-4. [Gephi](https://github.com/gephi/gephi/) - Кросплатформенная система для визуализации, изменения и управления большими графами,
-5. [Guava](https://github.com/google/guava) - Система реализующая коллекции, кэширование, функции работы с примитивами, библиотеки работы с многопоточностью, аннотациями, строками, I/O, и т.п.,
-6. [JADE](http://jade.tilab.com/) - Фреймворк и экосистема для разработки и отладки multi-agent систем,
-7. [javatuples](http://www.javatuples.org/) - Кортежи (Tuples).
-8. [JCommander](http://jcommander.org/) - Парсер командной строки.
-9. [Protégé](http://protege.stanford.edu/) - Реализует редактов онтология и фреймворк для экспертных систем.
+1. [Apache Commons](http://commons.apache.org/) - Реализует различные функции, такие как конфигурирование, валидирование, коллекции, загрузка файлов или работу с XML, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+2. [args4j](http://args4j.kohsuke.org/) - Парсер командной строки, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
+3. [CRaSH](http://www.crashub.org) - Реализует интерпретатор командной строки (CLI) для запущенныз процессов, Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
+4. [Gephi](https://github.com/gephi/gephi/) - Кросплатформенная система для визуализации, изменения и управления большими графами, Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)
+5. [Guava](https://github.com/google/guava) - Система реализующая коллекции, кэширование, функции работы с примитивами, библиотеки работы с многопоточностью, аннотациями, строками, I/O, и т.п. Очень популярная библиотека от гугла, расширяющая возможности JDK, в том числе определяющая новые коллекции, добавляющая элементы функционального программирования в Java и т.п. Работает с JDK1.6 и выше. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3813.
+6. [JADE](http://jade.tilab.com/) - Фреймворк и экосистема для разработки и отладки multi-agent систем, Лицензия: [GNU Lesser 2.0](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
+7. [javatuples](http://www.javatuples.org/) - Кортежи (Tuples), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+8. [JCommander](http://jcommander.org/) - Парсер командной строки, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+9. [Protégé](http://protege.stanford.edu/) - Реализует редактов онтология и фреймворк для экспертных систем, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29)
+
 
 
 #### Date and Time
 
 * Библиотеки для обработки даты и времени.*
 
-1. [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - простые преобразования между различными календарными системами.
-2. [Joda-Time](http://www.joda.org/joda-time/) - Де факто стандартная библиотеки даты и времени до появления Java 8.
-3. [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Порт с JSR 310 (java.time package) от автора Joda-Time.
-4. [Time4J](https://github.com/MenoData/Time4J) - Продвинутая бибилоека работы с датой и временем.
+1. [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - простые преобразования между различными календарными системами, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+2. [Joda-Time](http://www.joda.org/joda-time/) - Де факто стандартная библиотеки даты и времени до появления Java 8, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+3. [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Порт с JSR 310 (java.time package) от автора Joda-Time, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)
+4. [Time4J](https://github.com/MenoData/Time4J) - Продвинутая бибилоека работы с датой и временем, Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
 
 #### Dependency Injection
 
 * Бибилиотеки и фреймворки, которые реализуют парадигму [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control).*
 
-1. [Apache DeltaSpike](https://deltaspike.apache.org/) - фреймворк, расширяющий CDI.
-2. [Dagger2](http://google.github.io/dagger/) - Dependency Injection фреймворк, работающий во время компиляции и не использующий рефлексию.
-3. [Guice](https://github.com/google/guice) - Легкий, но мощный фреймворк, из которого получился Dagger.
-4. [HK2](https://hk2.java.net) - Легкий и динамичный dependency injection фреймворк.
+1. [Apache DeltaSpike](https://deltaspike.apache.org/) - фреймворк, расширяющий CDI, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+2. [Dagger2](http://google.github.io/dagger/) - Dependency Injection фреймворк, работающий во время компиляции и не использующий рефлексию, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+3. [Guice](https://github.com/google/guice) - Легкий, но мощный фреймворк, из которого получился DaggerЛицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 1881.
+4. [HK2](https://hk2.java.net) - Легкий и динамичный dependency injection фреймворк, [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)/ [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)
 5.  [Spring framework](https://github.com/spring-projects/spring-framew ork) Spring — наверное, самый распространенный фреймворк Java в мире, которые в том числе реализует Dependency Injection. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5921.
 
 #### Development
 
 * Добавления дополнительных возможностей в процесс разработки на фундаментальном уровне*
 
-1. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 код генератор для algebraic data types.
-2. [AspectJ](https://eclipse.org/aspectj/) - Аспект-ориентированное расширение, легко встраиваемое в существующие приложения
-3. [Auto](https://github.com/google/auto) - Коллекция генераторов исходного кода.
-4. [DCEVM](http://dcevm.github.io/) - Модификация JVM, которая позволяет неограниченное переопределение загруженных классов во время выполнения.
-5. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Неограниченное переопределение классов и ресурсов во время выполнения.
-6. [Immutables](http://immutables.github.io/) - Добавлет Scala-подобные классы.
-7. [JHipster](https://github.com/jhipster/generator-jhipster) - генератор кода, которые позволяет создавить приложения основанные на Spring Boot и AngularJS.
-8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера.
+1. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 код генератор для algebraic data types, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)
+2. [AspectJ](https://eclipse.org/aspectj/) - Аспект-ориентированное расширение, легко встраиваемое в существующие приложения, Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)
+3. [Auto](https://github.com/google/auto) - Коллекция генераторов исходного кода, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+4. [DCEVM](http://dcevm.github.io/) - Модификация JVM, которая позволяет неограниченное переопределение загруженных классов во время выполнения, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+5. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Неограниченное переопределение классов и ресурсов во время выполнения, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+6. [Immutables](http://immutables.github.io/) - Добавлет Scala-подобные классы, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+7. [JHipster](https://github.com/jhipster/generator-jhipster) - генератор кода, которые позволяет создавить приложения основанные на Spring Boot и AngularJS, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
+8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, Лицензия: Проприетарная, планое ПО, <a><img src="https://github.com/Vedenin/useful-java-links/blob/master/link-rus/colortext.svg"/></a>
 9. [Lombok](https://projectlombok.org/) - Генератор кода, целью которого является сокращения реализации рутинного кода.
 10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов.
 11. [vert.x](http://vertx.io/) - Событийно-ориентированный полиглотный фреймворк.
@@ -634,7 +635,7 @@
 2.  [Dropwizard](https://github.com/dropwizard/dropwizard) фреймворк для создания RESTful сервисов c использованием Jetty, Jackson, Jersey и Metrics. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3427.
 3.  [Swagger](https://github.com/swagger-api/swagger-core) Примеры и сервер интеграция для генерации Swagger API спецификаий, которые позволяют создать легкий доступ к вашему REST API. http://swagger.io/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2657.
 4.  [Generator jhipster](https://github.com/jhipster/generator-jhipster) Хипстер стек для Java разработчиков: Yeoman + Maven + Spring + AngularJS в одном генераторе. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2352.
-5.  [Jersey](https://github.com/jersey/jersey) Зеркало Jersey 2.x. Jersey это REST фреймворк реализующий JAX-RS спецификацию. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.)1, рейтинг github'а - 864.
+5.  [Jersey](https://github.com/jersey/jersey) Зеркало Jersey 2.x. Jersey это REST фреймворк реализующий JAX-RS спецификацию. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.1), рейтинг github'а - 864.
 6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, маштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 825.
 7.  [Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 456.
 8. [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
