@@ -361,9 +361,9 @@
 1.  [Google Auto](https://github.com/google/auto) - коллекция генераторов исходного кода в Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1442.
 2.  [Square Javapoet](https://github.com/square/javapoet) - библиотека для генерации исходных кодов классов Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1057.
 3.  [Byte buddy](https://github.com/raphw/byte-buddy) - динамическая генерация кода в Java платформе. http://bytebuddy.net/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 473.
-4.  [ASM](http://asm.ow2.org/) - All purpose, low level, bytecode manipulation and analysis.
-5.  [Byteman](http://byteman.jboss.org/) - Manipulate bytecode at runtime via DSL (rules) mainly for testing/troubleshooting.
-6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Tries to simplify the editing of bytecode.
+4.  [ASM](http://asm.ow2.org/) - Универсальная, низкоуровневая библиотека для изменения байткода и анализа.
+5.  [Byteman](http://byteman.jboss.org/) - Изменение байткода во время выполнения используя DSL правила в основном для целей тестирования и отладки.
+6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Попытка упростить редактирование байткода.
 
 ### 15. Распределенные приложения
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
