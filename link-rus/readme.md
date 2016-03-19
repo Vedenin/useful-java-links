@@ -430,14 +430,14 @@
 ### 2. Структуры данных
 *Efficient and specific data structures.*
 
-1. [Apache Avro](https://avro.apache.org/) - Data interchange format featuring among others: dynamic typing, untagged data, absence of manually assigned IDs.
-2. [Apache Orc](https://orc.apache.org/) - Fast and efficient columnar storage format for hadoop based workloads.
-3. [Apache Parquet](http://parquet.apache.org/) - Columnar storage format based on assembly algorithms from the Dremel paper by Google.
-4. [Apache Thrift](https://thrift.apache.org/) - Data interchange format that originated at Facebook.
-5. [Persistent Collection](http://pcollections.org/) - Persistent and immutable analogue of the Java Collections Framework.
-6. [Protobuf](https://github.com/google/protobuf) - Google's data interchange format.
-7. [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, one of the fastest message formats around.
-8. [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers.
+1. [Apache Avro](https://avro.apache.org/) - Формат обмена данными с такими возможностями как: динамическая типизация, отсутствия необходимости устанавливать ID вручную, untagged data.
+2. [Apache Orc](https://orc.apache.org/) - Быстрый и эффективный столбчатый (сolumnar) формат хранения данных для работы в основанных на hadoop системах.
+3. [Apache Parquet](http://parquet.apache.org/) - столбчатый (сolumnar) формат хранения данных основанный на использовании алгоритмов из "Dremel paper" от Google.
+4. [Apache Thrift](https://thrift.apache.org/) - Формат обмена данными, созданный в Facebook.
+5. [Persistent Collection](http://pcollections.org/) - Persistent и неизменямый аналог Java Collections Framework.
+6. [Protobuf](https://github.com/google/protobuf) - Формат обмена данными, предложенный Google.
+7. [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, один из самых быстрых форматов обмена сообщениями.
+8. [Wire](https://github.com/square/wire) - Чистый, легковесный protocol buffers.
 
 
 ### 3. Поисковые системы
@@ -553,10 +553,10 @@
 #### Constraint Satisfaction Problem Solver
 *Библиотеки, которые помогают в такой задачи искусственного интеллекта (ИИ) как удовлетворения ограничений (УО) (constraint satisfaction problem).*
 
-1. [Choco](http://choco-solver.org/) - Off-the-shelf constraint satisfaction problem solver, which uses constraint programming techniques.
-2. [JaCoP](https://github.com/radsz/jacop/) - Includes an interface for the FlatZinc language, enabling it to execute MiniZinc models.
-3. [OptaPlanner](http://www.optaplanner.org/) - Business planning and resource scheduling optimization solver.
-4. [Sat4J](http://www.sat4j.org/) - State-of-the-art SAT solver for boolean and optimization problems.
+1. [Choco](http://choco-solver.org/) - Полностью готовая "с полки" система по решению задачи удовлетворения ограничений (УО) (constraint satisfaction problem), используя constraint programming технологии.
+2. [JaCoP](https://github.com/radsz/jacop/) - Включает в себя интерфейс для языка FlatZinc, что позволяет ему выполнять модели MiniZinc.
+3. [OptaPlanner](http://www.optaplanner.org/) - Решает задачи бизнес планирования и оптимизации ресурсов.
+4. [Sat4J](http://www.sat4j.org/) - Наиболее продвинутый SAT решатель для логических (? boolean) и оптимизационых проблем.
 
 ### 9. Работа с естественными языками (NLP)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
