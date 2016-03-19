@@ -417,15 +417,15 @@
 23.  [Tinkerpop Rexster](https://github.com/tinkerpop/rexster) это сервер графических баз данных, который может передать любые данные графов через REST и бинарный протокол, называемый RexPro. . Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 402.
 24.  [Tomcat redis session manager](https://github.com/jcoleman/tomcat-redis-session-manager) Основанное на Redis простое хранилище сессий для Apache Tomcat. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 396.
 25.  [Embulk](https://github.com/embulk/embulk) это открытый пакетный (bulk) загрузчик данных, который помогает трансформировать данные между разными базами данных, хранилищ, файловых форматов и облачных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
-26.  [H2](http://h2database.com/) - Small SQL Database notable for its in-memory functionality.
+26.  [H2](http://h2database.com/) - Небольшая база данных SQL отличается работой в in-memory.
 
-*Databases in a distributed system that appear to applications as a single data source.*
+*Распределенные базы данных.*
 
-1. [Apache Cassandra](http://cassandra.apache.org) - Column-oriented and providing high availability with no single point of failure.
-2. [Apache HBase](http://hbase.apache.org) - Hadoop database for big data.
-3. [Druid](http://druid.io) - Real-time and historical OLAP data store that excel at aggregation and approximation queries.
-4. [Infinispan](http://infinispan.org/) - Highly concurrent key/value datastore used for caching.
-5. [OpenTSDB](http://opentsdb.net) - Scalable and distributed time series database written on top of Apache HBase.
+1. [Apache Cassandra](https://github.com/apache/cassandra) - зеркало для Apache Cassandra — база данных с высокой доступностью и высокой расширямостью и отличной производительностью . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2155.
+2. [Apache HBase](http://hbase.apache.org) - Hadoop хранилище для больших данных.
+3. [Druid](http://druid.io) - это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 1846.
+4. [Infinispan](http://infinispan.org/) - Высокопроизводительное key/value хранилише, используемое для кэширования.
+5. [OpenTSDB](http://opentsdb.net) - это распределенная и масштабируемая база данных, работающих с временными рядами (Time Series Database TSDB) работающая поверх Hbase. Лицензия: GNU 3, рейтинг github'а - 1336.
 
 ### 2. Структуры данных
 *Efficient and specific data structures.*
@@ -474,8 +474,8 @@
 19.  [Datastax Java driver](https://github.com/datastax/java-driver) Java клиент для Apache Cassandra и DataStax. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 480.
 20.  [Memcached Java Client](https://github.com/gwhalin/Memcached-Java-Client) java клиент для memcached. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг github'а - 436.
 21.  [Spring data mongodb](https://github.com/spring-projects/spring-data-mongodb) Java клиент к MongoDB для фреймворка Spring . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
-22.  [Apache Phoenix](http://phoenix.apache.org/) - High performance relational database layer over HBase for low latency applications.
-23.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
+22.  [Apache Phoenix](http://phoenix.apache.org/) - Высокопроизводительный слой для реляционных баз данных поверх HBase для систем с минимальным откликом.
+23.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Добавляет метрики и отказоустойчивые стратегии для наиболее популярных пулов соединией с базами данных.
 
 ### 5. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -489,10 +489,10 @@
 7.  [Spring data jpa](https://github.com/spring-projects/spring-data-jpa) Spring Data Jpa - обертка Spring фреймворка над JPa провайдерами . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 459.
 8.  [Jdbi](https://github.com/jdbi/jdbi) jDBI предлагает удобный интерфейс над SQL операциями в Java. http://jdbi.org/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 458.
 9.  [ActiveJDBC](https://github.com/javalite/activejdbc)ActiveJDBC это Java реализация Active Record шаблона проектирования. Вдохновлен ActiveRecord ORM в Ruby on Rails.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 230.
-10. [Vibur DBCP](http://www.vibur.org/) - JDBC connection pool library which offers advanced performance monitoring capabilities.
-11. [Ebean](http://ebean-orm.github.io/) - Provides simple and fast data access.
-12. [EclipseLink](https://www.eclipse.org/eclipselink/) - Supports a number of persistence standards: JPA, JAXB, JCA and SDO.
-13. [OrmLite](http://ormlite.com/) - Lightweight package avoiding the complexity and overhead of other ORM products.
+10. [Vibur DBCP](http://www.vibur.org/) - Библиотека реализующая JDBC пул соединений с дополнительными средствами мониторинга производительности.
+11. [Ebean](http://ebean-orm.github.io/) - Предоставляет простой и быстрой доступ к данным.
+12. [EclipseLink](https://www.eclipse.org/eclipselink/) - Поддерживает большое количество стандартов ORM: JPA, JAXB, JCA и SDO.
+13. [OrmLite](http://ormlite.com/) - Легковесный пакет избегающий усложнений и перерасхода ресурсов других ORM решений.
 
 ### 6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.) 
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -547,8 +547,8 @@
 11. [Apache Spark](http://spark.apache.org/) - Data analytics cluster computing framework.
 12. [DeepDive](http://deepdive.stanford.edu) - Creates structured information from unstructured data and integrates it into an existing database.
 13. [H2o](https://github.com/h2oai/h2o-2) = добавляет математические операции в Hadoop, h2o позволяет быстро вычислять статистику, машинное обучение и математические операции для bigdata.http://h2o.ai/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1725.
-14. [JSAT](https://github.com/EdwardRaff/JSAT) - Algorithms for pre-processing, classification, regression, and clustering with support for multi-threaded execution.
-15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Collection of algorithms for data mining tasks ranging from pre-processing to visualization.
+14. [JSAT](https://github.com/EdwardRaff/JSAT) - Алгоритмы для пре-процессинга, классификация, регрессия, и кластеризация поддерживающие многопоточное выыполнение.
+15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Коллекция алгоритмов для data mining задач от пре-процессинга до визуализации.
 
 #### Constraint Satisfaction Problem Solver
 *Библиотеки, которые помогают в такой задачи искусственного интеллекта (ИИ) как удовлетворения ограничений (УО) (constraint satisfaction problem).*
