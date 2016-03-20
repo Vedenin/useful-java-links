@@ -547,16 +547,16 @@
 11. [Apache Spark](http://spark.apache.org/) - Data analytics cluster computing framework.
 12. [DeepDive](http://deepdive.stanford.edu) - Creates structured information from unstructured data and integrates it into an existing database.
 13. [H2o](https://github.com/h2oai/h2o-2) = добавляет математические операции в Hadoop, h2o позволяет быстро вычислять статистику, машинное обучение и математические операции для bigdata.http://h2o.ai/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1725.
-14. [JSAT](https://github.com/EdwardRaff/JSAT) - Алгоритмы для пре-процессинга, классификация, регрессия, и кластеризация поддерживающие многопоточное выыполнение.
-15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Коллекция алгоритмов для data mining задач от пре-процессинга до визуализации.
+14. [JSAT](https://github.com/EdwardRaff/JSAT) - Алгоритмы для пре-процессинга, классификация, регрессия, и кластеризация поддерживающие многопоточное выыполнение, Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Коллекция алгоритмов для data mining задач от пре-процессинга до визуализации, Лицензия: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 
 #### Constraint Satisfaction Problem Solver
 *Библиотеки, которые помогают в такой задачи искусственного интеллекта (ИИ) как удовлетворения ограничений (УО) (constraint satisfaction problem).*
 
-1. [Choco](http://choco-solver.org/) - Полностью готовая "с полки" система по решению задачи удовлетворения ограничений (УО) (constraint satisfaction problem), используя constraint programming технологии.
-2. [JaCoP](https://github.com/radsz/jacop/) - Включает в себя интерфейс для языка FlatZinc, что позволяет ему выполнять модели MiniZinc.
-3. [OptaPlanner](http://www.optaplanner.org/) - Решает задачи бизнес планирования и оптимизации ресурсов.
-4. [Sat4J](http://www.sat4j.org/) - Наиболее продвинутый SAT решатель для логических (? boolean) и оптимизационых проблем.
+1. [Choco](http://choco-solver.org/) - Полностью готовая "с полки" система по решению задачи удовлетворения ограничений (УО) (constraint satisfaction problem), используя constraint programming технологии, Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29).
+2. [JaCoP](https://github.com/radsz/jacop/) - Включает в себя интерфейс для языка FlatZinc, что позволяет ему выполнять модели MiniZinc, **Лицензия: неизвестна**
+3. [OptaPlanner](http://www.optaplanner.org/) - Решает задачи бизнес планирования и оптимизации ресурсов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+4. [Sat4J](http://www.sat4j.org/) - Наиболее продвинутый SAT решатель для логических (? boolean) и оптимизационых проблем, Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html).
 
 ### 9. Работа с естественными языками (NLP)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -575,8 +575,8 @@
 3.  [Apache Tomcat](https://github.com/apache/tomcat) - зеркало Apache Tomcat — открытый web сервер с поддержкой сервлетов, jsp и некоторых аспектов J2EE. Проверенный и всесторонний сервер для сервлет и jsp. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 531.
 4.  [Nginx clojure](https://github.com/nginx-clojure/nginx-clojure) - Nginx модуль с использованием Clojure или Java или Groovy программ. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , рейтинг github'а - 514.
 5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Http сервер и контейнер сервлетов. Легкий, маленький сервер, часто встраиваемый (embedded) в приложения. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).0, рейтинг github'а - 512.
-6. [Apache TomEE](http://tomee.apache.org/) - Apache Tomcat сервер к которому добавили поддержку Java EE.
-7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Легковесный, модульный сервер, разработанный IBM.
+6. [Apache TomEE](http://tomee.apache.org/) - Apache Tomcat сервер к которому добавили поддержку Java EE, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Легковесный, модульный сервер, разработанный IBM, Лицензия: платная, проприетарная
 
 
 ### 2. Сеть и сокеты 
@@ -588,11 +588,11 @@
 4.  [Socket.io java client](https://github.com/Gottox/socket.io-java-client) Реализация Socket.IO клиента на Java. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 688.
 5.  [Socket.io client.java](https://github.com/nkzawa/socket.io-client.java) Полнофункциональная Socket.IO клиентская библиотека для Java, совместимая с Socket.IO v1.0 и выше.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 603.
 6.  [EsotericSoftware Kryonet](https://github.com/EsotericSoftware/kryonet) TCP/UDP клиентская и серверная библиотека для Java, основанная на Kryo. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 539.
-7. [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Ассинхронная HTTP и вебсокет клиентская библиотека.
-8. [Comsat](https://github.com/puniverse/comsat) - Интегрирует стандартный Java веб API c Quasar fibers и actors.
-9. [Grizzly](https://grizzly.java.net/) - NIO фреймворк. Использует как сетевой слой в Glassfish.
-10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY клиент.
-11. [Undertow](http://undertow.io/) - Вебсервер, предоставляющий блокирующий и неблокирующий API, основанный на NIO. Испольхуется как сетевой слой в WildFly.
+7. [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Ассинхронная HTTP и вебсокет клиентская библиотека, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+8. [Comsat](https://github.com/puniverse/comsat) - Интегрирует стандартный Java веб API c Quasar fibers и actors, Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html).
+9. [Grizzly](https://grizzly.java.net/) - NIO фреймворк. Использует как сетевой слой в Glassfish, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) и [CDDL 1.1](https://ru.wikipedia.org/wiki/CDDL).
+10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY клиент, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+11. [Undertow](http://undertow.io/) - Вебсервер, предоставляющий блокирующий и неблокирующий API, основанный на NIO. Используется как сетевой слой в WildFly, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -604,13 +604,13 @@
 5.  [Metamorphosis](https://github.com/killme2008/Metamorphosis) Высокопроизводительная распределенная система обмена сообщениями . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 580.
 6.  [Igniterealtime Openfire](https://github.com/igniterealtime/Openfire) Openfire это RTC (real time collaboration) сервер использующий широко распространенные протоколы обмена сообщениями, такие как XMPP (так же называемый Jabber). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 470.
 7.  [Zeromq Jzmq](https://github.com/zeromq/jzmq) JZMQ это клиент для интеграции Java приложения с libzmq (например ZeroMQ, 0MQ). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 415.
-8. [Aeron](https://github.com/real-logic/Aeron) - Эффективный и надежный unicast и multicast транспорт сообщений.
-9. [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication.
-10. [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
-11. [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
-12. [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
-13. [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
-14. [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
+8. [Aeron](https://github.com/real-logic/Aeron) - Эффективный и надежный unicast и multicast транспорт сообщений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+9. [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+10. [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+11. [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+12. [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+13. [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+14. [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 4. Работа с http и ssh 
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -637,11 +637,11 @@
 5.  [Jersey](https://github.com/jersey/jersey) Зеркало Jersey 2.x. Jersey это REST фреймворк реализующий JAX-RS спецификацию. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.1), рейтинг github'а - 864.
 6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, маштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 825.
 7.  [Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 456.
-8. [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
-9. [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
-10. [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance.
-11. [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
-12. [Spark](http://sparkjava.com/) - Sinatra inspired framework.
+8. [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+9. [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+10. [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+11. [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+12. [Spark](http://sparkjava.com/) - Sinatra inspired framework, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 6. Интеграционные фреймворки
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -658,8 +658,8 @@
 4.  [Antlr4](https://github.com/antlr/antlr4) ANTLR (ANother Tool для Language Recognition мощный генератор парсеров для чтения, обработки, использование или конвертирования структурированного текста или бинарных файлов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 836.
 5.  [Parboiled](https://github.com/sirthias/parboiled) Элегантный, легкий, простой в использовании и мощный парсер, написанный на Java и Scala. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 775.
 6.  [Pegdown](https://github.com/sirthias/pegdown) Обработчик языка разметки Markdown, основанный на PEG парсере, поддерживающим большое количество расширений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 692.
-7.  [Apache Nutch](http://nutch.apache.org/) - Хорошо расширяемый, хорошо маштабированный вебпаук с рабочей экосистемой.
-8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Простой и легковесный вебпаук.
+7.  [Apache Nutch](http://nutch.apache.org/) - Хорошо расширяемый, хорошо маштабированный вебпаук с рабочей экосистемой, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Простой и легковесный вебпаук, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 8. Работа с Json 
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -673,18 +673,18 @@
 7.  [FasterXML Jackson databind](https://github.com/FasterXML/jackson-databind) Основной data-binding пакет для Jackson (2.x) основанный на потоковом API Jackson Сore . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 640.
 8.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath — реализация аналога XPATH только для Json, а не XML. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 448.
 9.  [Json schema validator](https://github.com/fge/json-schema-validator) Валидация JSON Schema, реализована на чистой Java, создана с целью проверки Json файлов, используя Json схемы. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 411.
-10. [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java to JSON conversion library.
-11. [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
-12. [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
-13. [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
+10. [Genson](http://owlike.github.io/genson/) -Мощная и простая в использовании Java библиотека для преобразования в/из JSON, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+11. [Gson](https://github.com/google/gson) - Простая сериализации объектов в JSON и обратно. Хорошая производительность и легкость в использовании, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+12. [Jackson](http://wiki.fasterxml.com/JacksonHome) - Похоже на GSON, но более производительна, если вам нужно часто создавать экземпляр библиотеки, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+13. [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - Библиотека парсинга и сериализации JSON, основанная на  Jackson's streaming API. Превосходит по некоторым возможностям GSON и Jackson библиотеки, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 9. CSV
 *Frameworks and libraries that simplify reading/writing CSV data.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
-2. [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
-3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
+1. [opencsv](http://opencsv.sourceforge.net) - Простой CSV парсер, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). 
+2. [Super CSV](http://super-csv.github.io/super-csv/) - Мощный CSV парсер, поддерживающий Dozer, Joda-Time и Java 8, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - Один из самых быстрых и многофункционных CSV парсеров. Так же в библиотеке есть парсеры для TSV и файлом с записями фиксированной ширины, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 10. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -721,8 +721,8 @@
 *Фреймворки для динамического управления приложением внутри класстера.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora это Mesos фреймворк для длительных сервисов и cron jobs, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-2. [Singularity](http://getsingularity.com/) - Singularity это Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач.
+1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora это Apache Mesos фреймворк для длительных сервисов и cron jobs, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [Singularity](http://getsingularity.com/) - Singularity это Apache Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач, Лицензия: **неизвесна, на сайте не найдена!**. 
 
 ### 14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-document-processing-xls-doc-and-pdf)
 *Libraries that assist with processing office document formats.*
