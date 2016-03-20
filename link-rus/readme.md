@@ -718,18 +718,18 @@
 8.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг github'а - 395.
 
 ## 13. Cluster Management
-*Frameworks which can dynamically manage applications inside of a cluster.*
+*Фреймворки для динамического управления приложением внутри класстера.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-2. [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
+1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora это Mesos фреймворк для длительных сервисов и cron jobs, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [Singularity](http://getsingularity.com/) - Singularity это Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач.
 
 ### 14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-document-processing-xls-doc-and-pdf)
 *Libraries that assist with processing office document formats.*
 
-1. [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-2. [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
-3. [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
+1. [Apache POI](http://poi.apache.org/) - Поддерживает OOXML (XLSX, DOCX, PPTX) так же как и OLE2 (XLS, DOC or PPT), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [documents4j](http://documents4j.com) - API для конверторов в разные форматы документов, используя  third-party конверторы такие как MS Word, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [jOpenDocument](http://www.jopendocument.org/) - Работа с OpenDocument формата, Лицензия: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License) или платная лицензия для коммерческого использования.
 
 #### PDF
 *Everything that helps with the creation of PDF files.*
