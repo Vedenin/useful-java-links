@@ -171,7 +171,8 @@
 8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, *Лицензия: Проприетарная, платное ПО,*
 9. [Lombok](https://projectlombok.org/) - Генератор кода, целью которого является сокращения реализации рутинного кода, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
 10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
-11. [vert.x](http://vertx.io/) - Событийно-ориентированный полиглотный фреймворк.
+11. [vert.x](http://vertx.io/) - Событийно-ориентированный полиглотный фреймворк, Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) and [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+
 
 #### Functional Programming
 
@@ -188,9 +189,9 @@
 
 *Библиотеки для разработки reactive приложений.*
 
-1. [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Реализует стандарт для ассинхронных потоковой обработки с неблокирующим "Backpressure".
-2. [Reactor](http://projectreactor.io/) - Библиотеки для разработки reactive fast-data приложений.
-3. [RxJava](https://github.com/ReactiveX/RxJava) - Библиотеки для создания асинхронных и событинно-ориентированных приложений использую observable sequences в JVM.
+1. [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Реализует стандарт для ассинхронных потоковой обработки с неблокирующим "Backpressure", Лицензия: [Public Domain (CC0)](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D0%B8_%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_Creative_Commons#CC0)
+2. [Reactor](http://projectreactor.io/) - Библиотеки для разработки reactive fast-data приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [RxJava](https://github.com/ReactiveX/RxJava) - Библиотеки для создания асинхронных и событинно-ориентированных приложений использую observable sequences в JVM, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 3. Добавление новых возможностей в язык Java и JVM
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -230,29 +231,29 @@
 17.  [Netflix Zuul](https://github.com/Netflix/zuul) это сервис (edge service), обрабатывающий все запросы от всех устройств и вебсайтов к backend всех Netflix потоковых приложений, он обеспечивает динамическую маршрутизацию, мониторинг, отказоустойчивость и безопасность.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 407.
 18.  [Vaadin](https://github.com/vaadin/vaadin) — фреймворк для разработки веб-приложений, основанный на GWT, с server-side моделью программирования и состоянием UI на сервере.https://vaadin.com/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 398.
 19.  [ZK framework](https://github.com/zkoss/zk)  Java фреймворк для создания высокопроизводительных веб и мобильных приложений.. Лицензия: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 161.
-20. [Apache Tapestry](http://tapestry.apache.org/) - Компонентно-ориентированный фреймворк для создания динамичных, надежных, легко маштабируемый веб приложений.
-21. [Apache Wicket](http://wicket.apache.org/) - Компонентно-ориентированный вебфреймворк, похожий на Tapestry с stateful GUI.
-22. [Google Web Toolkit](http://www.gwtproject.org/) - Набор инструментов разработки, включающий  компилятор из Java кода в JavaScript для создания кода, исполняемого в браузере, XML парсер, API для RPC, интеграция с JUnit, поддержка разных языков и локалей и виджеты для создания GUI.
-23. [Pippo](http://www.pippo.ro/) - Небольшой, модульный Sinatra-подобный фреймворк.
-24. [PrimeFaces](http://primefaces.org/) - JSF фреймворк который имеет как свободную, так и комерческую версию с полноценной поддержкой. Предоставляет несколько frontend компонентов.
-25. [Spring Boot](http://projects.spring.io/spring-boot/) - Микрофреймворк для упрощения разработки новых Spring приложений.
-26. [Spring MVC](http://projects.spring.io/spring-framework/) - Предоставляет много различных возможностей для разработки вебприложений от dependency injection до аспектно-ориентированного программирования и поддержки security.
+20. [Apache Tapestry](http://tapestry.apache.org/) - Компонентно-ориентированный фреймворк для создания динамичных, надежных, легко маштабируемый веб приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+21. [Apache Wicket](http://wicket.apache.org/) - Компонентно-ориентированный вебфреймворк, похожий на Tapestry с stateful GUI, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+22. [Google Web Toolkit](http://www.gwtproject.org/) - Набор инструментов разработки, включающий  компилятор из Java кода в JavaScript для создания кода, исполняемого в браузере, XML парсер, API для RPC, интеграция с JUnit, поддержка разных языков и локалей и виджеты для создания GUI, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+23. [Pippo](http://www.pippo.ro/) - Небольшой, модульный Sinatra-подобный микрофреймворк, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+24. [PrimeFaces](http://primefaces.org/) - JSF фреймворк который имеет как свободную, так и комерческую версию с полноценной поддержкой. Предоставляет несколько frontend компонентов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+25. [Spring Boot](http://projects.spring.io/spring-boot/) - Микрофреймворк для упрощения разработки новых Spring приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+26. [Spring MVC](http://projects.spring.io/spring-framework/) - Предоставляет много различных возможностей для разработки вебприложений от dependency injection до аспектно-ориентированного программирования и поддержки security, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 #### Template Engine
 
 *Инструменты для замены выражений в шаблонах на реальные данные.*
 
-1. [Apache Velocity](http://velocity.apache.org/) - Работает с шаблонами для генерации HTML страниц, emails или даже кодогенерация в целом.
-2. [FreeMarker](http://freemarker.incubator.apache.org/) - Библиотека поддережки универсальный шаблонов без тяжелых или запутанных зависимостей на другие библиотеки.
-3. [Handlebars.java](http://jknack.github.io/handlebars.java/) - Семантически подобен шаблонам Mustache, но с меньшим количеством бизнес логии в шаблонах.
-4. [Thymeleaf](http://www.thymeleaf.org/) - Цель заменять JSP и работать с XML файлами в целом.
+1. [Apache Velocity](http://velocity.apache.org/) - Работает с шаблонами для генерации HTML страниц, emails или даже кодогенерация в целом, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [Apache FreeMarker](http://freemarker.incubator.apache.org/) - Библиотека поддережки универсальный шаблонов без тяжелых или запутанных зависимостей на другие библиотеки, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [Handlebars.java](http://jknack.github.io/handlebars.java/) - Семантически подобен шаблонам Mustache, но с меньшим количеством бизнес логии в шаблонах, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+4. [Thymeleaf](http://www.thymeleaf.org/) - Цель заменять JSP и работать с XML файлами в целом, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 5. Создания GUI
 *Библиотеки для создания современного графического интерфейса.*
 
-1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Правопреемник Swing.
-2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Визуальный инструмент разработки GUI для приложений JavaFX. 
-3. [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) это набор бибилиотек и инструментария для создания графических виджетов в платформе Java.
+1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Правопреемник Swing, Лицензия: [Oracle, проприетарная](http://www.oracle.com/technetwork/java/javase/terms/license/index.html).
+2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Визуальный инструмент разработки GUI для приложений JavaFX Лицензия: [Oracle, проприетарная](http://www.oracle.com/technetwork/java/javase/terms/license/index.html).
+3. [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) это набор бибилиотек и инструментария для создания графических виджетов в платформе Java, Лицензия: [Oracle, проприетарная](http://www.oracle.com/technetwork/java/javase/terms/license/index.html)
 
 ### 6. Игровые фреймворки (Game Development)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
