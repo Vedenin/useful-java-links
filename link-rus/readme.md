@@ -273,28 +273,26 @@
 3.  [Jasig CAS (Central Authentication Service)](https://github.com/Jasig/cas) - обеспечивает стандартный механизм аутентификация пользователей для веб приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 740.
 4.  [Spring security](https://github.com/spring-projects/spring-security) — Spring фреймворк для авторизации и управлению пользователями и безопасностью приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 732.
 5.  [Play Authenticate](https://github.com/joscha/play-authenticate) - аутентификацонный плагин для Play фреймворка. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 646.
-6. [Apache Shiro](http://shiro.apache.org/) - Обеспечивает аутентификацию, авторизацию, шифрование и управление сеансами.
-7. [Bouncy Castle](https://www.bouncycastle.org/java.html) - Универсальная криптографическая библиотека, содержит JCA провайдер, широкий спектр функций по работе с PGP/SMIME.
-8. [Cryptomator](https://cryptomator.org/) - Мультиплатформенное клиент-ориентирование шифрование файлов в облаке.
-9. [Google Keyczar](https://github.com/google/keyczar) - Легкий в использовании, но безопасный фреймворк шифрования с управлением версиями.
-10. [Keycloak](http://keycloak.jboss.org/) - Интеграция с SSO и IDM, как для приложений, работающих в браузере, так и для RESTful веб сервисов.
-11. [PicketLink](http://picketlink.org/) - Umbrella проект для обеспечения безопасности и индетификации пользователей .
+6. [Apache Shiro](http://shiro.apache.org/) - Обеспечивает аутентификацию, авторизацию, шифрование и управление сеансами, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+7. [Bouncy Castle](https://www.bouncycastle.org/java.html) - Универсальная криптографическая библиотека, содержит JCA провайдер, широкий спектр функций по работе с PGP/SMIME, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+8. [Cryptomator](https://cryptomator.org/) - Мультиплатформенное клиент-ориентирование шифрование файлов в облаке, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+9. [Google Keyczar](https://github.com/google/keyczar) - Легкий в использовании, но безопасный фреймворк шифрования с управлением версиями, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+10. [Keycloak](http://keycloak.jboss.org/) - Интеграция с SSO и IDM, как для приложений, работающих в браузере, так и для RESTful веб сервисов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+11. [PicketLink](http://picketlink.org/) - Umbrella проект для обеспечения безопасности и индетификации пользователей, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 8. Высокая производительность
 *Все для высокопроизводительных решенией от коллекций до специальных библиотек.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Agrona](https://github.com/real-logic/Agrona) - Структуры данных и функции, которые будут полезны для высоконагруженных приложений.
-2. [Disruptor](http://lmax-exchange.github.io/disruptor/) - библиотека, обеспечивающая межпоточный обмен сообщениями.
-3. [fastutil](http://fastutil.di.unimi.it/) - Быстрые и компактные типобезопасные коллекции.
-4. [GS Collections](https://github.com/goldmansachs/gs-collections) - Фреймворк коллекций основанный на идеях из Smalltalk.
-5. [HPPC](http://labs.carrotsearch.com/hppc.html) - Фреймворк по работе с примитивными коллекциями.
-6. [Javolution](http://javolution.org/) - Библиотека для систем реального времени и встроенных систем.
-7. [JCTools](https://github.com/JCTools/JCTools) - Набор функций по работе с многопоточности, которые на данный момент отсутствуют в JDK.
-8. [Koloboke](https://github.com/OpenHFT/Koloboke) - Фреймворк по работе с быстрыми Hash sets и hash maps.
-9. [Trove](http://trove.starlight-systems.com/) - Библиотека работы с примитивными коллекциями.
-
-
+1. [Agrona](https://github.com/real-logic/Agrona) - Структуры данных и функции, которые будут полезны для высоконагруженных приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [Disruptor](http://lmax-exchange.github.io/disruptor/) - библиотека, обеспечивающая межпоточный обмен сообщениями, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [fastutil](http://fastutil.di.unimi.it/) - Быстрые и компактные типобезопасные коллекции, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+4. [GS Collections](https://github.com/goldmansachs/gs-collections) - Фреймворк коллекций основанный на идеях из Smalltalk, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+5. [HPPC](http://labs.carrotsearch.com/hppc.html) - Фреймворк по работе с примитивными коллекциями, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+6. [Javolution](http://javolution.org/) - Библиотека для систем реального времени и встроенных систем, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29).
+7. [JCTools](https://github.com/JCTools/JCTools) - Набор функций по работе с многопоточности, которые на данный момент отсутствуют в JDK, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+8. [Koloboke](https://github.com/OpenHFT/Koloboke) - Фреймворк по работе с быстрыми Hash sets и hash maps, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+9. [Trove](http://trove.starlight-systems.com/) - Библиотека работы с примитивными коллекциями, Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).
 
 ### 9. Создание бизнес приложений
 *Фреймворки и библиотеки для создания бизнес приложений на Java*
