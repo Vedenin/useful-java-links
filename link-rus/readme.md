@@ -721,13 +721,13 @@
 *Frameworks which can dynamically manage applications inside of a cluster.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
+1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 2. [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
 
 ### 14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-document-processing-xls-doc-and-pdf)
 *Libraries that assist with processing office document formats.*
 
-1. [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
+1. [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 2. [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
 3. [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
 
@@ -735,20 +735,20 @@
 *Everything that helps with the creation of PDF files.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO.
-2. [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF.
-3. [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
-4. [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
-5. [iText](http://itextpdf.com/) - Creates PDF files programmatically but requires a license for commercial purposes.
-6. [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
+1. [Apache FOP](http://xmlgraphics.apache.org/fop/) - Создание PDF из XSL-FO, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [Apache PDFBox](http://pdfbox.apache.org/) - Набор инструментов для создания и изменения PDF, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [DynamicReports](http://dynamicreports.org/) - Улучшение JasperReports, Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).
+4. [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML и CSS 2.1 renderer, Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).
+5. [iText](http://itextpdf.com/) - Создание PDF файлов из программы, но требует лицензию для комерчиского использования, Лицензия: [AGPL](https://en.wikipedia.org/wiki/Affero_General_Public_License) или платная лицензия для комерческого использования.
+6. [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Комплексный движок отчетов, Лицензия: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).
 
 
 ### 15. Работа с нативным API разных ОС](#15-native)
 *For working with platform-specific native libraries.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
-2. [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
+1. [JNA](https://github.com/java-native-access/jna) - Работа с нативными библиотеками без использвания JNI. Так же предоставляет интерфейсы к основным системых библиотекамs, Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [JNR](https://github.com/jnr/jnr-ffi) -  Работа с нативными библиотеками без использвания JNI. Так же предоставляет интерфейсы к основным системых библиотекамs. Те же задачи что у JNA, но работает быстрее, и служит основой для разрабатываемого [Project Panama](http://openjdk.java.net/projects/panama/), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). 
 
 ## IV. Тестирование
 ### 1. Тестирование
