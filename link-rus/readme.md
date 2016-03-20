@@ -169,20 +169,20 @@
 6. [Immutables](http://immutables.github.io/) - Добавлет Scala-подобные классы, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
 7. [JHipster](https://github.com/jhipster/generator-jhipster) - генератор кода, которые позволяет создавить приложения основанные на Spring Boot и AngularJS, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
 8. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, *Лицензия: Проприетарная, платное ПО,*
-9. [Lombok](https://projectlombok.org/) - Генератор кода, целью которого является сокращения реализации рутинного кода.
-10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов.
+9. [Lombok](https://projectlombok.org/) - Генератор кода, целью которого является сокращения реализации рутинного кода, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
+10. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)
 11. [vert.x](http://vertx.io/) - Событийно-ориентированный полиглотный фреймворк.
 
 #### Functional Programming
 
 * Библиотеки, реализующие функциональное программирование.*
 
-1. [Cyclops](https://github.com/aol/cyclops) - Добавляет монады, потоковые утилиты и такие возможности функционального программирования как: comprehensions, pattern matching, trampolines и многое другое.
-2. [derive4j](https://github.com/derive4j/derive4j) - Процессор, работающий с Java 8 аннотациями, и фреймворк для реализации: deriving algebraic data types constructors, pattern-matching, morphisms и т.п.
-3. [Fugue](https://bitbucket.org/atlassian/fugue) - Функциональное расширение библиотеки Guava.
-4. [Functional Java](http://www.functionaljava.org) - Реализует большое количество простых и сложных видов абстракций для  composition-oriented программирования.
-5. [Javaslang](http://javaslang.com) - Библиотека для реализации функцуонального программирования которая реализаует persistent типы данных и functional control структоры.
-6. [jOOλ](https://github.com/jOOQ/jOOL) - Расширение для Java 8, которое стремиться исправить недоработки стандартной реализации лямбда в Java 8, реализующе большое количество нереализованных возможностей функционального программирования и предоставляет богатый набор возможностей к стандартному Stream API.
+1. [Cyclops](https://github.com/aol/cyclops) - Добавляет монады, потоковые утилиты и такие возможности функционального программирования как: comprehensions, pattern matching, trampolines и многое другое, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)
+2. [derive4j](https://github.com/derive4j/derive4j) - Процессор, работающий с Java 8 аннотациями, и фреймворк для реализации: deriving algebraic data types constructors, pattern-matching, morphisms и т.п, Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+3. [Fugue](https://bitbucket.org/atlassian/fugue) - Функциональное расширение библиотеки Guava, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+4. [Functional Java](http://www.functionaljava.org) - Реализует большое количество простых и сложных видов абстракций для  composition-oriented программирования, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29).
+5. [Javaslang](http://javaslang.com) - Библиотека для реализации функцуонального программирования которая реализаует persistent типы данных и functional control структоры, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+6. [jOOλ](https://github.com/jOOQ/jOOL) - Расширение для Java 8, которое стремиться исправить недоработки стандартной реализации лямбда в Java 8, реализующе большое количество нереализованных возможностей функционального программирования и предоставляет богатый набор возможностей к стандартному Stream API, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 #### Reactive libraries
 
