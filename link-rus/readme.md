@@ -637,11 +637,11 @@
 5.  [Jersey](https://github.com/jersey/jersey) Зеркало Jersey 2.x. Jersey это REST фреймворк реализующий JAX-RS спецификацию. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.1), рейтинг github'а - 864.
 6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, маштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 825.
 7.  [Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 456.
-8. [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-9. [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-10. [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-11. [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-12. [Spark](http://sparkjava.com/) - Sinatra inspired framework, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+8. [Feign](https://github.com/Netflix/feign) - HTTP клиент основанный на Retrofit, JAXRS-2.0 и WebSocket, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+9. [RESTEasy](http://resteasy.jboss.org/) - Полностью сертифицированая и переносимая реализация JAX-RS спецификации, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+10. [RestExpress](https://github.com/RestExpress/RestExpress) - Тонкий wrapper для JBOSS Netty HTTP stack для обеспечения маштабируемости и производительности, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+11. [RestX](http://restx.io) - Фреймворк, основанный на аннотациях и генерации кода во время компиляции, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+12. [Spark](http://sparkjava.com/) - фреймворк, вдохновленный Sinatra фреймворком, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 6. Интеграционные фреймворки
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
