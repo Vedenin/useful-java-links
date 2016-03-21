@@ -425,19 +425,19 @@
 2. [Apache HBase](http://hbase.apache.org) - Hadoop хранилище для больших данных.
 3. [Druid](http://druid.io) - это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 1846.
 4. [Infinispan](http://infinispan.org/) - Высокопроизводительное key/value хранилише, используемое для кэширования.
-5. [OpenTSDB](http://opentsdb.net) - это распределенная и масштабируемая база данных, работающих с временными рядами (Time Series Database TSDB) работающая поверх Hbase. Лицензия: GNU 3, рейтинг github'а - 1336.
+5. [OpenTSDB](http://opentsdb.net) - это распределенная и масштабируемая база данных, работающих с временными рядами (Time Series Database TSDB) работающая поверх Hbase. Лицензия: [GNU 3](https://ru.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1336.
 
 ### 2. Структуры данных
 *Efficient and specific data structures.*
 
-1. [Apache Avro](https://avro.apache.org/) - Формат обмена данными с такими возможностями как: динамическая типизация, отсутствия необходимости устанавливать ID вручную, untagged data.
-2. [Apache Orc](https://orc.apache.org/) - Быстрый и эффективный столбчатый (сolumnar) формат хранения данных для работы в основанных на hadoop системах.
-3. [Apache Parquet](http://parquet.apache.org/) - столбчатый (сolumnar) формат хранения данных основанный на использовании алгоритмов из "Dremel paper" от Google.
-4. [Apache Thrift](https://thrift.apache.org/) - Формат обмена данными, созданный в Facebook.
-5. [Persistent Collection](http://pcollections.org/) - Persistent и неизменямый аналог Java Collections Framework.
-6. [Protobuf](https://github.com/google/protobuf) - Формат обмена данными, предложенный Google.
-7. [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, один из самых быстрых форматов обмена сообщениями.
-8. [Wire](https://github.com/square/wire) - Чистый, легковесный protocol buffers.
+1. [Apache Avro](https://avro.apache.org/) - Формат обмена данными с такими возможностями как: динамическая типизация, отсутствия необходимости устанавливать ID вручную, untagged data, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [Apache Orc](https://orc.apache.org/) - Быстрый и эффективный столбчатый (сolumnar) формат хранения данных для работы в основанных на hadoop системах, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [Apache Parquet](http://parquet.apache.org/) - столбчатый (сolumnar) формат хранения данных основанный на использовании алгоритмов из "Dremel paper" от Google, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+4. [Apache Thrift](https://thrift.apache.org/) - Формат обмена данными, созданный в Facebook, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+5. [Persistent Collection](http://pcollections.org/) - Persistent и неизменямый аналог Java Collections Framework, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+6. [Protobuf](https://github.com/google/protobuf) - Формат обмена данными, предложенный Google, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses).
+7. [SBE](https://github.com/real-logic/simple-binary-encoding) - Simple Binary Encoding, один из самых быстрых форматов обмена сообщениями, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+8. [Wire](https://github.com/square/wire) - Чистый, легковесный protocol buffers, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 
 ### 3. Поисковые системы
@@ -474,8 +474,8 @@
 19.  [Datastax Java driver](https://github.com/datastax/java-driver) Java клиент для Apache Cassandra и DataStax. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 480.
 20.  [Memcached Java Client](https://github.com/gwhalin/Memcached-Java-Client) java клиент для memcached. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг github'а - 436.
 21.  [Spring data mongodb](https://github.com/spring-projects/spring-data-mongodb) Java клиент к MongoDB для фреймворка Spring . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
-22.  [Apache Phoenix](http://phoenix.apache.org/) - Высокопроизводительный слой для реляционных баз данных поверх HBase для систем с минимальным откликом.
-23.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Добавляет метрики и отказоустойчивые стратегии для наиболее популярных пулов соединией с базами данных.
+22.  [Apache Phoenix](http://phoenix.apache.org/) - Высокопроизводительный слой для реляционных баз данных поверх HBase для систем с минимальным откликом, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+23.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Добавляет метрики и отказоустойчивые стратегии для наиболее популярных пулов соединией с базами данных, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 5. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -489,10 +489,11 @@
 7.  [Spring data jpa](https://github.com/spring-projects/spring-data-jpa) Spring Data Jpa - обертка Spring фреймворка над JPa провайдерами . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 459.
 8.  [Jdbi](https://github.com/jdbi/jdbi) jDBI предлагает удобный интерфейс над SQL операциями в Java. http://jdbi.org/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 458.
 9.  [ActiveJDBC](https://github.com/javalite/activejdbc)ActiveJDBC это Java реализация Active Record шаблона проектирования. Вдохновлен ActiveRecord ORM в Ruby on Rails.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 230.
-10. [Vibur DBCP](http://www.vibur.org/) - Библиотека реализующая JDBC пул соединений с дополнительными средствами мониторинга производительности.
-11. [Ebean](http://ebean-orm.github.io/) - Предоставляет простой и быстрой доступ к данным.
-12. [EclipseLink](https://www.eclipse.org/eclipselink/) - Поддерживает большое количество стандартов ORM: JPA, JAXB, JCA и SDO.
-13. [OrmLite](http://ormlite.com/) - Легковесный пакет избегающий усложнений и перерасхода ресурсов других ORM решений.
+10. [Vibur DBCP](http://www.vibur.org/) - Библиотека реализующая JDBC пул соединений с дополнительными средствами мониторинга производительности, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+11. [Ebean](http://ebean-orm.github.io/) - Предоставляет простой и быстрой доступ к данным, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+12. [EclipseLink](https://www.eclipse.org/eclipselink/) - Поддерживает большое количество стандартов ORM: JPA, JAXB, JCA и SDO, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License) и [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses).
+13. [OrmLite](http://ormlite.com/) - Легковесный пакет избегающий усложнений и перерасхода ресурсов других ORM решений, 
+, Лицензия: [ISC](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_ISC). 
 
 ### 6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.) 
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -562,9 +563,9 @@
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 871.
-2. [Apache OpenNLP](https://opennlp.apache.org/) - Набор инструментов для типовых задач таких как tokenization.
-3. [LingPipe](http://alias-i.com/lingpipe/) - Набор инструментов для различных видов задач от POS tagging до анализа предложений.
-4. [Mallet](http://mallet.cs.umass.edu/) - Статистическая обработка естественных языков, классификация документов, кластеризация, topic modeling и многое другое.
+2. [Apache OpenNLP](https://opennlp.apache.org/) - Набор инструментов для типовых задач таких как tokenization, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [LingPipe](http://alias-i.com/lingpipe/) - Набор инструментов для различных видов задач от POS tagging до анализа предложений, Лицензия: [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) и ***платная лицензия, проприетарная***. 	
+4. [Mallet](http://mallet.cs.umass.edu/) - Статистическая обработка естественных языков, классификация документов, кластеризация, topic modeling и многое другое, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License).
 
 ## III. Работа с сетью и интеграция
 ### 1. Веб сервера и сервера приложений (web server &amp; application server)
@@ -576,7 +577,7 @@
 4.  [Nginx clojure](https://github.com/nginx-clojure/nginx-clojure) - Nginx модуль с использованием Clojure или Java или Groovy программ. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , рейтинг github'а - 514.
 5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Http сервер и контейнер сервлетов. Легкий, маленький сервер, часто встраиваемый (embedded) в приложения. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).0, рейтинг github'а - 512.
 6. [Apache TomEE](http://tomee.apache.org/) - Apache Tomcat сервер к которому добавили поддержку Java EE, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
-7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Легковесный, модульный сервер, разработанный IBM, Лицензия: платная, проприетарная
+7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Легковесный, модульный сервер, разработанный IBM, ***Лицензия: платная, проприетарная***
 
 
 ### 2. Сеть и сокеты 
