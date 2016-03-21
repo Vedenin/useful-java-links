@@ -348,11 +348,11 @@
 *Фреймворки, упрощающие маппинг одних типов данных в другие.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой используя аннотации, API или XML конфигурацию.
-2. [MapStruct](https://github.com/mapstruct/mapstruct) - Код генератор, который упрощает маппинг между разными типами данных, основываясь на конфигурации маппинга.
-3. [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper это интеллектуальная библиотека для автоматического маппинга одних объектов на другие.
-4. [Orika](https://github.com/orika-mapper) - Orika это Java Bean маппинг фреймворк, который рекурсивно копирует (и при необходимости изменяет) информацию из одного объекта в другой.
-5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma это маппер построенный на аннотациеях классов.
+1. [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой используя аннотации, API или XML конфигурацию, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [MapStruct](https://github.com/mapstruct/mapstruct) - Код генератор, который упрощает маппинг между разными типами данных, основываясь на конфигурации маппинга, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper это интеллектуальная библиотека для автоматического маппинга одних объектов на другие, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+4. [Orika](https://github.com/orika-mapper) - Orika это Java Bean маппинг фреймворк, который рекурсивно копирует (и при необходимости изменяет) информацию из одного объекта в другой, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma это маппер построенный на аннотациеях классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 14. Кодогенерация и изменения байт кода
 *Libraries to manipulate bytecode programmatically.*
@@ -361,9 +361,9 @@
 1.  [Google Auto](https://github.com/google/auto) - коллекция генераторов исходного кода в Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1442.
 2.  [Square Javapoet](https://github.com/square/javapoet) - библиотека для генерации исходных кодов классов Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1057.
 3.  [Byte buddy](https://github.com/raphw/byte-buddy) - динамическая генерация кода в Java платформе. http://bytebuddy.net/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 473.
-4.  [ASM](http://asm.ow2.org/) - Универсальная, низкоуровневая библиотека для изменения байткода и анализа.
-5.  [Byteman](http://byteman.jboss.org/) - Изменение байткода во время выполнения используя DSL правила в основном для целей тестирования и отладки.
-6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Попытка упростить редактирование байткода.
+4.  [ASM](http://asm.ow2.org/) - Универсальная, низкоуровневая библиотека для изменения байткода и анализа, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+5.  [Byteman](http://byteman.jboss.org/) - Изменение байткода во время выполнения используя DSL правила в основном для целей тестирования и отладки, Лицензия: [LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html).
+6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Попытка упростить редактирование байткода, , Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) or [LGPL or later 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html) or [Mozilla Public License 1.1.](https://ru.wikipedia.org/wiki/Mozilla_Public_License)
 
 ### 15. Распределенные приложения
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
