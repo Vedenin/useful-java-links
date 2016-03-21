@@ -366,26 +366,26 @@
 6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Попытка упростить редактирование байткода, , Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) or [LGPL or later 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html) or [Mozilla Public License 1.1.](https://ru.wikipedia.org/wiki/Mozilla_Public_License)
 
 ### 15. Распределенные приложения
-*Libraries and frameworks for writing distributed and fault-tolerant applications.*
+*Библиотеки и фреймворки для создания распределенных и отказоустойчивых приложений.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Akka](http://akka.io) - Набор инструментов и среда выполнения для создания многопоточных, распределенных и устойчивых к ошибкам событийно-ориентированных приложений.
-2. [Apache Storm](http://storm.apache.org/) - Система вычислений в режиме реального времени.
-3. [Apache ZooKeeper](http://zookeeper.apache.org/) - Системы координации для развертывания конфигураций, синхроизации и регистрации имен для больших распределенных систем.
-4. [Axon Framework](http://www.axonframework.org/) - Фреймворк для создания CQRS приложений.
-5. [Hazelcast](http://hazelcast.org/) - Легко расширяемый in-memory datagrid.
-6. [Hystrix](https://github.com/Netflix/Hystrix) - Предоставляет возможность создавать системы, устойчивые к ошибкам и с минимальным откликом.
-7. [JGroups](http://www.jgroups.org/) - Набор инструментов для надежного обмена сообщениями и создания кластеров.
-8. [Orbit](http://orbit.bioware.com/) - Виртуальные акторы (Virtual Actors), добавления дополнительного уровня абстракции к традиционных акторам.
-9. [Quasar](http://www.paralleluniverse.co/quasar/) - Легковесные потоки и акторы (actors) для JVM.
+1. [Akka](http://akka.io) - Набор инструментов и среда выполнения для создания многопоточных, распределенных и устойчивых к ошибкам событийно-ориентированных приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+2. [Apache Storm](http://storm.apache.org/) - Система вычислений в режиме реального времени, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+3. [Apache ZooKeeper](http://zookeeper.apache.org/) - Системы координации для развертывания конфигураций, синхроизации и регистрации имен для больших распределенных систем, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+4. [Axon Framework](http://www.axonframework.org/) - Фреймворк для создания CQRS приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+5. [Hazelcast](http://hazelcast.org/) - Легко расширяемый in-memory datagrid, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+6. [Hystrix](https://github.com/Netflix/Hystrix) - Предоставляет возможность создавать системы, устойчивые к ошибкам и с минимальным откликом, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+7. [JGroups](http://www.jgroups.org/) - Набор инструментов для надежного обмена сообщениями и создания кластеров, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+8. [Orbit](http://orbit.bioware.com/) - Виртуальные акторы (Virtual Actors), добавления дополнительного уровня абстракции к традиционных акторам, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29).
+9. [Quasar](http://www.paralleluniverse.co/quasar/) - Легковесные потоки и акторы (actors) для JVM, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License) или [LGPL 3.0](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License).
 
 ### 16. Наука
 *Библиотеки для научных расчетов и анализа.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [DataMelt](http://jwork.org/dmelt/) - Среда для научных расчетов, анализа и визуализаци данных.
-2. [JGraphT](https://github.com/jgrapht/jgrapht) - Графическая библиотека, которая предоставляет объект и алгоритмы из математической теории графов.
-3. [JScience](http://jscience.org/) - Предоставляет набор классов для работы с научными измерениями и объектами.
+1. [DataMelt](http://jwork.org/dmelt/) - Среда для научных расчетов, анализа и визуализаци данных, Лицензия: [GNU 3](https://ru.wikipedia.org/wiki/GNU_General_Public_License).
+2. [JGraphT](https://github.com/jgrapht/jgrapht) - Графическая библиотека, которая предоставляет объект и алгоритмы из математической теории графов, Лицензия: [Eclipse Public License](https://ru.wikipedia.org/wiki/Eclipse_Public_License) или [LGPL 2.1](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
+3. [JScience](http://jscience.org/) - Предоставляет набор классов для работы с научными измерениями и объектами, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses).
 
 ## II. Базы данных, поисковые системы, Big data и машинное обучение
 
