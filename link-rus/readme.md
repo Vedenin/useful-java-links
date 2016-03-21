@@ -206,7 +206,7 @@
 8.  [Functionaljava](https://github.com/functionaljava/functionaljava) Добавление функционального программирования в Java. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)  , рейтинг github'а - 478.
 9.  [OpenHFT Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue) Chronicle Queue работает так же как обычная Java очередь, однако каждое события сохраняется на жесткий диск . Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).0, рейтинг github'а - 440.
 10.  [Ocpsoft Prettytime](https://github.com/ocpsoft/prettytime) PrettyTime это библиотека форматирования Java date в выражение на натуральном языке и в формате принятом в социальных сетях (Digg, Twitter, and Facebook) и более чем на 30 человеческих языках. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
-11.  [TotallyLazy](https://github.com/bodar/totallylazy/) Библиотека функционального программирования для работы с ленивыми структурами данных (например, такими как Clojure's), в частности с последовательностями (map, filter, fold/reduce...), есть Option, Either, Hamcrest matchers as predicates, ML family of function / method names (Standard ML, oCaml, F#, Scala, Haskell) и т.д. . Лицензия: ?, рейтинг github'а - 76.
+11.  [TotallyLazy](https://github.com/bodar/totallylazy/) Библиотека функционального программирования для работы с ленивыми структурами данных (например, такими как Clojure's), в частности с последовательностями (map, filter, fold/reduce...), есть Option, Either, Hamcrest matchers as predicates, ML family of function / method names (Standard ML, oCaml, F#, Scala, Haskell) и т.д. , Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 76.
 
 ### 4. Вебфреймворки (Web Frameworks)
 *Вебфреймворки служат для реализации вебприложений и обработки взаимодйствия service-side и frontend-side вебприложений.*
@@ -313,10 +313,10 @@
 2.  [Square type](https://github.com/square/tape) Легкий, быстрый, транзакционный, файловый FIFO для Android и Java.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1073.
 3.  [Simple Binary Encoding (SBE)](https://github.com/real-logic/simple-binary-encoding) это реализация кодирования и декодирования сообщений приложения бинарный формат для систем требующих очень быстрое время ответа. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 612.
 4.  [MessagePack](https://github.com/msgpack/msgpack-java) - реализация быстрой сериализации в компактный бинарный формат для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 448.
-5. [FlatBuffers](https://github.com/google/flatbuffers) - Библиотека сериализации, оптимизированная на сокращение затрат памяти, которая предоставляет доступ к сериализованным данным без разархивирования и парсинга.
-6. [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK совместимая высокопроизводительная библиотека сериализации.
-7. [Kryo](https://github.com/EsotericSoftware/kryo) - Быстрый и эффекстивный фреймворк сериализации.
-8. [MessagePack](https://github.com/msgpack/msgpack-java) - Эффекстивный бинарный формат сериализации.
+5. [FlatBuffers](https://github.com/google/flatbuffers) - Библиотека сериализации, оптимизированная на сокращение затрат памяти, которая предоставляет доступ к сериализованным данным без разархивирования и парсинга, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+6. [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK совместимая высокопроизводительная библиотека сериализации, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+7. [Kryo](https://github.com/EsotericSoftware/kryo) - Быстрый и эффекстивный фреймворк сериализации, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29).
+8. [MessagePack](https://github.com/msgpack/msgpack-java) - Эффекстивный бинарный формат сериализации, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 
 ### 11. Изображения и Видео
@@ -328,7 +328,7 @@
 4.  [imgscalr](https://github.com/thebuzzmedia/imgscalr) Простая и эффективная библиотека Java для масштабирования изображений основанная на чистом Java 2D. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 451.
 5.  [webcam-capture](https://github.com/sarxos/webcam-capture) Данный проект позволяет получить доступ к USB вебкамере или remote IP / сетевой камере напрямую из Java кода. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 437.
 6. [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator это библиотека генерации высококачественных миниатюр для Java.
-7.  [zxing](https://github.com/zxing/zxing) открытая разноформатная библиотека для обработки 1D/2D barcode изображений с реализацией на Java и портированием на другие языки.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5314.
+7.  [zxing](https://github.com/zxing/zxing) открытая разноформатная библиотека для обработки 1D/2D barcode изображений с реализацией на Java и портированием на другие языки. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5314.
 
 ### 12. Логирования
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -336,12 +336,12 @@
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) свободная и открытая система логирования. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1308.
 2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java. http://logback.qos.ch/. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 497.
 3.  [slf4j](https://github.com/qos-ch/slf4j) Библиотека предлагает Facade логирования для простого переключения между разными библиотеками логирования (java.util.logging, logback, log4j и т. п.). http://www.slf4j.org/ Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 384.
-4. [Apache Log4j 2](http://logging.apache.org/log4j/) - Полностью пересмотренная вторая версия Log4j с мощными плагинами и легко настраиваемой архитектурой.
-5. [graylog](https://www.graylog.org/) - Открытый агрегатор, подходящий для сложных ролей пользователей и системы привилегий.
-6. [kibana](https://www.elastic.co/products/kibana) - Анализ и визуализация логов, некоторые возможносте предоставляются только платно.
-7. [logstash](https://www.elastic.co/products/logstash) - Инструменты для управления файлами логов.
-8. [Metrics](https://github.com/dropwizard/metrics) - Собирает метрики через JMX или HTTP и может записать их в базу.
-9. [tinylog](http://www.tinylog.org/) - Легкий фреймворк логировани со статическими классами логирования.
+4. [Apache Log4j 2](http://logging.apache.org/log4j/) - Полностью пересмотренная вторая версия Log4j с мощными плагинами и легко настраиваемой архитектурой, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+5. [graylog](https://www.graylog.org/) - Открытый агрегатор, подходящий для сложных ролей пользователей и системы привилегий, Лицензия: [GNU 3](https://ru.wikipedia.org/wiki/GNU_General_Public_License).
+6. [Elastic Kibana](https://www.elastic.co/products/kibana) - Анализ и визуализация логов, некоторые возможносте предоставляются только платно, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+7. [Elastic Logstash](https://www.elastic.co/products/logstash) - Инструменты для управления файлами логов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+8. [Metrics](https://github.com/dropwizard/metrics) - Собирает метрики через JMX или HTTP и может записать их в базу, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+9. [tinylog](http://www.tinylog.org/) - Легкий фреймворк логировани со статическими классами логирования, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 
 ### 13. Bean Mapping 
