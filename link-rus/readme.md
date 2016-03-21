@@ -768,22 +768,22 @@
 11.  [Galenframework Galen](https://github.com/galenframework/galen) Galen Framework это мощный фреймворк для автоматического тестирования дизайна и функционала вебсайтов. Использует Selenium для работы с браузером и автоматического тестирования вебсайтов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 449.
 12.  [AssertJ](https://github.com/joel-costigliola/assertj-core) AssertJ это библиотека предоставляющая мощный механизм работы с условиями (assertion) для тестовых фреймворков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 423.
 13.  [Google truth](https://github.com/google/truth) Фреймворк для задания ограничений и утверждений (Assertion/Proposition) в Unit тестах (версия ещё очень альфа, может быть полностью изменена ) . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
-14. [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
-15. [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
-16. [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
-17. [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging.
-18. [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
-19. [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
-20. [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
-21. [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
-22. [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
-23. [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
-24. [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
-25. [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
-26. [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
-27. [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
-28. [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
-29. [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
+14. [Apache JMeter](http://jmeter.apache.org/) - Функциональное тестирование и замеры производительности. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+15. [Arquillian](http://arquillian.org/) - Интеграционная и функциональная платформа тестирования Java EE контейнеров, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+16. [Awaitility](https://github.com/jayway/awaitility) - DSL для синхронизации ассинхроных операций, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+17. [Citrus](http://citrusframework.org/) - Фреймворк интеграционного тестирования, которой фокусируется на тестировании клиент-серверного обмена сообщениями, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+18. [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD фреймворк тестирования, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+19. [Gatling](http://gatling.io/) - Содержит инструменты тестирования разработанные для легкого использования, легкого сопровождения и высокой производительности, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+20. [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email сервер для интеграционного тестирования, поддерживает SMTP, POP3 и IMAP включая SSL, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+21. [JGiven](http://jgiven.org) - Удобный для разработчиков  BDD фреймворк тестирования совместимый с JUnit и TestNG, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+22. [JMockit](http://jmockit.org/) - Создает мock'и статических и финальных методов, а так же многое другое, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+23. [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Облегчает создание читабельных и легких в поддержке параметризованных тестов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+24. [Moco](https://github.com/dreamhead/moco) - Создание лаконичных вебсервисов для тестирования (stubs и mocks), награжден Duke's Choice Award 2013, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+25. [PIT](http://pitest.org) - Быстрый мутационный фреймворк тестирования с возможностью обнаружения ошибок в написании существующих JUnit или TestNG тестах, Лицензия: [Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+26. [PowerMock](https://github.com/jayway/powermock) -  Позволяет создание mock'ов статических методов, финальных классов и методов, приватных классов и удаление статических инициализаторов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+27. [REST Assured](https://github.com/jayway/rest-assured) - Java DSL для легкого тестирования REST/HTTP сервисов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+28. [Selenide](http://selenide.org/) - Краткое API над Selenium, позволяющее писать стабильные и читабельные UI тесты, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT).
+29. [Unitils](http://www.unitils.org/) - Модульная библиотека тестирования для unit и интеграционного тестирования, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 2. Code Coverage
 *Frameworks and tools that enable collection of code coverage metrics for test suites.*
