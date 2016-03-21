@@ -417,14 +417,14 @@
 23.  [Tinkerpop Rexster](https://github.com/tinkerpop/rexster) это сервер графических баз данных, который может передать любые данные графов через REST и бинарный протокол, называемый RexPro. . Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 402.
 24.  [Tomcat redis session manager](https://github.com/jcoleman/tomcat-redis-session-manager) Основанное на Redis простое хранилище сессий для Apache Tomcat. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 396.
 25.  [Embulk](https://github.com/embulk/embulk) это открытый пакетный (bulk) загрузчик данных, который помогает трансформировать данные между разными базами данных, хранилищ, файловых форматов и облачных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
-26.  [H2](http://h2database.com/) - Небольшая база данных SQL отличается работой в in-memory.
+26.  [H2](http://h2database.com/) - Небольшая база данных SQL отличается работой в in-memory, Лицензия: [Mozilla Public License 1.1.](https://ru.wikipedia.org/wiki/Mozilla_Public_License) и [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License).
 
 *Распределенные базы данных.*
 
 1. [Apache Cassandra](https://github.com/apache/cassandra) - зеркало для Apache Cassandra — база данных с высокой доступностью и высокой расширямостью и отличной производительностью . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2155.
-2. [Apache HBase](http://hbase.apache.org) - Hadoop хранилище для больших данных.
+2. [Apache HBase](http://hbase.apache.org) - Hadoop хранилище для больших данных. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 3. [Druid](http://druid.io) - это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 1846.
-4. [Infinispan](http://infinispan.org/) - Высокопроизводительное key/value хранилише, используемое для кэширования.
+4. [Infinispan](http://infinispan.org/) - Высокопроизводительное key/value хранилише, используемое для кэширования. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 5. [OpenTSDB](http://opentsdb.net) - это распределенная и масштабируемая база данных, работающих с временными рядами (Time Series Database TSDB) работающая поверх Hbase. Лицензия: [GNU 3](https://ru.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1336.
 
 ### 2. Структуры данных
@@ -530,7 +530,7 @@
 17.  [Elasticsearch hadoop](https://github.com/elastic/elasticsearch-hadoop) - интеграция поиска и анализ ElasticSearch в Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 457.
 18.  [Oryx 2](https://github.com/OryxProject/oryx) - реализация лямбда архитектуры для Apache Spark и Apache Kafka, но со специализацией на машинном обучении в реальном времени. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 456.
 19.  [Yahoo SAMOA (Scalable Advanced Massive Online Analysis)](https://github.com/yahoo/samoa) — открытая платформа для потоковой обработки больших данных (mining big data). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
-20.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.).  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3603.
+20.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3603.
 
 ### 8. Машинное обучение и нейроные сети (Machine Learning)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -545,8 +545,8 @@
 8.  [Encog java core](https://github.com/encog/encog-java-core) Encog это фреймворк для машинного обучения предоставляющий большое число алгоритмов и технологий машинного обучения (нейронные сети, генетические алгоритмы и т. д.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394.
 9. [Apache Flink](https://github.com/apache/flink) - зеркало Apache Flink. Apache Flink это открытая платформа для обработки потоковых и пакетных данных. https://flink.apache.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 475.
 10. [Apache Hadoop](https://github.com/apache/hadoop) - зеркало Apache Hadoop. Систему для обработки Bigdata (больших данных с помощью кластеров на простом железе). http://hadoop.apache.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 803.
-11. [Apache Spark](http://spark.apache.org/) - Data analytics cluster computing framework.
-12. [DeepDive](http://deepdive.stanford.edu) - Creates structured information from unstructured data and integrates it into an existing database.
+11. [Apache Spark](http://spark.apache.org/) - Фреймворк для анализа данных, используя класстер для вычислений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
+12. [DeepDive](http://deepdive.stanford.edu) - Создает структурированную информацию из неструктурированных данных и интегрирует её с существующими базами данных, Лицензия: [Creative Commons Attribution 4.0](http://creativecommons.org/licenses/by/4.0/).
 13. [H2o](https://github.com/h2oai/h2o-2) = добавляет математические операции в Hadoop, h2o позволяет быстро вычислять статистику, машинное обучение и математические операции для bigdata.http://h2o.ai/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1725.
 14. [JSAT](https://github.com/EdwardRaff/JSAT) - Алгоритмы для пре-процессинга, классификация, регрессия, и кластеризация поддерживающие многопоточное выыполнение, Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Коллекция алгоритмов для data mining задач от пре-процессинга до визуализации, Лицензия: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License).
