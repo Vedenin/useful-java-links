@@ -786,20 +786,20 @@
 29. [Unitils](http://www.unitils.org/) - Модульная библиотека тестирования для unit и интеграционного тестирования, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).
 
 ### 2. Code Coverage
-*Frameworks and tools that enable collection of code coverage metrics for test suites.*
+*Фреймворки и инструменты для получения набора code coverage метрик для тестов.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
-2. [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
-3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
-4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
+1. [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), [BSD](https://en.wikipedia.org/wiki/BSD_licenses).
+2. [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation, ***Лицензия: платная, проприетарная*** 
+3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License).
+4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License).
 
 ### 3. Continuous Integration
 *Tools which support continuously building, testing and releasing applications.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
-2. [CircleCI](https://circleci.com/) - Hosted service with a free trial.
+1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it,
+2. [CircleCI](https://circleci.com/) - Hosted service with a free trial,
 3. [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
 4. [fabric8](http://fabric8.io/) - Integration platform for containers.
 5. [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
