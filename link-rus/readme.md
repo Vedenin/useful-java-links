@@ -870,9 +870,9 @@
 *Tools which handle the distribution of applications in native formats.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans.
-2. [Capsule](http://www.capsule.io/) - Simple and powerful packaging and deployment. A fat JAR on steroids or a "Docker for Java" that supports JVM-optimized containers.
-3. [Central Repository](http://search.maven.org/) - Largest binary component repository available as a free service to the open-source community. Default used by Apache Maven and available in all other build tools.
+1. [Bintray](https://bintray.com/) - Контроль версий дляя бинарных файлов, так же может использовать вместе с Maven или Gradle и имеет свободный план для открытого ПО, а так же ряд различных бизнес планов.
+2. [Capsule](http://www.capsule.io/) - Простой и мощный инструмент для packaging и deployment. Толстый JAR на стероидах или "Docker для Java", который поддерживает JVM-оптимизированные контейнеры.
+3. [Central Repository](http://search.maven.org/) - Огромный бинарный репозеторий компонентов, который доступен как свободный сервис для проектов с открытым ПО. Используется Apache Maven и доступно для всех остальных инструментов сборки.
 4. [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
 5. [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
 6. [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
@@ -905,22 +905,22 @@
 1.  [SonarQube](https://github.com/SonarSource/sonarqube) это свободная платформа для управлением качеством кода. http://www.sonarqube.org Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 655. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2.  [Google Error prone](https://github.com/google/error-prone) - обнаружение типовых ошибок в Java коде. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 590. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3.  [OpenGrok](https://github.com/OpenGrok/OpenGrok) Это быстрый и полезные поиск в исходном коде проекта, поиск кросс-ссылок в классах и навигации по дереву исходного кода, он поддерживает разные системы управления кодов, такие как SCCS, RCS, CVS, Subversion, Mercurial и т.п.c.. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0), рейтинг github'а - 570.
-4. [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards.
-5. [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs.
-6. [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language.
-7. [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices.
+4. [Checkstyle](https://github.com/checkstyle/checkstyle) - Статический анализ на соблюдения стандартов и конвенций по написанию кода.
+5. [FindBugs](http://findbugs.sourceforge.net/) - Статический анализ байткода для поиска потенциальных ошибок.
+6. [jQAssistant](http://jqassistant.org/) - Статический анализатор кода с основанном на Neo4J языке запросов.
+7. [PMD](https://github.com/pmd/pmd) - Анализ исходного кода для поиска плохих практик программирования.
 
 ### 5. Monitoring
 *Tools that monitor applications in production.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [AppDynamics](http://www.appdynamics.com/) - Commercial performance monitor.
-2. [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling.
-3. [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others.
-4. [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM.
-5. [New Relic](http://newrelic.com/) - Commercial performance monitor.
-6. [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.
-7. [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.
+1. [AppDynamics](http://www.appdynamics.com/) - Коммерческий монитор производительности.
+2. [JavaMelody](https://github.com/javamelody/javamelody) - Мониторинг производительности и профайлинг.
+3. [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Инструмент для соединения с различными JVMs и запросах их свойств через JMX. Этот язык запросов основан на JSON, что позволяет не-Java программистам получать доступ к JVMs свойствам. Также, этот инструмент поддерживает различные виды вывода данных, включая Graphite, Ganglia, StatsD и многие другие.
+4. [Kamon](http://www.kamon.io/) - Инструменты для мониторинга приложений запущенных на JVM.
+5. [New Relic](http://newrelic.com/) - Коммерческий монитор производительности.
+6. [SPM](https://sematext.com/spm/) - Коммерческий монитор производительности с отладкой распределенных транзакций в JVM приложениях.
+7. [Takipi](https://www.takipi.com/) - Коммерческий мониторинг ошибок и отладка в продашен режиме.
 
 ### 6. Прочее
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -932,10 +932,10 @@
 
 *Current implementations of the JVM/JDK.*
 
-1. [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9.
-2. [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux.
-3. [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8.
-4. [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X.
+1. [JDK 9](https://jdk9.java.net/) - Ранний доступ к версии JDK 9.
+2. [OpenJDK](http://openjdk.java.net/) - Oткрытая реализация Java для Linux.
+3. [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK реализация для Windows, Linux и Mac OS X включая Java 8.
+4. [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) -  Ранний доступ к версии OpenJDK 9 для Windows, Linux и Mac OS X.
 
 ## VI. Языки программирования и приложения, написанные на Java
 ### 1. Языки программирования, написанные на Java
