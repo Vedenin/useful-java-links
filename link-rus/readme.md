@@ -834,8 +834,8 @@
 7.  [Eclim](https://github.com/ervandew/eclim) Добавление в редактор Vim возможностей Eclipse IDE. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 590. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 8.  [JetBrains MPS](https://github.com/JetBrains/MPS) JetBrains MPS (Meta programming System) служит для быстрой разработки DSL (Domain Specific Language) для любого окружения и с возможностью скомпилировать DSL в множество языков, таких как Java, C, XML и другие. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 525. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 9.  [Idea markdown](https://github.com/nicoulaj/idea-markdown) Поддержка языка разметки Markdown в IntelliJ IDEA.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 405. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-10. [Eclipse](http://www.eclipse.org/) - Established, open-souce project with support for lots of plugins and languages.
-11. [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features from database access to HTML5.
+10. [Eclipse](http://www.eclipse.org/) - Популярная открытая IDE поддерживающая большое количество плагинов и языков программирования, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+11. [NetBeans](https://netbeans.org/) - IDE поддерживает большое количество различных возможностей для разработки Java SE и EE приложений от работы с базой данных до работы с HTML5, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 ### 2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -849,22 +849,22 @@
 7.  [Netflix Archaius](https://github.com/Netflix/archaius) - библиотека, реализующая API для управления конфигурациями, используется Netflix. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 8.  [Puniverse Capsule](https://github.com/puniverse/capsule) это система сборки приложения в один выполняемый JAR файл со всеми артефактами, ресурсами, нативными библиотеками и т.п.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг github'а - 576. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 9.  [Apache Maven](http://maven.apache.org/) - Система декларативной сборки и управления зависимостями, которая упрощает конфигурирование приложения. Это может быть предпочтительнее Apache Ant, используещего более процедурный подход, который сложнее поддерживать в большинстве случаев. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-10. [Bazel](http://bazel.io) - Инструмент для сборки от Google, который позволяет собирать код быстро и надежно.
-11. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков.
-12. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties.
+10. [Bazel](http://bazel.io) - Инструмент для сборки от Google, который позволяет собирать код быстро и надежно. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+11. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+12. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 *Инструменты для сборки проекта (build) и работы с зависимостями(dependencies) приложения.*
 
-1. [Apache Maven](http://maven.apache.org/) - Система декларативной сборки и управления зависимостями, которая упрощает конфигурирование приложения. Это может быть предпочтительнее Apache Ant, используещего более процедурный подход, который сложнее поддерживать в большинстве случаев.
-2. [Bazel](http://bazel.io) -  Инструмент для сборки от Google, который позволяет собирать код быстро и надежно.
-3. [Gradle](http://gradle.org/) - Система инкрементальной сборки, использующая для конфигурирования Groovy вместо XML. Хорошо совместима с Maven конфигурациями.
+1. [Apache Maven](http://maven.apache.org/) - Система декларативной сборки и управления зависимостями, которая упрощает конфигурирование приложения. Это может быть предпочтительнее Apache Ant, используещего более процедурный подход, который сложнее поддерживать в большинстве случаев. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [Bazel](http://bazel.io) -  Инструмент для сборки от Google, который позволяет собирать код быстро и надежно. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+3. [Gradle](http://gradle.org/) - Система инкрементальной сборки, использующая для конфигурирования Groovy вместо XML. Хорошо совместима с Maven конфигурациями. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 #### Configuration
 *Библиотеки, управлящие конфигурированием*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков.
-2. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties.
+1. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 #### Distribution
 *Инструменты для работы с развертыванием (distribution) приложений в нативные форматы.*
@@ -873,11 +873,11 @@
 1. [Bintray](https://bintray.com/) - Контроль версий дляя бинарных файлов, так же может использовать вместе с Maven или Gradle и имеет свободный план для открытого ПО, а так же ряд различных бизнес планов.
 2. [Capsule](http://www.capsule.io/) - Простой и мощный инструмент для packaging и deployment. Толстый JAR на стероидах или "Docker для Java", который поддерживает JVM-оптимизированные контейнеры.
 3. [Central Repository](http://search.maven.org/) - Огромный бинарный репозеторий компонентов, который доступен как свободный сервис для проектов с открытым ПО. Используется Apache Maven и доступно для всех остальных инструментов сборки.
-4. [IzPack](http://izpack.org/) - Setup authoring tool for cross-platform deployments.
-5. [JitPack](https://jitpack.io/) - Easy to use package repository for GitHub. Builds Maven/Gradle projects on demand and publishes ready-to-use packages.
-6. [Launch4j](http://launch4j.sourceforge.net/) - Wraps JARs in lightweight and native Windows executables.
-7. [Nexus](http://www.sonatype.com/nexus) - Binary management with proxy and caching capabilities.
-8. [packr](https://github.com/libgdx/packr/) - Packs JARs, assets and the JVM for native distribution on Windows, Linux and Mac OS X.
+4. [IzPack](http://izpack.org/) - Широко используемый набор инструментов для многоплатформенного развертывания приложений (deployments).
+5. [JitPack](https://jitpack.io/) - Простой в использовании репозиторий пакетов для GitHub. Собирает Maven / Gradle проекты и публикует их в готовых к использованию пакетах.  Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+6. [Launch4j](http://launch4j.sourceforge.net/) - Преобразует JARs файлы в легковесные и нативные исполнянмые файлы Windows.
+7. [Nexus](http://www.sonatype.com/nexus) - Усправления бинарными файлами с прокси и кэшированием.
+8. [packr](https://github.com/libgdx/packr/) - Преобразование JARs, assets и JVM в нативные приложения Windows, Linux и Mac OS X.
 
 ### 3. Инструменты для оптимизации производительности
 *Библиотеки для оптимизации и решения проблем с производительностью*
