@@ -940,10 +940,10 @@
 
 *Current implementations of the JVM/JDK.*
 
-1. [JDK 9](https://jdk9.java.net/) - Ранний доступ к версии JDK 9.
-2. [OpenJDK](http://openjdk.java.net/) - Oткрытая реализация Java для Linux.
-3. [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK реализация для Windows, Linux и Mac OS X включая Java 8.
-4. [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) -  Ранний доступ к версии OpenJDK 9 для Windows, Linux и Mac OS X.
+1. [JDK 9](https://jdk9.java.net/) - Ранний доступ к версии JDK 9. , Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+2. [OpenJDK](http://openjdk.java.net/) - Oткрытая реализация Java для Linux., Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+3. [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK реализация для Windows, Linux и Mac OS X включая Java 8, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+4. [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) -  Ранний доступ к версии OpenJDK 9 для Windows, Linux и Mac OS X, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 ## VI. Языки программирования и приложения, написанные на Java
 ### 1. Языки программирования, написанные на Java
