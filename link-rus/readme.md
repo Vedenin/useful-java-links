@@ -873,14 +873,15 @@
 *Инструменты для работы с развертыванием (distribution) приложений в нативные форматы.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Bintray](https://bintray.com/) - Контроль версий дляя бинарных файлов, так же может использовать вместе с Maven или Gradle и имеет свободный план для открытого ПО, а так же ряд различных бизнес планов.
-2. [Capsule](http://www.capsule.io/) - Простой и мощный инструмент для packaging и deployment. Толстый JAR на стероидах или "Docker для Java", который поддерживает JVM-оптимизированные контейнеры.
-3. [Central Repository](http://search.maven.org/) - Огромный бинарный репозеторий компонентов, который доступен как свободный сервис для проектов с открытым ПО. Используется Apache Maven и доступно для всех остальных инструментов сборки.
-4. [IzPack](http://izpack.org/) - Широко используемый набор инструментов для многоплатформенного развертывания приложений (deployments).
+1. [Bintray](https://bintray.com/) - Контроль версий для бинарных файлов, так же может использовать вместе с Maven или Gradle и имеет свободный план для открытого ПО, а так же ряд различных бизнес планов, **Лицензия: проприетарная платная, есть бесплатная версия для открытых продуктов** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+2. [Capsule](http://www.capsule.io/) - Простой и мощный инструмент для packaging и deployment. Толстый JAR на стероидах или "Docker для Java", который поддерживает JVM-оптимизированные контейнеры, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+3. [Central Repository](http://search.maven.org/) - Огромный бинарный репозеторий компонентов, который доступен как свободный сервис для проектов с открытым ПО. Используется Apache Maven и доступно для всех остальных инструментов сборки, **Лицензия: проприетарная** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+4. [IzPack](http://izpack.org/) - Широко используемый набор инструментов для многоплатформенного развертывания приложений (deployments). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 5. [JitPack](https://jitpack.io/) - Простой в использовании репозиторий пакетов для GitHub. Собирает Maven / Gradle проекты и публикует их в готовых к использованию пакетах.  Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-6. [Launch4j](http://launch4j.sourceforge.net/) - Преобразует JARs файлы в легковесные и нативные исполнянмые файлы Windows.
-7. [Nexus](http://www.sonatype.com/nexus) - Усправления бинарными файлами с прокси и кэшированием.
-8. [packr](https://github.com/libgdx/packr/) - Преобразование JARs, assets и JVM в нативные приложения Windows, Linux и Mac OS X.
+6. [Launch4j](http://launch4j.sourceforge.net/) - Преобразует JARs файлы в легковесные и нативные исполнянмые файлы Windows
+, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses) и [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+7. [Nexus](http://www.sonatype.com/nexus) - Усправления бинарными файлами с прокси и кэшированием, **Лицензия: проприетарная платная** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+8. [packr](https://github.com/libgdx/packr/) - Преобразование JARs, assets и JVM в нативные приложения Windows, Linux и Mac OS X, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 3. Инструменты для оптимизации производительности
 *Библиотеки для оптимизации и решения проблем с производительностью*
