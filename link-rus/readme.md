@@ -905,7 +905,7 @@
 12. [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Платный профайлер.   **Лицензия: Проприетарная платная, есть бесплатная версия для open source проектов**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 13. [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Утилиты для измерения времени отклика приложения и составления отчетов, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 14. [VisualVM](http://visualvm.java.net/) - Визуальный интерфейс, показывающий детальную информацию о запущенных приложениях.Лицензия: [GNU 2 with the Classpath Exception](https://en.wikipedia.org/wiki/GNU_General_Public_License).
-15. [YourKit Java Profiler](https://www.yourkit.com/features/) - Платный профайлер.
+15. [YourKit Java Profiler](https://www.yourkit.com/features/) - Платный профайлер.   **Лицензия: Проприетарная платная, есть бесплатная версия для open source проектов, спец.планы для научных и академических целей**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 
 ### 4. Анализ исходного кода
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -913,13 +913,13 @@
 1.  [SonarQube](https://github.com/SonarSource/sonarqube) это свободная платформа для управлением качеством кода. http://www.sonarqube.org Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 655. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2.  [Google Error prone](https://github.com/google/error-prone) - обнаружение типовых ошибок в Java коде. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 590. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3.  [OpenGrok](https://github.com/OpenGrok/OpenGrok) Это быстрый и полезные поиск в исходном коде проекта, поиск кросс-ссылок в классах и навигации по дереву исходного кода, он поддерживает разные системы управления кодов, такие как SCCS, RCS, CVS, Subversion, Mercurial и т.п.c.. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0), рейтинг github'а - 570.
-4. [Checkstyle](https://github.com/checkstyle/checkstyle) - Статический анализ на соблюдения стандартов и конвенций по написанию кода.
-5. [FindBugs](http://findbugs.sourceforge.net/) - Статический анализ байткода для поиска потенциальных ошибок.
-6. [jQAssistant](http://jqassistant.org/) - Статический анализатор кода с основанном на Neo4J языке запросов.
-7. [PMD](https://github.com/pmd/pmd) - Анализ исходного кода для поиска плохих практик программирования.
+4. [Checkstyle](https://github.com/checkstyle/checkstyle) - Статический анализ на соблюдения стандартов и конвенций по написанию кода, Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+5. [FindBugs](http://findbugs.sourceforge.net/) - Статический анализ байткода для поиска потенциальных ошибок. Лицензия: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+6. [jQAssistant](http://jqassistant.org/) - Статический анализатор кода с основанном на Neo4J языке запросов, Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+7. [PMD](https://github.com/pmd/pmd) - Анализ исходного кода для поиска плохих практик программирования, Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 5. Monitoring
-*Tools that monitor applications in production.*
+*Инструменты для мониторинга приложений в production.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1. [AppDynamics](http://www.appdynamics.com/) - Коммерческий монитор производительности.
