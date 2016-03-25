@@ -967,8 +967,8 @@
 ### 4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [ANTLR](http://www.antlr.org/) - Многоцелевой полноценный фреймворк для top-down парсинга.
-2. [JavaCC](https://javacc.java.net/) - Более специфичный и простой в обучении, имеет синтаксический предпросмотр.
+1. [ANTLR](http://www.antlr.org/) - Многоцелевой полноценный фреймворк для top-down парсинга, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [JavaCC](https://javacc.java.net/) - Более специфичный и простой в обучении, имеет синтаксический предпросмотр, Лицензия: [BSD ](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
 ### 5. Приложения и готовые продукты написанные на Java
