@@ -1041,20 +1041,21 @@
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 
-1. [Apache Ant](http://ant.apache.org/) - Инструмент для сборки проиложений, использующий XML для конфигурационных файлов.
-2. [cglib](https://github.com/cglib/cglib) - Библиотека генерации байткода.
-3. [GlassFish](https://glassfish.java.net/) - Сервер приложений и образцовая реализация Java EE от Oracle.
-4. [Hudson](http://hudson-ci.org/) - Сервер непрерывной реализации для активной разработки
-5. [JavaServer Faces](https://javaserverfaces.java.net/) - Открытая реализация JSF стандарта от Oracle.
-6. [JavaServer Pages](https://jsp.java.net/) - Популярная Java технология шаблонов для создания вебсайтов с реализацией пользовательских тегов.
+1. [Apache Ant](http://ant.apache.org/) - Инструмент для сборки проиложений, использующий XML для конфигурационных файлов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [cglib](https://github.com/cglib/cglib) - Библиотека генерации байткода, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+3. [GlassFish](https://glassfish.java.net/) - Сервер приложений и образцовая реализация Java EE от Oracle, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+4. [Hudson](http://hudson-ci.org/) - Сервер непрерывной реализации для активной разработки, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+5. [JavaServer Faces](https://javaserverfaces.java.net/) - Открытая реализация JSF стандарта от Oracle, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+6. [JavaServer Pages](https://jsp.java.net/) - Популярная Java технология шаблонов для создания вебсайтов с реализацией пользовательских тегов, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 ### 5. Прочее
 *Все прочее.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-* [Jimfs](https://github.com/google/jimfs) - Файловая система, работающая в памяти.
-* [Lanterna](https://code.google.com/p/lanterna/) - Легковесная библиотека, реализующая консольно-текстовый GUI, похожий на curses.
-* [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений.
+* [Jimfs](https://github.com/google/jimfs) - Файловая система, работающая в памяти, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+* [Lanterna](https://code.google.com/p/lanterna/) - Легковесная библиотека, реализующая консольно-текстовый GUI, похожий на curses, Лицензия: [LGPL 2.1](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+* [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
 
 ## VIII. Resources
 
