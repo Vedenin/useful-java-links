@@ -789,37 +789,37 @@
 *Фреймворки и инструменты для получения набора code coverage метрик для тестов.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), [BSD](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-2. [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation, ***Лицензия: платная, проприетарная*** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true) 
-3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+1. [JaCoCo](http://eclemma.org/jacoco/) - Фреймворк, который позволяет собирать метрики покрытия кода тестами, используя как offline, так и runtime байткод инструменты, используется в EclEmma, плагине Eclipse для определения степени покрытия тестами, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), [BSD](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [Clover](https://www.atlassian.com/software/clover/overview) - Проприетарный инструмент для определения степени покрытия кода тестами от Atlassian, который основан на анализе исходного кода вместо анализа байткода, ***Лицензия: платная, проприетарная*** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true) 
+3. [Cobertura](http://cobertura.github.io/cobertura) - Использует автономный (или статическый) инструментарий анализа байткода и class loading'a для получения метрик покрытия кода тестами, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Набор инструментов для анализа покрытия кода тестами, который используется при разработке OpenJDK проекта, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 ### 3. Continuous Integration
-*Tools which support continuously building, testing and releasing applications.*
+*Набор инструментов, поддерживающих непрерывную сборку, тестирование и релизы приложений.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it,
-2. [CircleCI](https://circleci.com/) - Hosted service with a free trial,
-3. [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
-4. [fabric8](http://fabric8.io/) - Integration platform for containers.
-5. [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
-6. [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
-8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects. 
+1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's решение с хорошей интеграцией с другими продуктами этой компании. Можно использовать либо подав заявку на открытую лицензию или просто купив его,
+2. [CircleCI](https://circleci.com/) - Cервис хостинга CI с бесплатным тестовым сроком,
+3. [Codeship](https://codeship.com/features) - Cервис хостинга CI с ограниченными бесплатными планами.
+4. [fabric8](http://fabric8.io/) - Интеграционная платформа для контайнеров.
+5. [Go](https://www.thoughtworks.com/go/) - Открытое решение от ThoughtWork.
+6. [Jenkins](http://jenkins-ci.org/) - Предоставляет серверное решение для развертывания сервисов.
+7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI решение со свободной версией.
+8. [Travis](https://travis-ci.org) - Cервис хостинга CI, который часто использует в открытых продуктах. 
 
 ### 4. Formal Verification
 *Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
-2. [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
-3. [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
-4. [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
-5. [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
-6. [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
-7. [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
-8. [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
-9. [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
+1. [CATG](https://github.com/ksen007/janala2) - Concolic unit тест движок. Автоматически генерит unit тесты, используя ряд формальных методов.
+2. [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Легко настраиваемая плагинами система типов, включет   nullness типы, physical units, неизменяемые типы и прочее.
+3. [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon обнаруживает различные программные invariants и мрдет генерировать JML спецификации, основанные на этих invariats.
+4. [Java Modeling Language (JML)](http://www.jmlspecs.org) - Интерфейс поведенческих спецификаций, который может исопльзоваться для определения желаемого поведения программных модулей. Он комбинирует подход контрактного дизайна приложения от Eiffel и подход спецификаций модели, основанных на семействе Larch языков описания спецификаций интерфейсов, с некоторыми элементами от refinement calculus. Используется в некоторых других системах верефикации.
+5. [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM инструмент formal верефикации, который содержит проверки модели и прочее. Созданн НАСА..
+6. [jCUTE](https://github.com/osl/jcute) -  Concolic unit тест движок. Автоматически генерит unit тесты. Concolic выполнение комбинирует случайное concrete execution с symbolic execution и automatic constraint solving.
+7. [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Обнаруживает несоответствий между кодом и спецификацией JML с помощью генерации случайных тестов с обратной связью и предлагает возможные причины, вызывающие обнаруженные несоотвествия.
+8. [KeY](http://key-project.org/) - KeY System это инструмент формальной верефикации основными целями которого являются интеграция дизайна, имплементации, формальной спецификации и формальная верефикация ООП настолько легко, насколько это возможно. Использует JML для спецификаций и symbolic execution для верефикации.
+9. [OpenJML](http://openjml.github.io/) - Преобразует JML спецификации в SMT-LIB формат и находит проблемы и передает описание проблем к backend решателю.
 
 ## V. Инструменты для упрощения разработки
 ### 1. IDE
