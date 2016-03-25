@@ -808,7 +808,7 @@
 8. [Travis](https://travis-ci.org) - Cервис хостинга CI, который часто использует в открытых продуктах. 
 
 ### 4. Formal Verification
-*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+* Инструменты для формальной верефикации: proof assistants, model checking, symbolic execution и т.п.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1. [CATG](https://github.com/ksen007/janala2) - Concolic unit тест движок. Автоматически генерит unit тесты, используя ряд формальных методов.
@@ -853,7 +853,7 @@
 11. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков.
 12. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties.
 
-*Tools which handle the build cycle and dependencies of an application.*
+*Инструменты для сборки проекта (build) и работы с зависимостями(dependencies) приложения.*
 
 1. [Apache Maven](http://maven.apache.org/) - Система декларативной сборки и управления зависимостями, которая упрощает конфигурирование приложения. Это может быть предпочтительнее Apache Ant, используещего более процедурный подход, который сложнее поддерживать в большинстве случаев.
 2. [Bazel](http://bazel.io) -  Инструмент для сборки от Google, который позволяет собирать код быстро и надежно.
@@ -867,7 +867,7 @@
 2. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties.
 
 #### Distribution
-*Tools which handle the distribution of applications in native formats.*
+*Инструменты для работы с развертыванием (distribution) приложений в нативные форматы.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1. [Bintray](https://bintray.com/) - Контроль версий дляя бинарных файлов, так же может использовать вместе с Maven или Gradle и имеет свободный план для открытого ПО, а так же ряд различных бизнес планов.
