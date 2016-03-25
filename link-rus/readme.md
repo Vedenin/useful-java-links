@@ -922,13 +922,13 @@
 *Инструменты для мониторинга приложений в production.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1. [AppDynamics](http://www.appdynamics.com/) - Коммерческий монитор производительности.
-2. [JavaMelody](https://github.com/javamelody/javamelody) - Мониторинг производительности и профайлинг.
-3. [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Инструмент для соединения с различными JVMs и запросах их свойств через JMX. Этот язык запросов основан на JSON, что позволяет не-Java программистам получать доступ к JVMs свойствам. Также, этот инструмент поддерживает различные виды вывода данных, включая Graphite, Ganglia, StatsD и многие другие.
-4. [Kamon](http://www.kamon.io/) - Инструменты для мониторинга приложений запущенных на JVM.
-5. [New Relic](http://newrelic.com/) - Коммерческий монитор производительности.
-6. [SPM](https://sematext.com/spm/) - Коммерческий монитор производительности с отладкой распределенных транзакций в JVM приложениях.
-7. [Takipi](https://www.takipi.com/) - Коммерческий мониторинг ошибок и отладка в продашен режиме.
+1. [AppDynamics](http://www.appdynamics.com/) - Коммерческий монитор производительности.  **Лицензия: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+2. [JavaMelody](https://github.com/javamelody/javamelody) - Мониторинг производительности и профайлинг, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+3. [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Инструмент для соединения с различными JVMs и запросах их свойств через JMX. Этот язык запросов основан на JSON, что позволяет не-Java программистам получать доступ к JVMs свойствам. Также, этот инструмент поддерживает различные виды вывода данных, включая Graphite, Ganglia, StatsD и многие другие, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4. [Kamon](http://www.kamon.io/) - Инструменты для мониторинга приложений запущенных на JVM, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+5. [New Relic](http://newrelic.com/) - Коммерческий монитор производительности. **Лицензия: Проприетарная платная, с двумя неделями пробного периода** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+6. [SPM](https://sematext.com/spm/) - Коммерческий монитор производительности с отладкой распределенных транзакций в JVM приложениях.  **Лицензия: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+7. [Takipi](https://www.takipi.com/) - Коммерческий мониторинг ошибок и отладка в продашен режиме.  **Лицензия: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью и пробный период в две недели у полной версии** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 
 ### 6. Прочее
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -936,7 +936,7 @@
 1.  [Google J2ObjC:](https://github.com/google/j2objc) Java to Objective-C Translator and Runtime — конвертация языка Java (включая Android) в Objective-C.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2940. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2.  [Spring loaded](https://github.com/spring-projects/spring-loaded) - Java агент, которые позволяет перегружать Java классы прямо во время работы JVM . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 807. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) Система для реверс-инженеринга Java и Android (декомпилятор, редактор, отладчик и т. д.). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 617. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-4.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: Своя open-source лицензия, рейтинг github'а - 514.
+4.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: [WTFPL](https://en.wikipedia.org/wiki/WTFPL), рейтинг github'а - 514. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true) 
 
 *Current implementations of the JVM/JDK.*
 
