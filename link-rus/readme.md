@@ -225,11 +225,13 @@
 4. [Thymeleaf](http://www.thymeleaf.org/) - Цель заменять JSP и работать с XML файлами в целом, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 5. Создания GUI
-*Библиотеки для создания современного графического интерфейса.*
+*Библиотеки для создания интерфейс пользователя (кроме веб)*
 
 1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - Правопреемник Swing, Лицензия: [Oracle, проприетарная](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - Визуальный инструмент разработки GUI для приложений JavaFX Лицензия: [Oracle, проприетарная](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 3. [SWT](http://www.eclipse.org/swt/) - The Standard Widget Toolkit (SWT) это набор бибилиотек и инструментария для создания графических виджетов в платформе Java, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4. [Lanterna](https://code.google.com/p/lanterna/) - Легковесная библиотека, реализующая консольно-текстовый GUI, похожий на curses, Лицензия: [LGPL 2.1](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
 
 
 
@@ -463,6 +465,7 @@
 21.  [Spring data mongodb](https://github.com/spring-projects/spring-data-mongodb) Java клиент к MongoDB для фреймворка Spring . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 394. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 22.  [Apache Phoenix](http://phoenix.apache.org/) - Высокопроизводительный слой для реляционных баз данных поверх HBase для систем с минимальным откликом, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 23.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Добавляет метрики и отказоустойчивые стратегии для наиболее популярных пулов соединией с базами данных, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+24. [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 5. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -845,6 +848,7 @@
 1. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3.  [Netflix Archaius](https://github.com/Netflix/archaius) - библиотека, реализующая API для управления конфигурациями, используется Netflix. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 614. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4. [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 #### Distribution
 *Инструменты для работы с развертыванием (distribution) приложений в нативные форматы.*
@@ -916,9 +920,8 @@
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Google J2ObjC:](https://github.com/google/j2objc) Java to Objective-C Translator and Runtime — конвертация языка Java (включая Android) в Objective-C.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2940. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-2.  [Spring loaded](https://github.com/spring-projects/spring-loaded) - Java агент, которые позволяет перегружать Java классы прямо во время работы JVM . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 807. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-3.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) Система для реверс-инженеринга Java и Android (декомпилятор, редактор, отладчик и т. д.). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 617. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-4.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: [WTFPL](https://en.wikipedia.org/wiki/WTFPL), рейтинг github'а - 514. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true) 
+2.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) Система для реверс-инженеринга Java и Android (декомпилятор, редактор, отладчик и т. д.). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 617. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+3.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: [WTFPL](https://en.wikipedia.org/wiki/WTFPL), рейтинг github'а - 514. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true) 
 
 *Current implementations of the JVM/JDK.*
 
@@ -1025,14 +1028,6 @@
 
 1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit это свободный Java Git клиент для управления, просмотр и обслуживания Git репозиторий . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 787. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2.  [WhisperSystems BitHub](https://github.com/WhisperSystems/BitHub) BitHub - экспериментальный сервис по сбору Bitcoin пожертвований и распределении этих пожертвований каждому кто коммитит в GitHub репозитории. Лицензия: ?, рейтинг github'а - 491.
-
-### 4. Прочее
-*Все прочее.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
-
-* [Lanterna](https://code.google.com/p/lanterna/) - Легковесная библиотека, реализующая консольно-текстовый GUI, похожий на curses, Лицензия: [LGPL 2.1](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-* [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-
 
 ## VIII. Resources
 
