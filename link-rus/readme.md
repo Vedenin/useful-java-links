@@ -111,9 +111,15 @@
 *Библиотеки, предоставляющие общие утилитарные функции.*
 
 1. [Gephi](https://github.com/gephi/gephi/) - Кросплатформенная система для визуализации, изменения и управления большими графами, Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-3. [javatuples](http://www.javatuples.org/) - Кортежи (Tuples), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 4.  [Smack](https://github.com/igniterealtime/Smack) Библиотека для создания XMPP клиента для JVMs и Android. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 426. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-5. [Immutables](http://immutables.github.io/) - Добавлет Scala-подобные классы, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
+#### Коллекции, структуры данных и методы работы с ними
+1.  [Google Guava](https://github.com/google/guava) Очень популярная библиотека от гугла, расширяющая возможности JDK, в том числе добавляющая новые коллекции и методы работы с ними. Работает с JDK1.6 и выше. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3813. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2.  [Apache Commons Collections](http://commons.apache.org/proper/commons-collections/) - Реализует различные дополнительный коллекции и метода работы с ними. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4.  [Gs collections](https://github.com/goldmansachs/gs-collections) Дополнение или замена стандартных Java коллекций и методов работающих с коллекциями. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1201. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+5. [javatuples](http://www.javatuples.org/) - Кортежи (Tuples), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+6. [Immutables](http://immutables.github.io/) - Добавлет Scala-подобные классы, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+7.  [OpenHFT Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue) Chronicle Queue работает так же как обычная Java очередь, однако каждое события сохраняется на жесткий диск . Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).0, рейтинг github'а - 440. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
 
@@ -143,16 +149,6 @@
 3. [args4j](http://args4j.kohsuke.org/) - Парсер командной строки, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 4. [CRaSH](http://www.crashub.org) - Реализует интерпретатор командной строки (CLI) для запущенныз процессов, Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-#### Development
-
-* Добавления дополнительных возможностей в процесс разработки на фундаментальном уровне*
-
-1. [DCEVM](http://dcevm.github.io/) - Модификация JVM, которая позволяет неограниченное переопределение загруженных классов во время выполнения, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-2. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Неограниченное переопределение классов и ресурсов во время выполнения, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-3. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, *Лицензия: Проприетарная, платное ПО,*![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
-4. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-
-
 #### Functional Programming
 
 * Библиотеки, реализующие функциональное программирование.*
@@ -179,11 +175,9 @@
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Lombok](https://github.com/rzwitserloot/lombok) Очень горячие добавления для языка программирования Java. Генератор кода, целью которого является сокращения реализации рутинного кода. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 1540. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-2.  [Gs collections](https://github.com/goldmansachs/gs-collections) Дополнение или замена стандартных Java коллекций и методов работающих с коллекциями. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1201. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3.  [Puniverse Quasar](https://github.com/puniverse/quasar) Quasar это библиотека, добавляющая Fibers (высокопроизводительные легкие threads), Go-подобные channels и Erlang-подобные actors в JVM. Лицензия: Eclipse Public v1.0/[GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 1091. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 4.  [Google Jimfs](https://github.com/google/jimfs) Jimfs это in-memory файловая система для Java 7 и выше, реализующая API абстрактной файловой системы, описанный в java.nio.file.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 752. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 5.  [Kilim](https://github.com/kilim/kilim) Легковесные потоки для Java с обменом сообщениями, nio, http и поддержкой расписания . Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 517. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-6.  [OpenHFT Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue) Chronicle Queue работает так же как обычная Java очередь, однако каждое события сохраняется на жесткий диск . Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).0, рейтинг github'а - 440. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 4. Вебфреймворки (Web Frameworks)
 *Вебфреймворки служат для реализации вебприложений и обработки взаимодйствия service-side и frontend-side вебприложений.*
@@ -218,6 +212,8 @@
 27. [Spring MVC](http://projects.spring.io/spring-framework/) - Предоставляет много различных возможностей для разработки вебприложений от dependency injection до аспектно-ориентированного программирования и поддержки security, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 28.  [CSSEmbed](https://github.com/nzakas/cssembed) это небольшая программ/библиотека для автоматического добавления URIs в CSS files. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 407. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 29.  [Athou commafeed](https://github.com/Athou/commafeed) RSS reader, основанный Dropwizard и AngularJS, вдохновленный Google Reader . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1226. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+30. [JavaServer Faces](https://javaserverfaces.java.net/) - Открытая реализация JSF стандарта от Oracle, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+31. [JavaServer Pages](https://jsp.java.net/) - Популярная Java технология шаблонов для создания вебсайтов с реализацией пользовательских тегов, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 #### Template Engine
 
@@ -350,6 +346,7 @@
 7. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 код генератор для algebraic data types, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 8. [Auto](https://github.com/google/auto) - Коллекция генераторов исходного кода, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 9. [JHipster](https://github.com/jhipster/generator-jhipster) - генератор кода, которые позволяет создавить приложения основанные на Spring Boot и AngularJS, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+10. [cglib](https://github.com/cglib/cglib) - Библиотека генерации байткода, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 15. Фреймворки для создания распределенных и отказоустойчивых приложений
 *Библиотеки и фреймворки для создания распределенных и отказоустойчивых приложений.*
@@ -569,6 +566,7 @@
 5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Http сервер и контейнер сервлетов. Легкий, маленький сервер, часто встраиваемый (embedded) в приложения. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).0, рейтинг github'а - 512. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 6. [Apache TomEE](http://tomee.apache.org/) - Apache Tomcat сервер к которому добавили поддержку Java EE, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Легковесный, модульный сервер, разработанный IBM, ***Лицензия: платная, проприетарная*** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+2. [GlassFish](https://glassfish.java.net/) - Сервер приложений и образцовая реализация Java EE от Oracle, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 
 ### 2. Сеть и сокеты 
@@ -797,6 +795,7 @@
 6. [Jenkins](http://jenkins-ci.org/) - Предоставляет серверное решение для развертывания сервисов, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI решение с бесплатной версией для open-source продуктов, **Лицензия: Проприетарная, платная** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 8. [Travis](https://travis-ci.org) - Cервис хостинга CI, который часто использует в открытых продуктах, Лицензия: ?
+9. [Hudson](http://hudson-ci.org/) - Сервер непрерывной реализации для активной разработки, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 4. Formal Verification
 * Инструменты для формальной верефикации: proof assistants, model checking, symbolic execution и т.п.*
@@ -866,10 +865,6 @@
 *Библиотеки для оптимизации и решения проблем с производительностью*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-### 3. Инструменты для оптимизации производительности
-*Библиотеки для оптимизации и решения проблем с производительностью*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
-
 1.  [Square Leakcanary](https://github.com/square/leakcanary) утилита для поиска ошибок из-за которых происходит memory leak для Android и Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 4168. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2.  [Dropwizard Metrics](https://github.com/dropwizard/metrics) - библиотека для замера различных метрик в Java приложении для простого понимания что и как код делает во время продакшена.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3188. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3.  [GCViewer](https://github.com/chewiebug/GCViewer) Форк Tagtraum GCViewer — небольшой инструмент для подробной визуализации GC (garbage collector) логов (включая G1 collector). Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 990. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -909,7 +904,15 @@
 6. [SPM](https://sematext.com/spm/) - Коммерческий монитор производительности с отладкой распределенных транзакций в JVM приложениях.  **Лицензия: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 7. [Takipi](https://www.takipi.com/) - Коммерческий мониторинг ошибок и отладка в продашен режиме.  **Лицензия: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью и пробный период в две недели у полной версии** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 
-### 6. Прочее
+#### 6. Перезагрузка уже загруженных классов
+[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+
+1. [DCEVM](http://dcevm.github.io/) - Модификация JVM, которая позволяет неограниченное переопределение загруженных классов во время выполнения, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+2. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Неограниченное переопределение классов и ресурсов во время выполнения, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
+3. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, *Лицензия: Проприетарная, платное ПО,*![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+4. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
+### 7. Прочее
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Google J2ObjC:](https://github.com/google/j2objc) Java to Objective-C Translator and Runtime — конвертация языка Java (включая Android) в Objective-C.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2940. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -943,7 +946,7 @@
 2.  [Processing js](https://github.com/jeresig/processing-js) Портирование Processing библиотеку для работы с видео и изображениями в JavaScript.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 1696. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3.  [Pysonar2](https://github.com/yinwang0/pysonar2) PySonar2 это система индексирования и получения типов в Python, которая проводить сложный анализ с помощью Sourcegraph сотен тысяч открытых Python репозиториев. Лицензия: [GNU](http://www.gnu.org/licenses/agpl-3.0.en.html) [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг github'а - 1654. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
-### 3. javascript 
+### 3. Javascript 
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Yuicompressor](https://github.com/yui/yuicompressor) YUI Compressor — это система сжатия JavaScript и CSS файлов, которая удаляет лишние пробелы, безопасно обфуцирует локальные переменные до минимального возможного имени и т. д.. Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), рейтинг github'а - 1840. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -1023,22 +1026,10 @@
 1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit это свободный Java Git клиент для управления, просмотр и обслуживания Git репозиторий . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 787. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2.  [WhisperSystems BitHub](https://github.com/WhisperSystems/BitHub) BitHub - экспериментальный сервис по сбору Bitcoin пожертвований и распределении этих пожертвований каждому кто коммитит в GitHub репозитории. Лицензия: ?, рейтинг github'а - 491.
 
-### 4. Устаревшие, но ещё использующиеся, проекты 
-*Эти проекты появились очень давно, на данный момент они считаются устаревшими, однако в некоторых старых проектах продалжают использоваться*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
-
-
-1. [cglib](https://github.com/cglib/cglib) - Библиотека генерации байткода, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-2. [GlassFish](https://glassfish.java.net/) - Сервер приложений и образцовая реализация Java EE от Oracle, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-3. [Hudson](http://hudson-ci.org/) - Сервер непрерывной реализации для активной разработки, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-4. [JavaServer Faces](https://javaserverfaces.java.net/) - Открытая реализация JSF стандарта от Oracle, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-5. [JavaServer Pages](https://jsp.java.net/) - Популярная Java технология шаблонов для создания вебсайтов с реализацией пользовательских тегов, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-
-### 5. Прочее
+### 4. Прочее
 *Все прочее.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-* [Jimfs](https://github.com/google/jimfs) - Файловая система, работающая в памяти, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 * [Lanterna](https://code.google.com/p/lanterna/) - Легковесная библиотека, реализующая консольно-текстовый GUI, похожий на curses, Лицензия: [LGPL 2.1](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 * [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
