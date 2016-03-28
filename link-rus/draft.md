@@ -1,6 +1,6 @@
 # Useful java links
 
-- [I. Development](i-development)
+- [I. Development](#i-development)
     - [1. Common frameworks and libraries](#1-common-frameworks-and-libraries)
     - [2. Web Frameworks](#2-web-frameworks)
     - [3. GUI](#3-gui)
