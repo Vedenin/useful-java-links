@@ -93,7 +93,7 @@
 ## I. Development
 
 ### 1. Common frameworks and libraries
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Spring framework](https://github.com/spring-projects/spring-framework) The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications -- on any kind of deployment platform. A key element of Spring is infrastructural support at the application level: Spring focuses on the "plumbing" of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5921, на stackoverflow - more [100 000 questions](http://stackoverflow.com/questions/tagged/spring). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Google Guava](https://github.com/google/guava) The Guava project contains several of Google's core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.Requires JDK 1.6 or higher (as of 12.0). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3813. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -112,7 +112,7 @@
 
 
 ### 2. Web Frameworks
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Play Framework](https://github.com/playframework/playframework) The Play Framework combines productivity and performance making it easy to build scalable web applications with Java and Scala. https://www.playframework.com/ . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 6771. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Spark](https://github.com/perwendel/spark) Spark - a Sinatra inspired web framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2596. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -164,7 +164,7 @@ Pippo can be used in small and medium applications and also in applications base
 5. [Gephi](https://github.com/gephi/gephi/) - Gephi is an award-winning open-source platform for visualizing and manipulating large graphs. It runs on Windows, Mac OS X and Linux. Localization is available in French, Spanish, Japanese, Russian, Brazilian Portuguese, Chinese and Czech. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 4. Business
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Codecademy EventHub](https://github.com/Codecademy/EventHub) — An open source event analytics platform. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 1043. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Killbill](https://github.com/killbill/killbill) - Open-Source Subscription Billing & Payment Platform . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 902. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -175,7 +175,7 @@ Pippo can be used in small and medium applications and also in applications base
 7.  [Spring Roo](https://github.com/spring-projects/spring-roo) — Spring Roo is a next-generation rapid application development tool for Java developers. It focuses on higher productivity, stock-standard Java APIs, high usability, avoiding engineering trade-offs and facilitating easy Roo removal. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 399. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. Game Development
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [libgdx](https://github.com/libgdx/libgdx) Desktop/Android/HTML5/iOS Java game development framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 6579. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Disunity](https://github.com/ata4/disunity) An experimental toolset for Unity asset and asset bundle files. License: [unlicense.org](http://unlicense.org), github's star - 828.
@@ -186,9 +186,9 @@ Pippo can be used in small and medium applications and also in applications base
 6.  [LWJGL 2.X](https://github.com/LWJGL/lwjgl) LWJGL 2.X - The Lightweight Java Game Library. http://www.lwjgl.org/ License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 394. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Usefull libraries
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
-#### Коллекции, структуры данных и методы работы с ними
+#### Collections
 1.  [Google Guava](https://github.com/google/guava) Очень популярная библиотека от гугла, расширяющая возможности JDK, в том числе добавляющая новые коллекции и методы работы с ними. Работает с JDK1.6 и выше. . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3813. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Apache Commons Collections](http://commons.apache.org/proper/commons-collections/) - Реализует различные дополнительный коллекции и метода работы с ними. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4.  [Gs collections](https://github.com/goldmansachs/gs-collections) Дополнение или замена стандартных Java коллекций и методов работающих с коллекциями. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1201. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -203,16 +203,13 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Date and Time
 
-* Библиотеки для обработки даты и времени.*
 1. [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - простые преобразования между различными календарными системами, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Joda-Time](http://www.joda.org/joda-time/) - Joda Time это широко распространенная замена стандартных классов date и time в Java. Де факто стандартная библиотеки даты и времени до появления Java 8, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 1442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Порт с JSR 310 (java.time package) от автора Joda-Time, License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [Time4J](https://github.com/MenoData/Time4J) - Продвинутая бибилоека работы с датой и временем, License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 5.  [Ocpsoft Prettytime](https://github.com/ocpsoft/prettytime) PrettyTime это библиотека форматирования Java date в выражение на натуральном языке и в формате принятом в социальных сетях (Digg, Twitter, and Facebook) и более чем на 30 человеческих языках. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 394. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-#### Dependency Injection и AОП фреймворки
-
-*Бибилиотеки и фреймворки, которые реализуют парадигму [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control).*
+#### Dependency Injection and AOP frameworks
 
 1.  [Spring Framework](https://github.com/spring-projects/spring-framew ork) Spring — наверное, самый распространенный фреймворк Java в мире, которые в том числе реализует Dependency Injection. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5921. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Dagger и Dagger2](https://github.com/square/dagger) Быстрый и легковесный фреймворк для реализации dependency injector для Android и Java, работающий во время компиляции, а не во времени выполнения, и не использующий рефлексию. Реализует Java спецификацию JSR-330, описывающую dependency injector. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3607, на stackoverflow - [800 вопросов](http://stackoverflow.com/questions/tagged/dagger). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true) 
@@ -229,8 +226,6 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Функциональное программирование
 
-* Библиотеки, реализующие функциональное программирование.*
-
 1. [Cyclops](https://github.com/aol/cyclops) - Добавляет монады, потоковые утилиты и такие возможности функционального программирования как: comprehensions, pattern matching, trampolines и многое другое, License: [MIT](https://opensource.org/licenses/MIT)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [derive4j](https://github.com/derive4j/derive4j) - Процессор, работающий с Java 8 аннотациями, и фреймворк для реализации: deriving algebraic data types constructors, pattern-matching, morphisms и т.п, License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 3. [Fugue](https://bitbucket.org/atlassian/fugue) - Функциональное расширение библиотеки Guava, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -242,8 +237,6 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Реактивное программирование
 
-*Библиотеки для разработки reactive приложений.*
-
 1.  [ReactiveX RxJava](https://github.com/ReactiveX/RxJava) библиотека для реализации асинхронного и событийного программирования на основе расширения паттерна Observer для разных языков от ReactiveX. . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 6279, на stackoverflow - [1814 вопросов](http://stackoverflow.com/search?q=RxJava). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Eclipse Vert.x](https://github.com/eclipse/vert.x) Событийно-ориентированный полиглотный фреймворк для JVM от Eclipse, позволяет писать одновременно на JavaScript, Ruby, Groovy, Java и Python, встраивается в текущие проекты на Java, упрощает мультипоточность. содержит event bus и т.д. и т.п.  . License:  Eclipse Public 1 / [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3743, на stackoverflow - [728 вопросов](http://stackoverflow.com/search?q=Vert.x). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - Реализует стандарт для асинхронной потоковой обработки без проблем с блокировками. License: [Public Domain (CC0)](https://en.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D0%B8_%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_Creative_Commons#CC0), github's star - 769. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -251,7 +244,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 #### Безопасность и авторизация
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Scribe Java](https://github.com/fernandezpablo85/scribe-java) - простая OAuth библиотека для Java. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 2731. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Spring security oauth](https://github.com/spring-projects/spring-security-oauth) - добавлении методов авторизации OAuth1(a) и OAuth2 для Spring вебприложений.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 916. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -267,7 +260,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Высокая производительность
 *Все для высокопроизводительных решенией от коллекций до специальных библиотек.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [Agrona](https://github.com/real-logic/Agrona) - Структуры данных и функции, которые будут полезны для высоконагруженных приложений, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Disruptor](http://lmax-exchange.github.io/disruptor/) - библиотека, обеспечивающая межпоточный обмен сообщениями, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -281,7 +274,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 #### Сериализация (serializer) и работа с файлами (I/O)
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Square Okio](https://github.com/square/okio) Современный I/O API для Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1243. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Square type](https://github.com/square/tape) Легкий, быстрый, транзакционный, файловый FIFO для Android и Java.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1073. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -293,7 +286,7 @@ Pippo can be used in small and medium applications and also in applications base
 8. [MessagePack](https://github.com/msgpack/msgpack-java) - Эффекстивный бинарный формат сериализации, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Логирования
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) свободная и открытая система логирования. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1308. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java. http://logback.qos.ch/. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 497. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -308,7 +301,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Bean Mapping 
 *Фреймворки, упрощающие маппинг одних типов данных в другие.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой (создавая рекурсивную копию одного объекта в другом) используя аннотации, API или XML конфигурацию, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 421. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [MapStruct](https://github.com/mapstruct/mapstruct) - Код генератор, который упрощает маппинг между разными типами данных, основываясь на конфигурации маппинга, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -318,7 +311,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 ### 7. Изображения и Видео
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Facebook Rebound](https://github.com/facebook/rebound) Это Java библиотека которая моделирует поведение физики реального мира в вашем приложении. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), github's star - 2219. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Processing](https://github.com/processing/processing) Исходный код для Processing Development Environment (PDE) — программному языку для обработки видео и графики. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1896. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -331,7 +324,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 8. Кодогенерация и изменения байт кода
 *Libraries to manipulate bytecode programmatically.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Google Auto](https://github.com/google/auto) - коллекция генераторов исходного кода в Java.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Square Javapoet](https://github.com/square/javapoet) - библиотека для генерации исходных кодов классов Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1057. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -346,7 +339,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 9. Фреймворки для создания распределенных и отказоустойчивых приложений
 *Библиотеки и фреймворки для создания распределенных и отказоустойчивых приложений.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [Akka](http://akka.io) - Набор инструментов и среда выполнения для создания многопоточных, распределенных и устойчивых к ошибкам событийно-ориентированных приложений, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache Storm](http://storm.apache.org/) - Система вычислений в режиме реального времени, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -364,7 +357,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 10. Наука
 *Библиотеки для научных расчетов и анализа.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [DataMelt](http://jwork.org/dmelt/) - Среда для научных расчетов, анализа и визуализаци данных, License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2. [JGraphT](https://github.com/jgrapht/jgrapht) - Графическая библиотека, которая предоставляет объект и алгоритмы из математической теории графов, License: [Eclipse Public License](https://en.wikipedia.org/wiki/Eclipse_Public_License) или [LGPL 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -373,7 +366,7 @@ Pippo can be used in small and medium applications and also in applications base
 ## II. Базы данных, поисковые системы, Big data и машинное обучение
 
 ### 1. Базы данных и хранилища
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Thinkaurelius Titan](https://github.com/thinkaurelius/titan) - распределенная графическая база данных. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2846. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Apache Cassandra](https://github.com/apache/cassandra) - зеркало для Apache Cassandra — база данных с высокой доступностью и высокой расширямостью и отличной производительностью . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2155. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -424,7 +417,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 ### 3. Поисковые системы
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - одна из самых популярных систем распределенного облачного поиска. Распределенная, mультиарендная (multitenant-capable) полнотекстовая поисковая система с RESTful веб интерфейсом, не требующая схемы данных, основанная на JSON документах. . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 11833. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Linkedin Indextank Engine](https://github.com/linkedin/indextank-engine) Проект IndexTank это поисковый движок, поддерживающий возможности вроде переменных (boosts), категорий (facets), предложения, автокомплит и т. п.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 788. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -434,7 +427,7 @@ Pippo can be used in small and medium applications and also in applications base
 6.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. License: ?, github's star - 395.
 
 ### 4. Клиенты и драйверы баз данных
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.).  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3603. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Jedis](https://github.com/xetorthio/jedis) Невероятно маленький и эффективный Redis Java клиент. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 2495. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -462,7 +455,7 @@ Pippo can be used in small and medium applications and also in applications base
 24. [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [HikariCP](https://github.com/brettwooldridge/HikariCP) HikariCP — быстрая, надежная и легкая библиотека для создания JDBC connection pool с минимальными накладными расходами. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1542. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Mybatis 3](https://github.com/mybatis/mybatis-3) MyBatis это фреймворк маппинга Java объектов в базы данных. Соединяет Java объектами с определенными хранимыми процедурами или sql запросами. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1428. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -480,7 +473,7 @@ Pippo can be used in small and medium applications and also in applications base
 , License: [ISC](https://en.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_ISC).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.) 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Storm](https://github.com/nathanmarz/storm) - распределенная и устойчивая к ошибкам обработка данных в реальном времени: потоковая обработка, непрерывные вычисления, распределенный RPC и другое. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 8636. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [OpenRefine](https://github.com/OpenRefine/OpenRefine) — инструменты для обработки «грязных» плохо структурированных данных и улучшения их. Выполняет очистку данных, преобразование, связывает с базой данных и позволяет обращаться к данным с помощью web сервисов. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses) , github's star - 2939. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -493,7 +486,7 @@ Pippo can be used in small and medium applications and also in applications base
 9.  [Suro: Netflix's Data Pipeline](https://github.com/Netflix/suro) — это сервис для сбора, агрегации и управления большим количеством разнообразных событий, включая данные логов. . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 405. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 7. Большие данные (big data) 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Apache Storm](https://github.com/apache/storm) - зеркало для Apache Storm — свободную и распределенную систему обработки данных в реальном времени, аналог Hadoop, но для быстрой потоковой обработки данных, может использоваться с любым языком программирования.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2098. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Druid](https://github.com/druid-io/druid) это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1846. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -517,7 +510,7 @@ Pippo can be used in small and medium applications and also in applications base
 20.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3603. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 8. Машинное обучение и нейроные сети (Machine Learning)
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) Библиотека для машинного обучения, дружелюбная к пользователям (простая в настройке и т. п.). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1672. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Smile](https://github.com/haifengl/smile) SmileMiner (Statistical Machine Intelligence and Learning Engine) - набор Java библиотек различных алгоритмов машинного обучения. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1519. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -545,7 +538,7 @@ Pippo can be used in small and medium applications and also in applications base
 4. [Sat4J](http://www.sat4j.org/) - Наиболее продвинутый SAT решатель для логических (? boolean) и оптимизационых проблем, License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 9. Работа с естественными языками (NLP)
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 871. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2. [Apache OpenNLP](https://opennlp.apache.org/) - Набор инструментов для типовых задач таких как tokenization, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -554,7 +547,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ## III. Работа с сетью и интеграция
 ### 1. Веб сервера и сервера приложений (web server &amp; application server)
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Wildfly](https://github.com/wildfly/wildfly) - сервер приложений (Application Server), ранее известный как JBOSS, разработанный Red Hat с расширенной поддержки Java EE. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 1386. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Undertow io Undertow](https://github.com/undertow-io/undertow) - высокопроизводительный неблокирующий вебсервер. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 721. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -567,7 +560,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 ### 2. Сеть и сокеты 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Netty](https://github.com/netty/netty) низкоуровневый асинхроно-событийный фреймворк для быстрого создания высокопроизводительных клиент-серверных соединений. Более удобный аналог ассинхронным сокетам из модуля java.nio из JDK.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 4847. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Netty socketio](https://github.com/mrniko/netty-socketio) Реализация Socket.IO сервера на Java. Основан на Netty фреймворке, служит для обеспечение работы с сетевыми соединениями и сокетами. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 754. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -582,7 +575,7 @@ Pippo can be used in small and medium applications and also in applications base
 11. [Undertow](http://undertow.io/) - Вебсервер, предоставляющий блокирующий и неблокирующий API, основанный на NIO. Используется как сетевой слой в WildFly, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [LMAX Exchange Disruptor](https://github.com/LMAX-Exchange/disruptor) Высокопроизводительная библиотека для поддержки межпоточных сообщений. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3137. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Gifsockets](https://github.com/videlalvaro/gifsockets) Коммуникационная библиотека, работающая в режиме реального времени и использующая Animated Gifs как транспорт. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), github's star - 1414. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -600,7 +593,7 @@ Pippo can be used in small and medium applications and also in applications base
 14. [Smack](https://github.com/igniterealtime/Smack) Библиотека для создания XMPP клиента для JVMs и Android. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 426. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Работа с http и ssh 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Square Okhttp](https://github.com/square/okhttp) HTTP & SPDY (новый формат HTTP от гугла) клиент для Android и Java.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5022. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client) Асинхронная Http и WebSocket клиентская библиотека для Java . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2149. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -615,7 +608,7 @@ Pippo can be used in small and medium applications and also in applications base
 11.  [Netflix Feign](https://github.com/Netflix/feign) Feign позволяет создавать Java Http клиента проще и быстрее. Feign основан на Retrofit, JAXRS-2.0 и WebSocket. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 485. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. Работа с rest
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Square Retrofit](https://github.com/square/retrofit) Типобезопасная библиотека для создания REST клиента для Android и Java.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5945. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Dropwizard](https://github.com/dropwizard/dropwizard) фреймворк для создания RESTful сервисов c использованием Jetty, Jackson, Jersey и Metrics. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3427. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -631,13 +624,13 @@ Pippo can be used in small and medium applications and also in applications base
 12. [Spark](http://sparkjava.com/) - фреймворк, вдохновленный Sinatra фреймворком, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Интеграционные фреймворки
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) Интеграция JVM с "внешним мира" (программами логирования, мониторинга, графики и т. п.). License: ?, github's star - 708.
 2.  [Apache Camel](https://github.com/apache/camel) Зеркало Apache Camel. Apache Camel - мощный свободный интеграционных фреймворк, основанный на Enterprise Integration Patterns.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 490. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 7. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling)
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с подержкой XPath и CSS selector. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3323. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Jsoup](https://github.com/jhy/jsoup) jsoup это Java HTML парсер с использованием DOM, CSS, и jquery. http://jsoup.org/ License: [MIT](https://opensource.org/licenses/MIT) , github's star - 2006. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -649,7 +642,7 @@ Pippo can be used in small and medium applications and also in applications base
 8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Простой и легковесный вебпаук, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 8. Работа с Json 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson) Быстрый JSON обработчик. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2605. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [JSON java](https://github.com/douglascrockford/JSON-java) Набор классов для работы с JSON в Java, конвертации JSON в XML, CDL, cookie lists, HTTP headers и обратно.. License: Своя open-source License ?, github's star - 1561.
@@ -667,14 +660,14 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 9. CSV
 *Frameworks and libraries that simplify reading/writing CSV data.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [opencsv](http://opencsv.sourceforge.net) - Простой CSV парсер, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Super CSV](http://super-csv.github.io/super-csv/) - Мощный CSV парсер, поддерживающий Dozer, Joda-Time и Java 8, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - Один из самых быстрых и многофункционных CSV парсеров. Так же в библиотеке есть парсеры для TSV и файлом с записями фиксированной ширины, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 10. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборк информации о работе всех его различных сервисов. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Wizcorp Phonegap facebook plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) Официальный плагин для Facebook в Apache Cordova/PhoneGap. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1587. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -686,14 +679,14 @@ Pippo can be used in small and medium applications and also in applications base
 8.  [Spring projects Spring social](https://github.com/spring-projects/spring-social) Spring Social это расширение Spring Framework, которые позволяет интегрировать ваши приложения с Software-as-a-Service (SaaS) провайдерами, такими как Facebook или Twitter. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 409. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 11. Работа с биткойном
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [XChange](https://github.com/timmolter/XChange) XChange это Java библиотека предоставляющая удобный API для взаимодействия с более чем 50+ Bitcoin и Altcoin обменными биржами . License: [MIT](https://opensource.org/licenses/MIT) , github's star - 455. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) Библиотека для работы с Bitcoin. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 453.  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3.  [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner) OpenCL майнер для Bitcoin. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 443. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 12. Облачные системы
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - инструменты для поддержки ваших облачных операций. Chaos Monkey это гибкий инструментарий для создания устойчивых к случайным ошибкам приложений.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2892. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Netflix Eureka](https://github.com/Netflix/eureka) это REST (Representational State Transfer) — сервис для управления AWS (Amazon Web Services ) облаками, обеспечение load balancing и отказоустойчивости. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1051. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -706,7 +699,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ## 13. Cluster Management
 *Фреймворки для динамического управления приложением внутри класстера.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora это Apache Mesos фреймворк для длительных сервисов и cron jobs, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Singularity](http://getsingularity.com/) - Singularity это Apache Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач, License: **неизвесна, на сайте не найдена!**. 
@@ -720,7 +713,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### PDF
 *Everything that helps with the creation of PDF files.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [Apache FOP](http://xmlgraphics.apache.org/fop/) - Создание PDF из XSL-FO, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache PDFBox](http://pdfbox.apache.org/) - Набор инструментов для создания и изменения PDF, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -732,14 +725,14 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 15. Работа с нативным API разных ОС](#15-native)
 *For working with platform-specific native libraries.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Java Native Access (JNA)](https://github.com/java-native-access/jna) Java Native Access — система доступа к нативному API. Так же предоставляет интерфейсы к основным системых библиотекам. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) или [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true) , github's star - 1750. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [JNR](https://github.com/jnr/jnr-ffi) -  Работа с нативными библиотеками без использвания JNI. Так же предоставляет интерфейсы к основным системых библиотекамs. Те же задачи что у JNA, но работает быстрее, и служит основой для разрабатываемого [Project Panama](http://openjdk.java.net/projects/panama/), License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ## IV. Тестирование
 ### 1. Тестирование
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Junit](https://github.com/junit-team/junit) Простой и популярный фреймворк для unit тестирования . License:  [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) , github's star - 3662. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Mockito](https://github.com/mockito/mockito) Mocking фреймворк для unit тестов, написанных на Java. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 1307. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -773,7 +766,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 2. Code Coverage
 *Фреймворки и инструменты для получения набора code coverage метрик для тестов.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [JaCoCo](http://eclemma.org/jacoco/) - Фреймворк, который позволяет собирать метрики покрытия кода тестами, используя как offline, так и runtime байткод инструменты, используется в EclEmma, плагине Eclipse для определения степени покрытия тестами, License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [BSD](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Clover](https://www.atlassian.com/software/clover/overview) - Проприетарный инструмент для определения степени покрытия кода тестами от Atlassian, который основан на анализе исходного кода вместо анализа байткода, ***License: платная, проприетарная*** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true) 
@@ -782,7 +775,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 3. Continuous Integration
 *Набор инструментов, поддерживающих непрерывную сборку, тестирование и релизы приложений.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's решение с хорошей интеграцией с другими продуктами этой компании. Можно использовать либо подав заявку на бесплатную лицензию или просто купив его, ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 2. [CircleCI](https://circleci.com/) - Cервис хостинга CI с бесплатным тестовым сроком, ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
@@ -796,7 +789,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 4. Formal Verification
 * Инструменты для формальной верефикации: proof assistants, model checking, symbolic execution и т.п.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [CATG](https://github.com/ksen007/janala2) - Concolic unit тест движок. Автоматически генерит unit тесты, используя ряд формальных методов, License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses), License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Легко настраиваемая плагинами система типов, включет   nullness типы, physical units, неизменяемые типы и прочее, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -810,7 +803,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ## V. Инструменты для упрощения разработки
 ### 1. IDE
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [JetBrains Intellij Сommunity](https://github.com/JetBrains/intellij-community) IntelliJ IDEA Community Edition — одна из лучший IDE для Java . http://www.jetbrains.com/idea/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2068. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [JetBrains Ideavim](https://github.com/JetBrains/ideavim) Плагин, эмулирующий Vim для IDE, основанных на IntelliJ платформе. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1199. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -825,7 +818,7 @@ Pippo can be used in small and medium applications and also in applications base
 11. [NetBeans](https://netbeans.org/) - IDE поддерживает большое количество различных возможностей для разработки Java SE и EE приложений от работы с базой данных до работы с HTML5, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 #### Build
 *Инструменты для сборки проекта (build) и работы с зависимостями(dependencies) приложения.*
@@ -838,7 +831,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Configuration
 *Библиотеки, управлящие конфигурированием*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 614. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [owner](https://github.com/lviggiano/owner) - Уменьшение бесмысленного типового кода для работы с properties, License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -847,7 +840,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Distribution
 *Инструменты для работы с развертыванием (distribution) приложений в нативные форматы.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [Bintray](https://bintray.com/) - Контроль версий для бинарных файлов, так же может использовать вместе с Maven или Gradle и имеет свободный план для открытого ПО, а так же ряд различных бизнес планов, **License: проприетарная платная, есть бесплатная версия для открытых продуктов** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 2. [Capsule](http://www.capsule.io/) - это система сборки приложения в один выполняемый JAR файл со всеми артефактами, ресурсами, нативными библиотеками и т.п. Простой и мощный инструмент для packaging и deployment. Толстый JAR на стероидах или "Docker для Java", который поддерживает JVM-оптимизированные контейнеры, github's star - 576. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -862,7 +855,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 3. Инструменты для оптимизации производительности
 *Библиотеки для оптимизации и решения проблем с производительностью*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Square Leakcanary](https://github.com/square/leakcanary) утилита для поиска ошибок из-за которых происходит memory leak для Android и Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 4168. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Dropwizard Metrics](https://github.com/dropwizard/metrics) - библиотека для замера различных метрик в Java приложении для простого понимания что и как код делает во время продакшена.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3188. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -881,7 +874,7 @@ Pippo can be used in small and medium applications and also in applications base
 15. [YourKit Java Profiler](https://www.yourkit.com/features/) - Платный профайлер.   **License: Проприетарная платная, есть бесплатная версия для open source проектов, спец.планы для научных и академических целей**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 ### 4. Анализ исходного кода
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [SonarQube](https://github.com/SonarSource/sonarqube) это свободная платформа для управлением качеством кода. http://www.sonarqube.org License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 655. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Google Error prone](https://github.com/google/error-prone) - обнаружение типовых ошибок в Java коде. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 590. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -893,7 +886,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 5. Monitoring
 *Инструменты для мониторинга приложений в production.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [AppDynamics](http://www.appdynamics.com/) - Коммерческий монитор производительности.  **License: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 2. [JavaMelody](https://github.com/javamelody/javamelody) - Мониторинг производительности и профайлинг, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -904,7 +897,7 @@ Pippo can be used in small and medium applications and also in applications base
 7. [Takipi](https://www.takipi.com/) - Коммерческий мониторинг ошибок и отладка в продашен режиме.  **License: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью и пробный период в две недели у полной версии** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 #### 6. Переопределение загруженных классов
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [DCEVM](http://dcevm.github.io/) - Модификация JVM, которая позволяет неограниченное переопределение загруженных классов во время выполнения, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2. [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Неограниченное переопределение классов и ресурсов во время выполнения, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -912,7 +905,7 @@ Pippo can be used in small and medium applications and also in applications base
 4. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 7. Прочее
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Google J2ObjC:](https://github.com/google/j2objc) Java to Objective-C Translator and Runtime — конвертация языка Java (включая Android) в Objective-C.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2940. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) Система для реверс-инженеринга Java и Android (декомпилятор, редактор, отладчик и т. д.). License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 617. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -927,7 +920,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ## VI. Языки программирования и приложения, написанные на Java
 ### 1. Языки программирования, написанные на Java
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Clojure](https://github.com/clojure/clojure) Язык программирования Clojure.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 4332. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [JetBrains Kotlin](https://github.com/JetBrains/kotlin) Язык программирования Kotlin. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1621. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -938,14 +931,14 @@ Pippo can be used in small and medium applications and also in applications base
 7.  [Apache Incubator groovy](https://github.com/apache/incubator-groovy) Зеркало для Apache Groovy — исходного кода языка программирования Groovy. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 464. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Утилиты для других языков программирования, написанные на Java
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Go lang idea plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) IDE для языка программирования Goole Go, созданная на основе IntelliJ Platform. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1717. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Processing js](https://github.com/jeresig/processing-js) Портирование Processing библиотеку для работы с видео и изображениями в JavaScript.. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 1696. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3.  [Pysonar2](https://github.com/yinwang0/pysonar2) PySonar2 это система индексирования и получения типов в Python, которая проводить сложный анализ с помощью Sourcegraph сотен тысяч открытых Python репозиториев. License: [GNU](http://www.gnu.org/licenses/agpl-3.0.en.html) [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), github's star - 1654. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 3. Javascript 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Yuicompressor](https://github.com/yui/yuicompressor) YUI Compressor — это система сжатия JavaScript и CSS файлов, которая удаляет лишние пробелы, безопасно обфуцирует локальные переменные до минимального возможного имени и т. д.. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), github's star - 1840. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Google Closure compiler](https://github.com/google/closure-compiler) Библиотека проверки JavaScript кода и его оптимизации. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -953,14 +946,14 @@ Pippo can be used in small and medium applications and also in applications base
 4.  [Dynjs](https://github.com/dynjs/dynjs) Среда выполнения ECMAScript для JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 533. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1. [ANTLR](http://www.antlr.org/) - Многоцелевой полноценный фреймворк для top-down парсинга, License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [JavaCC](https://javacc.java.net/) - more специфичный и простой в обучении, имеет синтаксический предпросмотр, License: [BSD ](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 ### 5. Приложения и готовые продукты написанные на Java
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Square Keywhiz](https://github.com/square/keywhiz) - cистема для хранения и управления секретными данными (TLS сертификаты, GPG ключи, API токены, данные доступа к базам данным) . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 979. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Rundeck](https://github.com/rundeck/rundeck) это автоматический сервис-планировщик по управлению заданиями, job'aми с вебконсолью, инструментами командной строки и WebAPI. . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 853. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -979,7 +972,7 @@ Pippo can be used in small and medium applications and also in applications base
 15.  [Languagetool](https://github.com/languagetool-org/languagetool) - система стилистической и грамматической проверки текста более чем на 25 разных языках (английский, франц узкий, немецкий, русский, польский и т. д.). License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 416. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Игры, написанные Java 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Bukkit](https://github.com/Bukkit/Bukkit) Мод для Minecraft API. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1600. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2.  [MovingBlocks Terasology](https://github.com/MovingBlocks/Terasology) Terasology это расширение для игры Minecraft . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1070. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -996,7 +989,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ## VII. Прочее
 ### 1. Примеры исходного кода на java 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Java design patterns](https://github.com/iluwatar/java-design-patterns)  Очень хорошие примеры и справочник по паттернам разработки.  . License:  [MIT](https://opensource.org/licenses/MIT) , github's star - 6341. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Spring projects Spring mvc showcase](https://github.com/spring-projects/spring-mvc-showcase) Примеры, демонстрирующие возможности Spring MVC веб фреймворка. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1338. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1013,13 +1006,13 @@ Pippo can be used in small and medium applications and also in applications base
 13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд.
 
 ### 2. Результаты сравнения производительности кода на Java (benchmark) 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Jvm serializers](https://github.com/eishay/jvm-serializers) - бенчмарки и сравнения производительности разных библиотек сериализации в JVM . License: ?, github's star - 970.
 2.  [YCSB (Yahoo! Cloud Serving Benchmark)](https://github.com/brianfrankcooper/YCSB) - бэнчмарки (тесты производительности) различных облачных сервисов. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 869. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Работа с git &amp; github 
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit это свободный Java Git клиент для управления, просмотр и обслуживания Git репозиторий . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 787. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [WhisperSystems BitHub](https://github.com/WhisperSystems/BitHub) BitHub - экспериментальный сервис по сбору Bitcoin пожертвований и распределении этих пожертвований каждому кто коммитит в GitHub репозитории. License: ?, github's star - 491.
@@ -1028,7 +1021,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 1. Communities
 *Ресурсы для дискуссий и обсуждений (на английском).*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 * [r/java](https://www.reddit.com/r/java) - Subreddit для Java пользователей.
 * [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Популярная платформа для вопросов/ответов
@@ -1036,7 +1029,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 2. Influential Books
 *Книги которые оказали огромное влияние на Java мир и которые действительно стоят того чтобы их прочитать (на английском).*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 * [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
@@ -1046,7 +1039,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 ### 3. Websites
 *Полезные сайты.*
-[К оглавлению](#Список-полезных-ссылок-для-java-программиста)
+[Up](#useful-java-links)
 
 * [Android Arsenal](https://android-arsenal.com)
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
