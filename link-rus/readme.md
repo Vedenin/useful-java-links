@@ -1070,7 +1070,3 @@
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
-
-## Лицензия
-
-**Лицензия**: Данный файл вы можете свободно распостранять, модифицировать как вам угодно, под условиям любой из следующих лицензий (на ваш выбор): [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) или [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29) или [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT). или [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) или [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). Но в любом случае какую лицензию вы не использовали, данный файл предоставляется как есть, без всяких гарантий, прямых или косвенных.
