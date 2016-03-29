@@ -1072,8 +1072,7 @@
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
 
-# Видео доклады и лекции о Java 
-
+## IX Видео доклады и лекции о Java
 
 ## **1\. Вопросы оптимизации и производительности**
 
