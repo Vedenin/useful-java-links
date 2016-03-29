@@ -789,16 +789,16 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 ## VIII. Resources
 
 ### 1. Communities
-
 *Active discussions.*
+[Up](#useful-java-links)
 
-* [r/java](https://www.reddit.com/r/java) - Subreddit for the Java community.
+* [r/java](https://www.reddit.com/r/java) -  Subreddit for the Java community.
 * [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
 * [vJUG](http://virtualjug.com/) - Virtual Java User Group.
 
 ### 2. Influential Books
-
 *Books that had a high impact and are still worth reading.*
+[Up](#useful-java-links)
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
 * [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
@@ -807,8 +807,8 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 
 
 ### 3. Websites
-
 *Sites to read.*
+[Up](#useful-java-links)
 
 * [Android Arsenal](https://android-arsenal.com)
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
