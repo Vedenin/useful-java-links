@@ -37,7 +37,7 @@
     - [9. Natural Language Processing (NLP)](#9-natural-language-processing-nlp)
     
 - [III. Network and Integration](#iii-network-and-integration)
-    - [1. Веб сервера и сервера приложений (web server &amp; application server)](#1-Веб-сервера-и-сервера-приложений-web-server--application-server)
+    - [1. Servers (Web Server and Application Server))](#1-servers-web-server-and-application-server)
     - [2. Networking](#2-networking)
     - [3. Message, message broker and message queue](#3-message-message-broker-and-message-queue)
     - [4. Http and ssh](#4-http-and-ssh)
@@ -73,19 +73,17 @@
 
 - [VI. Program languages and applications, that was written with Java](#vi-program-languages-and-applications-that-was-written-with-java)
     - [1. Program languages, that was written with Java](#1--program-languages-that-was-written-with-java)
-    - [2. Утилиты для других языков программирования, написанные на Java](#2-Утилиты-для-других-языков-программирования-написанные-на-java)
-    - [3. javascript](#3-javascript)
-    - [4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода](#4-Фреймворки-для-создания-парсеров-интерпретаторов-и-компиляторов-кода)
-    - [5. Приложения и готовые продукты написанные на Java](#5-Приложения-и-готовые-продукты-написанные-на-java)
-    - [6. Игры, написанные Java](#6-Игры-написанные-java)
+    - [2. Other program languages tools, that was written with Java](#2-other-program-languages-tools-that-was-written-with-java)
+    - [3. Javascript](#3-javascript)
+    - [4. Frameworks that help to create parsers, interpreters or compilers](#4-frameworks-that-help-to-create-parsers-interpreters-or-compilers)
+    - [5. Applications, that was written with Java](#5-applications-that-was-written-with-java)
+    - [6. Games, that was written with Java](#6-games-that-was-written-with-java)
     
-- [VII. Прочее](#vii-Прочее)
-    - [1. Примеры исходного кода на java](#1-Примеры-исходного-кода-на-java)
-    - [2. Результаты сравнения производительности кода на Java (benchmark)](#2-Результаты-сравнения-производительности-кода-на-java-benchmark)
-    - [3. Работа с git & github](#3-Работа-с-git--github)
-    - [4. Устаревшие, но ещё использующиеся, проекты](#4-Устаревшие-но-ещё-использующиеся-проекты)
-    - [5. Прочее](#5-Прочее)
-    
+- [VII. Other](#vii-other)
+    - [1. Source code examples](#1-source-code-examples)
+    - [2. Benchmark results](#2-benchmark-results)
+    - [3. Working with git and github](#3-working-with-git-and-github)
+
 - [VIII. Resources](#viii-resources)
     - [1. Communities](#1-communities)
     - [2. Influential Books](#2-influential-books)
@@ -919,7 +917,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 6. [SPM](https://sematext.com/spm/) - Коммерческий монитор производительности с отладкой распределенных транзакций в JVM приложениях.  **License: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 7. [Takipi](https://www.takipi.com/) - Коммерческий мониторинг ошибок и отладка в продашен режиме.  **License: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью и пробный период в две недели у полной версии** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
-#### 6. Переопределение загруженных классов
+#### 6. Redefinition of classes at runtime
 [Up](#useful-java-links)
 
 1. [DCEVM](http://dcevm.github.io/) - Модификация JVM, которая позволяет неограниченное переопределение загруженных классов во время выполнения, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
