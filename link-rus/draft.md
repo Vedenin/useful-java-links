@@ -335,19 +335,19 @@ PicketLink is an umbrella project for security and identity management for Java 
 *Libraries to manipulate bytecode programmatically.*
 [Up](#useful-java-links)
 
-1.  [Google Auto](https://github.com/google/auto) - коллекция генераторов исходного кода в Java.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-2.  [Square Javapoet](https://github.com/square/javapoet) - библиотека для генерации исходных кодов классов Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1057. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-3.  [Byte buddy](https://github.com/raphw/byte-buddy) - динамическая генерация кода в Java платформе. http://bytebuddy.net/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 473. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-4.  [ASM](http://asm.ow2.org/) - Универсальная, низкоуровневая библиотека для изменения байткода и анализа, License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-5.  [Byteman](http://byteman.jboss.org/) - Изменение байткода во время выполнения используя DSL правила в основном для целей тестирования и отладки, License: [LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-6.  [Javassist](http://jboss-javassist.github.io/javassist/) - Попытка упростить редактирование байткода, , License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) or [LGPL or later 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html) or [Mozilla Public License 1.1.](https://en.wikipedia.org/wiki/Mozilla_Public_License)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-7. [ADT4J](https://github.com/sviperll/adt4j) - JSR-269 код генератор для algebraic data types, License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-8. [Auto](https://github.com/google/auto) - Коллекция генераторов исходного кода, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-9. [JHipster](https://github.com/jhipster/generator-jhipster) - генератор кода, которые позволяет создавить приложения основанные на Spring Boot и AngularJS, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-10. [cglib](https://github.com/cglib/cglib) - Библиотека генерации байткода, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Google Auto](https://github.com/google/auto) - A collection of source code generators for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Square Javapoet](https://github.com/square/javapoet) - JavaPoet is a Java API for generating .java source files. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1057. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Byte buddy](https://github.com/raphw/byte-buddy) - Runtime code generation for the Java virtual machine. http://bytebuddy.net/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 473. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [ASM](http://asm.ow2.org/) - ASM is an all purpose Java bytecode manipulation and analysis framework. It can be used to modify existing classes or dynamically generate classes, directly in binary form. Provided common transformations and analysis algorithms allow to easily assemble custom complex transformations and code analysis tools. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) / License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Byteman](http://byteman.jboss.org/) - Byteman is a tool which makes it easy to trace, monitor and test the behaviour of Java application and JDK runtime code. It injects Java code into your application methods or into Java runtime methods without the need for you to recompile, repackage or even redeploy your application. License: [LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [Javassist](http://jboss-javassist.github.io/javassist/) -Javassist (Java Programming Assistant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java; it enables Java programs to define a new class at runtime and to modify a class file when the JVM loads it. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) or [LGPL or later 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html) or [Mozilla Public License 1.1.](https://en.wikipedia.org/wiki/Mozilla_Public_License)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7. [ADT4J](https://github.com/sviperll/adt4j) - This library implements Algebraic Data Types for Java. ADT4J provides annotation processor for @GenerateValueClassForVisitor annotation. ADT4J generates new class for each @GenerateValueClassForVisitor annotation. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8. [Auto](https://github.com/google/auto) - A collection of source code generators for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9. [JHipster](https://github.com/jhipster/generator-jhipster) - Hipster stack for Java developers. Spring Boot + AngularJS in one handy generator.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10. [cglib](https://github.com/cglib/cglib) - cglib - Byte Code Generation Library is high level API to generate and transform Java byte code. It is used by AOP, testing, data access frameworks to generate dynamic proxy objects and intercept field access. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 9. Фреймворки для создания распределенных и отказоустойчивых приложений
-*Библиотеки и фреймворки для создания распределенных и отказоустойчивых приложений.*
+### 9. Distributed Applications
+*Libraries and frameworks for writing distributed and fault-tolerant applications.*
 [Up](#useful-java-links)
 
 1. [Akka](http://akka.io) - Набор инструментов и среда выполнения для создания многопоточных, распределенных и устойчивых к ошибкам событийно-ориентированных приложений, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -364,17 +364,18 @@ PicketLink is an umbrella project for security and identity management for Java 
 12.  [Storm contrib](https://github.com/nathanmarz/storm-contrib) storm-contrib это свободный репозиторий с модулями, использующими Storm. Они включают разные spouts/bolts для интеграции с другими системами (Redis, Kafka, MongoDB, etc), и код для решений типовых задач Storm разработчиков.. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), github's star - 504. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 13. [JADE](http://jade.tilab.com/) - Фреймворк и экосистема для разработки и отладки multi-agent систем, License: [GNU Lesser 2.0](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 10. Наука
-*Библиотеки для научных расчетов и анализа.*
+### 10. Science
+*Libraries for scientific computing and analysis.*
 [Up](#useful-java-links)
 
 1. [DataMelt](http://jwork.org/dmelt/) - Среда для научных расчетов, анализа и визуализаци данных, License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2. [JGraphT](https://github.com/jgrapht/jgrapht) - Графическая библиотека, которая предоставляет объект и алгоритмы из математической теории графов, License: [Eclipse Public License](https://en.wikipedia.org/wiki/Eclipse_Public_License) или [LGPL 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [JScience](http://jscience.org/) - Предоставляет набор классов для работы с научными измерениями и объектами, License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-## II. Базы данных, поисковые системы, Big data и машинное обучение
+## II. Databases, search engines, big data and machine learning
 
-### 1. Базы данных и хранилища
+### 1. Databases and storages
+*Everything which simplifies interactions with the database.*
 [Up](#useful-java-links)
 
 1.  [Thinkaurelius Titan](https://github.com/thinkaurelius/titan) - распределенная графическая база данных. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2846. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -404,7 +405,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 25.  [Embulk](https://github.com/embulk/embulk) это открытый пакетный (bulk) загрузчик данных, который помогает трансформировать данные между разными базами данных, хранилищ, файловых форматов и облачных сервисов. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 394. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 26.  [H2](http://h2database.com/) - Небольшая база данных SQL отличается работой в in-memory, License: [Mozilla Public License 1.1.](https://en.wikipedia.org/wiki/Mozilla_Public_License) и [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-*Распределенные базы данных.*
+#### **Distributed Databases.**
+*Databases in a distributed system that appear to applications as a single data source.*
 
 1. [Apache Cassandra](https://github.com/apache/cassandra) - зеркало для Apache Cassandra — база данных с высокой доступностью и высокой расширямостью и отличной производительностью . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2155. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache HBase](http://hbase.apache.org) - Hadoop хранилище для больших данных. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -412,7 +414,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 4. [Infinispan](http://infinispan.org/) - Высокопроизводительное key/value хранилише, используемое для кэширования. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 5. [OpenTSDB](http://opentsdb.net) - это распределенная и масштабируемая база данных, работающих с временными рядами (Time Series Database TSDB) работающая поверх Hbase. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1336. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-### 2. Структуры данных
+### 2. Data structures
 *Efficient and specific data structures.*
 
 1. [Apache Avro](https://avro.apache.org/) - Формат обмена данными с такими возможностями как: динамическая типизация, отсутствия необходимости устанавливать ID вручную, untagged data, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -425,7 +427,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 8. [Wire](https://github.com/square/wire) - Чистый, легковесный protocol buffers, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### 3. Поисковые системы
+### 3. Search engines
 [Up](#useful-java-links)
 
 1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - одна из самых популярных систем распределенного облачного поиска. Распределенная, mультиарендная (multitenant-capable) полнотекстовая поисковая система с RESTful веб интерфейсом, не требующая схемы данных, основанная на JSON документах. . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 11833. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -435,7 +437,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 5.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) Плагин для работы ElasticSearch с Amazon Web Service (AWS) облаками. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 435. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 6.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. License: ?, github's star - 395.
 
-### 4. Клиенты и драйверы баз данных
+### 4. Client and drivers for databases
 [Up](#useful-java-links)
 
 1.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.).  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3603. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -463,7 +465,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 23.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Добавляет метрики и отказоустойчивые стратегии для наиболее популярных пулов соединией с базами данных, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 24. [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 5. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)
+### 5. ORM
+*APIs which handle the persistence of objects.*
 [Up](#useful-java-links)
 
 1.  [HikariCP](https://github.com/brettwooldridge/HikariCP) HikariCP — быстрая, надежная и легкая библиотека для создания JDBC connection pool с минимальными накладными расходами. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1542. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -481,7 +484,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 13. [OrmLite](http://ormlite.com/) - Легковесный пакет избегающий усложнений и перерасхода ресурсов других ORM решений, 
 , License: [ISC](https://en.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_ISC).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.) 
+### 6. Working with messy data
 [Up](#useful-java-links)
 
 1.  [Storm](https://github.com/nathanmarz/storm) - распределенная и устойчивая к ошибкам обработка данных в реальном времени: потоковая обработка, непрерывные вычисления, распределенный RPC и другое. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 8636. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -494,7 +497,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 8.  [Pulsar](https://github.com/pulsarIO/realtime-analytics) - открытая аналитическая платформа, работающая в реальном времени. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, github's star - 435. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 9.  [Suro: Netflix's Data Pipeline](https://github.com/Netflix/suro) — это сервис для сбора, агрегации и управления большим количеством разнообразных событий, включая данные логов. . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 405. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 7. Большие данные (big data) 
+### 7. Big data 
 [Up](#useful-java-links)
 
 1.  [Apache Storm](https://github.com/apache/storm) - зеркало для Apache Storm — свободную и распределенную систему обработки данных в реальном времени, аналог Hadoop, но для быстрой потоковой обработки данных, может использоваться с любым языком программирования.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2098. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -518,7 +521,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 19.  [Yahoo SAMOA (Scalable Advanced Massive Online Analysis)](https://github.com/yahoo/samoa) — открытая платформа для потоковой обработки больших данных (mining big data). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 394. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 20.  [Facebook Presto](https://github.com/facebook/presto) Библиотека для работы с распределенными SQL запросами к big data источникам (Cassandra, Hive, Kafka, MySQL, PostgreSQL и т.п.). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3603. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 8. Машинное обучение и нейроные сети (Machine Learning)
+### 8. Machine Learning
+*Tools that provide specific statistical algorithms which allow learning from data.*
 [Up](#useful-java-links)
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) Библиотека для машинного обучения, дружелюбная к пользователям (простая в настройке и т. п.). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1672. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -539,14 +543,15 @@ PicketLink is an umbrella project for security and identity management for Java 
 16. [Protégé](http://protege.stanford.edu/) - Реализует редактов онтология и фреймворк для экспертных систем, License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Constraint Satisfaction Problem Solver
-*Библиотеки, которые помогают в такой задачи искусственного интеллекта (ИИ) как удовлетворения ограничений (УО) (constraint satisfaction problem).*
+*Libraries that help on implementing optimization and satisfiability problems.*
 
 1. [Choco](http://choco-solver.org/) - Полностью готовая "с полки" система по решению задачи удовлетворения ограничений (УО) (constraint satisfaction problem), используя constraint programming технологии, License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [JaCoP](https://github.com/radsz/jacop/) - Включает в себя интерфейс для языка FlatZinc, что позволяет ему выполнять модели MiniZinc, **License: неизвестна**
 3. [OptaPlanner](http://www.optaplanner.org/) - Решает задачи бизнес планирования и оптимизации ресурсов, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [Sat4J](http://www.sat4j.org/) - Наиболее продвинутый SAT решатель для логических (? boolean) и оптимизационых проблем, License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 9. Работа с естественными языками (NLP)
+### 9. Natural Language Processing (NLP)
+*Libraries that specialize on processing text.*
 [Up](#useful-java-links)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 871. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -554,8 +559,9 @@ PicketLink is an umbrella project for security and identity management for Java 
 3. [LingPipe](http://alias-i.com/lingpipe/) - Набор инструментов для различных видов задач от POS tagging до анализа предложений, License: [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) и ***платная License, проприетарная***. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) ИЛИ ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)	
 4. [Mallet](http://mallet.cs.umass.edu/) - Статистическая обработка естественных языков, классификация документов, кластеризация, topic modeling и многое другое, License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-## III. Работа с сетью и интеграция
-### 1. Веб сервера и сервера приложений (web server &amp; application server)
+## III. Network and Integration
+### 1. Servers (Web Server and Application Server)
+*Servers which are specifically used to deploy applications.*
 [Up](#useful-java-links)
 
 1.  [Wildfly](https://github.com/wildfly/wildfly) - сервер приложений (Application Server), ранее известный как JBOSS, разработанный Red Hat с расширенной поддержки Java EE. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 1386. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -568,7 +574,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 2. [GlassFish](https://glassfish.java.net/) - Сервер приложений и образцовая реализация Java EE от Oracle, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 
-### 2. Сеть и сокеты 
+### 2. Networking
+*Libraries for network programming.*
 [Up](#useful-java-links)
 
 1.  [Netty](https://github.com/netty/netty) низкоуровневый асинхроно-событийный фреймворк для быстрого создания высокопроизводительных клиент-серверных соединений. Более удобный аналог ассинхронным сокетам из модуля java.nio из JDK.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 4847. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -583,7 +590,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY клиент, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 11. [Undertow](http://undertow.io/) - Вебсервер, предоставляющий блокирующий и неблокирующий API, основанный на NIO. Используется как сетевой слой в WildFly, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 3. Работа с сообщениями (message), очереди сообщений и прием и отправка сообщений
+### 3. Message, message broker and message queue
+*Tools that help to send messages between clients in order to ensure protocol independency.*
 [Up](#useful-java-links)
 
 1.  [LMAX Exchange Disruptor](https://github.com/LMAX-Exchange/disruptor) Высокопроизводительная библиотека для поддержки межпоточных сообщений. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3137. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -601,7 +609,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 13. [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 14. [Smack](https://github.com/igniterealtime/Smack) Библиотека для создания XMPP клиента для JVMs и Android. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 426. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 4. Работа с http и ssh 
+### 4. Http and ssh
 [Up](#useful-java-links)
 
 1.  [Square Okhttp](https://github.com/square/okhttp) HTTP & SPDY (новый формат HTTP от гугла) клиент для Android и Java.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5022. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -616,7 +624,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 10.  [Sshj](https://github.com/hierynomus/sshj) Поддержка ssh, scp и sftp для java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 500. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 11.  [Netflix Feign](https://github.com/Netflix/feign) Feign позволяет создавать Java Http клиента проще и быстрее. Feign основан на Retrofit, JAXRS-2.0 и WebSocket. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 485. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 5. Работа с rest
+### 5. Rest Frameworks
+*Frameworks specifically for creating RESTful services.*
 [Up](#useful-java-links)
 
 1.  [Square Retrofit](https://github.com/square/retrofit) Типобезопасная библиотека для создания REST клиента для Android и Java.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5945. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -632,13 +641,13 @@ PicketLink is an umbrella project for security and identity management for Java 
 11. [RestX](http://restx.io) - Фреймворк, основанный на аннотациях и генерации кода во время компиляции, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 12. [Spark](http://sparkjava.com/) - фреймворк, вдохновленный Sinatra фреймворком, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 6. Интеграционные фреймворки
+### 6. Integration frameworks
 [Up](#useful-java-links)
 
 1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) Интеграция JVM с "внешним мира" (программами логирования, мониторинга, графики и т. п.). License: ?, github's star - 708.
 2.  [Apache Camel](https://github.com/apache/camel) Зеркало Apache Camel. Apache Camel - мощный свободный интеграционных фреймворк, основанный на Enterprise Integration Patterns.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 490. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 7. Парсеры (Parser) и  «веб-пауки»/краулеры (web-crawling)
+### 7. Web Crawling and HTML parsering
 [Up](#useful-java-links)
 
 1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с подержкой XPath и CSS selector. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3323. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -650,7 +659,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 7.  [Apache Nutch](http://nutch.apache.org/) - Хорошо расширяемый, хорошо маштабированный вебпаук с рабочей экосистемой, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Простой и легковесный вебпаук, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 8. Работа с Json 
+### 8.  Json
+*Libraries that simplify JSON processing.*
 [Up](#useful-java-links)
 
 1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson) Быстрый JSON обработчик. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2605. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -675,7 +685,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 2. [Super CSV](http://super-csv.github.io/super-csv/) - Мощный CSV парсер, поддерживающий Dozer, Joda-Time и Java 8, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - Один из самых быстрых и многофункционных CSV парсеров. Так же в библиотеке есть парсеры для TSV и файлом с записями фиксированной ширины, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 10. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)
+### 10. Integratin with API
 [Up](#useful-java-links)
 
 1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборк информации о работе всех его различных сервисов. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -687,14 +697,14 @@ PicketLink is an umbrella project for security and identity management for Java 
 7.  [Twitter Hbc](https://github.com/twitter/hbc) Java HTTP клиент для работы Twitter's Streaming API. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 498. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 8.  [Spring projects Spring social](https://github.com/spring-projects/spring-social) Spring Social это расширение Spring Framework, которые позволяет интегрировать ваши приложения с Software-as-a-Service (SaaS) провайдерами, такими как Facebook или Twitter. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 409. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 11. Работа с биткойном
+### 11. Bitcoin
 [Up](#useful-java-links)
 
 1.  [XChange](https://github.com/timmolter/XChange) XChange это Java библиотека предоставляющая удобный API для взаимодействия с более чем 50+ Bitcoin и Altcoin обменными биржами . License: [MIT](https://opensource.org/licenses/MIT) , github's star - 455. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) Библиотека для работы с Bitcoin. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 453.  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3.  [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner) OpenCL майнер для Bitcoin. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 443. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-### 12. Облачные системы
+### 12. Clouds
 [Up](#useful-java-links)
 
 1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - инструменты для поддержки ваших облачных операций. Chaos Monkey это гибкий инструментарий для создания устойчивых к случайным ошибкам приложений.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2892. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -707,13 +717,13 @@ PicketLink is an umbrella project for security and identity management for Java 
 8.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. License: ?, github's star - 395.
 
 ## 13. Cluster Management
-*Фреймворки для динамического управления приложением внутри класстера.*
+*Frameworks which can dynamically manage applications inside of a cluster.*
 [Up](#useful-java-links)
 
 1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora это Apache Mesos фреймворк для длительных сервисов и cron jobs, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Singularity](http://getsingularity.com/) - Singularity это Apache Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач, License: **неизвесна, на сайте не найдена!**. 
 
-### 14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-document-processing-xls-doc-and-pdf)
+### 14. Document Processing (XLS, DOC and PDF)
 *Libraries that assist with processing office document formats.*
 
 1. [Apache POI](http://poi.apache.org/) - Поддерживает OOXML (XLSX, DOCX, PPTX) так же как и OLE2 (XLS, DOC or PPT), License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -732,15 +742,16 @@ PicketLink is an umbrella project for security and identity management for Java 
 6. [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Комплексный движок отчетов, License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### 15. Работа с нативным API разных ОС](#15-native)
+### 15. Native
 *For working with platform-specific native libraries.*
 [Up](#useful-java-links)
 
 1.  [Java Native Access (JNA)](https://github.com/java-native-access/jna) Java Native Access — система доступа к нативному API. Так же предоставляет интерфейсы к основным системых библиотекам. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) или [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true) , github's star - 1750. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [JNR](https://github.com/jnr/jnr-ffi) -  Работа с нативными библиотеками без использвания JNI. Так же предоставляет интерфейсы к основным системых библиотекамs. Те же задачи что у JNA, но работает быстрее, и служит основой для разрабатываемого [Project Panama](http://openjdk.java.net/projects/panama/), License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-## IV. Тестирование
-### 1. Тестирование
+## IV. Testing
+### 1. Testing
+*Tools that test from model to the view.*
 [Up](#useful-java-links)
 
 1.  [Junit](https://github.com/junit-team/junit) Простой и популярный фреймворк для unit тестирования . License:  [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) , github's star - 3662. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -774,7 +785,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 29. [Unitils](http://www.unitils.org/) - Модульная библиотека тестирования для unit и интеграционного тестирования, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Code Coverage
-*Фреймворки и инструменты для получения набора code coverage метрик для тестов.*
+*Frameworks and tools that enable collection of code coverage metrics for test suites.*
 [Up](#useful-java-links)
 
 1. [JaCoCo](http://eclemma.org/jacoco/) - Фреймворк, который позволяет собирать метрики покрытия кода тестами, используя как offline, так и runtime байткод инструменты, используется в EclEmma, плагине Eclipse для определения степени покрытия тестами, License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [BSD](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -783,7 +794,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Набор инструментов для анализа покрытия кода тестами, который используется при разработке OpenJDK проекта, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 3. Continuous Integration
-*Набор инструментов, поддерживающих непрерывную сборку, тестирование и релизы приложений.*
+*Tools which support continuously building, testing and releasing applications.*
 [Up](#useful-java-links)
 
 1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's решение с хорошей интеграцией с другими продуктами этой компании. Можно использовать либо подав заявку на бесплатную лицензию или просто купив его, ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
@@ -797,7 +808,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 9. [Hudson](http://hudson-ci.org/) - Сервер непрерывной реализации для активной разработки, License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Formal Verification
-* Инструменты для формальной верефикации: proof assistants, model checking, symbolic execution и т.п.*
+*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
 [Up](#useful-java-links)
 
 1. [CATG](https://github.com/ksen007/janala2) - Concolic unit тест движок. Автоматически генерит unit тесты, используя ряд формальных методов, License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses), License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -810,8 +821,9 @@ PicketLink is an umbrella project for security and identity management for Java 
 8. [KeY](http://key-project.org/) - KeY System это инструмент формальной верефикации основными целями которого являются интеграция дизайна, имплементации, формальной спецификации и формальная верефикация ООП настолько легко, насколько это возможно. Использует JML для спецификаций и symbolic execution для верефикации, License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 9. [OpenJML](http://openjml.github.io/) - Преобразует JML спецификации в SMT-LIB формат и находит проблемы и передает описание проблем к backend решателю, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) и [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-## V. Инструменты для упрощения разработки
+## V. Tools for developing
 ### 1. IDE
+*Integrated development environments that try to simplify several aspects of development.*
 [Up](#useful-java-links)
 
 1.  [JetBrains Intellij Сommunity](https://github.com/JetBrains/intellij-community) IntelliJ IDEA Community Edition — одна из лучший IDE для Java . http://www.jetbrains.com/idea/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2068. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -826,11 +838,11 @@ PicketLink is an umbrella project for security and identity management for Java 
 10. [Eclipse](http://www.eclipse.org/) - Популярная открытая IDE поддерживающая большое количество плагинов и языков программирования, License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 11. [NetBeans](https://netbeans.org/) - IDE поддерживает большое количество различных возможностей для разработки Java SE и EE приложений от работы с базой данных до работы с HTML5, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-### 2. Инструменты и библиотеки для сборки, конфигурирования и развертывания Java приложений
+### 2. Deploy, config and build
 [Up](#useful-java-links)
 
 #### Build
-*Инструменты для сборки проекта (build) и работы с зависимостями(dependencies) приложения.*
+*Tools which handle the build cycle and dependencies of an application.*
 
 1. [Apache Maven](http://maven.apache.org/) - Система декларативной сборки и управления зависимостями, которая упрощает конфигурирование приложения. Это может быть предпочтительнее Apache Ant, используещего более процедурный подход, который сложнее поддерживать в большинстве случаев. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 614. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Google Bazel](http://bazel.io) -  Инструмент для сборки от Google, который позволяет собирать код быстро и надежно. Корректная, воспроизводимая и быстрая билд система для любых ситуаций License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2809. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -839,7 +851,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 5.  [Facebook Buck](https://github.com/facebook/buck) - система сборки, упрощающая создание небольших, повторно используемых модулей. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1449. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Configuration
-*Библиотеки, управлящие конфигурированием*
+*Libraries that provide external configuration.*
 [Up](#useful-java-links)
 
 1. [config](https://github.com/typesafehub/config) - Конфигурационная библиотека для JVM языков. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 614. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -848,7 +860,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 4. [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Distribution
-*Инструменты для работы с развертыванием (distribution) приложений в нативные форматы.*
+*Tools which handle the distribution of applications in native formats.*
 [Up](#useful-java-links)
 
 1. [Bintray](https://bintray.com/) - Контроль версий для бинарных файлов, так же может использовать вместе с Maven или Gradle и имеет свободный план для открытого ПО, а так же ряд различных бизнес планов, **License: проприетарная платная, есть бесплатная версия для открытых продуктов** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
@@ -862,8 +874,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 8. [packr](https://github.com/libgdx/packr/) - Преобразование JARs, assets и JVM в нативные приложения Windows, Linux и Mac OS X, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 9.  [Spotify Helios](https://github.com/spotify/helios) это Docker orchestration платформа для развертывания и управления контейнерами с помощью HTTP API или командной строки. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 952. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 3. Инструменты для оптимизации производительности
-*Библиотеки для оптимизации и решения проблем с производительностью*
+### 3. Perfomance tools
+*Tools for performance analysis, profiling and benchmarking.*
 [Up](#useful-java-links)
 
 1.  [Square Leakcanary](https://github.com/square/leakcanary) утилита для поиска ошибок из-за которых происходит memory leak для Android и Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 4168. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -882,7 +894,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 14. [VisualVM](http://visualvm.java.net/) - Визуальный интерфейс, показывающий детальную информацию о запущенных приложениях.License: [GNU 2 with the Classpath Exception](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 15. [YourKit Java Profiler](https://www.yourkit.com/features/) - Платный профайлер.   **License: Проприетарная платная, есть бесплатная версия для open source проектов, спец.планы для научных и академических целей**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
-### 4. Анализ исходного кода
+### 4. Code Analysis
+*Tools that provide metrics and quality measurements.*
 [Up](#useful-java-links)
 
 1.  [SonarQube](https://github.com/SonarSource/sonarqube) это свободная платформа для управлением качеством кода. http://www.sonarqube.org License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 655. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -894,7 +907,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 7. [PMD](https://github.com/pmd/pmd) - Анализ исходного кода для поиска плохих практик программирования, License: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. Monitoring
-*Инструменты для мониторинга приложений в production.*
+*Tools that monitor applications in production.*
 [Up](#useful-java-links)
 
 1. [AppDynamics](http://www.appdynamics.com/) - Коммерческий монитор производительности.  **License: Проприетарная платная, есть бесплатная версия с ограниченной функциональностью**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
@@ -913,7 +926,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 3. [JRebel](http://zeroturnaround.com/software/jrebel/) - Коммерческое программное обеспечение, которое позволяет неограниченно перезагружает код и изменять конфигурацию без перезагрузки сервера, *License: Проприетарная, платное ПО,*![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 4. [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Агент для повторой перезагруки классов, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 7. Прочее
+### 7. Other
 [Up](#useful-java-links)
 
 1.  [Google J2ObjC:](https://github.com/google/j2objc) Java to Objective-C Translator and Runtime — конвертация языка Java (включая Android) в Objective-C.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2940. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -927,8 +940,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 3. [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK реализация для Windows, Linux и Mac OS X включая Java 8, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 4. [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) -  Ранний доступ к версии OpenJDK 9 для Windows, Linux и Mac OS X, License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-## VI. Языки программирования и приложения, написанные на Java
-### 1. Языки программирования, написанные на Java
+## VI. Program languages and applications, that was written with Java
+### 1.  Program languages, that was written with Java
 [Up](#useful-java-links)
 
 1.  [Clojure](https://github.com/clojure/clojure) Язык программирования Clojure.  . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 4332. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -939,7 +952,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 6.  [Trifork Erjang](https://github.com/trifork/erjang) Виртуальная JVM машина для языка Erlang . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 484. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 7.  [Apache Incubator groovy](https://github.com/apache/incubator-groovy) Зеркало для Apache Groovy — исходного кода языка программирования Groovy. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 464. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 2. Утилиты для других языков программирования, написанные на Java
+### 2. Other program languages tools, that was written with Java
 [Up](#useful-java-links)
 
 1.  [Go lang idea plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) IDE для языка программирования Goole Go, созданная на основе IntelliJ Platform. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1717. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -954,14 +967,15 @@ PicketLink is an umbrella project for security and identity management for Java 
 3.  [Frontend maven plugin](https://github.com/eirslett/frontend-maven-plugin) Maven плагин который скачивает и устанавливает Node и NPM локально и запускает NPM install, Grunt, Gulp и/или Karma. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 586. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4.  [Dynjs](https://github.com/dynjs/dynjs) Среда выполнения ECMAScript для JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 533. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода
+### 4. Frameworks that help to create parsers, interpreters or compilers
+*Frameworks that help to create parsers, interpreters or compilers.*
 [Up](#useful-java-links)
 
 1. [ANTLR](http://www.antlr.org/) - Многоцелевой полноценный фреймворк для top-down парсинга, License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [JavaCC](https://javacc.java.net/) - more специфичный и простой в обучении, имеет синтаксический предпросмотр, License: [BSD ](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### 5. Приложения и готовые продукты написанные на Java
+### 5. Applications, that was written with Java
 [Up](#useful-java-links)
 
 1.  [Square Keywhiz](https://github.com/square/keywhiz) - cистема для хранения и управления секретными данными (TLS сертификаты, GPG ключи, API токены, данные доступа к базам данным) . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 979. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -980,7 +994,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 14.  [Geoserver](https://github.com/geoserver/geoserver) это приложение, написанное на Java, которое используется для обмена и редактирования geo данных. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, github's star - 435. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 15.  [Languagetool](https://github.com/languagetool-org/languagetool) - система стилистической и грамматической проверки текста более чем на 25 разных языках (английский, франц узкий, немецкий, русский, польский и т. д.). License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 416. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 6. Игры, написанные Java 
+### 6. Games, that was written with Java
 [Up](#useful-java-links)
 
 1.  [Bukkit](https://github.com/Bukkit/Bukkit) Мод для Minecraft API. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1600. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -996,8 +1010,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 
 
-## VII. Прочее
-### 1. Примеры исходного кода на java 
+## VII. Other
+### 1. Source code examples
 [Up](#useful-java-links)
 
 1.  [Java design patterns](https://github.com/iluwatar/java-design-patterns)  Очень хорошие примеры и справочник по паттернам разработки.  . License:  [MIT](https://opensource.org/licenses/MIT) , github's star - 6341. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1014,13 +1028,13 @@ PicketLink is an umbrella project for security and identity management for Java 
 12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-jpa-examples) Примеры использования разных возможностей Spring Data JPA . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 400. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд.
 
-### 2. Результаты сравнения производительности кода на Java (benchmark) 
+### 2. Benchmark results
 [Up](#useful-java-links)
 
 1.  [Jvm serializers](https://github.com/eishay/jvm-serializers) - бенчмарки и сравнения производительности разных библиотек сериализации в JVM . License: ?, github's star - 970.
 2.  [YCSB (Yahoo! Cloud Serving Benchmark)](https://github.com/brianfrankcooper/YCSB) - бэнчмарки (тесты производительности) различных облачных сервисов. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 869. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 3. Работа с git &amp; github 
+### 3. Working with git and github
 [Up](#useful-java-links)
 
 1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit это свободный Java Git клиент для управления, просмотр и обслуживания Git репозиторий . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 787. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1029,15 +1043,15 @@ PicketLink is an umbrella project for security and identity management for Java 
 ## VIII. Resources
 
 ### 1. Communities
-*Ресурсы для дискуссий и обсуждений (на английском).*
+*Active discussions.*
 [Up](#useful-java-links)
 
-* [r/java](https://www.reddit.com/r/java) - Subreddit для Java пользователей.
-* [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Популярная платформа для вопросов/ответов
+* [r/java](https://www.reddit.com/r/java) -  Subreddit for the Java community.
+* [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
 * [vJUG](http://virtualjug.com/) - Virtual Java User Group.
 
 ### 2. Influential Books
-*Книги которые оказали огромное влияние на Java мир и которые действительно стоят того чтобы их прочитать (на английском).*
+*Books that had a high impact and are still worth reading.*
 [Up](#useful-java-links)
 
 * [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
@@ -1047,7 +1061,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 
 ### 3. Websites
-*Полезные сайты.*
+*Sites to read.*
 [Up](#useful-java-links)
 
 * [Android Arsenal](https://android-arsenal.com)
