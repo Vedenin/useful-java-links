@@ -14,9 +14,9 @@
         - [Functional Programming](#functional-programming)
         - [Reactive Programming](#reactive-programming)
         - [Security and Authentication](#security-and-authentication)
-        - [Высокая производительность](#Высокая-производительность)
-        - [Сериализация (serializer) и работа с файлами (I/O)](#Сериализация-serializer-и-работа-с-файлами-io)
-        - [Логирование](#Логирования)
+        - [High Performance](#high-performance)
+        - [Serialization and I/O](#serialization-and-io)
+        - [Logging](#logging)
         - [Bean Mapping](#bean-mapping)
     - [7. Изображения и Видео](#7-Изображения-и-Видео)
     - [8. Кодогенерация и изменения байт кода](#8-Кодогенерация-и-изменения-байт-кода)
@@ -246,6 +246,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 #### Security and Authentication
+*Libraries that handle security, authentication, authorization or session management.*
 [Up](#useful-java-links)
 
 1.  [Scribe Java](https://github.com/fernandezpablo85/scribe-java) - Simple OAuth library for Java. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 2731. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -263,6 +264,7 @@ Open source software: No backdoors, no registration. License: [MIT](https://open
 PicketLink is an umbrella project for security and identity management for Java Applications. It is licensed under a friendly Apache v2 license. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### High Performance
+*Everything about high performance computation, from collections to specific libraries.*
 [Up](#useful-java-links)
 
 1. [Agrona](https://github.com/real-logic/Agrona) - High Performance data structures and utility methods for Java and C++, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -277,6 +279,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 
 #### Serialization and I/O
+*Libraries that handle serialization with high efficiency.*
 [Up](#useful-java-links)
 
 1.  [Square Okio](https://github.com/square/okio) A modern I/O API for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1243. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -305,17 +308,18 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 
 #### Bean Mapping 
-*Фреймворки, упрощающие маппинг одних типов данных в другие.*
+*Frameworks that ease bean mapping.*
 [Up](#useful-java-links)
 
-1. [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой (создавая рекурсивную копию одного объекта в другом) используя аннотации, API или XML конфигурацию, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 421. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-2. [MapStruct](https://github.com/mapstruct/mapstruct) - Код генератор, который упрощает маппинг между разными типами данных, основываясь на конфигурации маппинга, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-3. [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper это интеллектуальная библиотека для автоматического маппинга одних объектов на другие, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-4. [Orika](https://github.com/orika-mapper) - Orika это Java Bean маппинг фреймворк, который рекурсивно копирует (и при необходимости изменяет) информацию из одного объекта в другой, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma это маппер построенный на аннотациеях классов, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Dozer](https://github.com/DozerMapper/dozer/) - Dozer is a Java Bean to Java Bean mapper that recursively copies data from one object to another. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 421. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [MapStruct](https://github.com/mapstruct/mapstruct) - An annotation processor for generating type-safe bean mappers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3. [ModelMapper](https://github.com/jhalterman/modelmapper) -Simple, Intelligent, Object Mapping. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4. [Orika](https://github.com/orika-mapper) - Simpler, better and faster Java bean mapping framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma Java bean mapping that compiles. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### 7. Изображения и Видео
+### 7. Imagery and Video
+*Libraries that assist with the creation, evaluation or manipulation of graphical images or video.*
 [Up](#useful-java-links)
 
 1.  [Facebook Rebound](https://github.com/facebook/rebound) Это Java библиотека которая моделирует поведение физики реального мира в вашем приложении. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), github's star - 2219. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
