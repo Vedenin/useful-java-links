@@ -91,7 +91,7 @@
     - [1. Communities](#1-communities)
     - [2. Influential Books](#2-influential-books)
     - [3. Websites](#3-websites)
-- [IX Видео доклады и лекции о Java](#ix) 
+- [IX Видео доклады и лекции о Java](#ix-Видео-доклады-и-лекции-о-java) 
     
 ## I. Фреймворки и библиотеки
 
@@ -1072,7 +1072,7 @@
 * [Vlad Mihalcea on Hibernate](http://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
 
-## IX Видео доклады и лекции о Java
+# IX Видео доклады и лекции о Java
 
 ## **1\. Вопросы оптимизации и производительности**
 
