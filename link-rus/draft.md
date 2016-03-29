@@ -19,7 +19,7 @@
         - [Logging](#logging)
         - [Bean Mapping](#bean-mapping)
     - [7. Imagery and Video](#7-imagery-and-video)
-    - [8. Кодогенерация и изменения байт кода](#8-Кодогенерация-и-изменения-байт-кода)
+    - [8. Code generation and changing byte code](#8-Кодогенерация-и-изменения-байт-кода)
     - [9. Фреймворки для создания распределенных и отказоустойчивых приложений](#9-Фреймворки-для-создания-распределенных-и-отказоустойчивых-приложений)
     - [10. Наука](#10-Наука)   
     
@@ -331,7 +331,7 @@ PicketLink is an umbrella project for security and identity management for Java 
 7.  [zxing](https://github.com/zxing/zxing) ZXing ("zebra crossing") is an open-source, multi-format 1D/2D barcode image processing library implemented in Java, with ports to other languages. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5314. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### 8. Кодогенерация и изменения байт кода
+### 8. Code generation and changing byte code
 *Libraries to manipulate bytecode programmatically.*
 [Up](#useful-java-links)
 
