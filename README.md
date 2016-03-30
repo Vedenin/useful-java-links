@@ -844,35 +844,33 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
     
 ## VII. Other
 ### 1. Source code examples
+[Up](#useful-java-links)
 
- * [Design Patterns](https://github.com/iluwatar/java-design-patterns) - Implementation and explanation of the most common design patterns.
- * [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Popular Java 8 guide.
+1.  [Java design patterns](https://github.com/iluwatar/java-design-patterns) Design patterns implemented in Java. License:  [MIT](https://opensource.org/licenses/MIT) , github's star - 6341. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Spring projects Spring mvc showcase](https://github.com/spring-projects/spring-mvc-showcase) Demonstrates the capabilities of the Spring MVC web framework through small, simple examples. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1338. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Javaee7 samples](https://github.com/javaee-samples/javaee7-samples) Java EE 7 Samples. License: [MIT](https://opensource.org/licenses/MIT)/CDDL/GPLv2, github's star - 989.
+4.  [Algorithms](https://github.com/pedrovgs/Algorithms) Solutions for some common algorithm problems written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 983. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [WikiSort](https://github.com/BonzaiThePenguin/WikiSort) Fast and stable sort algorithm that uses O(1) memory. License: [unlicense.org](http://unlicense.org), github's star - 953.
+6.  [Spring petclinic](https://github.com/spring-projects/spring-petclinic) A sample Spring-based application. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 532. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [Spring integration samples](https://github.com/spring-projects/spring-integration-samples) You are looking for examples, code snippets, sample applications for Spring Integration? This is the place. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 517. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8.  [Java algorithms implementation](https://github.com/phishman3579/java-algorithms-implementation) Algorithms and Data Structures implemented in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 437. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9.  [Jboss developer Jboss eap quickstarts](https://github.com/jboss-developer/jboss-eap-quickstarts) The quickstarts demonstrate JBoss EAP, Java EE 7 and a few additional technologies. They provide small, specific, working examples that can be used as a reference for your own project. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 434. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10.  [Databricks Learning spark](https://github.com/databricks/learning-spark) Example code from Learning Spark book. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 412. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs is a GUI programming usability benchmark. License: ?, github's star - 404.
+12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-examples) Spring Data Example Projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 400. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд.
 
 ### 2. Benchmark results
+[Up](#useful-java-links)
+
+1.  [Jvm serializers](https://github.com/eishay/jvm-serializers) - Benchmark comparing serialization libraries on the JVM. License: ?, github's star - 970.
+2.  [YCSB (Yahoo! Cloud Serving Benchmark)](https://github.com/brianfrankcooper/YCSB) - Yahoo! Cloud Serving Benchmark. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 869. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 ### 3. Working with git and github
-### 4. Ancients
-*In existence since the beginning of time and which will continue being used long after the hype has waned.*
+[Up](#useful-java-links)
 
-* [Apache Ant](http://ant.apache.org/) - Build process management with XML.
-* [cglib](https://github.com/cglib/cglib) - Bytecode generation library.
-* [GlassFish](https://glassfish.java.net/) - Application server and reference implementation for Java EE sponsored by Oracle.
-* [Hudson](http://hudson-ci.org/) - Continuous integration server still in active development.
-* [JavaServer Faces](https://javaserverfaces.java.net/) - Oracle's open-source implementation of the JSF standard, Mojarra.
-* [JavaServer Pages](https://jsp.java.net/) - Common templating for websites with custom tag libraries.
-
-
-
-
-
-
-## Miscellaneous
-
-*Everything else.*
-
-* [Jimfs](https://github.com/google/jimfs) - In-memory file system.
-* [Lanterna](https://code.google.com/p/lanterna/) - Easy console text GUI library similar to curses.
-* [LightAdmin](http://lightadmin.org/) - Pluggable CRUD UI library for rapid application development.
-
+1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit is an open source, pure Java Git solution for managing, viewing, and serving Git repositories. It can serve repositories over the GIT, HTTP, and SSH transports; it can authenticate against multiple providers; and it allows you to get up-and-running with an attractive, capable Git server in less than 5 minutes.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 787. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [WhisperSystems BitHub](https://github.com/WhisperSystems/BitHub) BTC + BitHub = An experiment in funding privacy OSS. BitHub is a service that will automatically pay a percentage of Bitcoin funds for every submission to a GitHub repository. License: ?, github's star - 491.
 
 ## VIII. Resources
 
