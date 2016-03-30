@@ -504,34 +504,5 @@
 
 
 
-## VII. Other
-### 1. Source code examples
-[Up](#useful-java-links)
-
-1.  [Java design patterns](https://github.com/iluwatar/java-design-patterns)  Очень хорошие примеры и справочник по паттернам разработки.  . License:  [MIT](https://opensource.org/licenses/MIT) , github's star - 6341. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-2.  [Spring projects Spring mvc showcase](https://github.com/spring-projects/spring-mvc-showcase) Примеры, демонстрирующие возможности Spring MVC веб фреймворка. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1338. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-3.  [Javaee7 samples](https://github.com/javaee-samples/javaee7-samples) Примеры для Java EE 7 . License: [MIT](https://opensource.org/licenses/MIT)/CDDL/GPLv2, github's star - 989.
-4.  [Algorithms](https://github.com/pedrovgs/Algorithms) Решение для некоторых общих алгоритмических проблем, написанное на Java.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 983. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-5.  [WikiSort](https://github.com/BonzaiThePenguin/WikiSort) Быстрее и стабильные алгоритмы сортировки использующие O(1) памяти. License: [unlicense.org](http://unlicense.org), github's star - 953.
-6.  [Spring projects Spring petclinic](https://github.com/spring-projects/spring-petclinic) Примеры Spring приложений . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 532. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-7.  [Spring projects Spring integration samples](https://github.com/spring-projects/spring-integration-samples) Примеры кода и приложений Spring Integration. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 517. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-8.  [Java algorithms implementation](https://github.com/phishman3579/java-algorithms-implementation) Коллекция алгоритмов и структур данных, написанных на Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 437. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-9.  [Jboss developer Jboss eap quickstarts](https://github.com/jboss-developer/jboss-eap-quickstarts) Простые и рабочие примеры с простой демонстрацией JBoss EAP, Java EE 7 и других подобных технологий . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 434. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-10.  [Databricks Learning spark](https://github.com/databricks/learning-spark) Примеры кода для книги Learning Spark. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 412. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-11.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs это проект который рассматривает простоту разработки и полученное юзабилити (usability benchmark) семи типичных GUI задач на разных фреймворках и языках программирования (Java7 +Swing, Clojure+Seesaw, Scala+ScalaFX, Android и т. п.). Задачей сравнить разные подходы к созданию удобного для пользователя GUI. License: ?, github's star - 404.
-12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-jpa-examples) Примеры использования разных возможностей Spring Data JPA . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 400. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд.
-
-### 2. Benchmark results
-[Up](#useful-java-links)
-
-1.  [Jvm serializers](https://github.com/eishay/jvm-serializers) - бенчмарки и сравнения производительности разных библиотек сериализации в JVM . License: ?, github's star - 970.
-2.  [YCSB (Yahoo! Cloud Serving Benchmark)](https://github.com/brianfrankcooper/YCSB) - бэнчмарки (тесты производительности) различных облачных сервисов. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 869. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### 3. Working with git and github
-[Up](#useful-java-links)
-
-1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit это свободный Java Git клиент для управления, просмотр и обслуживания Git репозиторий . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 787. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-2.  [WhisperSystems BitHub](https://github.com/WhisperSystems/BitHub) BitHub - экспериментальный сервис по сбору Bitcoin пожертвований и распределении этих пожертвований каждому кто коммитит в GitHub репозитории. License: ?, github's star - 491.
 
 
