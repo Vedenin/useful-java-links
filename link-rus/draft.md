@@ -43,16 +43,7 @@
     - [5. Applications, that was written with Java](#5-applications-that-was-written-with-java)
     - [6. Games, that was written with Java](#6-games-that-was-written-with-java)
     
-- [VII. Other](#vii-other)
-    - [1. Source code examples](#1-source-code-examples)
-    - [2. Benchmark results](#2-benchmark-results)
-    - [3. Working with git and github](#3-working-with-git-and-github)
 
-- [VIII. Resources](#viii-resources)
-    - [1. Communities](#1-communities)
-    - [2. Influential Books](#2-influential-books)
-    - [3. Websites](#3-websites)
-    
 ## III. Network and Integration
 ### 1. Servers (Web Server and Application Server)
 *Servers which are specifically used to deploy applications.*
