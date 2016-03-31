@@ -692,39 +692,69 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 10. Integratin with API
+[Up](#useful-java-links)
+
+1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Wizcorp Phonegap facebook plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) The official plugin for Facebook in Apache Cordova/PhoneGap. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1587. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Twitter4j](https://github.com/yusuke/twitter4j) Twitter4J is an open-sourced, mavenized and Google App Engine safe Java library for the Twitter API. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1551. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Netflix Ice](https://github.com/Netflix/ice) AWS (Amazon Web Services) Usage Tool. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1358. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Twitter Commons](https://github.com/twitter/commons) Twitter common libraries for python and the JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 964. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [Alibaba RocketMQ](https://github.com/alibaba/RocketMQ) RocketMQ is a fast, reliable, scalable, easy to use message oriented middleware breeding from alibaba massive messaging business. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 627. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [Twitter Hbc](https://github.com/twitter/hbc) A Java HTTP client for consuming Twitter's Streaming API. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 498. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8.  [Spring social](https://github.com/spring-projects/spring-social) Allows you to connect your applications with SaaS providers such as Facebook and Twitter. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 409. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 ### 11. Bitcoin
+[Up](#useful-java-links)
+
+1.  [XChange](https://github.com/timmolter/XChange) XChange is a Java library providing a streamlined API for interacting with 50+ Bitcoin and Altcoin exchanges providing a consistent interface for trading and accessing market data. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 455. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) A library for working with Bitcoin. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 453.  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner) OpenCL miner for Bitcoin. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 443. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+
 ### 12. Clouds
+[Up](#useful-java-links)
 
-### 13. Cluster Management
+1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - Tools for keeping your cloud operating in top form. Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2892. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Netflix Eureka](https://github.com/Netflix/eureka) AWS Service registry for resilient mid-tier load balancing and failover.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1051. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Aws sdk java](https://github.com/aws/aws-sdk-java) Official mirror of the AWS (Amazon Web Services) SDK for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1008. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Syncany](https://github.com/syncany/syncany) Syncany is a cloud storage and filesharing application with a focus on security and abstraction of storage. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 772. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+5.  [Legacy Jclouds](https://github.com/jclouds/legacy-jclouds) jclouds is an open source library that helps you get started in the cloud and reuse your java development skills. Our api allows you to freedom to use portable abstractions or cloud-specific features. We support many clouds including Amazon, VMWare, Azure, and Rackspace. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 507. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [Elasticsearch](https://github.com/elastic/elasticsearch) - Open Source, Distributed, RESTful Search Engine. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 11833. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) AWS Cloud Plugin for Elasticsearch. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 435. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary. License: ?, github's star - 395.
+
+## 13. Cluster Management
 *Frameworks which can dynamically manage applications inside of a cluster.*
+[Up](#useful-java-links)
 
-* [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs.
-* [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks.
- 
+1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Singularity](http://getsingularity.com/) - Singularity is a Mesos framework that makes deployment and operations easy. It supports web services, background workers, scheduled jobs, and one-off tasks. License: **неизвесна, на сайте не найдена!**. 
+
 ### 14. Document Processing (XLS, DOC and PDF)
-
 *Libraries that assist with processing office document formats.*
 
-* [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT).
-* [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word.
-* [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format.
+1. [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3. [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format. License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License) or proprietary. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) ИЛИ ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 #### PDF
-
 *Everything that helps with the creation of PDF files.*
+[Up](#useful-java-links)
 
-* [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO.
-* [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF.
-* [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports.
-* [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer.
-* [iText](http://itextpdf.com/) - Creates PDF files programmatically but requires a license for commercial purposes.
-* [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine.
+1. [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3. [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4. [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5. [iText](http://itextpdf.com/) - Creates PDF files programmatically but requires a license for commercial purposes. License: [AGPL](https://en.wikipedia.org/wiki/Affero_General_Public_License) or proprietary. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) or  ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+6. [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine. License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 ### 15. Native
 *For working with platform-specific native libraries.*
+[Up](#useful-java-links)
 
-* [JNA](https://github.com/java-native-access/jna) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries.
-* [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/).
+1.  [Java Native Access (JNA)](https://github.com/java-native-access/jna)Work with native libraries without writing JNI. Also provides interfaces to common system libraries. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) или [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true) , github's star - 1750. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [JNR](https://github.com/jnr/jnr-ffi) -  Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 
 ## IV. Testing
