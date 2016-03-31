@@ -1,6 +1,6 @@
 # Список полезных ссылок для Java программиста
 
-В данном файле собрано большое количесвто ссылок по разделам на полезные Java библиотеки и фреймворки и краткое описание, так же указан рейтинг на github (star), лицензия или лицензии под которым выложен код библиотеки и возможно или нет линковать данную библиотеку с коммерческим закрытым ПО (строгость копилефта). Любые дополнения и изменения всячески приветствуются!
+В данном файле собрано большое количество ссылок по разделам на полезные Java библиотеки и фреймворки и краткое описание, так же указан рейтинг на github (star), лицензия или лицензии под которым выложен код библиотеки и возможно или нет линковать данную библиотеку с коммерческим закрытым ПО (строгость копилефта). Любые дополнения и изменения всячески приветствуются!
 
 - [I. Фреймворки и библиотеки](#i-Фреймворки-и-библиотеки)
     - [1. Фреймворки и библиотеки общего назначения](#1-Фреймворки-и-библиотеки-общего-назначения)
@@ -1019,7 +1019,7 @@
 10.  [Databricks Learning spark](https://github.com/databricks/learning-spark) Примеры кода для книги Learning Spark. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 412. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 11.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs это проект который рассматривает простоту разработки и полученное юзабилити (usability benchmark) семи типичных GUI задач на разных фреймворках и языках программирования (Java7 +Swing, Clojure+Seesaw, Scala+ScalaFX, Android и т. п.). Задачей сравнить разные подходы к созданию удобного для пользователя GUI. Лицензия: ?, рейтинг github'а - 404.
 12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-jpa-examples) Примеры использования разных возможностей Spring Data JPA . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 400. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд.
+13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд. Лицензия: [MIT](https://opensource.org/licenses/MIT). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 2. Результаты сравнения производительности кода на Java (benchmark) 
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
