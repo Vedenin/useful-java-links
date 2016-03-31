@@ -1,17 +1,5 @@
 # Useful java links
 
-- [V. Tools for developing](#v-tools-for-developing)
-    - [1. IDE](#1-ide)
-    - [2. Deploy, config and build](#2-deploy-config-and-build)
-         - [Build](#build)
-         - [Configuration](#configuration)
-         - [Distribution](#distribution)
-    - [3. Perfomance tools](#3-perfomance-tools)
-    - [4. Code Analysis](#4-code-analysis)
-    - [5. Monitoring](#5-monitoring)
-    - [6. Redefinition of classes at runtime](#)
-    - [7. Other](#7-Прочее)
-
 - [VI. Program languages and applications, that was written with Java](#vi-program-languages-and-applications-that-was-written-with-java)
     - [1. Program languages, that was written with Java](#1--program-languages-that-was-written-with-java)
     - [2. Other program languages tools, that was written with Java](#2-other-program-languages-tools-that-was-written-with-java)
