@@ -1,5 +1,5 @@
 # Useful Java links 
-It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new structure and a lot of new links
+It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new structure, add licenses info for every link, add a lot of new links (all non-mobile github projects with 400 or more star) and so on.
 
 # Useful java links
 
