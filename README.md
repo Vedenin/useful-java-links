@@ -567,79 +567,129 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 ## III. Network and Integration
 ### 1. Servers (Web Server and Application Server)
-
 *Servers which are specifically used to deploy applications.*
+[Up](#useful-java-links)
 
-* [Apache Tomcat](http://tomcat.apache.org/) - Robust all-round server for Servlet and JSP.
-* [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE.
-* [Jetty](http://www.eclipse.org/jetty/) - Lightweight, small server, often embedded in projects.
-* [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM.
-* [WildFly](http://www.wildfly.org/) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support.
+1.  [Wildfly](https://github.com/wildfly/wildfly) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 1386. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Undertow io Undertow](https://github.com/undertow-io/undertow) - High performance non-blocking webserver. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 721. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Apache Tomcat](https://github.com/apache/tomcat) -  Robust all-round server for Servlet and JSP. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 531. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Nginx clojure](https://github.com/nginx-clojure/nginx-clojure) - Nginx модуль с использованием Clojure или Java или Groovy программ. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , github's star - 514. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Lightweight, small server, often embedded in projects. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).0, github's star - 512. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6. [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM. ***License: proprietary*** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+2. [GlassFish](https://glassfish.java.net/) - GlassFish - World's first Java EE 7 Application Server. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) Or [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+
 
 ### 2. Networking
-
 *Libraries for network programming.*
+[Up](#useful-java-links)
 
-* [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library.
-* [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors.
-* [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish.
-* [Netty](http://netty.io/) - Framework for building high performance network applications.
-* [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client.
-* [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly.
+1.  [Netty](https://github.com/netty/netty) Framework for building high performance network applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 4847. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Netty socketio](https://github.com/mrniko/netty-socketio) Socket.IO server implemented on Java. Realtime java framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 754. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Grpc java](https://github.com/grpc/grpc-java) The Java gRPC implementation. HTTP/2 based RPC http://grpc.io . License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 753. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Socket.io java client](https://github.com/Gottox/socket.io-java-client) Socket.IO Client Implementation in Java. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 688. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Socket.io client.java](https://github.com/nkzawa/socket.io-client.java) Full-featured Socket.IO Client Library for Java, which is compatible with Socket.IO v1.0 and later. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 603. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [EsotericSoftware Kryonet](https://github.com/EsotericSoftware/kryonet) TCP/UDP client/server library for Java, based on Kryo. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 539. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7. [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Asynchronous HTTP and WebSocket client library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8. [Comsat](https://github.com/puniverse/comsat) - Integrates standard Java web-related APIs with Quasar fibers and actors. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9. [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) и [CDDL 1.1](https://en.wikipedia.org/wiki/CDDL). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11. [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Message, message broker and message queue
-
 *Tools that help to send messages between clients in order to ensure protocol independency.*
+[Up](#useful-java-links)
 
-* [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable unicast and multicast message transport.
-* [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication.
-* [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns.
-* [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system.
-* [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka.
-* [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded.
-* [JeroMQ](https://github.com/zeromq/jeromq) - Implementation of ZeroMQ.
-* [Smack](https://github.com/igniterealtime/Smack/) - Cross-platform XMPP client library.
+1.  [LMAX Exchange Disruptor](https://github.com/LMAX-Exchange/disruptor) High Performance Inter-Thread Messaging Library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3137. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Gifsockets](https://github.com/videlalvaro/gifsockets) Real Time communication library using Animated Gifs as a transport. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), github's star - 1414. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Real logic Aeron](https://github.com/real-logic/Aeron) Efficient reliable UDP unicast, UDP multicast, and IPC message transport. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1103. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [JeroMQ](https://github.com/zeromq/jeromq) Pure Java ZeroMQ. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 834. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+5.  [Metamorphosis](https://github.com/killme2008/Metamorphosis) A high available,high performance distributed messaging system. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 580. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [Igniterealtime Openfire](https://github.com/igniterealtime/Openfire) A XMPP server licensed under the Open Source Apache License. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 470. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [Zeromq Jzmq](https://github.com/zeromq/jzmq) Java binding for ZeroMQ. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 415. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+8. [Aeron](https://github.com/real-logic/Aeron) - Efficient reliable unicast and multicast message transport. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9. [Apache ActiveMQ](http://activemq.apache.org/) - Message broker that implements JMS and converts synchronous to asynchronous communication, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10. [Apache Camel](http://camel.apache.org/) - Glues together different transport APIs via Enterprise Integration Patterns, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11. [Apache Kafka](http://kafka.apache.org/) - High-throughput distributed messaging system, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+12. [Hermes](http://hermes.allegro.tech) - Fast and reliable message broker built on top of Kafka, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+13. [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+14. [Smack](https://github.com/igniterealtime/Smack) Cross-platform XMPP client library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 426. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Http and ssh
+[Up](#useful-java-links)
+
+1.  [Square Okhttp](https://github.com/square/okhttp) An HTTP+HTTP/2 client for Android and Java applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5022. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client) Asynchronous Http and WebSocket Client library for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2149. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Http request](https://github.com/kevinsawicki/http-request) Java HTTP Request Library. License:  [MIT](https://opensource.org/licenses/MIT) . , github's star - 1477. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Nanohttpd](https://github.com/NanoHttpd/nanohttpd) Tiny, easily embeddable HTTP server in Java. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 1184. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Http kit](https://github.com/http-kit/http-kit) Hhttp-kit is a minimalist, event-driven, high-performance Clojure HTTP server/client library with WebSocket and asynchronous support. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1172. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [Apache Zookeeper](https://github.com/apache/zookeeper) Mirror of Apache Hadoop ZooKeeper. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 987. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [Moco](https://github.com/dreamhead/moco) Easy Setup Stub Server. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 857. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8.  [Webbit](https://github.com/webbit/webbit) A Java event based WebSocket and HTTP server. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 648. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9.  [Mashape Unirest java](https://github.com/Mashape/unirest-java) Unirest in Java: Simplified, lightweight HTTP client library.. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 537. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10.  [Sshj](https://github.com/hierynomus/sshj) ssh, scp and sftp for java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 500. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11.  [Netflix Feign](https://github.com/Netflix/feign) Feign makes writing java http clients easier. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 485. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 ### 5. Rest Frameworks
-
 *Frameworks specifically for creating RESTful services.*
+[Up](#useful-java-links)
 
-* [Dropwizard](https://dropwizard.github.io/dropwizard/) - Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics.
-* [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket.
-* [Jersey](https://jersey.java.net/) - JAX-RS reference implementation.
-* [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification.
-* [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance.
-* [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation.
-* [Retrofit](http://square.github.io/retrofit/) - Type-safe REST client.
-* [Spark](http://sparkjava.com/) - Sinatra inspired framework.
-* [Swagger](http://swagger.io/) - Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services.
+1.  [Square Retrofit](https://github.com/square/retrofit) Type-safe REST client. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5945. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Dropwizard](https://github.com/dropwizard/dropwizard) Opinionated framework for setting up modern web applications with Jetty, Jackson, Jersey and Metrics. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3427. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Swagger](https://github.com/swagger-api/swagger-core) Swagger is a specification and complete framework implementation for describing, producing, consuming, and visualizing RESTful web services. http://swagger.io/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2657. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Generator jhipster](https://github.com/jhipster/generator-jhipster) Hipster stack for Java developers. Spring Boot + AngularJS in one handy generator. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2352. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Jersey](https://github.com/jersey/jersey) JAX-RS reference implementation. License: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.1), github's star - 864.
+6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 825. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS - Library to support implementing representations for hyper-text driven REST web services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 456. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8. [Feign](https://github.com/Netflix/feign) -  HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9. [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10. [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11. [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+12. [Spark](http://sparkjava.com/) - Sinatra inspired framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Integration frameworks
+[Up](#useful-java-links)
+
+1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) This is effectively the missing connector between speaking to a JVM via JMX on one end and whatever logging / monitoring / graphing package that you can dream up on the other end. License: ?, github's star - 708.
+2.  [Apache Camel](https://github.com/apache/camel) Apache Camel is a powerful open source integration framework based on known Enterprise Integration Patterns with powerful Bean Integration. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 490. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 ### 7. Web Crawling and HTML parsering
+[Up](#useful-java-links)
 
-*Libraries that analyze the content of websites.*
+1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri is an HTML, XML, SAX, and Reader parser with XPath and CSS selector support. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3323. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Jsoup](https://github.com/jhy/jsoup) Scrapes, parses, manipulates and cleans HTML. http://jsoup.org/ License: [MIT](https://opensource.org/licenses/MIT) , github's star - 2006. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Webmagic](https://github.com/code4craft/webmagic) A scalable web crawler framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1089. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Antlr4](https://github.com/antlr/antlr4) ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 836. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Parboiled](https://github.com/sirthias/parboiled) Elegant parsing in Java and Scala - lightweight, easy-to-use, powerful. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 775. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [Pegdown](https://github.com/sirthias/pegdown) A pure-Java Markdown processor based on a parboiled PEG parser supporting a number of extensions. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 692. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8.  [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-* [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment.
-* [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler.
-* [JSoup](http://jsoup.org/) - Scrapes, parses, manipulates and cleans HTML.
-
-### 8. Json
-
+### 8.  Json
 *Libraries that simplify JSON processing.*
+[Up](#useful-java-links)
 
-* [Genson](http://owlike.github.io/genson/) - Powerful and easy to use Java to JSON conversion library.
-* [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage.
-* [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often.
-* [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library.
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2605. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [JSON java](https://github.com/douglascrockford/JSON-java) A reference implementation of a JSON package in Java. License: ?, github's star - 1561.
+3.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)Generates Java types from JSON Schema (or example JSON) and annotates those types for data-binding with Jackson 1.x or 2.x, Gson, etc. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 914. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Square Moshi](https://github.com/square/moshi) A modern JSON library for Android and Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 765. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Instagram Ig json parser](https://github.com/Instagram/ig-json-parser) Fast JSON parser for java projects. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 730. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [FasterXML Jackson core](https://github.com/FasterXML/jackson-core) Core part of Jackson that defines Streaming API as well as basic shared abstractions. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 682. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7.  [FasterXML Jackson databind](https://github.com/FasterXML/jackson-databind) Core part of Jackson that defines Streaming API as well as basic shared abstractions. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 640. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 448. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9.  [Json schema validator](https://github.com/fge/json-schema-validator) A JSON Schema validation implementation in pure Java, which aims for correctness and performance, in that order. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 411. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10. [Genson](http://owlike.github.io/genson/) -Powerful and easy to use Java to JSON conversion library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11. [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+12. [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+13. [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 9. CSV
-
 *Frameworks and libraries that simplify reading/writing CSV data.*
+[Up](#useful-java-links)
 
-* [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license.
-* [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8.
-* [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records.
+1. [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3. [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 10. Integratin with API
 ### 11. Bitcoin
