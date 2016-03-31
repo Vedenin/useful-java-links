@@ -729,70 +729,76 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 ## IV. Testing
 ### 1. Testing
-
 *Tools that test from model to the view.*
+[Up](#useful-java-links)
 
-* [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements.
-* [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers.
-* [AssertJ](http://joel-costigliola.github.io/assertj/) - Fluent assertions that improve readability.
-* [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations.
-* [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging.
-* [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework.
-* [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance.
-* [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL.
-* [Hamcrest](http://hamcrest.org/JavaHamcrest/) - Matchers that can be combined to create flexible expressions of intent.
-* [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG.
-* [JMockit](http://jmockit.org/) - Mocks static, final methods and more.
-* [JUnit](http://junit.org/) - Common testing framework.
-* [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests.
-* [Mockito](https://github.com/mockito/mockito) - Creation of test double objects in automated unit tests for the purpose of TDD or BDD.
-* [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013.
-* [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites.
-* [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers.
-* [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services.
-* [Selenide](http://selenide.org/) - Concise API around Selenium to write stable and readable UI tests.
-* [Selenium](http://docs.seleniumhq.org/) - Portable software testing framework for web applications.
-* [Spock](http://docs.spockframework.org/) - JUnit-compatible framework featuring an expressive Groovy-derived specification language.
-* [TestNG](http://testng.org/) - Testing framework.
-* [Truth](https://github.com/google/truth) - Google's assertion and proposition framework.
-* [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing.
-* [WireMock](http://wiremock.org/) - Stubbs and mocks web services.
+1.  [Junit](https://github.com/junit-team/junit) Common testing framework. License:  [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) , github's star - 3662. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2.  [Mockito](https://github.com/mockito/mockito) Creation of test double objects in automated unit tests for the purpose of TDD or BDD. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 1307. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Selenium](https://github.com/SeleniumHQ/selenium) Portable software testing framework for web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1305. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4.  [Spock](https://github.com/spockframework/spock) JUnit-compatible framework featuring an expressive Groovy-derived specification language. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 669. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5.  [Google Firing range](https://github.com/google/firing-range) Firing Range is a test bed for web application security scanners, providing synthetic, wide coverage for an array of vulnerabilities. It can be deployed as a Google App Engine application. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 650. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6.  [Fitnesse](https://github.com/unclebob/fitnesse) FitNesse is the fully integrated stand-alone acceptance testing framework and wiki.. License: [CPL-1.0](https://opensource.org/licenses/cpl1.0.php), github's star - 618.
+7.  [Sikuli](https://github.com/sikuli/sikuli) Sikuli is a visual technology to automate graphical user interfaces (GUI) using images (screenshots). The current release of Sikuli includes Sikuli Script, a visual scripting API for Jython, and Sikuli IDE, an integrated development environment for writing visual scripts with screenshots easily. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 609. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8.  [JavaHamcrest](https://github.com/hamcrest/JavaHamcrest) Matchers that can be combined to create flexible expressions of intent. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), github's star - 561. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9.  [Wiremock](https://github.com/tomakehurst/wiremock) Stubbs and mocks web services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 508. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10.  [Testng](https://github.com/cbeust/testng) Testing framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 477. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11.  [Galenframework Galen](https://github.com/galenframework/galen) Layout and functional testing framework for websites. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 449. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+12.  [AssertJ](https://github.com/joel-costigliola/assertj-core) Fluent assertions that improve readability. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 423. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+13.  [Google truth](https://github.com/google/truth) Google's assertion and proposition framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 394. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+14. [Apache JMeter](http://jmeter.apache.org/) - Functional testing and performance measurements. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+15. [Arquillian](http://arquillian.org/) - Integration and functional testing platform for Java EE containers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+16. [Awaitility](https://github.com/jayway/awaitility) - DSL for synchronizing asynchronous operations. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+17. [Citrus](http://citrusframework.org/) - Integration testing framework with focus on client- and serverside messaging. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+18. [Cucumber](https://github.com/cucumber/cucumber-jvm) - BDD testing framework. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+19. [Gatling](http://gatling.io/) - Load testing tool designed for ease of use, maintainability and high performance. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+20. [GreenMail](http://www.icegreen.com/greenmail/) - In-memory email server for integration testing. Supports SMTP, POP3 and IMAP including SSL. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+21. [JGiven](http://jgiven.org) - Developer-friendly BDD testing framework compatible with JUnit and TestNG. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+22. [JMockit](http://jmockit.org/) - Mocks static, final methods and more. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+23. [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+24. [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+25. [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites. License: [Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+26. [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+27. [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+28. [Selenide](http://selenide.org/) -Concise API around Selenium to write stable and readable UI tests. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+29. [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Code Coverage
-
 *Frameworks and tools that enable collection of code coverage metrics for test suites.*
+[Up](#useful-java-links)
 
-* [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin.
-* [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation.
-* [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics; GPLv2 licensed.
-* [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain.
+1. [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [BSD](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation. ***License: proprietary*** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true) 
+3. [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+4. [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 3. Continuous Integration
-
 *Tools which support continuously building, testing and releasing applications.*
+[Up](#useful-java-links)
 
-* [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it.
-* [CircleCI](https://circleci.com/) - Hosted service with a free trial.
-* [Codeship](https://codeship.com/features) - Hosted services with a limited free plan.
-* [fabric8](http://fabric8.io/) - Integration platform for containers.
-* [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution.
-* [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services.
-* [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version.
-* [Travis](https://travis-ci.org) - Hosted service often used for open-source projects. 
+1. [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it. ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+2. [CircleCI](https://circleci.com/) - Hosted service with a free trial. ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+3. [Codeship](https://codeship.com/features) - Hosted services with a limited free plan. ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+4. [fabric8](http://fabric8.io/) - Integration platform for containers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5. [Go](https://www.thoughtworks.com/go/) - ThoughtWork's open-source solution. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6. [Jenkins](http://jenkins-ci.org/) - Provides server-based deployment services. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version. **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects. License: ?
+9. [Hudson](http://hudson-ci.org/) - Hudson monitors the execution of repeated jobs, such as building a software project or jobs run by cron. Currently Hudson focuses on the following two jobs: Building/testing software projects continuously and Monitoring executions of externally-run jobs. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Formal Verification
-
 *Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+[Up](#useful-java-links)
 
-* [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods.
-* [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more.
-* [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats.
-* [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools.
-* [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA.
-* [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving.
-* [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected.
-* [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification.
-* [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers.
+1. [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses), License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Checker Framework](http://types.cs.washington.edu/checker-framework/) - Pluggable type systems. Includes nullness types, physical units, immutability types and more. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+3. [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats. License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+4. [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+5. [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA. License: [NASA OPEN SOURCE AGREEMENT VERSION 1.3](http://javapathfinder.sourceforge.net/NOSA-1.3-JPF.txt)
+6. [jCUTE](https://github.com/osl/jcute) -  Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving. **License: Проприетарная, бесплатная для целей обучения и т.п.** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+7. [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+8. [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification. License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+9. [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) и [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+
 
 ## V. Tools for developing
 ### 1. IDE
