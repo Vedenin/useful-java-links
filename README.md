@@ -915,7 +915,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 10.  [Databricks Learning spark](https://github.com/databricks/learning-spark) Example code from Learning Spark book. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 412. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 11.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs is a GUI programming usability benchmark. License: ?, github's star - 404.
 12.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-examples) Spring Data Example Projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 400. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Modern Java - A Guide to Java 8
+13. [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Modern Java - A Guide to Java 8. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Benchmark results
 [Up](#useful-java-links)
