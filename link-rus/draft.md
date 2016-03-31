@@ -16,16 +16,16 @@
 ### build
 [Archiva Apache]( http://archiva.apache.org) Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact 
 
-Aries
-Axis
-Bigtop
-BookKeeper
-Brooklyn
-BVal
-Cayenne
-Chemistry
-Chukwa
-Clerezza
+[Aries](http://aries.apache.org/)The Aries project consists of a set of pluggable Java components enabling an enterprise OSGi application programming model. 
+[Axis](http://axis.apache.org/) Web Service containers that helps users to create, deploy, and run Web Services. Axis2 is a Web Services / SOAP / WSDL engine, the successor to the widely used Apache Axis SOAP stack. 
+[Bigtop]http://bigtop.apache.org/) Bigtop is an Apache Foundation project for Infrastructure Engineers and Data Scientists looking for comprehensive packaging, testing, and configuration of the leading open source big data components.
+[BookKeeper](http://bookkeeper.apache.org/) BookKeeper is a replicated log service which can be used to build replicated state machines. A log contains a sequence of events which can be applied to a state machine. BookKeeper guarantees that each replica state machine will see all the same entries, in the same order.
+[Brooklyn](http://brooklyn.apache.org/)
+[BVal](http://bval.apache.org/) Apache BVal delivers an implementation of the Java Bean Validation (JSR303) Specification which is TCK compliant, works on Java SE 5 or later
+[Cayenne](http://cayenne.apache.org/) Apache Cayenne(tm) is an open source persistence framework licensed under the Apache License, providing object-relational mapping (ORM) and remoting services. 
+[Chemistry]()
+[Chukwa]()
+[Clerezza]()
 CloudStack
 Cocoon
 Continuum
