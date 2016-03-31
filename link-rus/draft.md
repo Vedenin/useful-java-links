@@ -67,7 +67,7 @@
 14.  [Geoserver](https://github.com/geoserver/geoserver) Official GeoServer repository. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, github's star - 435. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 15.  [Languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker for 25+ Languages. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 416. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 6. Games, that was written with Java
+### 6. Opensource games, that was written with Java
 [Up](#useful-java-links)
 
 1.  [Bukkit](https://github.com/Bukkit/Bukkit) The Minecraft Mod API. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1600. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -80,8 +80,3 @@
 8.  [WorldEdit](https://github.com/sk89q/WorldEdit) An in-game voxel map editor for Minecraft. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 715. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 9.  [Essentials](https://github.com/essentials/Essentials) Essentials - Minecraft server command mod - Adds over 100 commands for use in-game to help manage a server. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 423. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 10.  [GlowstoneMC Glowstone](https://github.com/GlowstoneMC/Glowstone) An open-source server for the Bukkit Minecraft modding interface. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 421. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-
-
-
-
