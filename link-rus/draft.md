@@ -5,8 +5,8 @@
     - [2. Other program languages tools, that was written with Java](#2-other-program-languages-tools-that-was-written-with-java)
     - [3. Javascript](#3-javascript)
     - [4. Frameworks that help to create parsers, interpreters or compilers](#4-frameworks-that-help-to-create-parsers-interpreters-or-compilers)
-    - [5. Opensource applications, that was written with Java](#5-applications-that-was-written-with-java)
-    - [6. Opensource games, that was written with Java](#6-games-that-was-written-with-java)
+    - [5. Opensource applications, that was written with Java](#5-opensource-applications-that-was-written-with-java)
+    - [6. Opensource games, that was written with Java](#6-opensource-games-that-was-written-with-java)
     
 
 
