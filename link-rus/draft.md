@@ -23,8 +23,6 @@
 
 [BookKeeper](http://bookkeeper.apache.org/) BookKeeper is a replicated log service which can be used to build replicated state machines. A log contains a sequence of events which can be applied to a state machine. BookKeeper guarantees that each replica state machine will see all the same entries, in the same order. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-[Brooklyn](http://brooklyn.apache.org/) ??? License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 [BVal](http://bval.apache.org/) Apache BVal delivers an implementation of the Java Bean Validation (JSR303) Specification which is TCK compliant, works on Java SE 5 or later. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 [Cayenne](http://cayenne.apache.org/) Apache Cayenne(tm) is an open source persistence framework licensed under the Apache License, providing object-relational mapping (ORM) and remoting services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
