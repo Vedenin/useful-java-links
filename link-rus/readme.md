@@ -407,6 +407,12 @@
 2. [JGraphT](https://github.com/jgrapht/jgrapht) - Графическая библиотека, которая предоставляет объект и алгоритмы из математической теории графов, Лицензия: [Eclipse Public License](https://ru.wikipedia.org/wiki/Eclipse_Public_License) или [LGPL 2.1](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3. [JScience](http://jscience.org/) - Предоставляет набор классов для работы с научными измерениями и объектами, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
+### 11. OSGI
+1. [ACE](http://accumulo.apache.org/) - distribution фреймворк для OSGi систем и не только. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [Aries](http://aries.apache.org/) данный проект состоит из набора pluggable Java компонент для OSGi модели. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+3. [Felix](http://felix.apache.org/) OSGi фреймворк. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4. [Karaf](http://karaf.apache.org)  OSGi фреймворк для серверных приложений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
 ## II. Базы данных, поисковые системы, Big data и машинное обучение
 
 ### 1. Базы данных и хранилища
