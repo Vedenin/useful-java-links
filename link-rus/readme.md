@@ -870,6 +870,7 @@
 7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI решение с бесплатной версией для open-source продуктов, **Лицензия: Проприетарная, платная** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 8. [Travis](https://travis-ci.org) - Cервис хостинга CI, который часто использует в открытых продуктах, Лицензия: ?
 9. [Hudson](http://hudson-ci.org/) - Сервер непрерывной реализации для активной разработки, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+10. [Apache Continuum](http://continuum.apache.org/)  Сервер непрерывной реализации от Apache. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Formal Verification
 * Инструменты для формальной верефикации: proof assistants, model checking, symbolic execution и т.п.*
