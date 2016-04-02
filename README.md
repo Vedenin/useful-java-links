@@ -878,6 +878,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 7. [TeamCity](http://www.jetbrains.com/teamcity/) - JetBrain's CI solution with a free version. **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 8. [Travis](https://travis-ci.org) - Hosted service often used for open-source projects. License: ?
 9. [Hudson](http://hudson-ci.org/) - Hudson monitors the execution of repeated jobs, such as building a software project or jobs run by cron. Currently Hudson focuses on the following two jobs: Building/testing software projects continuously and Monitoring executions of externally-run jobs. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10. [Apache Continuum](http://continuum.apache.org/) Apache Continuum software is an enterprise-ready continuous integration server with features such as automated builds, release management, role-based security, and integration with popular build tools and source control management systems.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 ### 4. Formal Verification
 *Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
