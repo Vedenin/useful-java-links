@@ -31,12 +31,6 @@
 ### big-data, rest
 [Apache Knox](http://karaf.apache.org) A REST API Gateway for Hadoop Services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### distribution, osgi  
-- [Apache ACE](http://accumulo.apache.org/) Apache ACE is a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-- [Apache Aries](http://aries.apache.org/) The Aries project consists of a set of pluggable Java components enabling an enterprise OSGi application programming model. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-- [Apache Giraph](http://giraph.apache.org/) Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### network-server   cloud   big-data  
 - [Apache Airavata](http://airavata.apache.org/) Apache Airavata is a software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly used to build Web-based science gateways and assist to compose, manage, execute, and monitor large scale applications (wrapped as Web based services) and workflows composed of these services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -63,10 +57,6 @@
 ### integration Framework
 - [Apache CXF](http://cxf.apache.org/) Apache CXF: An Open Source Service Framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### network-server, OSGi  
-- [Apache Felix](http://felix.apache.org/) OSGi framework implementation and related technologies. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-
 
 ###  mail   network-server  
 - [Apache James](http://james.apache.org) The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -81,11 +71,6 @@
 
 ### http   library   network-client   network-server  
 [Apache HttpComponents](http://hc.apache.org/)  project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HTTP transport library including support for asynchronous execution based on Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-
-### osgi  
-[Apache Karaf](http://karaf.apache.org)  Apache Karaf is an OSGi distribution for server-side applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 
 ### search, content  (?)
 [Apache ManifoldCF](http://marmotta.apache.org) Open-source software for transferring content between repositories or search indexes License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
