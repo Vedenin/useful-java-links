@@ -51,9 +51,6 @@
 ### cloud
 - [Apache CloudStack](http://cloudstack.apache.org/)  Apache CloudStack is an IaaS (“Infrastracture as a Service”) cloud orchestration platform.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### continuous integration
-- [Apache Continuum](http://continuum.apache.org/) Apache Continuum software is an enterprise-ready continuous integration server with features such as automated builds, release management, role-based security, and integration with popular build tools and source control management systems.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 ### integration Framework
 - [Apache CXF](http://cxf.apache.org/) Apache CXF: An Open Source Service Framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
@@ -65,8 +62,6 @@
 [Apache Jena](http://jena.apache.org) A framework for developing Semantic Web and Linked Data applications in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### Server
-[Apache Geronimo](http://geronimo.apache.org/) Java EE Application Server. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 ### http   library   network-client   network-server  
