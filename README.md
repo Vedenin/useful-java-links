@@ -640,8 +640,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 5.  [Eclipse Jetty.project](https://github.com/eclipse/jetty.project) - Lightweight, small server, often embedded in projects. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).0, github's star - 512. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 6. [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM. ***License: proprietary*** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-2. [GlassFish](https://glassfish.java.net/) - GlassFish - World's first Java EE 7 Application Server. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) Or [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
-
+8. [GlassFish](https://glassfish.java.net/) - GlassFish - World's first Java EE 7 Application Server. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) Or [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+9. [Apache Geronimo](http://geronimo.apache.org/) Java EE Application Server. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Networking
 *Libraries for network programming.*
