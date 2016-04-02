@@ -25,7 +25,8 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
     - [8. Code generation and changing byte code](#8-code-generation-and-changing-byte-code)
     - [9. Distributed Applications](#9-distributed-applications)
     - [10. Science](#10-science)   
-    
+    - [11. OSGI](#10-osgi)   
+
 - [II. Databases, search engines, big data and machine learning](#ii-databases-search-engines-big-data-and-machine-learning)
     - [1. Databases and storages](#1-databases-and-storages)
           - [Distributed Databases](#distributed-databases)
@@ -398,6 +399,13 @@ Distributed Computing, Simplified. License: [Apache 2](http://www.apache.org/lic
 1. [DataMelt](http://jwork.org/dmelt/) - DataMelt is a free mathematics software for scientists, engineers and students. It can be used for numeric computation, statistics, symbolic calculations, data analysis and data visualization. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2. [JGraphT](https://github.com/jgrapht/jgrapht) - JGraphT is a free Java class library that provides mathematical graph-theory objects and algorithms. It runs on Java 2 Platform (requires JDK 1.7 or later). License: [Eclipse Public License](https://en.wikipedia.org/wiki/Eclipse_Public_License) or [LGPL 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+### 11. OSGI
+1. [ACE](http://accumulo.apache.org/) Apache ACE is a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Aries](http://aries.apache.org/) The Aries project consists of a set of pluggable Java components enabling an enterprise OSGi application programming model. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3. [Felix](http://felix.apache.org/) OSGi framework implementation and related technologies. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4. [Karaf](http://karaf.apache.org)  Apache Karaf is an OSGi distribution for server-side applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 ## II. Databases, search engines, big data and machine learning
 
