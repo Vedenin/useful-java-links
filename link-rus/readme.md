@@ -58,6 +58,7 @@
     - [13. Cluster Management](#13-cluster-management)
     - [14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-Работа-с-документами-xls-doc-pdf-и-тп14-document-processing-xls-doc-and-pdf)
     - [15. Работа с нативным API разных ОС](#15-Работа-с-нативным-api-разных-ОС15-native)
+    - [16. XML](#16-xml)
     
 - [IV. Тестирование](#iv-Тестирование)
     - [1. Тестирование](#1-Тестирование)
@@ -302,6 +303,8 @@
 9. [Google Keyczar](https://github.com/google/keyczar) - Легкий в использовании, но безопасный фреймворк шифрования с управлением версиями, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 10. [Keycloak](http://keycloak.jboss.org/) - Интеграция с SSO и IDM, как для приложений, работающих в браузере, так и для RESTful веб сервисов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 11. [PicketLink](http://picketlink.org/) - Umbrella проект для обеспечения безопасности и индетификации пользователей, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+12. [Santuario](http://santuario.apache.org) Библиотека реализующая XML Digital Signature спецификацию и XML Encryption спецификацию. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
 
 #### Высокая производительность
 *Все для высокопроизводительных решенией от коллекций до специальных библиотек.*
@@ -814,6 +817,14 @@
 
 1.  [Java Native Access (JNA)](https://github.com/java-native-access/jna) Java Native Access — система доступа к нативному API. Так же предоставляет интерфейсы к основным системых библиотекам. Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) или [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true) , рейтинг github'а - 1750. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2. [JNR](https://github.com/jnr/jnr-ffi) -  Работа с нативными библиотеками без использвания JNI. Так же предоставляет интерфейсы к основным системых библиотекамs. Те же задачи что у JNA, но работает быстрее, и служит основой для разрабатываемого [Project Panama](http://openjdk.java.net/projects/panama/), Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
+### 16. XML
+### 16. XML
+1. [Xalan](http://xalan.apache.org/xalan-j/)  Xalan-J это XSLT processor, написанный на Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [Xerces](http://xerces.apache.org/xerces2-j/) Xerces-J это validating XML парсер, написанный на Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+3. [XML Graphics](http://xmlgraphics.apache.org/) Конвертация XML в графическое представление. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4. [Santuario](http://santuario.apache.org) Библиотека реализующая XML Digital Signature спецификацию и XML Encryption спецификацию. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+5. [VXQuery](http://vxquery.apache.org) Apache VXQuery реализует параллельный XML Query processor. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ## IV. Тестирование
 ### 1. Тестирование
