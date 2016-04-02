@@ -104,9 +104,6 @@
 [Apache River](http://river.apache.org) Apache River software provides a standards-compilani JINI service. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### xml  
-[Apache Santuario](http://santuario.apache.org) Library implementing XML Digital Signature Specification & XML Encryption Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 ### integration
 [Apache ServiceMix](http://servicemix.apache.org) Apache ServiceMix is an open source ESB providing routing and mediation features. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
@@ -128,19 +125,8 @@
 ### messy data (?) integration (?)
 [Apache UIMA](http://uima.apache.org) Annotator components and a scalable integration and deployment framework for Unstructured Information analysis. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### big-data/tools   xml  
-[Apache VXQuery](http://vxquery.apache.org) Apache VXQuery implements a parallel XML Query processor. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 ### REST
 [Apache Wink](http://wink.apache.org) RESTFul web services based on JAX-RS specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### xml  
-[Apache Xalan](http://xalan.apache.org/xalan-j/)  Xalan-J is an XSLT processor written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-[Apache Xerces](http://xerces.apache.org/xerces2-j/) Xerces-J is a validating XML parser written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### xml graphic (?)
-[Apache XML Graphics](http://xmlgraphics.apache.org/) Conversion from XML to graphical output. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### build
 [Apache Yetus]() A collection of libraries and tools that enable contribution and release processes for software projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
