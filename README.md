@@ -25,7 +25,7 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
     - [8. Code generation and changing byte code](#8-code-generation-and-changing-byte-code)
     - [9. Distributed Applications](#9-distributed-applications)
     - [10. Science](#10-science)   
-    - [11. OSGI](#10-osgi)   
+    - [11. OSGI](#11-osgi)   
 
 - [II. Databases, search engines, big data and machine learning](#ii-databases-search-engines-big-data-and-machine-learning)
     - [1. Databases and storages](#1-databases-and-storages)
