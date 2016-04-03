@@ -807,7 +807,7 @@
 8.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг github'а - 395.
 9.  [Apache CloudStack](http://cloudstack.apache.org/)  Apache CloudStack это IaaS (“Infrastracture as a Service”) облачная платформа. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 10.  [Apache Stratos](http://stratos.apache.org)  Apache Stratos это Platform-as-a-Service (PaaS) облачная платформа. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-
+11. [Apache Airavata](http://airavata.apache.org/) Apache Airavata это фреймворк выполнения и управления заданиями в распределенных ресурсах, таких как кластеры, суперкомпьютеры, national grids, академические и комерческие облака. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ## 13. Cluster Management
 *Фреймворки для динамического управления приложением внутри класстера.*
@@ -816,6 +816,7 @@
 1. [Apache Aurora](http://aurora.apache.org/) - Apache Aurora это Apache Mesos фреймворк для длительных сервисов и cron jobs, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 2. [Singularity](http://getsingularity.com/) - Singularity это Apache Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач, Лицензия: **неизвесна, на сайте не найдена!**. 
 3. [Apache Helix](http://helix.apache.org/) Это фреймворк управления кластером. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4. [Apache Airavata](http://airavata.apache.org/) Apache Airavata это фреймворк выполнения и управления заданиями в распределенных ресурсах, таких как кластеры, суперкомпьютеры, national grids, академические и комерческие облака. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
 ### 14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-document-processing-xls-doc-and-pdf)
