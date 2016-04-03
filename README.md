@@ -685,6 +685,10 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 9. [Grizzly](https://grizzly.java.net/) - NIO framework. Used as a network layer in Glassfish. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) and [CDDL 1.1](https://en.wikipedia.org/wiki/CDDL). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 10. [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 11. [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+12. [Apache MINA](http://mina.apache.org/) Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract, event-driven, asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+13. [Apache HttpComponents](http://hc.apache.org/)  project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HTTP transport library including support for asynchronous execution based on Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+
 
 ### 3. Message, message broker and message queue
 *Tools that help to send messages between clients in order to ensure protocol independency.*
@@ -705,6 +709,10 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 13. [JBoss HornetQ](http://hornetq.jboss.org/) - Clear, concise, modular and made to be embedded, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 14. [Smack](https://github.com/igniterealtime/Smack) Cross-platform XMPP client library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 426. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 15. [Apache Qpid](http://qpid.apache.org) AMQP enterprise messaging implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+16. [Apache Synapse](http://synapse.apache.org) Apache Synapse is a lightweight ESB engine and XML router. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+17. [Apache ServiceMix](http://servicemix.apache.org) Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+
 
 ### 4. Http and ssh
 [Up](#useful-java-links)
@@ -747,6 +755,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) This is effectively the missing connector between speaking to a JVM via JMX on one end and whatever logging / monitoring / graphing package that you can dream up on the other end. License: ?, github's star - 708.
 2.  [Apache Camel](https://github.com/apache/camel) Apache Camel is a powerful open source integration framework based on known Enterprise Integration Patterns with powerful Bean Integration. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 490. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3.  [Apache CXF](http://cxf.apache.org/) Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 ### 7. Web Crawling and HTML parsering
 [Up](#useful-java-links)
