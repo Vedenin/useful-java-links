@@ -615,8 +615,8 @@
 #### Semantic Web и Linked Data
 *Semantic Web (он же Web of Data, Linked Data, Linking Open Data) — это направление развития Всемирной паутины, позволяющее машинам не только отображать информацию в интернете, но и понимать ее смысл.*
 
-1. [Apache Marmotta](http://marmotta.apache.org) Открытая платформа для работы с Linked Data. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 803. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-2. [Apache Jena](http://jena.apache.org) Фреймворк для разработки Semantic Web и Linked Data приложений на Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 803. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1. [Apache Marmotta](http://marmotta.apache.org) Открытая платформа для работы с Linked Data. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [Apache Jena](http://jena.apache.org) Фреймворк для разработки Semantic Web и Linked Data приложений на Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 #### Constraint Satisfaction Problem Solver
 *Библиотеки, которые помогают в такой задачи искусственного интеллекта (ИИ) как удовлетворения ограничений (УО) (constraint satisfaction problem).*
