@@ -57,7 +57,8 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
     - [14. Document Processing (XLS, DOC and PDF)](#14-document-processing-xls-doc-and-pdf)
     - [15. Native](#15-native)
     - [16. XML](#16-xml)
-    
+    - [17. Geospatial Service Interation](#17-geospatial-service-interation)    
+
 - [IV. Testing](#iv-testing)
     - [1. Testing](#1-testing)
     - [2. Code Coverage](#2-code-coverage)
@@ -845,6 +846,18 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 4. [Santuario](http://santuario.apache.org) Library implementing XML Digital Signature Specification & XML Encryption Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 5. [VXQuery](http://vxquery.apache.org) Apache VXQuery implements a parallel XML Query processor. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
+17. Geospatial Service Interation
+*Libraries for working with geospatial data and algorithms.*
+
+1. [Apache SIS](http://sis.apache.org/) - Library for developing geospatial applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Geo](https://github.com/davidmoten/geo/) - GeoHash utilities in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+3. [Geotoolkit.org](http://www.geotoolkit.org/) - Library for developing geospatial applications. Built on top of the Apache SIS project. License: [GNU Lesser 2.1](http://www.geotoolkit.org/license.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+4. [GeoTools](http://geotools.org/) - Library that provides tools for geospatial data. License: [GNU Lesser 2.1](http://www.gnu.org/licenses/lgpl-2.1.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5. [H2GIS](http://www.h2gis.org/) - A spatial extension of the H2 database. License: [GPL 3](http://www.gnu.org/copyleft/gpl.html). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) 
+6. [Jgeohash](http://astrapi69.github.io/jgeohash/) - Library that can assist Java developers in using the GeoHash algorithm. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+7. [JTS Topology Suite](http://www.vividsolutions.com/jts/JTSHome.htm) - An API of 2D spatial predicates and functions. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+8. [Mapsforge](https://github.com/mapsforge/mapsforge/) - Software for the rendering of maps based on OpenStreetMap data. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9. [Spatial4j](https://github.com/locationtech/spatial4j/) - General purpose spatial/geospatial ASL licensed open-source Java library.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ## IV. Testing
 ### 1. Testing
@@ -984,10 +997,11 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 5.  [Naver Pinpoint](https://github.com/naver/pinpoint) Pinpoint is an open source APM (Application Performance Management) tool for large-scale distributed systems written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 486. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 6. [jHiccup](https://github.com/giltene/jHiccup) - Logs and records platform JVM stalls. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 7. [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
-8. [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) -  Commercial profiler.  **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-9. [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-10. [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications. License: [GNU 2 with the Classpath Exception](https://en.wikipedia.org/wiki/GNU_General_Public_License).
-11. [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.   **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+8. [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9. [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications. License: [GNU 2 with the Classpath Exception](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+10. [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.   **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+11. [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) -  Commercial profiler.  **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+12. [XRebel](http://zeroturnaround.com/software/xrebel/) - A commercial profiler for Java Web applications. **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 ### 4. Code Analysis
 *Tools that provide metrics and quality measurements.*
