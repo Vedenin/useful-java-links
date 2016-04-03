@@ -1,12 +1,6 @@
 
 ###  big-data   
-
-
-
 - [Apache Flume](http://flume.apache.org/) Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-
-### big-data/tools
 
 
 [Apache Tajo](http://tajo.apache.org) Tajo is an open source big data warehouse system in Hadoop for processing web-scale data sets. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -63,9 +57,6 @@
 ### enterprise
 [Apache OFBiz](http://ofbiz.apache.org) Apache OFBiz (The Apache Open For Business Project) is an open source enterprise automation software project License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### security
-[Apache Oltu](https://oltu.apache.org/) Apache Oltu is an OAuth protocol implementation in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 ### application
 [Apache OpenMeetings](http://openmeetings.apache.org) Video conferencing, instant messaging, white board and collaborative document editing application. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
@@ -86,10 +77,6 @@
 
 ### xml   http   network-server   network-client  
 [Apache Synapse](http://synapse.apache.org) Apache Synapse is a lightweight ESB engine and XML router. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### security  
-[Apache Syncope](http://syncope.apache.org) Apache Syncope is an Open Source system for managing digital identities in enterprise environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 
 ### nlp (?), 
 [Apache Tika](http://tika.apache.org)  The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
