@@ -1,6 +1,7 @@
 
 ###  big-data   
-- [Apache Flume](http://flume.apache.org/) Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+[Apache Flume](http://flume.apache.org/) Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 [Apache Tajo](http://tajo.apache.org) Tajo is an open source big data warehouse system in Hadoop for processing web-scale data sets. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -9,14 +10,20 @@
 
 [Apache REEF](http://reef.apache.org/)  Apache REEF (Retainable Evaluator Execution Framework) is a scale-out computing fabric that eases the development of Big Data applications on top of resource managers such as Apache YARN and Mesos. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
+[Apache Pig](http://pig.apache.org) Apache Pig is a platform for analyzing large data sets on Hadoop. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+
 ### network-server   cloud   big-data  
-- [Apache Airavata](http://airavata.apache.org/) Apache Airavata is a software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly used to build Web-based science gateways and assist to compose, manage, execute, and monitor large scale applications (wrapped as Web based services) and workflows composed of these services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+[Apache Airavata](http://airavata.apache.org/) Apache Airavata is a software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly used to build Web-based science gateways and assist to compose, manage, execute, and monitor large scale applications (wrapped as Web based services) and workflows composed of these services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ###  build
-- [Archiva Apache]( http://archiva.apache.org) Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+[Archiva Apache]( http://archiva.apache.org) Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### xml   http   network-server   network-client  
-- [Apache Axis](http://axis.apache.org/) Web Service containers that helps users to create, deploy, and run Web Services. Axis2 is a Web Services / SOAP / WSDL engine, the successor to the widely used Apache Axis SOAP stack. 
+
+[Apache Axis](http://axis.apache.org/) Web Service containers that helps users to create, deploy, and run Web Services. Axis2 is a Web Services / SOAP / WSDL engine, the successor to the widely used Apache Axis SOAP stack. 
 
 ### Validation, javaEE
 - [Apache BVal](http://bval.apache.org/) Apache BVal delivers an implementation of the Java Bean Validation (JSR303) Specification which is TCK compliant, works on Java SE 5 or later. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -25,27 +32,18 @@
 ### integration
 - [Apache Chemistry](http://chemistry.apache.org/) Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### integration Framework
 - [Apache CXF](http://cxf.apache.org/) Apache CXF: An Open Source Service Framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 ###  mail   network-server  
 - [Apache James](http://james.apache.org) The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### machine learning 
-[Apache Jena](http://jena.apache.org) A framework for developing Semantic Web and Linked Data applications in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-
-
-### http   library   network-client   network-server  
+### http   
 [Apache HttpComponents](http://hc.apache.org/)  project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HTTP transport library including support for asynchronous execution based on Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### search, content  (?)
+### search
 [Apache ManifoldCF](http://marmotta.apache.org) Open-source software for transferring content between repositories or search indexes License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### integration. Linked Data
-[Apache Marmotta](http://marmotta.apache.org) An Open Platform for Linked Data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### network-client   network-server  
 [Apache MINA](http://mina.apache.org/) Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract, event-driven, asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -59,10 +57,6 @@
 
 ### application
 [Apache OpenMeetings](http://openmeetings.apache.org) Video conferencing, instant messaging, white board and collaborative document editing application. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### bigdata tools
-[Apache Pig](http://pig.apache.org) Apache Pig is a platform for analyzing large data sets on Hadoop. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 
 ### Message
 [Apache Qpid](http://qpid.apache.org) AMQP enterprise messaging implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
