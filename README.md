@@ -621,6 +621,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 #### Semantic Web and Linked Data
 *The Semantic Web provides a common framework that allows data to be shared and reused across application, enterprise, and community boundaries*
+
 1. [Apache Marmotta](http://marmotta.apache.org) An Open Platform for Linked Data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache Jena](http://jena.apache.org) A framework for developing Semantic Web and Linked Data applications in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
