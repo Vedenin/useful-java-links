@@ -59,7 +59,8 @@
     - [14. Работа с документами (XLS, DOC, PDF и т.п.)](#14-Работа-с-документами-xls-doc-pdf-и-тп14-document-processing-xls-doc-and-pdf)
     - [15. Работа с нативным API разных ОС](#15-Работа-с-нативным-api-разных-ОС15-native)
     - [16. XML](#16-xml)
-    
+    - [17. Интеграция с сервисами геопозиционирования](#16-xml)
+    - 
 - [IV. Тестирование](#iv-Тестирование)
     - [1. Тестирование](#1-Тестирование)
     - [2. Code Coverage](#2-code-coverage)
@@ -838,6 +839,19 @@
 4. [Santuario](http://santuario.apache.org) Библиотека реализующая XML Digital Signature спецификацию и XML Encryption спецификацию. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 5. [VXQuery](http://vxquery.apache.org) Apache VXQuery реализует параллельный XML Query processor. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
+### 17. Интеграция с сервисами геопозиционирования
+*Библиотеки для работы с сервисами геопозиционирования.*
+
+1. [Apache SIS](http://sis.apache.org/) - Библиотека для разработки приложений геопозиционирования. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+2. [Geo](https://github.com/davidmoten/geo/) - GeoHash утилиты для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+3. [Geotoolkit.org](http://www.geotoolkit.org/) - Библиотека для разработки приложений геопозиционирования. Работает на основе  Apache SIS проекта. Лицензия: [GNU Lesser 2.1](http://www.geotoolkit.org/license.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+4. [GeoTools](http://geotools.org/) - Библиотека предоставляющая инструменты для получения данных геопозиционирования. Лицензия: [GNU Lesser 2.1](http://www.gnu.org/licenses/lgpl-2.1.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+5. [H2GIS](http://www.h2gis.org/) - Геопозиционированое расширение для базы данных H2. Лицензия: [GPL 3](http://www.gnu.org/copyleft/gpl.html). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) 
+6. [Jgeohash](http://astrapi69.github.io/jgeohash/) - Библиотека, помогающая Java разработчикам в использовании GeoHash алгоритмов. Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+7. [JTS Topology Suite](http://www.vividsolutions.com/jts/JTSHome.htm) - API для 2D геопозиционирования. Лицензия: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+8. [Mapsforge](https://github.com/mapsforge/mapsforge/) - Продукт для геопозиционирования на карте, основанной на OpenStreetMap данных. Лицензия: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+9. [Spatial4j](https://github.com/locationtech/spatial4j/) - Универсальная библиотека геопозиционирования.  Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
 ## IV. Тестирование
 ### 1. Тестирование
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
@@ -973,10 +987,11 @@
 5.  [Naver Pinpoint](https://github.com/naver/pinpoint) это APM (Application Performance Management) инструмент мониторинга производительности крупномасштабных распределенных систем, написанных на Java. Создан на основе Google's Dapper paper.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 486. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 6. [jHiccup](https://github.com/giltene/jHiccup) - Логирование и запись проблем с производительностью и потерь скорости у JVM, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 7. [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking инструмент для JVM, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-8. [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Платный профайлер.   **Лицензия: Проприетарная платная, есть бесплатная версия для open source проектов**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
-9. [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Утилиты для измерения времени отклика приложения и составления отчетов, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-10. [VisualVM](http://visualvm.java.net/) - Визуальный интерфейс, показывающий детальную информацию о запущенных приложениях.Лицензия: [GNU 2 with the Classpath Exception](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+8. [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Утилиты для измерения времени отклика приложения и составления отчетов, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+9. [VisualVM](http://visualvm.java.net/) - Визуальный интерфейс, показывающий детальную информацию о запущенных приложениях.Лицензия: [GNU 2 with the Classpath Exception](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+10. [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Платный профайлер.   **Лицензия: Проприетарная платная, есть бесплатная версия для open source проектов**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 11. [YourKit Java Profiler](https://www.yourkit.com/features/) - Платный профайлер.   **Лицензия: Проприетарная платная, есть бесплатная версия для open source проектов, спец.планы для научных и академических целей**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
+12. [XRebel](http://zeroturnaround.com/software/xrebel/) - Платный профайлер.  **Лицензия: Проприетарная платная**![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 
 ### 4. Анализ исходного кода
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
