@@ -1,10 +1,12 @@
-###  build
-
-[Archiva Apache]( http://archiva.apache.org) Archiva software is an extensible repository management tool that helps taking care of your own personal or enterprise-wide build artifact. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### xml   http   network-server   network-client  
+### SOAP  
 
 [Apache Axis](http://axis.apache.org/) Web Service containers that helps users to create, deploy, and run Web Services. Axis2 is a Web Services / SOAP / WSDL engine, the successor to the widely used Apache Axis SOAP stack. 
+
+[Apache ODE](http://ode.apache.org)  Apache ODE is a WS-BPEL implementation that supports web services orchestration using flexible process definitions. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+### http   
+[Apache HttpComponents](http://hc.apache.org/)  project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HTTP transport library including support for asynchronous execution based on Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 ### Validation, javaEE
 - [Apache BVal](http://bval.apache.org/) Apache BVal delivers an implementation of the Java Bean Validation (JSR303) Specification which is TCK compliant, works on Java SE 5 or later. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -19,29 +21,8 @@
 ###  mail   network-server  
 - [Apache James](http://james.apache.org) The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-### http   
-[Apache HttpComponents](http://hc.apache.org/)  project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HTTP transport library including support for asynchronous execution based on Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### search
-[Apache ManifoldCF](http://marmotta.apache.org) Open-source software for transferring content between repositories or search indexes License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 ### network-client   network-server  
 [Apache MINA](http://mina.apache.org/) Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract, event-driven, asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-
-### network-server  
-[Apache ODE](http://ode.apache.org)  Apache ODE is a WS-BPEL implementation that supports web services orchestration using flexible process definitions. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### enterprise
-[Apache OFBiz](http://ofbiz.apache.org) Apache OFBiz (The Apache Open For Business Project) is an open source enterprise automation software project License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### application
-[Apache OpenMeetings](http://openmeetings.apache.org) Video conferencing, instant messaging, white board and collaborative document editing application. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### Message
-[Apache Qpid](http://qpid.apache.org) AMQP enterprise messaging implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 
 ### distributed systems
 [Apache River](http://river.apache.org) Apache River software provides a standards-compilani JINI service. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
