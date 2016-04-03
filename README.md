@@ -37,6 +37,7 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
     - [6. Working with messy data](#6-working-with-messy-data)
     - [7. Big data](#7-big-data)
     - [8. Machine Learning](#8-machine-learning)
+          - [Semantic Web and Linked Data](#semantic-web-and-linked-data)  
           - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
     - [9. Natural Language Processing (NLP)](#9-natural-language-processing-nlp)
     
@@ -617,6 +618,11 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 14. [JSAT](https://github.com/EdwardRaff/JSAT) - Java Statistical Analysis Tool, a Java library for Machine Learning. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Weka is a collection of machine learning algorithms for data mining tasks. The algorithms can either be applied directly to a dataset or called from your own Java code. Weka contains tools for data pre-processing, classification, regression, clustering, association rules, and visualization. It is also well-suited for developing new machine learning schemes. License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 16. [Protégé](http://protege.stanford.edu/) - A free, open-source ontology editor and framework for building intelligent systems. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+#### Semantic Web and Linked Data
+*The Semantic Web provides a common framework that allows data to be shared and reused across application, enterprise, and community boundaries*
+1. [Apache Marmotta](http://marmotta.apache.org) An Open Platform for Linked Data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+2. [Apache Jena](http://jena.apache.org) A framework for developing Semantic Web and Linked Data applications in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Constraint Satisfaction Problem Solver
 *Libraries that help on implementing optimization and satisfiability problems.*
