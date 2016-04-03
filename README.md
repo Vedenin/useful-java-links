@@ -292,6 +292,9 @@ Open source software: No backdoors, no registration. License: [MIT](https://open
 11. [PicketLink](http://picketlink.org/) - Simplified Security and Identity management for Java Applications
 PicketLink is an umbrella project for security and identity management for Java Applications. It is licensed under a friendly Apache v2 license. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 12. [Santuario](http://santuario.apache.org) Library implementing XML Digital Signature Specification & XML Encryption Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+13. [Apache Oltu](https://oltu.apache.org/) Apache Oltu is an OAuth protocol implementation in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+14. [Apache Syncope](http://syncope.apache.org) Apache Syncope is an Open Source system for managing digital identities in enterprise environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 #### High Performance
 *Everything about high performance computation, from collections to specific libraries.*
