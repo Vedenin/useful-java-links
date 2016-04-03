@@ -612,7 +612,7 @@
 15. [Weka](http://www.cs.waikato.ac.nz/ml/weka/) - Коллекция алгоритмов для data mining задач от пре-процессинга до визуализации, Лицензия: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 16. [Protégé](http://protege.stanford.edu/) - Реализует редактов онтология и фреймворк для экспертных систем, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-#### Semantic Web and Linked Data
+#### Semantic Web и Linked Data
 *Semantic Web (он же Web of Data, Linked Data, Linking Open Data) — это направление развития Всемирной паутины, позволяющее машинам не только отображать информацию в интернете, но и понимать ее смысл.*
 
 1. [Apache Marmotta](http://marmotta.apache.org) Открытая платформа для работы с Linked Data. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 803. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
