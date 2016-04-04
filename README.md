@@ -548,6 +548,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 7.  [Seldon Server](https://github.com/SeldonIO/seldon-server) Enterprise machine learning platform for prediction and recommendation on Apache Spark. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 453. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 8.  [Pulsar](https://github.com/pulsarIO/realtime-analytics) - Realtime analytics, this includes the core components of Pulsar pipeline. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, github's star - 435. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 9.  [Suro: Netflix's Data Pipeline](https://github.com/Netflix/suro) — Suro: Netflix's Data Pipeline. Suro is a data pipeline service for collecting, aggregating, and dispatching large volume of application events including log data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 405. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+10.  [Apache UIMA](http://uima.apache.org) Annotator components and a scalable integration and deployment framework for Unstructured Information analysis. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 7. Big data 
 [Up](#useful-java-links)
@@ -1005,6 +1006,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 2. [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3.  [Netflix Archaius](https://github.com/Netflix/archaius) - Library for configuration management API. Archaius includes a set of configuration management APIs used by Netflix. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 614. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [LightAdmin](http://lightadmin.org/) - Pluggable data administration UI library for Java web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5. [Apache Yetus](https://yetus.apache.org/) A collection of libraries and tools that enable contribution and release processes for software projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Distribution
 *Tools which handle the distribution of applications in native formats.*
