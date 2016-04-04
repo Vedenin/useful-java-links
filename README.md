@@ -39,7 +39,7 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
     - [8. Machine Learning](#8-machine-learning)
           - [Semantic Web and Linked Data](#semantic-web-and-linked-data)  
           - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-    - [9. Natural Language Processing (NLP)](#9-natural-language-processing-nlp)
+          - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
     
 - [III. Network and Integration](#iii-network-and-integration)
     - [1. Servers (Web Server and Application Server))](#1-servers-web-server-and-application-server)
@@ -642,7 +642,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 3. [OptaPlanner](http://www.optaplanner.org/) - OptaPlanner is a constraint satisfaction solver. It optimizes business resource planning. Every organization faces scheduling puzzles: assign a limited set of constrained resources (employees, assets, time and money) to provide products or services to customers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [Sat4J](http://www.sat4j.org/) - Sat4j is a java library for solving boolean satisfaction and optimization problems. It can solve SAT, MAXSAT, Pseudo-Boolean, Minimally Unsatisfiable Subset (MUS) problems. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) and [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 9. Natural Language Processing (NLP)
+#### Natural Language Processing (NLP)
 *Libraries that specialize on processing text.*
 [Up](#useful-java-links)
 
