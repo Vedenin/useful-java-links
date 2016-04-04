@@ -161,6 +161,7 @@ Pippo can be used in small and medium applications and also in applications base
 13.  [CSSEmbed](https://github.com/nzakas/cssembed) A tool for embedding data URIs in CSS files. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 407. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 14.  [Athou commafeed](https://github.com/Athou/commafeed) Google Reader inspired self-hosted RSS reader. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1226. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 15.  [Apache Any23](http://any23.apache.org)  Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+16.  [Apache Forrest](http://forrest.apache.org/) Apache Forrest software is a publishing framework that transforms input from various sources into a unified presentation in one or more output formats. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Template Engine
 
