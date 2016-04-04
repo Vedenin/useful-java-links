@@ -410,6 +410,9 @@
 11. [Quasar](http://www.paralleluniverse.co/quasar/) - Легковесные потоки и акторы (actors) для JVM, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License) или [LGPL 3.0](https://ru.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 12.  [Storm contrib](https://github.com/nathanmarz/storm-contrib) storm-contrib это свободный репозиторий с модулями, использующими Storm. Они включают разные spouts/bolts для интеграции с другими системами (Redis, Kafka, MongoDB, etc), и код для решений типовых задач Storm разработчиков.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг github'а - 504. ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 13. [JADE](http://jade.tilab.com/) - Фреймворк и экосистема для разработки и отладки multi-agent систем, Лицензия: [GNU Lesser 2.0](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+14. [Apache River](http://river.apache.org) Apache River фреймворк для разработки JINI сервисов. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+
 
 ### 10. Наука
 *Библиотеки для научных расчетов и анализа.*
