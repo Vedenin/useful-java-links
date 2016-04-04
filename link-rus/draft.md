@@ -5,9 +5,6 @@
 ### Validation, javaEE
 - [Apache BVal](http://bval.apache.org/) Apache BVal delivers an implementation of the Java Bean Validation (JSR303) Specification which is TCK compliant, works on Java SE 5 or later. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-###  mail   network-server  
-- [Apache James](http://james.apache.org) The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 ### distributed systems
 [Apache River](http://river.apache.org) Apache River software provides a standards-compilani JINI service. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
