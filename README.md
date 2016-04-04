@@ -115,8 +115,7 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
 12.  [Greenrobot common](https://github.com/greenrobot/greenrobot-common) General purpose utilities and hash functions for Android and Java (aka java-common). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 419. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 13.  [Kilim](https://github.com/kilim/kilim) Lightweight threads for Java, with message passing, nio, http and scheduling support. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 517. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 14.  [Apache Isis](http://isis.apache.org) Apache Isis is a framework for rapidly developing domain-driven apps in Java. Write your business logic in entities, domain services and repositories, and the framework dynamically (at runtime) generates a representation of that domain model as a webapp or as a RESTful API. For prototyping or production. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-
+15.  [Apache Zest](https://zest.apache.org/) Apache Zest is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Web development
 [Up](#useful-java-links)
