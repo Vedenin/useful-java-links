@@ -14,13 +14,6 @@
 ### nlp (?), 
 [Apache Tika](http://tika.apache.org)  The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-### messy data (?) integration (?)
-[Apache UIMA](http://uima.apache.org) Annotator components and a scalable integration and deployment framework for Unstructured Information analysis. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-### build
-[Apache Yetus]() A collection of libraries and tools that enable contribution and release processes for software projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 ### web
 - [Apache Any23](http://any23.apache.org)  Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
