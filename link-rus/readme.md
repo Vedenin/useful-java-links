@@ -671,6 +671,7 @@
 7. [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Легковесный, модульный сервер, разработанный IBM, ***Лицензия: платная, проприетарная*** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 8. [GlassFish](https://glassfish.java.net/) - Сервер приложений и образцовая реализация Java EE от Oracle, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) или [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 9. [Apache Geronimo](http://geronimo.apache.org/) Java EE Application Server. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+10. [Apache James](http://james.apache.org)  Apache Java Enterprise Mail Server (или Apache James) это 100% чистый Java SMTP и POP3 постовый сервер и NNTP News сервер.  Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
 ### 2. Сеть и сокеты 
