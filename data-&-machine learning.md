@@ -22,6 +22,7 @@
 
 ### 1. Databases and storages
 *Everything which simplifies interactions with the database.*
+
 [Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Thinkaurelius Titan](https://github.com/thinkaurelius/titan) - Titan is a highly scalable graph database optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster. Titan is a transactional database that can support thousands of concurrent users, complex traversals, and analytic graph queries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2846. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -57,6 +58,8 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 #### **Distributed Databases.**
 *Databases in a distributed system that appear to applications as a single data source.*
 
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1. [Apache Cassandra](https://github.com/apache/cassandra) - The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2155. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache HBase](http://hbase.apache.org) -  Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [Druid](http://druid.io) - Druid is a fast column-oriented distributed data store. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 1846. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -65,6 +68,8 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 
 ### 2. Data structures
 *Efficient and specific data structures.*
+
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Apache Avro](https://avro.apache.org/) - Apache Avro is a data serialization system. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache Orc](https://orc.apache.org/) - The smallest, fastest columnar storage for Hadoop workloads. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -116,6 +121,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 
 ### 5. ORM
 *APIs which handle the persistence of objects.*
+
 [Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [HikariCP](https://github.com/brettwooldridge/HikariCP) A solid high-performance JDBC connection pool at last. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1542. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -178,6 +184,8 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 
 
 #### Data store, database, search or SQL-like query engine for big data.
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1.  [Druid](https://github.com/druid-io/druid) Column oriented distributed data store ideal for powering interactive applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1846. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Apache Hive](https://github.com/apache/hive) - The Apache Hive data warehouse software facilitates querying and
 managing large datasets residing in distributed storage. Built on top
@@ -193,6 +201,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 
 #### Monitoring, testing and managing tools for big data
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1.  [Twitter Ambrose](https://github.com/twitter/ambrose) A platform for visualization and real-time monitoring of data workflows. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1024. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Umongo](https://github.com/agirbal/umongo) - Desktop app to browse and administer your MongoDB cluster. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 495. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3.  [Apache Ambari](http://ambari.apache.org/) The Apache Ambari project is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. Ambari provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -208,6 +218,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 ### 8. Machine Learning
 *Tools that provide specific statistical algorithms which allow learning from data.*
+
 [Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) A machine learning library designed from the ground up to be human friendly. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1672. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -230,11 +241,15 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 #### Semantic Web and Linked Data
 *The Semantic Web provides a common framework that allows data to be shared and reused across application, enterprise, and community boundaries*
 
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1. [Apache Marmotta](http://marmotta.apache.org) An Open Platform for Linked Data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache Jena](http://jena.apache.org) A framework for developing Semantic Web and Linked Data applications in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Constraint Satisfaction Problem Solver
 *Libraries that help on implementing optimization and satisfiability problems.*
+
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Choco](http://choco-solver.org/) - Choco is a Free and Open-Source Software dedicated to Constraint Programming. It aims at describing hard combinatorial problems in the form of Constraint Satisfaction Problems and solving them with Constraint Programming techniques.  License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [JaCoP](https://github.com/radsz/jacop/) - Java Constraint Programming (JaCoP) solver. **License: ?**
@@ -243,6 +258,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 #### Natural Language Processing (NLP)
 *Libraries that specialize on processing text.*
+
 [Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP provides a set of natural language analysis tools written in Java. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 871. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
