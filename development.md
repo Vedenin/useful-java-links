@@ -1,7 +1,6 @@
 # [Useful Java links](https://github.com/Vedenin/useful-java-links) / Development
 
-[To main manu](https://github.com/Vedenin/useful-java-links)
-
+[Main manu](https://github.com/Vedenin/useful-java-links)
 
 - [I. Development](#i-development)
     - [1. Common frameworks and libraries](#1-common-frameworks-and-libraries)
@@ -31,7 +30,7 @@
 ## I. Development
 
 ### 1. Common frameworks and libraries
-[Up](#useful-java-links--development)
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Spring framework](https://github.com/spring-projects/spring-framework) The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications -- on any kind of deployment platform. A key element of Spring is infrastructural support at the application level: Spring focuses on the "plumbing" of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5921, stackoverflow - more [100 000 questions](http://stackoverflow.com/questions/tagged/spring). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Google Guava](https://github.com/google/guava) The Guava project contains several of Google's core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.Requires JDK 1.6 or higher (as of 12.0). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3813. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -50,7 +49,7 @@
 15.  [Apache Zest](https://zest.apache.org/) Apache Zest is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Web development
-[Up](#useful-java-links--development)
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 #### Web Frameworks 
 1.  [Play Framework](https://github.com/playframework/playframework) The Play Framework combines productivity and performance making it easy to build scalable web applications with Java and Scala. https://www.playframework.com/ . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 6771. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -80,6 +79,8 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 #### Libraries for web development
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1.  [Tobie ua-parser](https://github.com/tobie/ua-parser) A multi-language port of Browserscope's user agent parser. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)/[MIT](https://opensource.org/licenses/MIT)/Perl, github's star - 1497. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Ghost Driver](https://github.com/detro/ghostdriver) Ghost Driver is an implementation of the Remote WebDriver Wire protocol, using PhantomJS as back-end. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29), github's star - 1179. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3.  [B3log Solo](https://github.com/b3log/solo) - A blogging system written in Java, feel free to create your or your team own blog. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 519. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -98,6 +99,7 @@ Pippo can be used in small and medium applications and also in applications base
 16.  [Apache Forrest](http://forrest.apache.org/) Apache Forrest software is a publishing framework that transforms input from various sources into a unified presentation in one or more output formats. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Template Engine
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Apache Velocity](http://velocity.apache.org/) - Velocity is a project of the Apache Software Foundation, charged with the creation and maintenance of open-source software related to the Apache Velocity Engine (templating engine). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache FreeMarker](http://freemarker.incubator.apache.org/) - Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -108,6 +110,8 @@ Pippo can be used in small and medium applications and also in applications base
 7.  [Apache Tiles](http://tiles.apache.org)  Apache Tiles is a templating framework built to simplify the development of web application user interfaces. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### CMS and content management
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1. [Apache Stanbol](http://stanbol.apache.org)  Software components for semantic content management. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache JSPWiki](http://jspwiki.apache.org)  A feature-rich and extensible WikiWiki engine built around the standard J2EE components (Java, servlets, JSP). icense: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [Apache Portals](http://portals.apache.org) The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -116,6 +120,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 ### 3. GUI
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - JavaFX is the next step in the evolution of Java as a rich client platform. It is designed to provide a lightweight, hardware-accelerated Java UI platform for enterprise business applications.  License: [Oracle, proprietary](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 2. [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - JavaFX Scene Builder is a visual layout tool that lets users quickly design JavaFX application user interfaces, without coding. Users can drag and drop UI components to a work area, modify their properties, apply style sheets, and the FXML code for the layout that they are creating is automatically generated in the background. The result is an FXML file that can then be combined with a Java project by binding the UI to the application’s logic.  License: [Oracle, proprietary](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
@@ -124,7 +129,7 @@ Pippo can be used in small and medium applications and also in applications base
 5. [Gephi](https://github.com/gephi/gephi/) - Gephi is an award-winning open-source platform for visualizing and manipulating large graphs. It runs on Windows, Mac OS X and Linux. Localization is available in French, Spanish, Japanese, Russian, Brazilian Portuguese, Chinese and Czech. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License) or [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 4. Business
-[Up](#useful-java-links--development)
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Codecademy EventHub](https://github.com/Codecademy/EventHub) — An open source event analytics platform. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 1043. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Killbill](https://github.com/killbill/killbill) - Open-Source Subscription Billing & Payment Platform . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 902. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -139,7 +144,7 @@ Pippo can be used in small and medium applications and also in applications base
 
 
 ### 5. Game Development
-[Up](#useful-java-links--development)
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [libgdx](https://github.com/libgdx/libgdx) Desktop/Android/HTML5/iOS Java game development framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 6579. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Disunity](https://github.com/ata4/disunity) An experimental toolset for Unity asset and asset bundle files. License: [unlicense.org](http://unlicense.org), github's star - 828.
@@ -157,7 +162,7 @@ Pippo can be used in small and medium applications and also in applications base
 13. [Elflight Engine](https://en.wikipedia.org/wiki/Elflight_Engine) - Targeted for web based games. **License: Proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 ### 6. Usefull libraries
-[Up](#useful-java-links--development)
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 #### Collections
 1.  [Google Guava](https://github.com/google/guava) The Guava project contains several of Google's core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.Requires JDK 1.6 or higher (as of 12.0). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3813. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -173,6 +178,7 @@ Pippo can be used in small and medium applications and also in applications base
 12. [Trove](http://trove.starlight-systems.com/) - The Trove library provides high speed regular and primitive collections for Java.  License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Date and Time
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - An easy-to-use Java-based calendar converter - able to convert between various known calendars. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Joda-Time](http://www.joda.org/joda-time/) - Joda-Time provides a quality replacement for the Java date and time classes. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 1442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -181,6 +187,7 @@ Pippo can be used in small and medium applications and also in applications base
 5.  [Ocpsoft Prettytime](https://github.com/ocpsoft/prettytime) Social Style Date and Time Formatting for Java.PrettyTime is an OpenSource time formatting library. Completely customizable, it creates human readable, relative timestamps like those seen on Digg, Twitter, and Facebook. Get started “right now!” and in over 30 languages! License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 394. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Dependency Injection and AOP frameworks
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Spring Framework](https://github.com/spring-projects/spring-framework) The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications -- on any kind of deployment platform. A key element of Spring is infrastructural support at the application level: Spring focuses on the "plumbing" of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 5921. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Dagger and Dagger2](https://github.com/square/dagger) A fast dependency injector for Android and Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3607, stackoverflow - [800 questions](http://stackoverflow.com/questions/tagged/dagger). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true) 
@@ -190,13 +197,17 @@ Pippo can be used in small and medium applications and also in applications base
 6. [Eclipse AspectJ](https://eclipse.org/aspectj/) - AspectJ is a seamless aspect-oriented extension to the Java programming language, Java platform compatible, easy to learn and use. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Console and Command line 
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1.  [jcommander](https://github.com/cbeust/jcommander) Command line parsing framework for Java. http://jcommander.org/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 445. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Jline](https://github.com/jline/jline2) JLine is a Java library for handling console input. It is similar in functionality to BSD editline and GNU readline. People familiar with the readline/editline capabilities for modern shells (such as bash and tcsh) will find most of the command editing features of JLine to be familiar. License: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), github's star - 396. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [args4j](http://args4j.kohsuke.org/) - args4j is a small Java class library that makes it easy to parse command line options/arguments in your CUI application. License: [MIT](https://opensource.org/licenses/MIT) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [CRaSH](http://www.crashub.org) - The shell for the Java Platform Open source and open minde. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Functional Programming
-*Libraries that facilitate functional programming.*
+*Libraries that facilitate functional programming.* 
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Cyclops react](https://github.com/aol/cyclops-react) - A comprehensive functional reactive platform for JDK8. Future & functional based programming via JDK compatible extensions for Java 8 and above. License: [MIT](https://opensource.org/licenses/MIT) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms, (near future: optics and typeclasses). License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -210,6 +221,8 @@ Pippo can be used in small and medium applications and also in applications base
 #### Reactive Programming
 *Libraries for developing reactive applications.*
 
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1.  [ReactiveX RxJava](https://github.com/ReactiveX/RxJava) RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 6279, stackoverflow - [1814 questions](http://stackoverflow.com/search?q=RxJava). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Eclipse Vert.x](https://github.com/eclipse/vert.x) Vert.x is a tool-kit for building reactive applications on the JVM . License:  Eclipse Public 1 / [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3743, stackoverflow - [728 questions](http://stackoverflow.com/search?q=Vert.x). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - The purpose of Reactive Streams is to provide a standard for asynchronous stream processing with non-blocking backpressure. License: [Public Domain (CC0)](https://en.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D0%B8_%D0%B8_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_Creative_Commons#CC0), github's star - 769. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -218,7 +231,8 @@ Pippo can be used in small and medium applications and also in applications base
 
 #### Security and Authentication
 *Libraries that handle security, authentication, authorization or session management.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Scribe Java](https://github.com/fernandezpablo85/scribe-java) - Simple OAuth library for Java. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 2731. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Spring security oauth](https://github.com/spring-projects/spring-security-oauth) - Support for adding OAuth1(a) and OAuth2 features (consumer and provider) for Spring web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 916. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -240,7 +254,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 #### High Performance
 *Everything about high performance computation, from collections to specific libraries.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Agrona](https://github.com/real-logic/Agrona) - High Performance data structures and utility methods for Java and C++, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Disruptor](http://lmax-exchange.github.io/disruptor/) -  Inter-thread messaging library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -255,7 +270,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 #### Serialization and I/O
 *Libraries that handle serialization with high efficiency.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Square Okio](https://github.com/square/okio) A modern I/O API for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1243. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Square type](https://github.com/square/tape) A lightning fast, transactional, file-based FIFO for Android and Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1073. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -268,7 +284,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 #### Logging
 *Libraries that log the behavior of an application.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) Free and open source log management. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1308. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -284,7 +301,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 #### Bean Mapping and Validation 
 *Frameworks that ease bean mapping or bean validation.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Dozer](https://github.com/DozerMapper/dozer/) - Dozer is a Java Bean to Java Bean mapper that recursively copies data from one object to another. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 421. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [MapStruct](https://github.com/mapstruct/mapstruct) - An annotation processor for generating type-safe bean mappers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -297,7 +315,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 ### 7. Imagery and Video
 *Libraries that assist with the creation, evaluation or manipulation of graphical images or video.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Facebook Rebound](https://github.com/facebook/rebound) A Java library that models spring dynamics and adds real world physics to your app. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), github's star - 2219. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Processing](https://github.com/processing/processing) Source code for the Processing Development Environment (PDE) . License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 1896. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -310,7 +329,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 ### 8. Code generation and changing byte code
 *Libraries to manipulate bytecode programmatically.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Google Auto](https://github.com/google/auto) - A collection of source code generators for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1442. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Square Javapoet](https://github.com/square/javapoet) - JavaPoet is a Java API for generating .java source files. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1057. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -325,7 +345,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 
 ### 9. Distributed Applications
 *Libraries and frameworks for writing distributed and fault-tolerant applications.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [Akka](http://akka.io) - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Apache Storm](http://storm.apache.org/) - Apache Storm is a free and open source distributed realtime computation system. Storm makes it easy to reliably process unbounded streams of data, doing for realtime processing what Hadoop did for batch processing. Storm is simple, can be used with any programming language, and is a lot of fun to use! License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -346,16 +367,19 @@ Distributed Computing, Simplified. License: [Apache 2](http://www.apache.org/lic
 
 ### 10. Science
 *Libraries for scientific computing and analysis.*
-[Up](#useful-java-links--development)
+
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1. [DataMelt](http://jwork.org/dmelt/) - DataMelt is a free mathematics software for scientists, engineers and students. It can be used for numeric computation, statistics, symbolic calculations, data analysis and data visualization. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2. [JGraphT](https://github.com/jgrapht/jgrapht) - JGraphT is a free Java class library that provides mathematical graph-theory objects and algorithms. It runs on Java 2 Platform (requires JDK 1.7 or later). License: [Eclipse Public License](https://en.wikipedia.org/wiki/Eclipse_Public_License) or [LGPL 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [JScience](http://jscience.org/) - Provides a set of classes to work with scientific measurements and units. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 11. OSGI
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
+
 1. [ACE](http://accumulo.apache.org/) Apache ACE is a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2. [Aries](http://aries.apache.org/) The Aries project consists of a set of pluggable Java components enabling an enterprise OSGi application programming model. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [Felix](http://felix.apache.org/) OSGi framework implementation and related technologies. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [Karaf](http://karaf.apache.org)  Apache Karaf is an OSGi distribution for server-side applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-[To main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--development)   [Main manu](https://github.com/Vedenin/useful-java-links)
