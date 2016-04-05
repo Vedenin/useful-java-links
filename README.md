@@ -20,7 +20,7 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
         - [High Performance](#high-performance)
         - [Serialization and I/O](#serialization-and-io)
         - [Logging](#logging)
-        - [Bean Mapping](#bean-mapping)
+        - [Bean Mapping and Validation](#bean-mapping-and-validation)
     - [7. Imagery and Video](#7-imagery-and-video)
     - [8. Code generation and changing byte code](#8-code-generation-and-changing-byte-code)
     - [9. Distributed Applications](#9-distributed-applications)
@@ -350,8 +350,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 9. [tinylog](http://www.tinylog.org/) -  Lightweight logging framework with static logger class. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-#### Bean Mapping 
-*Frameworks that ease bean mapping.*
+#### Bean Mapping and Validation 
+*Frameworks that ease bean mapping or bean validation.*
 [Up](#useful-java-links)
 
 1. [Dozer](https://github.com/DozerMapper/dozer/) - Dozer is a Java Bean to Java Bean mapper that recursively copies data from one object to another. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 421. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -359,6 +359,8 @@ PicketLink is an umbrella project for security and identity management for Java 
 3. [ModelMapper](https://github.com/jhalterman/modelmapper) -Simple, Intelligent, Object Mapping. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [Orika](https://github.com/orika-mapper) - Simpler, better and faster Java bean mapping framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma Java bean mapping that compiles. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6. [Apache BVal](http://bval.apache.org/) Apache BVal delivers an implementation of the Java Bean Validation (JSR303) Specification which is TCK compliant, works on Java SE 5 or later. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
 
 
 ### 7. Imagery and Video
