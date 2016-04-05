@@ -23,7 +23,7 @@
         - [Высокая производительность](#Высокая-производительность)
         - [Сериализация (serializer) и работа с файлами (I/O)](#Сериализация-serializer-и-работа-с-файлами-io)
         - [Логирование](#Логирования)
-        - [Bean Mapping](#bean-mapping)
+        - [Bean Mapping and Validation](#bean-mapping-and-validation)
     - [7. Изображения и Видео](#7-Изображения-и-Видео)
     - [8. Кодогенерация и изменения байт кода](#8-Кодогенерация-и-изменения-байт-кода)
     - [9. Фреймворки для создания распределенных и отказоустойчивых приложений](#9-Фреймворки-для-создания-распределенных-и-отказоустойчивых-приложений)
@@ -360,8 +360,8 @@
 9. [tinylog](http://www.tinylog.org/) - Легкий фреймворк логировани со статическими классами логирования, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
-#### Bean Mapping 
-*Фреймворки, упрощающие маппинг одних типов данных в другие.*
+#### Bean Mapping and Validation 
+*Фреймворки, упрощающие маппинг одних типов данных в другие (или bean validation).*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1. [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой (создавая рекурсивную копию одного объекта в другом) используя аннотации, API или XML конфигурацию, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 421. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -369,6 +369,7 @@
 3. [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper это интеллектуальная библиотека для автоматического маппинга одних объектов на другие, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 4. [Orika](https://github.com/orika-mapper) - Orika это Java Bean маппинг фреймворк, который рекурсивно копирует (и при необходимости изменяет) информацию из одного объекта в другой, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 5. [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma это маппер построенный на аннотациеях классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+6. [Apache BVal](http://bval.apache.org/) Apache BVal реализует спецификацию Java Bean Validation (JSR303). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
 ### 7. Изображения и Видео
