@@ -2,7 +2,7 @@
 
 [Main manu](https://github.com/Vedenin/useful-java-links)
 
-- [I. Development](#https://github.com/Vedenin/useful-java-links/blob/master/development.md)
+- [I. Development](https://github.com/Vedenin/useful-java-links/blob/master/development.md)
 - [II. Databases, search engines, big data and machine learning](#ii-databases-search-engines-big-data-and-machine-learning)
     - [1. Databases and storages](#1-databases-and-storages)
           - [Distributed Databases](#distributed-databases)
@@ -22,7 +22,7 @@
 
 ### 1. Databases and storages
 *Everything which simplifies interactions with the database.*
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Thinkaurelius Titan](https://github.com/thinkaurelius/titan) - Titan is a highly scalable graph database optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster. Titan is a transactional database that can support thousands of concurrent users, complex traversals, and analytic graph queries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2846. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Apache Cassandra](https://github.com/apache/cassandra) - Cassandra is a partitioned row store. Rows are organized into tables with a required primary key. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2155. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -76,7 +76,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 8. [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers for Android and Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Search engines
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - Elasticsearch is a distributed RESTful search engine built for the cloud.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 11833. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Linkedin Indextank Engine](https://github.com/linkedin/indextank-engine) This project contains IndexTank (http://indextank.com) search engine implementation. Includes features like variables (boosts), categories (facets), faceted search, snippeting, custom scoring functions, suggest, and autocomplete. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 788. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -87,7 +87,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 7. [Apache ManifoldCF](http://marmotta.apache.org) Open-source software for transferring content between repositories or search indexes License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Client and drivers for databases
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Facebook Presto](https://github.com/facebook/presto) Distributed SQL query engine for big data (Cassandra, Hive, Kafka, MySQL, PostgreSQL and so on). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 3603. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Jedis](https://github.com/xetorthio/jedis) A blazingly small and sane redis java client. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 2495. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -116,7 +116,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 
 ### 5. ORM
 *APIs which handle the persistence of objects.*
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [HikariCP](https://github.com/brettwooldridge/HikariCP) A solid high-performance JDBC connection pool at last. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1542. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Mybatis 3](https://github.com/mybatis/mybatis-3) MyBatis SQL mapper framework for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1428. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -136,7 +136,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 16. [Apache MetaModel]( http://metamodel.apache.org) With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Working with messy data
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Storm](https://github.com/nathanmarz/storm) - Distributed and fault-tolerant realtime computation: stream processing, continuous computation, distributed RPC, and more. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 8636. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [OpenRefine](https://github.com/OpenRefine/OpenRefine) — OpenRefine is a free, open source power tool for working with messy data and improving it. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses) , github's star - 2939. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -150,7 +150,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 10.  [Apache UIMA](http://uima.apache.org) Annotator components and a scalable integration and deployment framework for Unstructured Information analysis. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 7. Big data 
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 #### Frameworks and libraries for big data
 1.  [Apache Storm](https://github.com/apache/storm) - Storm is a distributed realtime computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing realtime computation.License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2098. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -208,7 +208,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 ### 8. Machine Learning
 *Tools that provide specific statistical algorithms which allow learning from data.*
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) A machine learning library designed from the ground up to be human friendly. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1672. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 2.  [Smile](https://github.com/haifengl/smile) Smile (Statistical Machine Intelligence and Learning Engine) is a set of pure Java libraries of various state-of-art machine learning algorithms. Smile is self contained and requires only Java standard library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 1519. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -243,7 +243,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 
 #### Natural Language Processing (NLP)
 *Libraries that specialize on processing text.*
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP provides a set of natural language analysis tools written in Java. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 871. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 2. [Apache OpenNLP](https://opennlp.apache.org/) - The Apache OpenNLP library is a machine learning based toolkit for the processing of natural language text. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -259,4 +259,4 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 [Word Segmenter](http://nlp.stanford.edu/software/segmenter.html),[Classifier](http://nlp.stanford.edu/software/classifier.html),[EnglishTokenizer](http://nlp.stanford.edu/software/tokenizer.html),[TokensRegex](http://nlp.stanford.edu/software/tokensregex.html),[Temporal Tagger](http://nlp.stanford.edu/software/sutime.html),[Pattern-based Information Extraction and Diagnostics](http://nlp.stanford.edu/software/patternslearning.html),[Stanford Relation Extractor](http://nlp.stanford.edu/software/relationExtractor.html). License: [GNU 2/3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 12. [Apache Tika](http://tika.apache.org)  The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-[Up](#useful-java-links--development)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
+[Up](#useful-java-links--data-search--machine-learning)  /  [Main manu](https://github.com/Vedenin/useful-java-links)
