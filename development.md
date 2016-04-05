@@ -1,4 +1,7 @@
-## [To main manu](https://github.com/Vedenin/useful-java-links)
+# Useful Java links 
+
+[To main manu](https://github.com/Vedenin/useful-java-links)
+
 
 - [I. Development](#i-development)
     - [1. Common frameworks and libraries](#1-common-frameworks-and-libraries)
