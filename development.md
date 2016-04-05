@@ -1,4 +1,4 @@
-# Useful Java links 
+# [Useful Java links](https://github.com/Vedenin/useful-java-links) / Development
 
 [To main manu](https://github.com/Vedenin/useful-java-links)
 
