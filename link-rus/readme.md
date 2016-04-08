@@ -499,6 +499,8 @@
 5.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) Плагин для работы ElasticSearch с Amazon Web Service (AWS) облаками. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 435. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 6.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг github'а - 395.
 7. [Apache ManifoldCF](http://marmotta.apache.org) - приложение для передачи данных между репозиториями и поисковыми индексами разных систем. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 435. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+8. [Lemur Project](https://sourceforge.net/projects/lemur/) Lemur проект разрабоатывает поисковый движок, анализатор текста, плагин браузеров, включает Indri search engine и ClueWeb09 dataset. Лицензия: [BSD License](https://sourceforge.net/directory/license:bsd/) ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
 
 ### 4. Клиенты и драйверы баз данных
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
