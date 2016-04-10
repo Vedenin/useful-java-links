@@ -5,9 +5,9 @@
     <packaging>pom</packaging>
 
     <groupId>com.github.vedenin</groupId>
-    <artifactId>hellowords</artifactId>
+    <artifactId>1.6-usefull-libraries</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Main</name>
+    <name>Hello words :: Usefull libraries</name>
 
     <build>
         <plugins>
@@ -23,10 +23,7 @@
         </plugins>
     </build>
 
-
     <modules>
-        <module>1.1-common-frameworks</module>
-        <module>1.6-usefull-libraries</module>
-        <module>2.8-machine-learning</module>
+        <module>collections</module>
     </modules>
 </project>
