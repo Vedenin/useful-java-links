@@ -48,7 +48,7 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
     - [4. Http and ssh](#4-http-and-ssh)
     - [5. Rest Frameworks](#5-rest-frameworks)
     - [6. Integration frameworks](#6-integration-frameworks)
-    - [7. Web Crawling and HTML parsering](7-web-crawling-and-html-parsering)
+    - [7. Web Crawling and HTML parsering](#7-web-crawling-and-html-parsering)
     - [8. Json](#8--json)
     - [9. CSV](#9-csv)
     - [10. Integratin with API](#10-integratin-with-api)
