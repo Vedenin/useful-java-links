@@ -25,5 +25,6 @@
 
     <modules>
         <module>spring</module>
+        <module>quasar</module>
     </modules>
 </project>
