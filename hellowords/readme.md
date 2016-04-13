@@ -1,1 +1,1 @@
- It's project that has a lot of hello word examples for many libraries or frameworks.   
+A lot of hello word examples for many libraries and frameworks   
