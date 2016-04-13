@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>2.8-machine-learning</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Machine Learning</name>
+    <name>Machine Learning</name>
 
     <build>
         <plugins>

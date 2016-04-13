@@ -4,6 +4,8 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
+ *  To run using "maven test"
+ *
  * Created by vvedenin on 4/11/2016.
  */
 public class HelloWordsTest {

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class SpringFieldAutowiredHelloWorld {
+public class SpringFieldAutowired {
     public static class Notifier {
         @Autowired
         private NotificationService service;

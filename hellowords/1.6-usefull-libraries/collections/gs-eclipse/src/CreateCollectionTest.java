@@ -6,8 +6,6 @@ import com.gs.collections.impl.list.mutable.FastList;
 import com.gs.collections.impl.map.mutable.UnifiedMap;
 import com.gs.collections.impl.set.mutable.UnifiedSet;
 
-import java.util.*;
-
 /**
  * Create collection example
  *

@@ -5,9 +5,9 @@
     <packaging>pom</packaging>
 
     <groupId>com.github.vedenin</groupId>
-    <artifactId>1.1-common-frameworks</artifactId>
+    <artifactId>dependency-injection-spring</artifactId>
     <version>0.01</version>
-    <name>Common frameworks</name>
+    <name>Dependency injections:: Spring</name>
 
     <build>
         <plugins>
@@ -23,8 +23,23 @@
         </plugins>
     </build>
 
-    <modules>
-        <module>spring</module>
-        <module>quasar</module>
-    </modules>
+    <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>4.2.2.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.security</groupId>
+                <artifactId>spring-security-web</artifactId>
+                <version>4.0.3.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.inject</groupId>
+                <artifactId>javax.inject</artifactId>
+                <version>1</version>
+            </dependency>
+    </dependencies>
 </project>

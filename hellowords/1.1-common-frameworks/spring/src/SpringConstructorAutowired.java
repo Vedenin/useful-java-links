@@ -1,15 +1,14 @@
-package xml;
-
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
- * Constructor DI injection Hello World using XML config
+ * Constructor DI injection Hello World using Java annotation
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class XmlConstructorAutowiredHelloWorld {
+public class SpringConstructorAutowired {
     public static class Notifier {
         private final NotificationService service;
 
@@ -33,9 +32,21 @@ public class XmlConstructorAutowiredHelloWorld {
         void send(String message);
     }
 
+    @Configuration
+    public static class DIConfiguration {
+        @Bean
+        public Notifier getNotifier(NotificationService service){
+            return new Notifier(service);
+        }
+
+        @Bean
+        public NotificationService getNotificationService(){
+            return new EMailService();
+        }
+    }
+
     public static void main(String[] args)  throws Exception {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "constructorAutowired.xml");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
         Notifier notifier =  context.getBean(Notifier.class);
         notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }

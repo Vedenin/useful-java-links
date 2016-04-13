@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>guava</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Collections:: guava</name>
+    <name>Collections:: guava</name>
 
     <build>
         <plugins>

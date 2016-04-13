@@ -5,9 +5,9 @@
     <packaging>pom</packaging>
 
     <groupId>com.github.vedenin</groupId>
-    <artifactId>1.1-common-frameworks</artifactId>
+    <artifactId>dependency_injection</artifactId>
     <version>0.01</version>
-    <name>Common frameworks</name>
+    <name>Dependency injections</name>
 
     <build>
         <plugins>
@@ -24,7 +24,14 @@
     </build>
 
     <modules>
-        <module>spring</module>
-        <module>quasar</module>
+        <module>
+            dependency-injection-dagger
+        </module>
+        <module>
+            dependency-injection-guice
+        </module>
+        <module>
+            dependency-injection-spring
+        </module>
     </modules>
 </project>

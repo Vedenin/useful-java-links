@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>apache-commons</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Collections:: Apache</name>
+    <name>Collections:: Apache</name>
 
     <build>
         <plugins>

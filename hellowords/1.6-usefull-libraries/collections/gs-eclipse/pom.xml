@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>gs-eclipse</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Collections:: gs-eclipse</name>
+    <name>Collections:: gs-eclipse</name>
 
     <build>
         <plugins>

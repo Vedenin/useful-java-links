@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>1.6-usefull-libraries</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Usefull libraries</name>
+    <name>Usefull libraries</name>
 
     <build>
         <plugins>
@@ -25,5 +25,6 @@
 
     <modules>
         <module>collections</module>
+        <module>dependency_injection</module>
     </modules>
 </project>

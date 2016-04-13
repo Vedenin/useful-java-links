@@ -1,15 +1,16 @@
-package xml.jsr300;
-
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import com.google.inject.AbstractModule;
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 
 import javax.inject.Inject;
 
 /**
- * Hello World using jsr300 annotation and XML config
+ * Guice Constructor DI Hello World
+ *
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class XmlConstructorInjectHelloWorld {
+public class GuiceConstructor {
     public static class Notifier {
         private final NotificationService service;
 
@@ -33,10 +34,17 @@ public class XmlConstructorInjectHelloWorld {
         void send(String message);
     }
 
+
+    public static class TestModule extends AbstractModule {
+        @Override
+        protected void configure() {
+            bind(NotificationService.class).to(EMailService.class);
+        }
+    }
+
     public static void main(String[] args)  throws Exception {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "constructorInject.xml");
-        Notifier notifier =  context.getBean(Notifier.class);
+        Injector injector = Guice.createInjector(new TestModule());
+        Notifier notifier = injector.getInstance(Notifier.class);
         notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }
 }

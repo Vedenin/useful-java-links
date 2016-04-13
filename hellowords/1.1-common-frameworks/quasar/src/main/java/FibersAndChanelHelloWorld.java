@@ -6,6 +6,10 @@ import co.paralleluniverse.strands.channels.Channels;
 import co.paralleluniverse.strands.channels.IntChannel;
 
 /**
+ * HelloWorld using Fiber and Channel
+ *
+ *  To run using "maven test"
+ *
  * Created by vvedenin on 4/11/2016.
  */
 public class FibersAndChanelHelloWorld {

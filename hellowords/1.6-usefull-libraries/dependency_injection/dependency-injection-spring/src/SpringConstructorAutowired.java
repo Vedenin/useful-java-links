@@ -1,22 +1,18 @@
-package jsr300;
-
-
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import javax.inject.Inject;
-
 /**
- * Hello World using jsr300 annotation
+ * Constructor DI injection Hello World using Java annotation
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class SpringSimpleInjectHelloWorld {
+public class SpringConstructorAutowired {
     public static class Notifier {
         private final NotificationService service;
 
-        @Inject
+        @Autowired
         public Notifier(NotificationService service) {
             this.service = service;
         }

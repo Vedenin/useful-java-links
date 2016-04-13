@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>spring</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Common frameworks:: Spring</name>
+    <name>Common frameworks:: Spring</name>
 
     <build>
         <plugins>

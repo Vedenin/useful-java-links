@@ -1,19 +1,23 @@
-import org.springframework.beans.factory.annotation.Autowired;
+package jsr300;
+
+
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.inject.Inject;
+
 /**
- * Setter DI injection Hello World using Java annotation
+ * Hello World using jsr300 annotation
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class SpringSetterAutowiredHelloWorld {
+public class SpringSimpleInject {
     public static class Notifier {
-        private NotificationService service;
+        private final NotificationService service;
 
-        @Autowired
-        public void setService(NotificationService service) {
+        @Inject
+        public Notifier(NotificationService service) {
             this.service = service;
         }
 
@@ -36,7 +40,7 @@ public class SpringSetterAutowiredHelloWorld {
     public static class DIConfiguration {
         @Bean
         public Notifier getNotifier(NotificationService service){
-            return new Notifier();
+            return new Notifier(service);
         }
 
         @Bean
@@ -48,6 +52,6 @@ public class SpringSetterAutowiredHelloWorld {
     public static void main(String[] args)  throws Exception {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
         Notifier notifier =  context.getBean(Notifier.class);
-        notifier.send("Hello World!"); // Print "I send email: Hello World!"
+        notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }
 }

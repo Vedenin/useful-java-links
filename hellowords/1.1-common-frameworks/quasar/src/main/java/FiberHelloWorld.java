@@ -4,9 +4,9 @@ import co.paralleluniverse.fibers.SuspendExecution;
 import java.util.concurrent.ExecutionException;
 
 /**
- * Show simple HelloWorld using Fiber
+ * Simple HelloWorld using Fiber
  *
- * To run start it using "maven test"
+ *  To run using "maven test"
  *
  * Created by vvedenin on 4/11/2016.
  */

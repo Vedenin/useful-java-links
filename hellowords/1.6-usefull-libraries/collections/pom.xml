@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>collections</artifactId>
     <version>0.01</version>
-    <name>Hello words :: Collections</name>
+    <name>Collections</name>
 
     <build>
         <plugins>

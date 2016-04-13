@@ -1,19 +1,20 @@
-package xml;
+import com.google.inject.AbstractModule;
+import com.google.inject.Guice;
+import com.google.inject.Injector;
 
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import javax.inject.Inject;
 
 /**
- * Setter DI injection Hello World using XML config
+ * Guice Setter Inject DI Hello World
+ *
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class XmlSetterAutowiredHelloWorld {
+public class GuiceSetterInject {
     public static class Notifier {
         private NotificationService service;
 
-        @Autowired
+        @Inject
         public void setService(NotificationService service) {
             this.service = service;
         }
@@ -33,10 +34,17 @@ public class XmlSetterAutowiredHelloWorld {
         void send(String message);
     }
 
+
+    public static class TestModule extends AbstractModule {
+        @Override
+        protected void configure() {
+            bind(NotificationService.class).to(EMailService.class);
+        }
+    }
+
     public static void main(String[] args)  throws Exception {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "fieldAutowired.xml");
-        Notifier notifier =  context.getBean(Notifier.class);
+        Injector injector = Guice.createInjector(new TestModule());
+        Notifier notifier = injector.getInstance(Notifier.class);
         notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }
 }
