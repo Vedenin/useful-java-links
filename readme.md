@@ -331,7 +331,6 @@ PicketLink is an umbrella project for security and identity management for Java 
 5. [FlatBuffers](https://github.com/google/flatbuffers) - Memory efficient serialization library that can access serialized data without unpacking and parsing it. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 6. [FST](https://github.com/RuedigerMoeller/fast-serialization) - JDK compatible high performance object graph serialization. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 7. [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-8. [MessagePack](https://github.com/msgpack/msgpack-java) - Efficient binary serialization format. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Logging
 *Libraries that log the behavior of an application.*
