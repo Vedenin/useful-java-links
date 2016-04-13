@@ -26,5 +26,7 @@
     <modules>
         <module>spring</module>
         <module>quasar</module>
+        <module>apache-commons</module>
+        <module>guava</module>
     </modules>
 </project>
