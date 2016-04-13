@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>dependency-injection-spring</artifactId>
     <version>0.01</version>
-    <name>Dependency injections:: Spring</name>
+    <name>Dependency injections :: Spring</name>
 
     <build>
         <plugins>

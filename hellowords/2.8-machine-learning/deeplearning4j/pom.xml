@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>deeplearning4j</artifactId>
     <version>0.01</version>
-    <name>Machine Learning:: Deeplearning4j</name>
+    <name>Machine Learning :: Deeplearning4j</name>
 
     <properties>
         <nd4j.version>0.4-rc3.8</nd4j.version>

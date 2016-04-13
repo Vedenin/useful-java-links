@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>smile</artifactId>
     <version>0.01</version>
-    <name>Machine Learning:: Smile</name>
+    <name>Machine Learning :: Smile</name>
 
     <build>
         <plugins>

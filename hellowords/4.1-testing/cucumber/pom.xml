@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>cucumber</artifactId>
-    <name>Common frameworks:: Cucumber</name>
+    <name>Testing :: Cucumber</name>
 
     <properties>
         <java.version>1.7</java.version>

@@ -7,7 +7,7 @@
     <groupId>com.github.vedenin</groupId>
     <artifactId>apache-commons-lib</artifactId>
     <version>0.01</version>
-    <name>Common frameworks:: Apache</name>
+    <name>Common frameworks :: Apache</name>
 
     <build>
         <plugins>

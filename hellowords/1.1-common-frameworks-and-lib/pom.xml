@@ -28,6 +28,5 @@
         <module>quasar</module>
         <module>apache-commons-lib</module>
         <module>guava-lib</module>
-        <module>cucumber</module>
     </modules>
 </project>

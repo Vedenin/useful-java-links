@@ -30,5 +30,6 @@
         <module>2.8-machine-learning</module>
         <module>2.8-natural-language-processing</module>
         <module>3.7-web-crawling-and-html-parser</module>
+        <module>4.1-testing</module>
     </modules>
 </project>
