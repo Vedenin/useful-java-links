@@ -1167,6 +1167,7 @@
 8.  [WorldEdit](https://github.com/sk89q/WorldEdit) Редактор игровых карт для Minecraft. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 715. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 9.  [Essentials](https://github.com/essentials/Essentials) Essentials - Minecraft серверный командный мод — добавлени более 100 команд для использования в игре . Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 423. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 10.  [GlowstoneMC Glowstone](https://github.com/GlowstoneMC/Glowstone) Сервер для Bukkit Minecraft. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 421. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+11. [Tribal Trouble](https://github.com/sunenielsen/tribaltrouble) - Стратегия в реальном времени на Java.  Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 423. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true) 
 
 
 
