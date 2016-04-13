@@ -5,7 +5,7 @@
     <packaging>pom</packaging>
 
     <groupId>com.github.vedenin</groupId>
-    <artifactId>1.1-common-frameworks</artifactId>
+    <artifactId>1.1-common-frameworks-and-lib</artifactId>
     <version>0.01</version>
     <name>Common frameworks</name>
 
@@ -28,5 +28,6 @@
         <module>quasar</module>
         <module>apache-commons</module>
         <module>guava</module>
+        <module>cucumber</module>
     </modules>
 </project>

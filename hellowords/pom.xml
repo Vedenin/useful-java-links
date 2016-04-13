@@ -25,7 +25,7 @@
 
 
     <modules>
-        <module>1.1-common-frameworks</module>
+        <module>1.1-common-frameworks-and-lib</module>
         <module>1.6-usefull-libraries</module>
         <module>2.8-machine-learning</module>
         <module>2.8-natural-language-processing</module>
