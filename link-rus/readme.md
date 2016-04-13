@@ -415,6 +415,7 @@
 13. [JADE](http://jade.tilab.com/) - Фреймворк и экосистема для разработки и отладки multi-agent систем, Лицензия: [GNU Lesser 2.0](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 14. [Apache River](http://river.apache.org) Apache River фреймворк для разработки JINI сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 15. [Apache Tuscany](http://tuscany.apache.org) Apache Tuscany это фреймворк для разработки Service Component Architecture (SCA) приложений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+16. [Lagom] - Реактивные микросервисы для JVM. https://lightbend.com/lagom , рейтинг github'а  - 558. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
 ### 10. Наука
