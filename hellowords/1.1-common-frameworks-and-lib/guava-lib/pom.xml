@@ -5,9 +5,9 @@
     <packaging>pom</packaging>
 
     <groupId>com.github.vedenin</groupId>
-    <artifactId>frameworks-apache-commons</artifactId>
+    <artifactId>guava-lib</artifactId>
     <version>0.01</version>
-    <name>Common frameworks:: Apache</name>
+    <name>Common frameworks:: guava</name>
 
     <build>
         <plugins>
