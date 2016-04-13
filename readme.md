@@ -1186,6 +1186,8 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 8.  [WorldEdit](https://github.com/sk89q/WorldEdit) An in-game voxel map editor for Minecraft. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), github's star - 715. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 9.  [Essentials](https://github.com/essentials/Essentials) Essentials - Minecraft server command mod - Adds over 100 commands for use in-game to help manage a server. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 423. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 10.  [GlowstoneMC Glowstone](https://github.com/GlowstoneMC/Glowstone) An open-source server for the Bukkit Minecraft modding interface. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 421. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+11. [Tribal Trouble](https://github.com/sunenielsen/tribaltrouble) - Tribal Trouble is a realtime strategy game released by Oddlabs in 2004. In 2014 the source was released under GPL2 license.   License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), github's star - 50. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+
 
     
 ## VII. Other
