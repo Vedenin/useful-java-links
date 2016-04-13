@@ -28,5 +28,6 @@
         <module>1.1-common-frameworks</module>
         <module>1.6-usefull-libraries</module>
         <module>2.8-machine-learning</module>
+        <module>3.7-web-crawling-and-html-parser</module>
     </modules>
 </project>
