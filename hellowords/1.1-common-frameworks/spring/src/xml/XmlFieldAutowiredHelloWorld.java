@@ -5,14 +5,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
+ * Field DI injection Hello World using XML config
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class XmlSetterAutowiredTest {
+public class XmlFieldAutowiredHelloWorld {
     public static class Notifier {
+        @Autowired
         private NotificationService service;
 
-        @Autowired
         public void setService(NotificationService service) {
             this.service = service;
         }
@@ -36,6 +37,6 @@ public class XmlSetterAutowiredTest {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "fieldAutowired.xml");
         Notifier notifier =  context.getBean(Notifier.class);
-        notifier.send("test email"); // Print "I send email: test email"
+        notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }
 }

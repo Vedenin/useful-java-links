@@ -5,10 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
+ * Constructor DI injection Hello World using XML config
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class XmlConstructorAutowiredTest {
+public class XmlConstructorAutowiredHelloWorld {
     public static class Notifier {
         private final NotificationService service;
 
@@ -36,6 +37,6 @@ public class XmlConstructorAutowiredTest {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "constructorAutowired.xml");
         Notifier notifier =  context.getBean(Notifier.class);
-        notifier.send("test email"); // Print "I send email: test email"
+        notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }
 }

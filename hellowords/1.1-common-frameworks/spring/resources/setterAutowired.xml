@@ -5,10 +5,10 @@
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
 
-    <bean id="Notifier" class="com.github.vedenin.rus.spring_xml.XmlFieldAutowiredTest$Notifier">
+    <bean id="Notifier" class="xml.XmlFieldAutowiredHelloWorld$Notifier">
         <property name="service" ref="NotificationService"/>
     </bean>
 
-    <bean id="NotificationService" class="com.github.vedenin.rus.spring_xml.XmlFieldAutowiredTest$EMailService"/>
+    <bean id="NotificationService" class="xml.XmlFieldAutowiredHelloWorld$EMailService"/>
 
 </beans>

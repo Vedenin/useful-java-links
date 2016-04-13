@@ -1,19 +1,20 @@
-package xml.jsr300;
+package xml;
 
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import javax.inject.Inject;
-
 /**
+ * Setter DI injection Hello World using XML config
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class XmlConstructorInjectTest {
+public class XmlSetterAutowiredHelloWorld {
     public static class Notifier {
-        private final NotificationService service;
+        private NotificationService service;
 
-        @Inject
-        public Notifier(NotificationService service) {
+        @Autowired
+        public void setService(NotificationService service) {
             this.service = service;
         }
 
@@ -34,8 +35,8 @@ public class XmlConstructorInjectTest {
 
     public static void main(String[] args)  throws Exception {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "constructorInject.xml");
+                "fieldAutowired.xml");
         Notifier notifier =  context.getBean(Notifier.class);
-        notifier.send("test email"); // Print "I send email: test email"
+        notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }
 }

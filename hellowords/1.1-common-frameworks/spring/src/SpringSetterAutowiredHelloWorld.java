@@ -4,16 +4,16 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Constructor DI injection
+ * Setter DI injection Hello World using Java annotation
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class SpringConstructorAutowiredTest {
+public class SpringSetterAutowiredHelloWorld {
     public static class Notifier {
-        private final NotificationService service;
+        private NotificationService service;
 
         @Autowired
-        public Notifier(NotificationService service) {
+        public void setService(NotificationService service) {
             this.service = service;
         }
 
@@ -36,7 +36,7 @@ public class SpringConstructorAutowiredTest {
     public static class DIConfiguration {
         @Bean
         public Notifier getNotifier(NotificationService service){
-            return new Notifier(service);
+            return new Notifier();
         }
 
         @Bean
@@ -48,6 +48,6 @@ public class SpringConstructorAutowiredTest {
     public static void main(String[] args)  throws Exception {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
         Notifier notifier =  context.getBean(Notifier.class);
-        notifier.send("test email"); // Print "I send email: test email"
+        notifier.send("Hello World!"); // Print "I send email: Hello World!"
     }
 }
