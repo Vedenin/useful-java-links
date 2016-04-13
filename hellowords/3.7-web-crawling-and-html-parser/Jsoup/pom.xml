@@ -5,7 +5,7 @@
     <packaging>pom</packaging>
 
     <groupId>com.github.vedenin</groupId>
-    <artifactId>Jsoup</artifactId>
+    <artifactId>jsoup</artifactId>
     <version>0.01</version>
     <name>Web Crawling And HTML parser :: Jsoup</name>
 

@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <packaging>pom</packaging>
     <parent>
         <artifactId>hellowords</artifactId>
         <groupId>com.github.vedenin</groupId>
@@ -13,6 +14,6 @@
     <name>Web Crawling And HTML parser</name>
 
     <modules>
-        <module>Jsoup</module>
+        <module>jsoup</module>
     </modules>
 </project>
