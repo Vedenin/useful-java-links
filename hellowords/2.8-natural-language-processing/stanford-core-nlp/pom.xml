@@ -8,9 +8,8 @@
         <version>0.01</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>open-nlp</artifactId>
-    <name>Natural language processing :: OpenNLP</name>
+    <artifactId>stanford-core-nlp</artifactId>
+    <name>Natural language processing :: StanfordNLP</name>
 
     <build>
         <plugins>
@@ -28,14 +27,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.opennlp</groupId>
-            <artifactId>opennlp-tools</artifactId>
-            <version>1.6.0</version>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.6.0</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.opennlp</groupId>
-            <artifactId>opennlp-uima</artifactId>
-            <version>1.6.0</version>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.6.0</version>
+            <classifier>models</classifier>
         </dependency>
     </dependencies>
 </project>

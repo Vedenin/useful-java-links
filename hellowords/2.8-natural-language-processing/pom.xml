@@ -10,6 +10,7 @@
     <version>0.01</version>
     <modules>
         <module>opennlp</module>
+        <module>stanford-core-nlp</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 
