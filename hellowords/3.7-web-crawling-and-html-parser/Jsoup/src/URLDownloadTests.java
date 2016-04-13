@@ -11,7 +11,7 @@ import java.nio.charset.Charset;
 
 
 /**
- * Testing downloading url with correct user-agent, https, timeout and so on
+ * JSoup Hello World
  *
  * Created by vedenin on 16.01.16.
  */
