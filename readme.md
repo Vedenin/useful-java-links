@@ -776,6 +776,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 12. [Spark](http://sparkjava.com/) - Sinatra inspired framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 13. [Apache Wink](http://wink.apache.org) RESTFul web services based on JAX-RS specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 14. [Apache Olingo](http://olingo.apache.org) Apache Olingo is a Java and JavaScript library that implements the Open Data Protocol (OData). Open Data Protocol (OData) is an open protocol which allows the creation and consumption of queryable and interoperable RESTful APIs in a simple and standard way. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+15. [Rapidoid](http://www.rapidoid.org/) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 566. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 
