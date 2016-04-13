@@ -771,6 +771,8 @@
 12. [Spark](http://sparkjava.com/) - фреймворк, вдохновленный Sinatra фреймворком, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 13. [Apache Wink](http://wink.apache.org) RESTFul веб сервис, основанный на JAX-RS спецификации. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 14. [Apache Olingo](http://olingo.apache.org) Apache Olingo это Java и JavaScript библиотека реализующая Open Data Protocol (OData). Open Data Protocol (OData) это открытый протокол создания RESTful APIs сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+15. [Rapidoid](http://www.rapidoid.org/) - Простой, безопасный и очень быстрый фреймвок с embedded HTTP сервером, GUI компонентами и  dependency injection, github's star - 566. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+
 
 ### 6. Интеграционные фреймворки
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
