@@ -1,4 +1,4 @@
-package com.github.vedenin.eng.collections.utils;
+
 
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 /**
  *  Transform collection (sort, delete, transtorm elements and so on)
  *
- *  Attention: version with russian comments in "rus" package
+ *
  *
  * Created by vvedenin on 10/27/2015.
  */

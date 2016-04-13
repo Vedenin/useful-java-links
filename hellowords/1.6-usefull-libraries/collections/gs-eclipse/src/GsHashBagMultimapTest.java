@@ -4,7 +4,7 @@ import com.gs.collections.impl.multimap.bag.HashBagMultimap;
 import java.util.Arrays;
 import java.util.List;
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GsHashBagMultimapTest {
 
     // Task: parser string with text and show all indexes of all words

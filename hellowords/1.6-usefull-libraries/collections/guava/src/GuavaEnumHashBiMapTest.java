@@ -1,9 +1,7 @@
-package com.github.vedenin.eng.collections.bimap;
-
 import com.google.common.collect.BiMap;
 import com.google.common.collect.EnumHashBiMap;
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GuavaEnumHashBiMapTest {
     enum ENGLISH_WORD {
         ONE, TWO, THREE, BALL, SNOW

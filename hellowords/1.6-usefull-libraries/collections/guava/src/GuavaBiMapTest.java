@@ -1,10 +1,8 @@
-package com.github.vedenin.eng.collections.bimap;
-
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GuavaBiMapTest {
 
     // Task: create collection to translate Polish-English words in two ways

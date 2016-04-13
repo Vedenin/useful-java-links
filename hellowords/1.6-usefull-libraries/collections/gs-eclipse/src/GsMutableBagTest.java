@@ -3,7 +3,7 @@ import com.gs.collections.impl.bag.mutable.HashBag;
 
 import java.util.Arrays;
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GsMutableBagTest {
 
     public static void main(String[] args) {

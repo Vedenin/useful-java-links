@@ -3,6 +3,9 @@ import org.apache.commons.collections4.bag.HashBag;
 
 import java.util.Arrays;
 
+/**
+ *  Hello World using Apache HashBag
+ */
 public class ApacheHashBagTest {
 
     public static void main(String[] args) {

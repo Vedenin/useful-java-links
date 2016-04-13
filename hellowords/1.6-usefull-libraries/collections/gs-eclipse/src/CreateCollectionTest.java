@@ -11,7 +11,7 @@ import java.util.*;
 /**
  * Create collection example
  *
- *  Attention: version with russian comments in "rus" package
+ *
  * Created by vedenin on 17.10.15.
  */
 public class CreateCollectionTest {

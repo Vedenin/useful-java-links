@@ -1,4 +1,4 @@
-package com.github.vedenin.eng.collections.utils;
+
 
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 /**
  * Testing search method using guava, apache, jdk, gs
  *
- *  Attention: version with russian comments in "rus" package
+ *
  *
  * Created by vedenin on 17 .10.15.
  */

@@ -1,11 +1,9 @@
-package com.github.vedenin.eng.collections.multiset;
-
 import com.google.common.collect.LinkedHashMultiset;
 import com.google.common.collect.Multiset;
 
 import java.util.Arrays;
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GuavaLinkedHashMultisetTest {
 
     public static void main(String[] args) {

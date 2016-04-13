@@ -1,12 +1,10 @@
-package com.github.vedenin.eng.collections.multimap;
-
 import com.google.common.collect.LinkedHashMultimap;
 import com.google.common.collect.Multimap;
 
 import java.util.Arrays;
 import java.util.List;
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GuavaLinkedHashMultimapTest {
 
     // Task: parser string with text and show all indexes of all words

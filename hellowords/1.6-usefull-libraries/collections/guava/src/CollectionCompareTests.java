@@ -1,5 +1,3 @@
-package com.github.vedenin.eng.collections.utils;
-
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
@@ -15,7 +13,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Attention: version with russian comments in "rus" package
  *
  * Created by vedenin on 23.10.15.
  */

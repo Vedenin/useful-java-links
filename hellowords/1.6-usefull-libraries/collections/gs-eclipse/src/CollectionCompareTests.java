@@ -13,7 +13,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Attention: version with russian comments in "rus" package
+ *
  *
  * Created by vedenin on 23.10.15.
  */

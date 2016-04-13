@@ -1,6 +1,9 @@
 import org.apache.commons.collections4.BidiMap;
 import org.apache.commons.collections4.bidimap.DualHashBidiMap;
 
+/**
+ *  Hello World using Apache BidiMap
+ */
 public class ApacheBidiMapTest {
 
     // Task: create collection to translate Polish-English words in two ways

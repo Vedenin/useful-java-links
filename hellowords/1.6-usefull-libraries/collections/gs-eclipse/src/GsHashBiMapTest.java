@@ -1,7 +1,7 @@
 import com.gs.collections.api.bimap.MutableBiMap;
 import com.gs.collections.impl.bimap.mutable.HashBiMap;
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GsHashBiMapTest {
 
     // Task: create collection to translate Polish-English words in two ways

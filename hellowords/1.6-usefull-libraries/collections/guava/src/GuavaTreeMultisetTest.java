@@ -1,11 +1,9 @@
-package com.github.vedenin.eng.collections.multiset;
-
 import com.google.common.collect.Multiset;
 import com.google.common.collect.TreeMultiset;
 
 import java.util.Arrays;
 
-//  Attention: version with russian comments in "rus" package
+//
 public class GuavaTreeMultisetTest {
 
     public static void main(String[] args) {
