@@ -433,6 +433,8 @@
 2. [Aries](http://aries.apache.org/) данный проект состоит из набора pluggable Java компонент для OSGi модели. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 3. [Felix](http://felix.apache.org/) OSGi фреймворк. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 4. [Karaf](http://karaf.apache.org)  OSGi фреймворк для серверных приложений. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+5. [Equinox](http://www.eclipse.org/equinox/) Реализация OSGI спецификации от Eclipse. License: [EPL](https://www.eclipse.org/org/documents/epl-v10.php) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6. [Eclipse Virgo](http://www.eclipse.org/virgo/) OSGI фреймворк для приложений, которые построены на Spring. Есть поставки вместе с web серверами. License: [EPL](https://www.eclipse.org/org/documents/epl-v10.php) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ## II. Базы данных, поисковые системы, Big data и машинное обучение
 
