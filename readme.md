@@ -424,6 +424,8 @@ Distributed Computing, Simplified. License: [Apache 2](http://www.apache.org/lic
 2. [Aries](http://aries.apache.org/) The Aries project consists of a set of pluggable Java components enabling an enterprise OSGi application programming model. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 3. [Felix](http://felix.apache.org/) OSGi framework implementation and related technologies. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 4. [Karaf](http://karaf.apache.org)  Apache Karaf is an OSGi distribution for server-side applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+5. [Equinox](http://www.eclipse.org/equinox/) OSGI framework implementation and related technologies. License: [EPL](https://www.eclipse.org/org/documents/epl-v10.php) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+6. [Eclipse Virgo](http://www.eclipse.org/virgo/) OSGI based server that is designed to run enterprise Java applications and Spring-powered applications. License: [EPL](https://www.eclipse.org/org/documents/epl-v10.php) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 ## II. Databases, search engines, big data and machine learning
