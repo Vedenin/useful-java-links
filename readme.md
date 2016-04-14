@@ -496,6 +496,7 @@ Solr is a search engine server that uses lucene. License: [Apache 2](http://www.
 6.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary. License: ?, github's star - 395.
 7. [Apache ManifoldCF](http://marmotta.apache.org) Open-source software for transferring content between repositories or search indexes License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 8. [Lemur Project](https://sourceforge.net/projects/lemur/) The Lemur Project develops search engines, browser toolbars, text analysis tools, and data resources that support research and development of information retrieval and text mining software, including the Indri search engine and ClueWeb09 dataset. License: [BSD License](https://sourceforge.net/directory/license:bsd/) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+9. [YaCy](http://yacy.net/) -  The YaCy Search Engine application, github's star - 127. License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) and [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
 
 ### 4. Client and drivers for databases
