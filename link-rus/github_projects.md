@@ -1,9 +1,9 @@
-## Список самых популярных немобильных открытых Java проектов на github'e
+## Список самых популярных не мобильных открытых Java проектов на github'e
 
-В данный список включены все немобильные открытые проекты у которых было 390 или больше на момент составления списка.
+В данный список включены все не мобильные открытые проекты у которых было 390 или больше на момент составления списка.
 Список дан по убыванию звезд (то есть проекты с максимальным количеством звезд первые). Помните - звезды не всегда показывают
 настоящую популярность проекта, для некоторых проектов (например, проектов Apache) на github'e только зеркала или какие-то проекты лишь
-недавно перехали на github (такие как проекты с google code). Однако высокое кол-во звезд все-таки показывает зрелость проекта.
+недавно переехали на github (такие как проекты с google code). Однако высокое кол-во звезд все-таки показывает зрелость проекта.
 
 ## I. Фреймворки и библиотеки
 
@@ -14,7 +14,7 @@
 3.  [Eclipse Vert.x](https://github.com/eclipse/vert.x) Расширяемая application platform для JVM от Eclipse, позволяет писать одновременно на JavaScript, Ruby, Groovy, Java и Python, встраивается в текущие проекты на Java, упрощает мультипоточность. содержит event bus и т.д. и т.п.  . Лицензия:  Eclipse Public 1 / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3743.
 4.  [Square Dagger](https://github.com/square/dagger) Быстрый и легковесный фреймворк от square для реализации dependency injector для Android и Java, имеет более ограниченные возможности чем guava или Spring, но по заявлениям разработчиков работает несколько быстрее. Реализует Java спецификацию JSR-330, описывающую dependency injector.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3607.
 5.  [Netflix Hystrix](https://github.com/Netflix/Hystrix) Библиотека, для корректной обработки отказов сервисов, исключительных ситуаций в распределенных системах, с помощью добавления в систему изолированных точек доступа к сторонним сервисам и распределенным системам, ограничением вероятности каскадных ошибок при отказе одного из сервисов и т.д.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3571.
-6.  [Spark](https://github.com/perwendel/spark) Фреймворк, вдохновленный фреймоворком Sinatra, для java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2596.
+6.  [Spark](https://github.com/perwendel/spark) Фреймворк, вдохновленный фреймворком Sinatra, для java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2596.
 7.  [Alibaba Dubbo](https://github.com/alibaba/dubbo) Dubbo это фреймворк для разработки распределенных приложений с возможностями передачи сообщений, кластеризации, работе с событиями, подписками и т. п. с высокопроизводительным RPC. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1917.
 8.  [Guice](https://github.com/google/guice) Guice (произносится 'juice') это легковесный dependency injection фреймворк для Java 6 и выше, созданный Google.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1881.
 9.  [Netflix Curator](https://github.com/Netflix/curator) Curator Framework это фреймворк для работы с Apache ZooKeeper сервером. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1158.
@@ -58,7 +58,7 @@
 ### 4\. Вебфреймворки- 19 проектов
 
 1.  [Play Framework](https://github.com/playframework/playframework) Play Framework позволяет легко разрабатывать расширяемые вебприложения на Java и Scala. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 6771.
-2.  [Atmosphere](https://github.com/Atmosphere/atmosphere) - фреймворк для разработки клиентской и серверной части асинхронных веб.приложений, поддерживающий разные серверны, браузеры и плагины. Лицензия: CDDL1 / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2235.
+2.  [Atmosphere](https://github.com/Atmosphere/atmosphere) - фреймворк для разработки клиентской и серверной части асинхронных веб.приложений, поддерживающий разные сервера, браузеры и плагины. Лицензия: CDDL1 / [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2235.
 3.  [Grails core](https://github.com/grails/grails-core) - вебфреймворк. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1386.
 4.  [Ghost Driver](https://github.com/detro/ghostdriver) это реализация Remote WebDriver Wire протокола, использующая PhantomJS как бэкенд. Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29), рейтинг - 1179.
 5.  [Ninja](https://github.com/ninjaframework/ninja) это полноценный веб фреймворк для Java. Надежный, быстрый и очень продуктивный.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 894.
@@ -93,7 +93,7 @@
 2.  [Spring security oauth](https://github.com/spring-projects/spring-security-oauth) - добавлении методов авторизации OAuth1(a) и OAuth2 для Spring вебприложений.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 916.
 3.  [Jasig CAS (Central Authentication Service)](https://github.com/Jasig/cas) - обеспечивает стандартный механизм аутентификация пользователей для веб приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 740.
 4.  [Spring security](https://github.com/spring-projects/spring-security) — Spring фреймворк для авторизации и управлению пользователями и безопасностью приложений . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 732.
-5.  [Play Authenticate](https://github.com/joscha/play-authenticate) - аутентификацонный плагин для Play фреймворка. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 646.
+5.  [Play Authenticate](https://github.com/joscha/play-authenticate) - аутентификационный плагин для Play фреймворка. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 646.
 
 ### 7\. Фреймворки и библиотеки для создания бизнес приложений на Java- 7 проектов
 
@@ -127,7 +127,7 @@
 
 
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) свободная и открытая система логирования. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 1308.
-2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логировани в Java.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 497.
+2.  [logback](https://github.com/qos-ch/logback) надежный, универсальный, быстрый и гибкий фреймворк для логирования в Java.. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 497.
 3.  [slf4j](https://github.com/qos-ch/slf4j) (**Update**: предложено в комментариях к статье) Библиотека предлагает Facade логирования для простого переключения между разными библиотеками логирования (java.util.logging, logback, log4j и т. п.). Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 384.
 
 
@@ -166,7 +166,7 @@
 ###2\. Поисковые системы- 6 проектов
 
 1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - одна из самых популярных систем распределенного облачного поиска. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 11833.
-2.  [Linkedin Indextank Engine](https://github.com/linkedin/indextank-engine) Проект IndexTank это поисковый движок, поддерживающий возможности вроде переменных (boosts), категорий (facets), предложения, автокомплит и т. п.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 788.
+2.  [Linkedin Indextank Engine](https://github.com/linkedin/indextank-engine) Проект IndexTank это поисковый движок, поддерживающий возможности вроде переменных (boosts), категорий (facets), предложения, автокомплит и т.п.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 788.
 3.  [Apache Solr](https://github.com/apache/solr) Зеркало Apache Solr. Apache Solr это поисковый сервер, основанный на Apache Lucene поисковой библиотеке. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 486.
 4.  [Linkedin Cleo](https://github.com/linkedin/cleo) Linkedin Cleo это гибкое библиотека для создания умных подсказок поиска.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 478.
 5.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) Плагин для работы ElasticSearch с Amazon Web Service (AWS) облаками. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 435.
@@ -191,7 +191,7 @@
 15.  [Forcedotcom Phoenix](https://github.com/forcedotcom/phoenix) Phoenix это SQL оболочка поверх Hbase с JDBC драйвером. Phoenix обеспечивает очень быстрый отклик (в течении миллисекунд), в отличии от пакетных операций map/reduce. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , рейтинг - 507.
 16.  [Variety](https://github.com/variety/variety) Анализатор схемы MongoDB. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 505.
 17.  [Redisson](https://github.com/mrniko/redisson) Redisson — добавляет Java структуры данных (Set, SortedSet, Map, ConcurrentMap, List, Queue, BlockingQueue, Deque, Lock, AtomicLong, CountDownLatch, Publish / Subscribe, HyperLogLog, Redis pipelining) в Redis сервер. И является высокопроизводительным и неблокирующим Java Redis клиентом. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 483.
-18.  [Netflix Priam](https://github.com/Netflix/Priam) Co-Process это набор инструментов для работы с Cassandra (архимирование и востановление, работа с токенами и т. д.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 481.
+18.  [Netflix Priam](https://github.com/Netflix/Priam) Co-Process это набор инструментов для работы с Cassandra (архивирование и восстановление, работа с токенами и т. д.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 481.
 19.  [Datastax Java driver](https://github.com/datastax/java-driver) Java клиент для Apache Cassandra и DataStax. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 480.
 20.  [Memcached Java Client](https://github.com/gwhalin/Memcached-Java-Client) java клиент для memcached. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг - 436.
 21.  [Spring data mongodb](https://github.com/spring-projects/spring-data-mongodb) Java клиент к MongoDB для фреймворка Spring . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 394.
@@ -236,7 +236,7 @@
 8.  [Google Mr4c](https://github.com/google/mr4c) это фрейворк, который позволяет запускать нативный код в Hadoop. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг - 702.
 9.  [Alibaba Jstorm](https://github.com/alibaba/jstorm) — распределенная и устойчивая к ошибкам система вычисления результатов в реальном времени, вдохновленная Apache Storm,.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 654.
 10.  [Apache Hive](https://github.com/apache/hive) - зеркало Apache Hive. Фреймворк для созданий SQL подобного языка запросов для Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 619.
-11.  [Etsy Oculus](https://github.com/etsy/oculus) находит аномальную корреляцию компонент системы Kale system. После того, как вы ввыбрали интересную или аномальную метрику, Oculus найдете все другие метрики в вашей системе, которые выглядят похоже.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 618.
+11.  [Etsy Oculus](https://github.com/etsy/oculus) находит аномальную корреляцию компонент системы Kale system. После того, как вы выбрали интересную или аномальную метрику, Oculus найдете все другие метрики в вашей системе, которые выглядят похоже.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 618.
 12.  [Linkedin Datafu](https://github.com/linkedin/datafu) это Hadoop библиотека для крупномасштабных систем обработки данных, на данный момент это проект в Apache Incubator . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 570.
 13.  [Linkedin Gobblin](https://github.com/linkedin/gobblin) это универсальный интеграционный фреймворк работающий на Hadoop для получения, трансформации и загрузки большого количества данных в различные источники данных, такие как базы данных, rest APIs, FTP/SFTP сервера и т.д. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 547.
 14.  [Apache Kylin](https://github.com/KylinOLAP/Kylin) это открытая распределенная аналитическая система, которая обеспечивает SQL интерфейс и OLAP отчеты для Hadoop.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 504.
@@ -276,7 +276,7 @@
 
 ###2\. Парсеры (Parser)- 6 проектов
 
-1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с подержкой XPath и CSS selector.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3323.
+1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri это HTML, XML, SAX, и Reader парсер с поддержкой XPath и CSS selector.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3323.
 2.  [Jsoup](https://github.com/jhy/jsoup) jsoup это Java HTML парсер с использованием DOM, CSS, и jquery. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг - 2006.
 3.  [Webmagic](https://github.com/code4craft/webmagic) Фреймворк для создания интернет ботов для индексирования (crawler), которые реализует все этапы жизненного цикла crawler: скачивание, управление url, выделение контент и сохранение.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1089.
 4.  [Antlr4](https://github.com/antlr/antlr4) ANTLR (ANother Tool для Language Recognition мощный генератор парсеров для чтения, обработки, использование или конвертирования структурированного текста или бинарных файлов. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг - 836.
@@ -297,7 +297,7 @@
 
 ###4\. Интеграция с Api разных систем (соц. сетей и т.&nbsp;п.)- 8 проектов
 
-1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборк информации о работе всех его различных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2442.
+1.  [Twitter Zipkin](https://github.com/twitter/zipkin) Zipkin это распределенная системы отслеживания, которая используется Twitter для сборки информации о работе всех его различных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2442.
 2.  [Wizcorp Phonegap facebook plugin](https://github.com/Wizcorp/phonegap-facebook-plugin) Официальный плагин для Facebook в Apache Cordova/PhoneGap. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1587.
 3.  [Twitter4j](https://github.com/yusuke/twitter4j) Twitter4J это библиотека для работы с Twitter API в Java (поддерживает работу с JSON, REST Search API, Apache HttpClient, Async API, Streaming API, Async API, Streaming API, HTTP/2). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1551.
 4.  [Netflix Ice](https://github.com/Netflix/ice) AWS Usage Tool — система работы с Amazon Web Services. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1358.
@@ -361,10 +361,10 @@
 
 1.  [Square Retrofit](https://github.com/square/retrofit) Типобезопасная библиотека для создания REST клиента для Android и Java.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 5945.
 2.  [Dropwizard](https://github.com/dropwizard/dropwizard) фреймворк для создания RESTful сервисов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 3427.
-3.  [Swagger core](https://github.com/swagger-api/swagger-core) Примеры и сервер интеграция для генерации Swagger API спецификаий, которые позволяют создать легкий доступ к вашему REST API. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2657.
+3.  [Swagger core](https://github.com/swagger-api/swagger-core) Примеры и сервер интеграция для генерации Swagger API спецификаций, которые позволяют создать легкий доступ к вашему REST API. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2657.
 4.  [Generator jhipster](https://github.com/jhipster/generator-jhipster) Хипстер стек для Java разработчиков: Yeoman + Maven + Spring + AngularJS в одном генераторе. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2352.
 5.  [Jersey](https://github.com/jersey/jersey) Зеркало Jersey 2.x. Jersey это REST фреймворк реализующий JAX-RS спецификацию. Лицензия: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.)1, рейтинг - 864.
-6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, маштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 825.
+6.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li это REST+JSON фреймворк для создания надежных, масштабируемых сервисов с использованием простого асинхронного API и dynamic discovery спецификацию.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 825.
 7.  [Spring projects Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS — этот проект поддерживает APIs для легкого создания REST сервисов поддерживающих HATEOAS принципы для Spring и особенно Spring MVC.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 456.
 
 
@@ -378,7 +378,7 @@
 3.  [Rstudio](https://github.com/rstudio/rstudio) RStudio это IDE для языка R. Лицензия: [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг - 1048.
 4.  [Vrapper](https://github.com/vrapper/vrapper) Плагин по добавлению Vim-подобного редактора в Eclipse. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License).0, рейтинг - 669.
 5.  [Eclipse themes](https://github.com/jeeeyul/eclipse-themes) Jeeeyul's Eclipse Themes (прошлое имя Eclipse Chrome Theme) это возможность настроить каждую деталь Eclipse'а. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг - 623.
-6.  [Eclipse color theme](https://github.com/eclipse-color-theme/eclipse-color-theme) Eclipse Color Theme позволяет легко импортировать и удобно менять цветовые темы без побочных эфектов. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг - 614.
+6.  [Eclipse color theme](https://github.com/eclipse-color-theme/eclipse-color-theme) Eclipse Color Theme позволяет легко импортировать и удобно менять цветовые темы без побочных эффектов. Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), рейтинг - 614.
 7.  [Eclim](https://github.com/ervandew/eclim) Добавление в редактор Vim возможностей Eclipse IDE. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 590.
 8.  [JetBrains MPS](https://github.com/JetBrains/MPS) JetBrains MPS (Meta programming System) служит для быстрой разработки DSL (Domain Specific Language) для любого окружения и с возможностью скомпилировать DSL в множество языков, таких как Java, C, XML и другие. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 525.
 9.  [Idea markdown](https://github.com/nicoulaj/idea-markdown) Поддержка языка разметки Markdown в IntelliJ IDEA.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 405.
@@ -430,7 +430,7 @@
 1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - инструменты для поддержки ваших облачных операций. Chaos Monkey это гибкий инструментарий для создания устойчивых к случайным ошибкам приложений.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 2892.
 2.  [Netflix Eureka](https://github.com/Netflix/eureka) это REST (Representational State Transfer) — сервис для управления AWS (Amazon Web Services ) облаками, обеспечение load balancing и отказоустойчивости. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1051.
 3.  [Aws sdk java](https://github.com/aws/aws-sdk-java) Официальное зеркало Java AWS SDK (Amazon Web Services). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 1008.
-4.  [Syncany](https://github.com/syncany/syncany) это облачное хранилище и файл обменное приложение, которое фокусируется на безопансоти и абстрагирования от системы хранения. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 772.
+4.  [Syncany](https://github.com/syncany/syncany) - это облачное хранилище и файл обменное приложение, которое фокусируется на безопасности и абстрагирования от системы хранения. Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг - 772.
 5.  [Legacy Jclouds](https://github.com/jclouds/legacy-jclouds) это открытая библиотека, которая поможет начать работать с облаками используя ваши навыки разработки на Java. Поддерживает многие виды облаков включая Amazon, VMWare, Azure, и Rackspace.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг - 507.
 
 
