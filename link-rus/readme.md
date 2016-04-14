@@ -502,6 +502,8 @@
 6.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis плагин интеграции с Lucene IK анализаторов для elastic search, поддерживающий пользовательские словари. Лицензия: ?, рейтинг github'а - 395.
 7. [Apache ManifoldCF](http://marmotta.apache.org) - приложение для передачи данных между репозиториями и поисковыми индексами разных систем. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 435. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 8. [Lemur Project](https://sourceforge.net/projects/lemur/) Lemur проект разрабоатывает поисковый движок, анализатор текста, плагин браузеров, включает Indri search engine и ClueWeb09 dataset. Лицензия: [BSD License](https://sourceforge.net/directory/license:bsd/) ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+9. [YaCy](http://yacy.net/) -  Поисковая система YaCy, рейтинг github'а - 127. Лицензия: часть классов под [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), часть под [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+
 
 
 ### 4. Клиенты и драйверы баз данных
