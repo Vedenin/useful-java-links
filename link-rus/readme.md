@@ -532,6 +532,8 @@
 1.  [Apache Phoenix](http://phoenix.apache.org/) - Высокопроизводительный слой для реляционных баз данных поверх HBase для систем с минимальным откликом, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Добавляет метрики и отказоустойчивые стратегии для наиболее популярных пулов соединией с базами данных, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1.  [Jaybird JCA/JDBC driver](http://www.firebirdsql.org/en/jdbc-driver/) - JCA-JDBC драйвер для Firebird базы данных, [github](https://github.com/FirebirdSQL/jaybird), github's star -  19. Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 1275. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)  
+
 
 ### 5. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
