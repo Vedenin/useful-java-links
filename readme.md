@@ -958,6 +958,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Selenide](http://selenide.org/) -Concise API around Selenium to write stable and readable UI tests. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [SeLion](https://github.com/paypal/SeLion) - Enabling Test Automation in Java. SeLion builds on top of TestNG and Selenium to provide a set of capabilities that get you up and running with WebDriver in a short time. It can be used for testing web and mobile applications, github's star - 63. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Code Coverage
 *Frameworks and tools that enable collection of code coverage metrics for test suites.*
