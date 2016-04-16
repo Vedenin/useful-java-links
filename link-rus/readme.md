@@ -252,7 +252,7 @@
 
 #### Date and Time
 
-* Библиотеки для обработки даты и времени.*
+*Библиотеки для обработки даты и времени.*
 1.  [Almanac Converter](https://github.com/hypotemoose/almanac-converter) - простые преобразования между различными календарными системами, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Joda-Time](http://www.joda.org/joda-time/) - Joda Time это широко распространенная замена стандартных классов date и time в Java. Де факто стандартная библиотеки даты и времени до появления Java 8, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 1442. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Порт с JSR 310 (java.time package) от автора Joda-Time, Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -278,7 +278,7 @@
 
 #### Функциональное программирование
 
-* Библиотеки, реализующие функциональное программирование.*
+*Библиотеки, реализующие функциональное программирование.*
 
 1.  [Cyclops](https://github.com/aol/cyclops) - Добавляет монады, потоковые утилиты и такие возможности функционального программирования как: comprehensions, pattern matching, trampolines и многое другое, Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [derive4j](https://github.com/derive4j/derive4j) - Процессор, работающий с Java 8 аннотациями, и фреймворк для реализации: deriving algebraic data types constructors, pattern-matching, morphisms и т.п, Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License)![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
@@ -361,11 +361,11 @@
 *Фреймворки, упрощающие маппинг одних типов данных в другие (или bean validation).*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
-1.  [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой (создавая рекурсивную копию одного объекта в другом) используя аннотации, API или XML конфигурацию, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 421. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [MapStruct](https://github.com/mapstruct/mapstruct) - Код генератор, который упрощает маппинг между разными типами данных, основываясь на конфигурации маппинга, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper это интеллектуальная библиотека для автоматического маппинга одних объектов на другие, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [Orika](https://github.com/orika-mapper) - Orika это Java Bean маппинг фреймворк, который рекурсивно копирует (и при необходимости изменяет) информацию из одного объекта в другой, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma это маппер построенный на аннотациеях классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1.  [Dozer](https://github.com/DozerMapper/dozer/) - Маппер, который копирует информацию из одного объекта в другой (создавая рекурсивную копию одного объекта в другом) используя аннотации, API или XML конфигурацию, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 565. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1.  [MapStruct](https://github.com/mapstruct/mapstruct) - Код генератор, который упрощает маппинг между разными типами данных, основываясь на конфигурации маппинга, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 342. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1.  [ModelMapper](https://github.com/jhalterman/modelmapper) - ModelMapper это интеллектуальная библиотека для автоматического маппинга одних объектов на другие, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 341. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1.  [Orika](https://github.com/orika-mapper/orika) - Orika это Java Bean маппинг фреймворк, который рекурсивно копирует (и при необходимости изменяет) информацию из одного объекта в другой, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 244. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1.  [Selma](https://github.com/xebia-france/selma) - Stupid Simple Statically Linked Mapper. Selma это маппер построенный на аннотациеях классов, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 39. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache BVal](http://bval.apache.org/) Apache BVal реализует спецификацию Java Bean Validation (JSR303). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
@@ -981,7 +981,7 @@
 1.  [Apache Continuum](http://continuum.apache.org/)  Сервер непрерывной реализации от Apache. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 ### 4. Formal Verification
-* Инструменты для формальной верефикации: proof assistants, model checking, symbolic execution и т.п.*
+*Инструменты для формальной верефикации: proof assistants, model checking, symbolic execution и т.п.*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [CATG](https://github.com/ksen007/janala2) - Concolic unit тест движок. Автоматически генерит unit тесты, используя ряд формальных методов, Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses), Лицензия: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)

@@ -5,9 +5,9 @@
     <packaging>pom</packaging>
 
     <groupId>com.github.vedenin</groupId>
-    <artifactId>1.6-usefull-libraries</artifactId>
+    <artifactId>bean_mapping</artifactId>
     <version>0.01</version>
-    <name>Usefull libraries</name>
+    <name>Bean mapping</name>
 
     <build>
         <plugins>
@@ -24,8 +24,20 @@
     </build>
 
     <modules>
-        <module>collections</module>
-        <module>dependency_injection</module>
-        <module>bean_mapping</module>
+        <module>
+            dozer
+        </module>
+        <module>
+            mapstruct
+        </module>
+        <module>
+            modelmapper
+        </module>
+        <module>
+            orika
+        </module>
+        <module>
+            selma
+        </module>
     </modules>
 </project>
