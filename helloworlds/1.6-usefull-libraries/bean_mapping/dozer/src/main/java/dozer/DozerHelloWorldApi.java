@@ -1,15 +1,16 @@
-package mapstruct;
+package dozer;
 
 import org.dozer.DozerBeanMapper;
-import org.dozer.Mapper;
-import org.dozer.Mapping;
+import org.dozer.loader.api.BeanMappingBuilder;
+
+import static org.dozer.loader.api.TypeMappingOptions.mapNull;
 
 /**
- * Hello World that show simple annotation mapping
+ * Hello World that show simple mapping using api
  *
  * Created by vedenin on 16.04.16.
  */
-public class DozerHelloWorldAnnotation {
+public class DozerHelloWorldApi {
     public static class Source {
         private String message;
 
@@ -17,7 +18,6 @@ public class DozerHelloWorldAnnotation {
             this.message = message;
         }
 
-        @Mapping("text")
         public String getMessage() {
             return message;
         }
@@ -41,7 +41,14 @@ public class DozerHelloWorldAnnotation {
 
     public static void main(String[] args) {
         // init mapper
-        Mapper mapper = new DozerBeanMapper();
+        BeanMappingBuilder builder = new BeanMappingBuilder() {
+            protected void configure() {
+                mapping(Source.class, Destination.class)
+                .fields("message", "text");
+            }
+        };
+        DozerBeanMapper mapper = new DozerBeanMapper();
+        mapper.addMapping(builder);
 
         // convert
         Source source = new Source("Hello World!");

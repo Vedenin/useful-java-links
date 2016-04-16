@@ -1,4 +1,4 @@
-package mapstruct;
+package dozer;
 
 import org.dozer.DozerBeanMapper;
 

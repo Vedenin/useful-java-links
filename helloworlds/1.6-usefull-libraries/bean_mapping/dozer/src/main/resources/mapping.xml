@@ -5,8 +5,8 @@
           http://dozer.sourceforge.net/schema/beanmapping.xsd">
 
     <mapping>
-        <class-a>mapstruct.DozerHelloWorldXML.Source</class-a>
-        <class-b>mapstruct.DozerHelloWorldXML.Destination</class-b>
+        <class-a>dozer.DozerHelloWorldXML.Source</class-a>
+        <class-b>dozer.DozerHelloWorldXML.Destination</class-b>
         <field>
             <a>message</a>
             <b>text</b>
