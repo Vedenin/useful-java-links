@@ -28,12 +28,13 @@
 
 - II. Databases, search engines, big data and machine learning
     - 8. Machine Learning
+    
               - 1.  [smile](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-machine-learning/smile)
 
     - Natural Language Processing (NLP) and Speech Recognition
     
-              - 1.  [opennlp](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/opennlp)
-              - 2.  [stanford-core-nlp](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/stanford-core-nlp)
+               - 1.   [opennlp](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/opennlp)
+               - 1.  [stanford-core-nlp](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/stanford-core-nlp)
 
 
 - III. Network and Integration
