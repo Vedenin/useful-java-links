@@ -26,6 +26,10 @@
               - 4.  [Orika](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/bean_mapping/orika)
               - 5.  [Selma](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/bean_mapping/selma)
 
+        - Functional Programming
+              - 1.  [Cyclops React](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/cyclops_react)
+              - 2.  [JDK Stream Api](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api)
+                                    
 - II. Databases, search engines, big data and machine learning
     - 8.Machine Learning
          - 1.  [smile](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-machine-learning/smile)
