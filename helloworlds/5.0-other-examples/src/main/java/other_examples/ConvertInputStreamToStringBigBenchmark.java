@@ -161,6 +161,21 @@ public class ConvertInputStreamToStringBigBenchmark {
         return sb.toString();
     }
 
+    /*            12. Using BufferedReader (JDK) */
+    @Benchmark
+    public String test12_bufferedReaderReadLine2() throws IOException {
+        mark();
+        String newLine = System.getProperty("line.separator");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        StringBuilder result = new StringBuilder();
+        String line;
+        while ((line = reader.readLine()) != null) {
+            result.append(newLine).append(line);
+        }
+        reset();
+        return result.toString().trim();
+    }
+
     private void reset() throws IOException {
         inputStream.reset();
     }
@@ -183,7 +198,7 @@ public class ConvertInputStreamToStringBigBenchmark {
         System.out.println("9. bufferedReaderReadLine : " + test.bufferedReaderReadLine().length());
         System.out.println("10. bufferedInputStreamAndByteArrayOutputStream : " + test.bufferedInputStreamAndByteArrayOutputStream().length());
         System.out.println("11. inputStreamReadAndStringBuilder : " + test.inputStreamReadAndStringBuilder().length());
-
+        System.out.println("12. test12_bufferedReaderReadLine2 : " + test.test12_bufferedReaderReadLine2().length());
 
         System.out.println();
 
