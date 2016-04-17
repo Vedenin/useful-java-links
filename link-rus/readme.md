@@ -4,6 +4,8 @@
 
 В данный файл включен как перевод [awesome link](https://github.com/akullpp/awesome-java), так и все немобильные проекты github'a c количеством star более 390, более 250 ссылок на русскоязычное видео по разным темам и многое другое. Если хотите посмотреть отдельные файлы, то только проекты github'a [тут](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/github_projects.md), а список видео [здесь](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/video-links.md), но все ссылки можно найти и  в этом файле.
 
+**Обратите внимание:** на проект ["Hello Worlds examples"](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds) - его целью является собирать в одном месте простые примеры использования библиотек и фреймворков для облегчения их изучения и выбора. Буду очень признателен добавлению любых примеров! 
+
 Любые дополнения и изменения всячески приветствуются!
 
 - [I. Фреймворки и библиотеки](#i-Фреймворки-и-библиотеки)

@@ -1,5 +1,7 @@
 #### This project is collection of Hello World examples for many libraries and frameworks (In-progress)
 
+The idea of this project is collecting "Hello World examples" for all libraries and frameworks in one place 
+to help learning or selecting this libraries and frameworks. **Any contribution is welcome!** Just add your examples to this project.   
 
 - I. Development
     - 1.Common frameworks and libraries
