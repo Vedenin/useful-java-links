@@ -1,3 +1,6 @@
+### Other examples 
+This section has examples for JDK or several libraries or framework in one time 
+
 #### **I. Ways to convert an InputStream to a String:**
 
 From this [StackOverflow post](http://stackoverflow.com/questions/309424/read-convert-an-inputstream-to-a-string/35446009#35446009):
