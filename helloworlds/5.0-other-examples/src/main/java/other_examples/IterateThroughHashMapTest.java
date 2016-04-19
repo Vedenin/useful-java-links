@@ -16,6 +16,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 /**
  * Created by vvedenin on 2/21/2016.
@@ -131,6 +133,18 @@ public class IterateThroughHashMapTest {
         return i[0];
     }
 
+    /** 11. Using Java 8 Stream Api 2 **/
+    @Benchmark
+    public long test11_UsingJava8StreamApi2() throws IOException {
+        return map.entrySet().stream().mapToLong(e -> e.getKey() + e.getValue()).sum();
+    }
+
+    /** 12. Using Java 8 Stream Api parallel 2  **/
+    @Benchmark
+    public long test12_UsingJava8StreamApiparallel2() throws IOException {
+        return map.entrySet().parallelStream().mapToLong(e -> e.getKey() + e.getValue()).sum();
+    }
+
     @TearDown(Level.Iteration)
     public void tearDown() {
         map = new HashMap<>(size);
@@ -147,9 +161,9 @@ public class IterateThroughHashMapTest {
         Options opt = new OptionsBuilder()
                 .include(IterateThroughHashMapTest.class.getSimpleName())
                 .timeUnit(TimeUnit.MICROSECONDS)
-                .warmupIterations(10)
-                .measurementIterations(100)
-                .param("size","100","500","900","1300","1700","2100","2500","5000","10000","15000","20000","25000","30000")
+                .warmupIterations(3)
+                .measurementIterations(5)
+                .param("size","100",/*"500","900","1300","1700","2100","2500","5000","10000","15000","20000","25000" ,*/ "30000")
                 .forks(1)
                 .mode(Mode.AverageTime)
                 .build();
