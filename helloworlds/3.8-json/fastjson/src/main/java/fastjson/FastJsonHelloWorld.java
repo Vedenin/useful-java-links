@@ -7,6 +7,25 @@ import com.alibaba.fastjson.JSON;
  *
   */
 public class FastJsonHelloWorld {
+
+    public static void main(String[] args) {
+        // init class
+        World world = new World();
+        world.setName("World");
+
+        Human human = new Human();
+        human.setMessage("Hi");
+        human.setWorld(world);
+
+        // convert to json
+        String jsonString = JSON.toJSONString(human);
+        System.out.println("json " + jsonString);
+
+        // convert from json
+        Human newHuman = JSON.parseObject(jsonString, Human.class);
+        newHuman.say();
+    }
+
     private static class Human {
         private String message;
         private World world;
@@ -45,21 +64,4 @@ public class FastJsonHelloWorld {
         }
     }
 
-    public static void main(String[] args) {
-        // init class
-        World world = new World();
-        world.setName("World");
-
-        Human human = new Human();
-        human.setMessage("Hi");
-        human.setWorld(world);
-
-        // convert to json
-        String jsonString = JSON.toJSONString(human);
-        System.out.println("json " + jsonString);
-
-        // convert from json
-        Human newHuman = JSON.parseObject(jsonString, Human.class);
-        newHuman.say();
-    }
 }
