@@ -3,32 +3,32 @@ package fastjson;
 import com.alibaba.fastjson.JSON;
 
 /**
- *  FastJson Hello World
+ *  FastJson Hello Place
  *
   */
 public class FastJsonHelloWorld {
 
     public static void main(String[] args) {
         // init class
-        World world = new World();
-        world.setName("World");
+        Place place = new Place();
+        place.setName("World");
 
         Human human = new Human();
         human.setMessage("Hi");
-        human.setWorld(world);
+        human.setPlace(place);
 
         // convert to json
         String jsonString = JSON.toJSONString(human);
-        System.out.println("json " + jsonString);
+        System.out.println("json " + jsonString); // print "json {"message":"Hi","place":{"name":"World"}}"
 
         // convert from json
         Human newHuman = JSON.parseObject(jsonString, Human.class);
-        newHuman.say();
+        newHuman.say(); // print "Hi , World!"
     }
 
     private static class Human {
         private String message;
-        private World world;
+        private Place place;
 
         public String getMessage() {
             return message;
@@ -38,21 +38,21 @@ public class FastJsonHelloWorld {
             this.message = message;
         }
 
-        public World getWorld() {
-            return world;
+        public Place getPlace() {
+            return place;
         }
 
-        public void setWorld(World world) {
-            this.world = world;
+        public void setPlace(Place place) {
+            this.place = place;
         }
 
         public void say() {
             System.out.println();
-            System.out.println(getMessage() + " , " + getWorld().getName() + "!");
+            System.out.println(getMessage() + " , " + getPlace().getName() + "!");
         }
     }
 
-    private static class World {
+    private static class Place {
         private String name;
 
         public String getName() {

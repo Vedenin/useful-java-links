@@ -6,66 +6,66 @@ import com.squareup.moshi.Moshi;
 import java.io.IOException;
 
 /**
- *  Genson Hello World
+ *  Genson Hello Place
  *
   */
 public class GensonHelloWorld {
 
     public static void main(String[] args) throws IOException {
         // init class
-        World world = new World();
-        world.setName("World");
+        Place place = new Place();
+        place.setName("World");
 
         Human human = new Human();
         human.setMessage("Hi");
-        human.setWorld(world);
+        human.setPlace(place);
 
         // convert to json
         Moshi moshi = new Moshi.Builder().build();
         JsonAdapter<Human> jsonAdapter = moshi.adapter(Human.class);
 
         String jsonString = jsonAdapter.toJson(human);
-        System.out.println("json " + jsonString);
+        System.out.println("json " + jsonString); //print "json {"message":"Hi","place":{"name":"World"}}"
 
         // convert from json
         Human newHuman = jsonAdapter.fromJson(jsonString);
-        newHuman.say();
+        newHuman.say(); // print "Hi , World!"
     }
 
     private static class Human {
         private String message;
-        private World world;
+        private Place place;
 
-        public String getMessage() {
+        String getMessage() {
             return message;
         }
 
-        public void setMessage(String message) {
+        void setMessage(String message) {
             this.message = message;
         }
 
-        public World getWorld() {
-            return world;
+        Place getPlace() {
+            return place;
         }
 
-        public void setWorld(World world) {
-            this.world = world;
+        void setPlace(Place place) {
+            this.place = place;
         }
 
-        public void say() {
+        void say() {
             System.out.println();
-            System.out.println(getMessage() + " , " + getWorld().getName() + "!");
+            System.out.println(getMessage() + " , " + getPlace().getName() + "!");
         }
     }
 
-    private static class World {
+    private static class Place {
         private String name;
 
-        public String getName() {
+        String getName() {
             return name;
         }
 
-        public void setName(String name) {
+        void setName(String name) {
             this.name = name;
         }
     }

@@ -9,6 +9,10 @@
     <version>0.01</version>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.instagram</groupId>
+            <artifactId>ig-json-parser-processor</artifactId>
+            <version>0.0.6</version>
+        </dependency>
     </dependencies>
 </project>
