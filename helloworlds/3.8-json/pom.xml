@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <groupId>com.github.vedenin</groupId>
+    <version>0.01</version>
+    <packaging>pom</packaging>
+    <name>Json</name>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>3.8-json</artifactId>
+
+    <modules>
+        <module>gson</module>
+        <module>fastjson</module>
+        <module>json_java</module>
+        <module>jsonschema2pojo</module>
+        <module>moshi</module>
+        <module>ig_json_parser</module>
+        <module>jackson</module>
+        <module>json_path</module>
+        <module>json_schema_validator</module>
+        <module>genson</module>
+        <module>logan_square</module>
+    </modules>
+</project>
