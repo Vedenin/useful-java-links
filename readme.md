@@ -811,7 +811,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 *Libraries that simplify JSON processing.*
 [Up](#useful-java-links)
 
-**JSON Parsers** 
+##### JSON Parsers
 1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2605. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JSON java](https://github.com/stleary/JSON-java) A reference implementation of a JSON package in Java. License: ?, github's star - 1561.
 1.  [Square Moshi](https://github.com/square/moshi) A modern JSON library for Android and Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 765. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -821,13 +821,13 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-**Analog XPath for JSON**
+##### Analog XPath for JSON
 1.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 448. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-**Generates Java types from JSON or JSON Schema**  
+##### Generates Java types from JSON or JSON Schema
 1.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo)Generates Java types from JSON Schema (or example JSON) and annotates those types for data-binding with Jackson 1.x or 2.x, Gson, etc. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 914. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-**JSON validation**
+##### JSON validation
 1.  [Json schema validator](https://github.com/fge/json-schema-validator) A JSON Schema validation implementation in pure Java, which aims for correctness and performance, in that order. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](http://www.apache.org/licenses/LICENSE-2.0), github's star - 411. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 9. CSV
