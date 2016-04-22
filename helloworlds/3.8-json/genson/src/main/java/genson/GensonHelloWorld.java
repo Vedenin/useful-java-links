@@ -1,7 +1,6 @@
 package genson;
 
-import com.squareup.moshi.JsonAdapter;
-import com.squareup.moshi.Moshi;
+import com.owlike.genson.Genson;
 
 import java.io.IOException;
 
@@ -21,14 +20,12 @@ public class GensonHelloWorld {
         human.setPlace(place);
 
         // convert to json
-        Moshi moshi = new Moshi.Builder().build();
-        JsonAdapter<Human> jsonAdapter = moshi.adapter(Human.class);
+        String jsonString = new Genson().serialize(human);
 
-        String jsonString = jsonAdapter.toJson(human);
         System.out.println("json " + jsonString); //print "json {"message":"Hi","place":{"name":"World"}}"
 
         // convert from json
-        Human newHuman = jsonAdapter.fromJson(jsonString);
+        Human newHuman =  new Genson().deserialize(jsonString, Human.class);
         newHuman.say(); // print "Hi , World!"
     }
 
@@ -56,6 +53,14 @@ public class GensonHelloWorld {
             System.out.println();
             System.out.println(getMessage() + " , " + getPlace().getName() + "!");
         }
+
+        public Human() {
+        }
+
+        public Human(String message, Place place) {
+            this.message = message;
+            this.place = place;
+        }
     }
 
     private static class Place {
@@ -67,6 +72,13 @@ public class GensonHelloWorld {
 
         void setName(String name) {
             this.name = name;
+        }
+
+        public Place(String name) {
+            this.name = name;
+        }
+
+        public Place() {
         }
     }
 }
