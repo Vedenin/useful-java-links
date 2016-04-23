@@ -44,9 +44,19 @@ to help learning or selecting this libraries and frameworks. **Any contribution 
 - III. Network and Integration
     - 7.Web Crawling and HTML parsering
          - 1.  [Jsoup](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.7-web-crawling-and-html-parser/Jsoup)
-
+    - 8. Json
+         - 1.  [Alibaba Fastjson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)
+         - 2.  [Gson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)
+         - 3.  [LoganSquare](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)
+         - 4.  [JSON java](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java)
+         - 5.  [Square Moshi](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)
+         - 6.  [Instagram Ig json parser](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser)
+         - 7.  [Jackson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)
+         - 8.  [Genson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)
+         - 9.  [Jayway JsonPath](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+         - 10.  [Jsonschema2pojo](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo)
+         - 11.  [Json schema validator](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator)
+         
 - IV. Testing
     - 1.Testing
           - 1.  [cucumber](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/4.1-testing/cucumber)
-
-
