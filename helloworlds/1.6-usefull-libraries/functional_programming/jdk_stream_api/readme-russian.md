@@ -37,7 +37,7 @@
 
 В принципе, кроме последних двух способов создания стрима, все не отличается от обычных способов создания коллекций. Последние два способа служат для генерации бесконечных стримов, в iterate задается начальное условие и выражение получение следующего значения из предыдущего, то есть Stream.iterate(1, n -> n + 1) будет выдавать значения 1, 2, 3, 4, ... N. Stream.generate служит для генерации константных и случайных значений, он просто выдает значения соответствующие выражению, в данном примере, он будет выдавать бесконечное количество значений "a1". Для тех кто не знает лямбды Выражение n -> n + 1, это просто аналог выражения Integer func(Integer n) { return n+1;}, а выражение () -> "a1" аналог выражения String func() { return "a1";} обернутых в анонимный класс. 
 
-Так же этот пример можно найти на [github](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/BuildTests.java)'e
+Подробные примеры можно найти на [github](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/BuildTests.java)'e
 
 
 ## **II. Методы работы со стримами**
@@ -50,7 +50,7 @@ Java Stream API предлагает два вида методов:
 
 О том чем отличаются конвейерные и терминальные методы
 
-**Общее правило**: у stream'a может быть сколько угодно вызовов конвейерных вызовов и в конце один терминальный, при этом все конвейерные методы выполняются лениво и пока не будет вызван терминальный метод никаких действий на самом деле не происходит, так же как создать объект Thread или Runnable, но не вызвать у него start. В целом, этот механизм похож на конструирования SQL запросов, может быть сколько угодно вложенных Select'ов и только один результат в итоге. Например, в выражении `collection.stream().filter((s) -> s.contains("1")).skip(2).findFirst()` , `filter` и `skip` - конвейерные, а `findFirst` - терминальный, он возвращает объект `Optional` и это заканчивает работу со `stream'ом`.
+**Общее правило**: у stream'a может быть сколько угодно вызовов конвейерных вызовов и в конце один терминальный, при этом все конвейерные методы выполняются лениво и пока не будет вызван терминальный метод никаких действий на самом деле не происходит, так же как создать объект `Thread` или `Runnable`, но не вызвать у него `start`. В целом, этот механизм похож на конструирования SQL запросов, может быть сколько угодно вложенных Select'ов и только один результат в итоге. Например, в выражении `collection.stream().filter((s) -> s.contains("1")).skip(2).findFirst()` , `filter` и `skip` - конвейерные, а `findFirst` - терминальный, он возвращает объект `Optional` и это заканчивает работу со `stream'ом`.
 
 ### **2.1 Краткое описание конвейерных методов работы со стримами**
 
@@ -102,7 +102,7 @@ Java Stream API предлагает два вида методов:
  **parallel** | Вернуть параллельный стрим, если стрим уже параллельный, то может вернуть самого себя |
  **sequential** | Вернуть последовательный стрим, если стрим уже последовательный, то может вернуть самого себя |
 
-С помощью, методов parallel и sequential можно определять какие операции могут быть параллельными, а какие только последовательными. Так же из любого последовательного стрима можно сделать параллельный и наоборот, то есть:   
+С помощью, методов `parallel` и `sequential` можно определять какие операции могут быть параллельными, а какие только последовательными. Так же из любого последовательного стрима можно сделать параллельный и наоборот, то есть:   
 
         collection.stream(). peek(...). // операция последовательна parallel().
         map(...). // операция может выполняться параллельно, 
@@ -140,7 +140,7 @@ Java Stream API предлагает два вида методов:
  Найти средний возраст среди мужчин | peoples.stream().filter((p) -> p.getSex() == Sex.MAN). mapToInt(People::getAge).average().getAsDouble() | 36.0 |
  Найти кол-во потенциально работоспособных людей в выборке (т.е. от 18 лет и учитывая что женщины выходят в 55 лет, а мужчина в 60) | peoples.stream().filter((p) -> p.getAge() >= 18).filter( (p) -> (p.getSex() == Sex.WOMEN && p.getAge() < 55) || (p.getSex() == Sex.MAN && p.getAge() < 60)).count() | 2 |
 
-Также этот пример можно найти на github'e: [первый класс](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/FiterAndCountTests.java) и [второй класс](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/LimitAndSkipTests.java)
+Подробные примеры можно найти на github'e: [про Fiter и Count операции ](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/FiterAndCountTests.java) и [про Limit и Skip методы ](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/LimitAndSkipTests.java)
 
 ### **3.2 Примеры использования distinct**
 
@@ -153,10 +153,10 @@ Java Stream API предлагает два вида методов:
 
 **Обратите внимание:** 
 
-1. Если вы используете distinct с классом, у которого переопределен equals, обязательно так же корректно переопределить hashCode в соответствие с контрактом equals/hashCode (самое главное чтобы hashCode для всех equals объектов, возвращал одинаковое значение), иначе distinct может не удалить дубликаты (аналогично, как при использовании HashSet/HashMap), 
-2. Если вы используете параллельные стримы и вам не важен порядок элементов после удаления дубликатов - намного лучше для производительности сделать сначала стрим неупорядоченным с помощь unordered(), а уже потом применять distinct(), так как подержание стабильности сортировки при параллельном стриме довольно затратно по ресурсам и distinct() на упорядоченным стриме будет выполнятся значительно дольше чем при неупорядоченном, 
+1. Если вы используете `distinct` с классом, у которого переопределен `equals`, обязательно так же корректно переопределить hashCode в соответствие с контрактом `equals/hashCode` (самое главное чтобы `hashCode` для всех `equals` объектов, возвращал одинаковое значение), иначе `distinct` может не удалить дубликаты (аналогично, как при использовании `HashSet/HashMap`), 
+2. Если вы используете параллельные стримы и вам не важен порядок элементов после удаления дубликатов - намного лучше для производительности сделать сначала стрим неупорядоченным с помощь `unordered()`, а уже потом применять `distinct()`, так как подержание стабильности сортировки при параллельном стриме довольно затратно по ресурсам и `distinct()` на упорядоченным стриме будет выполнятся значительно дольше чем при неупорядоченном, 
  
-Так же этот пример можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/DistinctTests.java)
+Подробный пример можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/DistinctTests.java)
 
 ### **3.3 Примеры использования Match функций (anyMatch, allMatch, noneMatch)**
 
@@ -169,7 +169,7 @@ Java Stream API предлагает два вида методов:
  Найти есть ли символ "1" у всех элементов коллекции | collection.stream().allMatch((s) -> s.contains("1")) | false |
  Проверить что не существуют ни одного "a7" элемента в коллекции | collection.stream().noneMatch("a7"::equals) | true |
 
-Также этот пример можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/FindAndMatchTests.java)
+Подробный пример можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/FindAndMatchTests.java)
 
 ### **3.4 Примеры использования Map функций (map, mapToInt, FlatMap, FlatMapToInt)**
 
@@ -182,7 +182,7 @@ Java Stream API предлагает два вида методов:
  Из второй коллекции получить все числа, перечисленные через запятую из всех элементов | collection2.stream().flatMap((p) -> Arrays.asList(p.split(",")).stream()).toArray(String[]::new) | [1, 2, 0, 4, 5] |
  Из второй коллекции получить сумму всех чисел, перечисленных через запятую | collection2.stream().flatMapToInt((p) -> Arrays.asList(p.split(",")).stream().mapToInt(Integer::parseInt)).sum() | 12 |
 
-Обратите внимание: все map функции могут вернуть объект другого типа (класса), то есть map может работать со стримом строк, а на выходе дать Stream из значений Integer или получать класс людей People, а возвращать класс Office, где эти люди работают и т.п., flatMap (flatMapToInt и т.п.) на выходе должны возвращать стрим с одним, несколькими или ни одним элементов для каждого элемента входящего стрима (см. последние два примера). Так же этот пример можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/MapTests.java)
+Обратите внимание: все map функции могут вернуть объект другого типа (класса), то есть map может работать со стримом строк, а на выходе дать Stream из значений Integer или получать класс людей People, а возвращать класс Office, где эти люди работают и т.п., flatMap (flatMapToInt и т.п.) на выходе должны возвращать стрим с одним, несколькими или ни одним элементов для каждого элемента входящего стрима (см. последние два примера). Подробный пример можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/MapTests.java)
 
 ### **3.5 Примеры использования Sorted функции**
 
@@ -197,7 +197,7 @@ Java Stream API предлагает два вида методов:
  Отсортировать коллекцию людей по имени в обратном алфавитном порядке | peoples.stream().sorted((o1,o2) -> -o1.getName().compareTo(o2.getName())).collect(Collectors.toList()) | [{'Петя'}, {'Иван Иванович'}, {'Елена'}, {'Вася'}] |
  Отсортировать коллекцию людей сначала по полу, а потом по возрасту | peoples.stream().sorted((o1, o2) -> o1.getSex() != o2.getSex() ? o1.getSex(). compareTo(o2.getSex()) : o1.getAge().compareTo(o2.getAge())).collect(Collectors.toList()) | [{'Вася'}, {'Петя'}, {'Иван Иванович'}, {'Елена'}] |
 
-Так же этот пример можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/SortedTests.java)
+Так же этот пример можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/SortedTests.java)
 
 ### **3.6 Примеры использования Max и Min функций**
 
@@ -210,11 +210,11 @@ Java Stream API предлагает два вида методов:
  Найдем человека с максимальным возрастом | peoples.stream().max((p1, p2) -> p1.getAge().compareTo(p2.getAge())).get() | {name='Иван Иванович', age=69, sex=MAN} |
  Найдем человека с минимальным возрастом | peoples.stream().min((p1, p2) -> p1.getAge().compareTo(p2.getAge())).get() | {name='Вася', age=16, sex=MAN} |
 
-Так же этот пример можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/MaxMinTests.java)
+Так же этот пример можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/MaxMinTests.java)
 
 ### **3.7 Примеры использования ForEach и Peek функций**
 
-Обе ForEach и Peek по сути делают одно и тоже, меняют свойства объектов в стриме, единственная разница между ними в том что ForEach терминальная и она заканчивает работу со стримом, в то время как Peek конвейерная и работа со стримом продолжается. Например, есть коллекция:  Collection <stringbuilder>list = Arrays.asList(new StringBuilder("a1"), new StringBuilder("a2"), new StringBuilder("a3")); И нужно добавить к каждому элементу "_new", то для ForEach код будет  list.stream().forEachOrdered((p) -> p.append("_new")); // list - содержит [a1_new, a2_new, a3_new] а для peek код будет  List <stringbuilder>newList = list.stream().peek((p) -> p.append("_new")).collect(Collectors.toList()); // и list и newList содержат [a1_new, a2_new, a3_new] Так же этот пример можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/ForEachAndPeekTests.java)
+Обе ForEach и Peek по сути делают одно и тоже, меняют свойства объектов в стриме, единственная разница между ними в том что ForEach терминальная и она заканчивает работу со стримом, в то время как Peek конвейерная и работа со стримом продолжается. Например, есть коллекция:  Collection <stringbuilder>list = Arrays.asList(new StringBuilder("a1"), new StringBuilder("a2"), new StringBuilder("a3")); И нужно добавить к каждому элементу "_new", то для ForEach код будет  list.stream().forEachOrdered((p) -> p.append("_new")); // list - содержит [a1_new, a2_new, a3_new] а для peek код будет  List <stringbuilder>newList = list.stream().peek((p) -> p.append("_new")).collect(Collectors.toList()); // и list и newList содержат [a1_new, a2_new, a3_new] Пример можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/ForEachAndPeekTests.java)
 
 ### **3.8 Примеры использования Reduce функции**
 
@@ -226,7 +226,7 @@ Java Stream API предлагает два вида методов:
  Вернуть максимум или -1 | collection.stream().reduce(Integer::max).orElse(-1) | 4 |
  Вернуть сумму нечетных чисел или 0 | collection.stream().filter(o -> o % 2 != 0).reduce((s1, s2) -> s1 + s2).orElse(0) | 4 |
 
-Также этот пример можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/ReduceTests.java)
+Пример можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/ReduceTests.java)
 
 ### **3.9 Примеры использования toArray и collect функции**
 
@@ -263,7 +263,7 @@ Java Stream API предлагает два вида методов:
  Преобразовать в map, сгруппировав по первому символу строки | strings.stream().collect(Collectors.groupingBy((p) -> p.substring(0, 1))) | {a=[a1, a1], b=[b2], c=[c3]} |
  Преобразовать в map, сгруппировав по первому символу строки и объединим вторые символы через : | strings.stream().collect(Collectors.groupingBy((p) -> p.substring(0, 1), Collectors.mapping((p) -> p.substring(1, 2), Collectors.joining(":")))) | {a=1:1, b=2, c=3} |
 
-Также примеры можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/CollectAndToArrayTests.java)
+Также примеры можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/CollectAndToArrayTests.java)
 
 ### **3.10 Пример создания собственного Collector'a**
 
@@ -309,7 +309,7 @@ Java Stream API предлагает два вида методов:
     // Используем его для получение списка строк без дубликатов из стрима 
     List distinct1 = strings.stream().distinct().collect(toList); 
 
-Так же примеры можно найти на [github'e](https://github.com/Vedenin/java_in_examples/blob/master/stream_api/src/com/github/vedenin/rus/stream_api/CollectAndToArrayTests.java)
+Так же примеры можно найти на [тут](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/functional_programming/jdk_stream_api/src/main/java/streamapi/CollectAndToArrayTests.java)
 
 ## **IV. Заключение**
 
