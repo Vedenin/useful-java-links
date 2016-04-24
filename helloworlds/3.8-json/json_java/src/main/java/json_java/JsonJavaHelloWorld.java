@@ -9,15 +9,20 @@ import org.json.JSONObject;
 public class JsonJavaHelloWorld {
 
     public static void main(String[] args) {
-        // convert Map to json
-        String json = new JSONObject().put("JSON", "Hello, World!").toString();
+        // convert Java to json
+        JSONObject root = new JSONObject();
+        root.put("message", "Hi");
+        JSONObject place = new JSONObject();
+        place.put("name", "World!");
+        root.put("place", place);
+        String json = root.toString();
         System.out.println(json);
 
         System.out.println();
-
-        // convert json to Map
+        // convert json to Java
         JSONObject jsonObject = new JSONObject(json);
-        String message = jsonObject.get("JSON").toString();
-        System.out.println(message);
+        String message = jsonObject.getString("message");
+        String name = jsonObject.getJSONObject("place").getString("name");
+        System.out.println(message + " " + name);
     }
 }
