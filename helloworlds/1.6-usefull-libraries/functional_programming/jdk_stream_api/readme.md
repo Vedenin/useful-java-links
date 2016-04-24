@@ -24,4 +24,17 @@
  18. Create stream from Pattern  | 	Pattern.compile(reg_exp).splitAsStream(string) |  Stream<String> streamFromPattern = Pattern.compile(":").splitAsStream("a1:a2:a3");
  19. Create stream from BufferedReader  | 	bufferedReader.lines() |  Stream<String> streamFromBufferedReader = bufferedReader.lines();
  20. Create stream from Enum  | 	EnumSet.allOf(MyEnum.class).stream() | Stream<MyEnum> streamFromEnum = EnumSet.allOf(MyEnum.class).stream();
-   
+
+###### II. Using filter, findFirst, findAny, skip, limit и count
+
+**Collection**: `Arrays.asList("a1", "a2", "a3", "a1")`
+
+Task | Example | Result |
+  -------------	 | 	-------------	 | 	-------------|
+ Return count the number of occurrences "a1" | collection.stream().filter("a1"::equals).count() | 2 |
+ Return first element of collection or "0", if collection is empty | collection.stream().findFirst().orElse(0) | a1 |
+ Return last element of collection or "empty", if collection is empty | collection.stream().skip(collection.size() - 1).findAny().orElse("empty") | a1 |
+ Find element == "a3" or throws exeption | collection.stream().filter("a3"::equals).findFirst().get() | a3 |
+ Return the third element from collection | collection.stream().skip(2).findFirst().get() | a3 |
+ Return two elements starting from second | collection.stream().skip(1).limit(2).toArray() | [a2, a3] |
+ Return all elements according template | collection.stream().filter((s) -> s.contains("1")).collect(Collectors.toList()) | [a1, a1] |
