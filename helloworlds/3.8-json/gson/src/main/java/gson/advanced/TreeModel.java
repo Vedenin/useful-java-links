@@ -5,9 +5,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 
 /**
  * Example of TreeModel (write and read)
@@ -42,8 +40,6 @@ public class TreeModel {
      * Example to writeJson using TreeModel
      */
     private static void writeJson() throws IOException {
-        OutputStream outputStream = new ByteArrayOutputStream();
-
         JsonObject rootObject = new JsonObject();
         rootObject.addProperty("message", "Hi");
         JsonObject childObject = new JsonObject();
