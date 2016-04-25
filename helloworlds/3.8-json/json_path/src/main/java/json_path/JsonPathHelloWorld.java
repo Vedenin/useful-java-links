@@ -22,6 +22,13 @@ public class JsonPathHelloWorld {
                 .read("$.store.book[?(@.price > 22)].title", List.class);
 
         System.out.println(expensiveBooks); // print ["Hello, Middle-earth! "]
+
+        System.out.println();
+        String jsonHiWorld = "{\"message\":\"Hi\",\"place\":{\"name\":\"World!\"}}\"";
+        String message = JsonPath.read(jsonHiWorld, "$.message");
+        String place = JsonPath.read(jsonHiWorld, "$.place.name");
+        System.out.println(message + " " + place); // print "Hi World!"
+
     }
 
     private final static String json = "{\n" +
