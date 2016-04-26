@@ -3,10 +3,11 @@
 ## Json Hello World examples
 
 The Json parsers libraries offers 3 main methods for processing JSON and 1 additional:
-1. **Data Binding** converts JSON to and from POJOs based either on property accessor conventions or annotations.
-2. **Tree Model** provides a mutable in-memory tree representation of a JSON document.
-3. **Streaming API** (aka "Incremental parsing/generation") reads and writes JSON content as discrete events.
-4 (additional) **XPath analog** - working with a JSON structure in the same way as XPath expression are used in combination with an XML document.
+
+  1. **Data Binding** converts JSON to and from POJOs based either on property accessor conventions or annotations.
+  2. **Tree Model** provides a mutable in-memory tree representation of a JSON document.
+  3. **Streaming API** (aka "Incremental parsing/generation") reads and writes JSON content as discrete events.
+  4. (additional) **XPath analog** - working with a JSON structure in the same way as XPath expression are used in combination with an XML document.
 
 ### 1. Json parsers overview 
 
