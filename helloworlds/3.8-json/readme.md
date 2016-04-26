@@ -2,7 +2,7 @@
 
 ## Json Hello World examples
 
-The Json parsers libraries offers 3 main methods for processing JSON and 1 additional:
+The Json parsers libraries offer 3 main methods for processing JSON and 1 additional:
 
   1. **Data Binding** converts JSON to and from POJOs based either on property accessor conventions or annotations.
   2. **Tree Model** provides a mutable in-memory tree representation of a JSON document.
