@@ -626,7 +626,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
     </build>
 ```
 - Save json shema to sourceDirectory 
-- After maven/install Java will be generated  
+- After maven/install Java classes will be generated  
 
 [Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jsonschema2pojo/pom.xml)
 
@@ -634,7 +634,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
 
 **Documentations for every library**:
 
-##### JSON парсеры
+##### JSON parsers
 1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)
 1.  [Gson](https://github.com/google/gson/blob/master/UserGuide.md)
 1.  [LoganSquare](https://github.com/bluelinelabs/LoganSquare#usage)
