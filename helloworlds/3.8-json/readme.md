@@ -1,4 +1,4 @@
-[To Hello World project](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds) / [To Useful Java links project](https://github.com/Vedenin/useful-java-links) 
+[To Useful Java links project](https://github.com/Vedenin/useful-java-links) / [To Hello World project](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds)  
 
 ## Json Hello World examples
 
