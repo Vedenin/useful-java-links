@@ -501,3 +501,146 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
 ```
  
 [Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+
+### 6 Generates Java classes from JSON or JSON Schema and JSON validation
+
+**Online resources**:
+  1. [jsonschema2pojo.org](http://www.jsonschema2pojo.org/) - generate Java classes from json or json schema with annotations Jackson 1, Jackson2 and Gson, 
+  2. [json-schema-validator.herokuapp.com](http://json-schema-validator.herokuapp.com/) - validation json using json schema, generate json/Java classes from json schema and so on, 
+
+**Examples**:
+1) Generation Java classes using jsonschema2pojo from Java code
+```java
+        // Init json
+        String source = "{\n" +
+                "  \"type\":\"object\",\n" +
+                "  \"properties\": {\n" +
+                "    \"messageHiWorld\": {\n" +
+                "      \"type\": \"string\"\n" +
+                "    },\n" +
+                "    \"bar\": {\n" +
+                "      \"type\": \"integer\"\n" +
+                "    },\n" +
+                "    \"baz\": {\n" +
+                "      \"type\": \"boolean\"\n" +
+                "    }\n" +
+                "  }\n" +
+                "}";
+
+        // Init config
+        JCodeModel codeModel = new JCodeModel();
+
+        GenerationConfig config = new DefaultGenerationConfig() {
+            @Override
+            public boolean isGenerateBuilders() { // set config option by overriding method
+                return true;
+            }
+        };
+
+        // Generate Java POJO from json
+        SchemaMapper mapper = new SchemaMapper(new RuleFactory(config, new Jackson2Annotator(), new SchemaStore()), new SchemaGenerator());
+        mapper.generate(codeModel, "HelloWorldClass", "com.github.vedenin", source);
+
+        // Save generated class to file
+        File directory = new File("helloworlds/3.8-json/jsonschema2pojo/output");
+        directory.mkdirs();
+        codeModel.build(directory);
+
+        // Show generated class
+        File cls = new File("helloworlds/3.8-json/jsonschema2pojo/output/com/github/vedenin/HelloWorldClass.java");
+        String codeHelloWorld = Files.toString(cls, Charsets.UTF_8);
+        System.out.println(codeHelloWorld);
+
+```
+[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo)
+
+2) Validate Json using json schema (using jsonschema2pojo)
+
+```java
+        final JsonNode fstabSchema = Utils.loadResource("/fstab.json");
+        final JsonNode good = Utils.loadResource("/fstab-good.json");
+        final JsonNode bad = Utils.loadResource("/fstab-bad.json");
+        final JsonNode bad2 = Utils.loadResource("/fstab-bad2.json");
+
+        final JsonSchemaFactory factory = JsonSchemaFactory.byDefault();
+
+        final JsonSchema schema = factory.getJsonSchema(fstabSchema);
+
+        ProcessingReport report;
+
+        report = schema.validate(good);
+        System.out.println(report);
+
+        report = schema.validate(bad);
+        System.out.println(report);
+
+        report = schema.validate(bad2);
+        System.out.println(report);
+```
+[Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator)
+
+3) Generation Java classes using jsonschema2pojo and maven plugin 
+
+- Using this maven pom.xml, change sourceDirectory and targetPackage
+```xml
+   <build>
+        <plugins>
+            <plugin>
+                <groupId>org.jsonschema2pojo</groupId>
+                <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+                <version>0.4.22</version>
+                <configuration>
+                    <sourceDirectory>${basedir}/src/main/resources</sourceDirectory>
+                    <targetPackage>com.github.vedenin</targetPackage>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+```
+- Save json shema to sourceDirectory 
+- After maven/install Java will be generated  
+
+[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jsonschema2pojo/pom.xml)
+
+## 7. Documentations 
+
+**Documentations for every library**:
+
+##### JSON парсеры
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)
+1.  [Gson](https://github.com/google/gson/blob/master/UserGuide.md)
+1.  [LoganSquare](https://github.com/bluelinelabs/LoganSquare#usage)
+1.  [JSON java](https://github.com/stleary/JSON-java)
+1.  [Square Moshi](https://github.com/square/moshi#moshi)
+1.  [Instagram Ig json parser](https://github.com/Instagram/ig-json-parser#getting-started)
+1.  [Jackson](https://github.com/FasterXML/jackson-docs)
+1.  [Genson](http://owlike.github.io/genson/Documentation/UserGuide/)
+
+
+##### Analog XPath for JSON
+1.  [Jayway JsonPath](https://github.com/jayway/JsonPath#getting-started) 
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)
+
+##### Generates Java types from JSON or JSON Schema or JSON validation
+1.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo/wiki/Getting-Started)
+1.  [Json schema validator](https://github.com/fge/json-schema-validator#read-me-first)
+
+**All examples**: 
+  1.  [Alibaba Fastjson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)
+  2.  [Gson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)
+  3.  [LoganSquare](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)
+  4.  [JSON java](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java)
+  5.  [Square Moshi](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)
+  6.  [Instagram Ig json parser](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser)
+  7.  [Jackson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)
+  8.  [Genson](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)
+  9.  [Jayway JsonPath](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+  10.  [Jsonschema2pojo](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo)
+  11.  [Json schema validator](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator)
