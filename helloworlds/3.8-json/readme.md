@@ -666,3 +666,5 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
   10.  [Jsonschema2pojo](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo)
   11.  [Json schema validator](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator)
   
+
+If you want to help this project, see this [guidelines](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/contributing.md)
