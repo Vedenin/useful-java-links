@@ -65,7 +65,7 @@
 1. Data bind | [Да ](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)| [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - 
 2. Tree Model | - | [Да ](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java) | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - 
 3. Streaming API | - | [Да ](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)| -  | - | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java) | - | - 
-4. Аналоги XPath | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+4. Аналоги XPath | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
 5. Генерация классов для Data bind | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | - | - | -
 6. Github's star | 4851 | 4120 | 2188  | 1937 | 1732 | 921 | 881 | 108 | 849
 7. Работает со static inner class | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | -
@@ -493,11 +493,11 @@ jsonString =
 ### 1.4 Использование аналогов XPath для json
 Методы:
 
-Действие	 | [JsonPath](https://github.com/jayway/JsonPath) | [FastJson](https://github.com/alibaba/fastjson) 
----------- 	 | --- | --- 
-Получение значения по фильтру | `JsonPath.read(<json>, <шаблон>)`  |  `JSONPath.eval(<java_объект>, <шаблон>)` 
-Получение коллекции по фильтру | `JsonPath.read(<json>, <шаблон>)`  |  `JSONPath.eval(<java_объект>, <шаблон>)` 
-
+Действие	 | [JsonPath](https://github.com/jayway/JsonPath) | [FastJson](https://github.com/alibaba/fastjson) | [Jackson](http://wiki.fasterxml.com/JacksonHome)
+---------- 	 | --- | --- | --- 
+Type  	 | [XPath-like](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path) | [XPath-like](https://github.com/alibaba/fastjson/wiki/JSONPath) | [JSON Pointer-like](https://tools.ietf.org/html/rfc6901)
+Получение значения по фильтру | `JsonPath.read(<json>, <шаблон>)`  |  `JSONPath.eval(<java_объект>, <шаблон>)` | `mapper.readTree(<json>).at(<template>)`
+Получение коллекции по фильтру | `JsonPath.read(<json>, <шаблон>)`  |  `JSONPath.eval(<java_объект>, <шаблон>)` | `mapper.readTree(<json>).at(<template>)`
 
 Давайте посмотрим примеры, будем использовать все тот же json
 ```javascript
@@ -592,6 +592,62 @@ jsonString =
  
 [Подробный пример](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
  
+4) C помощью Jackson
+```java
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonHiWorld = "{\"message\":\"Hi\",\"place\":{\"name\":\"World!\"}}\"";
+        String message = mapper.readTree(jsonHiWorld).at("/message").asText();
+        String place = mapper.readTree(jsonHiWorld).at("/place/name").asText();
+        System.out.println(message + " " + place); // print "Hi World!"
+```
+[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
+
+5) C помощью Jackson (  Более сложный пример )
+```java
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode root = mapper.readTree(json);
+        String author = root.at("/store/book/3/title").asText();
+        System.out.println(author); // print ["Hello, Middle-earth! "]
+        ...
+        private final static String json = "{\n" +
+            "    \"store\": {\n" +
+            "        \"book\": [\n" +
+            "            {\n" +
+            "                \"category\": \"reference\",\n" +
+            "                \"author\": \"Nigel Rees\",\n" +
+            "                \"title\": \"Sayings of the Century\",\n" +
+            "                \"price\": 8.95\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"category\": \"fiction\",\n" +
+            "                \"author\": \"Evelyn Waugh\",\n" +
+            "                \"title\": \"Sword of Honour\",\n" +
+            "                \"price\": 12.99\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"category\": \"fiction\",\n" +
+            "                \"author\": \"Herman Melville\",\n" +
+            "                \"title\": \"Moby Dick\",\n" +
+            "                \"isbn\": \"0-553-21311-3\",\n" +
+            "                \"price\": 8.99\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"category\": \"fiction\",\n" +
+            "                \"author\": \"J. R. R. Tolkien\",\n" +
+            "                \"title\": \"Hello, Middle-earth! \",\n" +
+            "                \"isbn\": \"0-395-19395-8\",\n" +
+            "                \"price\": 22.99\n" +
+            "            }\n" +
+            "        ],\n" +
+            "        \"bicycle\": {\n" +
+            "            \"color\": \"red\",\n" +
+            "            \"price\": 19.95\n" +
+            "        }\n" +
+            "    },\n" +
+            "    \"expensive\": 10\n" +
+            "}";
+```
+[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
 
 ## 2. Генерация Java классов по json схеме и валидация json 
 

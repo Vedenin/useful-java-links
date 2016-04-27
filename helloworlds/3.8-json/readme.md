@@ -16,7 +16,7 @@ The Json parsers libraries offer 3 main methods for processing JSON and 1 additi
 1. Data bind | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)| [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - 
 2. Tree Model | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java) | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - 
 3. Streaming API | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)| -  | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java) | - | - 
-4. Analog XPath | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+4. Analog XPath | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
 5. Generation classes at compile-time | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | - | - | -
 6. Github's star | 4851 | 4120 | 2188  | 1937 | 1732 | 921 | 881 | 108 | 849
 7. Working with static inner class | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | -
@@ -437,11 +437,13 @@ String value token | `writer.value(<string>)` |  `generator.writeStringField(<na
 ### 5 XPath analogs for json
 
 
-**Methods**: | [JsonPath](https://github.com/jayway/JsonPath) | [FastJson](https://github.com/alibaba/fastjson) 
----------- 	 | --- | --- 
-Get value using template | `JsonPath.read(<json>, <template>)`  |  `JSONPath.eval(<java_object>, <template>)` 
-Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPath.eval(<java_object>, <template>)` 
-
+**Methods**: | [JsonPath](https://github.com/jayway/JsonPath) | [FastJson](https://github.com/alibaba/fastjson) | [Jackson](http://wiki.fasterxml.com/JacksonHome)
+---------- 	 | --- | --- | --- 
+Type  	 | [XPath-like](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path) | [XPath-like](https://github.com/alibaba/fastjson/wiki/JSONPath) | [JSON Pointer-like](https://tools.ietf.org/html/rfc6901)
+Initialization | - | - | mapper = new ObjectMapper()
+Get value using template | `JsonPath.read(<json>, <template>)`  |  `JSONPath.eval(<java_object>, <template>)` | `mapper.readTree(<json>).at(<template>)`
+Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPath.eval(<java_object>, <template>)` | `mapper.readTree(<json>).at(<template>)` 
+ 
 
 1) Using JsonPath
 ```java
@@ -468,7 +470,7 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
 [Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java)
  
 
-1) More complex example using JsonPath 
+3) More complex example using JsonPath 
 
 ```java
         List<String> authors = JsonPath.read(json, "$.store.book[*].author");
@@ -522,6 +524,64 @@ Get collection using template | `JsonPath.read(<json>, <template>)`  |  `JSONPat
 ```
  
 [Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
+
+4) Using Jackson
+```java
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonHiWorld = "{\"message\":\"Hi\",\"place\":{\"name\":\"World!\"}}\"";
+        String message = mapper.readTree(jsonHiWorld).at("/message").asText();
+        String place = mapper.readTree(jsonHiWorld).at("/place/name").asText();
+        System.out.println(message + " " + place); // print "Hi World!"
+```
+[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
+
+5) Using Jackson ( More complex example)
+```java
+        ObjectMapper mapper = new ObjectMapper();
+        JsonNode root = mapper.readTree(json);
+        String author = root.at("/store/book/3/title").asText();
+        System.out.println(author); // print ["Hello, Middle-earth! "]
+        ...
+        private final static String json = "{\n" +
+            "    \"store\": {\n" +
+            "        \"book\": [\n" +
+            "            {\n" +
+            "                \"category\": \"reference\",\n" +
+            "                \"author\": \"Nigel Rees\",\n" +
+            "                \"title\": \"Sayings of the Century\",\n" +
+            "                \"price\": 8.95\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"category\": \"fiction\",\n" +
+            "                \"author\": \"Evelyn Waugh\",\n" +
+            "                \"title\": \"Sword of Honour\",\n" +
+            "                \"price\": 12.99\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"category\": \"fiction\",\n" +
+            "                \"author\": \"Herman Melville\",\n" +
+            "                \"title\": \"Moby Dick\",\n" +
+            "                \"isbn\": \"0-553-21311-3\",\n" +
+            "                \"price\": 8.99\n" +
+            "            },\n" +
+            "            {\n" +
+            "                \"category\": \"fiction\",\n" +
+            "                \"author\": \"J. R. R. Tolkien\",\n" +
+            "                \"title\": \"Hello, Middle-earth! \",\n" +
+            "                \"isbn\": \"0-395-19395-8\",\n" +
+            "                \"price\": 22.99\n" +
+            "            }\n" +
+            "        ],\n" +
+            "        \"bicycle\": {\n" +
+            "            \"color\": \"red\",\n" +
+            "            \"price\": 19.95\n" +
+            "        }\n" +
+            "    },\n" +
+            "    \"expensive\": 10\n" +
+            "}";
+```
+[Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java)
+
 
 ### 6 Generates Java classes from JSON or JSON Schema and JSON validation
 
