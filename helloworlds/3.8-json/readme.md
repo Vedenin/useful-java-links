@@ -11,16 +11,16 @@ The Json parsers libraries offer 3 main methods for processing JSON and 1 additi
 
 ### 1. Json parsers overview 
 
-**Property** | [Fastjson ](https://github.com/alibaba/fastjson)| [Gson](https://github.com/google/gson) |  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) | [JSON java](https://github.com/stleary/JSON-java) |  [Moshi](https://github.com/square/moshi) | [Ig json parser](https://github.com/Instagram/ig-json-parser) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [Genson](http://owlike.github.io/genson/) | [JsonPath](https://github.com/jayway/JsonPath) 
- ----------	 | --- | --- |  --- | --- |  --- | --- | --- | --- | --- 
-1. Data bind | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)| [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - 
-2. Tree Model | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java) | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - 
+**Property** | [Fastjson ](https://github.com/alibaba/fastjson)| [Gson](https://github.com/google/gson) |  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) | [JSON java](https://github.com/stleary/JSON-java) |  [Moshi](https://github.com/square/moshi) | [Ig json parser](https://github.com/Instagram/ig-json-parser) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [Genson](http://owlike.github.io/genson/) | [JsonPath](https://github.com/jayway/JsonPath) | [JSON.simple](https://github.com/fangyidong/json-simple) 
+ ----------	 | --- | --- |  --- | --- |  --- | --- | --- | --- | --- | ---
+1. Data bind | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)| [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - | - 
+2. Tree Model | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java) | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_simple) 
 3. Streaming API | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)| -  | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java) | - | - 
-4. Analog XPath | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
-5. Generation classes at compile-time | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | - | - | -
-6. Github's star | 4851 | 4120 | 2188  | 1937 | 1732 | 921 | 881 | 108 | 849
-7. Working with static inner class | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | -
-8. Required annotations | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)  | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)  | -
+4. Analog XPath | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Yes](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)| -
+5. Generation classes at compile-time | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | - | - | -| -
+6. Github's star | 4851 | 4120 | 2188  | 1937 | 1732 | 921 | 881 | 108 | 849 | 161
+7. Working with static inner class | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - | -
+8. Required annotations | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)  | [Yes](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)  | [No](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)  | - | -
 
 From [useful-java-links](#useful-java-links):
 
@@ -32,8 +32,8 @@ From [useful-java-links](#useful-java-links):
 1.  [Square Moshi](https://github.com/square/moshi) A modern JSON library for Android and Java , github's star - 1732. [User guide](https://github.com/square/moshi#moshi) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Instagram Ig json parser](https://github.com/Instagram/ig-json-parser) Fast JSON parser for java projects, github's star - 921. [User guide](https://github.com/Instagram/ig-json-parser#getting-started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser). License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Jackson](http://wiki.fasterxml.com/JacksonHome) - Similar to GSON but has performance gains if you need to instantiate the library more often. Subprojects: [Jackson core](https://github.com/FasterXML/jackson-core) Core part of Jackson, [Jackson databind](https://github.com/FasterXML/jackson-databind) Core part of Jackson that defines Streaming API as well as basic shared abstractions, github's star - 881. [User guide](https://github.com/FasterXML/jackson-docs) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Genson](http://owlike.github.io/genson/) -Powerful and easy to use Java to JSON conversion library, github's star - 108. [User guide](http://owlike.github.io/genson/Documentation/UserGuide/) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JSON.simple](https://github.com/fangyidong/json-simple) - A simple Java toolkit for JSON. You can use json-simple to encode or decode JSON text, github's star - 161. [User guide](https://code.google.com/archive/p/json-simple/wikis) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_simple). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Genson](http://owlike.github.io/genson/) -Powerful and easy to use Java to JSON conversion library, github's star - 108. [User guide](http://owlike.github.io/genson/Documentation/UserGuide/) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ##### Analog XPath for JSON
 1.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath implementation, github's star - 849.  [User guide](https://github.com/jayway/JsonPath#getting-started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -229,22 +229,22 @@ public class Human {
 
 **Parsing json**:
 
-**Methods**	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java)
----------- 	 | --- | --- |  --- 
-Initialization | `JsonParser parser = new JsonParser()` |  `new ObjectMapper()` |  - 
-Json parsing	 |  `parser.parse(<string>)` | `mapper.readValue(<string>, JsonNode.class)` |  `new JSONObject(<string>)` 
-Get main object | `root.getAsJsonObject()` | - |  - 
-Get string value | `root.get(<name>).getAsString()` | `root.get(<name>).asText()` |  `root.getString(<name>)` 
-Get child object | `root.getAsJsonObject(<name>)` | `root.get(<name>)` |  `root.getJSONObject(<name>)` 
+**Methods**	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java) | [JSON.simple](https://github.com/fangyidong/json-simple)
+---------- 	 | --- | --- |  --- |  --- 
+Initialization | `JsonParser parser = new JsonParser()` |  `new ObjectMapper()` |  - |  -
+Json parsing	 |  `parser.parse(<string>)` | `mapper.readValue(<string>, JsonNode.class)` |  `new JSONObject(<string>)` | `(JSONObject) JSONValue.parse(<string>)` 
+Get main object | `root.getAsJsonObject()` | - |  - |  -
+Get string value | `root.get(<name>).getAsString()` | `root.get(<name>).asText()` |  `root.getString(<name>)` |  `(String) root.get(<name>)` 
+Get child object | `root.getAsJsonObject(<name>)` | `root.get(<name>)` |  `root.getJSONObject(<name>)` | `(JSONObject) root.get(<name>)`
 
 **Building json**:
 
-**Methods**	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java)
----------- 	 | --- | --- |  --- 
-Initialization| -  |  `new ObjectMapper()` |  - 
-Create main object| `new JsonObject()` |  `mapper.createObjectNode()` |  `new JSONObject()`
-Add string field | `root.addProperty(<name>, <string>)` | `root.put(<name>, <string>)` |  `root.put(<name>, <string>)` 
-Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   `root.put(<name>, <object>)` 
+**Methods**	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java) | [JSON.simple](https://github.com/fangyidong/json-simple)
+---------- 	 | --- | --- |  --- |  --- 
+Initialization| -  |  `new ObjectMapper()` |  - |  - 
+Create main object| `new JsonObject()` |  `mapper.createObjectNode()` |  `new JSONObject()` |  `new JSONObject()`
+Add string field | `root.addProperty(<name>, <string>)` | `root.put(<name>, <string>)` |  `root.put(<name>, <string>)` |  `root.put(<name>, <string>)` 
+Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   `root.put(<name>, <object>)` |  `root.put(<name>, <object>)`
 
 **Examples:** 
 
@@ -326,7 +326,32 @@ Add child object | `root.add(<name>, <object>);` | `root.putObject(<name>)` |   
         System.out.println(message + " " + name); // print "Hi World!"
 ```
 [Full example](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java)
+
+ 6) Parsing json using JSON.simple
+ ```java
  
+        JSONObject obj = (JSONObject) JSONValue.parse(json);
+        String message = (String) obj.get("message");
+        place = (JSONObject) obj.get("place");
+        String name = (String) place.get("name");
+        System.out.println(message + " " + name);
+  ```
+ [Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
+  
+ 7) Building json using JSON.simple
+ 
+ ```java
+ 
+         JSONObject root = new JSONObject();
+         root.put("message", "Hi");
+         JSONObject place = new JSONObject();
+         place.put("name", "World!");
+         root.put("place", place);
+         String json = root.toJSONString();
+         System.out.println(json);
+ ```
+ [Full example](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
+
 
 
 ### 4 Json parsers using Streaming API

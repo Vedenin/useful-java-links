@@ -61,16 +61,16 @@
 ### 1.1 Обзор библиотек 
 
 
-Способ	 | [Fastjson ](https://github.com/alibaba/fastjson)| [Gson](https://github.com/google/gson) |  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) | [JSON java](https://github.com/stleary/JSON-java) |  [Moshi](https://github.com/square/moshi) | [Ig json parser](https://github.com/Instagram/ig-json-parser) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [Genson](http://owlike.github.io/genson/) | [JsonPath](https://github.com/jayway/JsonPath) 
- ----------	 | --- | --- |  --- | --- |  --- | --- | --- | --- | --- 
-1. Data bind | [Да ](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)| [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - 
-2. Tree Model | - | [Да ](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java) | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - 
-3. Streaming API | - | [Да ](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)| -  | - | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java) | - | - 
-4. Аналоги XPath | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path)
-5. Генерация классов для Data bind | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | - | - | -
-6. Github's star | 4851 | 4120 | 2188  | 1937 | 1732 | 921 | 881 | 108 | 849
-7. Работает со static inner class | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | -
-8. Обязательность аннотаций | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)  | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)  | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)  | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)| -
+Способ	 | [Fastjson ](https://github.com/alibaba/fastjson)| [Gson](https://github.com/google/gson) |  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) | [JSON java](https://github.com/stleary/JSON-java) |  [Moshi](https://github.com/square/moshi) | [Ig json parser](https://github.com/Instagram/ig-json-parser) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [Genson](http://owlike.github.io/genson/) | [JsonPath](https://github.com/jayway/JsonPath) | [JSON.simple](https://github.com/fangyidong/json-simple) 
+ ----------	 | --- | --- |  --- | --- |  --- | --- | --- | --- | --- | --- | ---
+1. Data bind | [Да ](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson)| [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - | - 
+2. Tree Model | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/TreeModel.java)| -  | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java) | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/TreeModel.java) | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_simple) 
+3. Streaming API | - | [Да ](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/gson/src/main/java/gson/advanced/StreamingAPI.java)| -  | - | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/StreamingAPI.java) | - | - | - 
+4. Аналоги XPath | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/fastjson/src/main/java/fastjson/JsonPathHelloWorld.java) | - | -  | - | - | - | [Да](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/jackson/src/main/java/jackson/advanced/JsonPointerHelloWorld.java) | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path) | -
+5. Генерация классов для Data bind | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare)  | - | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | - | - | - | -
+6. Github's star | 4851 | 4120 | 2188  | 1937 | 1732 | 921 | 881 | 108 | 849 | 161
+7. Работает со static inner class | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson) | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson) | - | -
+8. Обязательность аннотаций | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)  | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare) | - | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi)  | [Да](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/ig_json_parser) | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jackson)  | [Нет](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson)| - | -
 
 По ссылкам на **Да** можно найти примеры использования. 
 
@@ -272,22 +272,22 @@ jsonString =
 
 Методы парсинга json'a:
 
-Действие	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java)
----------- 	 | --- | --- |  --- 
-Инициализация| `JsonParser parser = new JsonParser()` |  `new ObjectMapper()` |  - 
-Парсинг json'a	 |  `parser.parse(<строка>)` | `mapper.readValue(<строка>, JsonNode.class)` |  `new JSONObject(<строка>)` 
-Получение главного объекта | `root.getAsJsonObject()` | - |  - 
-Получение строки | `root.get(<имя>).getAsString()` | `root.get(<имя>).asText()` |  `root.getString(<имя>)` 
-Получение дочернего объекта | `root.getAsJsonObject(<имя>)` | `root.get(<имя>)` |  `root.getJSONObject(<имя>)` 
+Действие	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java) | [JSON.simple](https://github.com/fangyidong/json-simple) | 
+---------- 	 | --- | --- |  --- |  --- 
+Инициализация| `JsonParser parser = new JsonParser()` |  `new ObjectMapper()` |  - |  - 
+Парсинг json'a	 |  `parser.parse(<строка>)` | `mapper.readValue(<строка>, JsonNode.class)` |  `new JSONObject(<строка>)` | `(JSONObject) JSONValue.parse(<строка>)`
+Получение главного объекта | `root.getAsJsonObject()` | - |  - |  -
+Получение строки | `root.get(<имя>).getAsString()` | `root.get(<имя>).asText()` |  `root.getString(<имя>)` |  `(String) root.get(<имя>)` 
+Получение дочернего объекта | `root.getAsJsonObject(<имя>)` | `root.get(<имя>)` |  `root.getJSONObject(<имя>)` | `(JSONObject) root.get(<имя>)`
 
 Методы генерации json'a:
 
-Действие	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java)
----------- 	 | --- | --- |  --- 
-Инициализация| -  |  `new ObjectMapper()` |  - 
-Создание главного объекта| `new JsonObject()` |  `mapper.createObjectNode()` |  `new JSONObject()`
-Добавить строковое поле | `root.addProperty(<имя>, <строка>)` | `root.put(<имя>, <строка>)` |  `root.put(<имя>, <строка>)` 
-Добавить дочерний объект | `root.add(<имя>, <объект>);` | `root.putObject(<имя>)` |   `root.put(<имя>, <объект>)` 
+Действие	 | [Gson](https://github.com/google/gson) | [Jackson](http://wiki.fasterxml.com/JacksonHome) | [JSON java](https://github.com/stleary/JSON-java) | [JSON.simple](https://github.com/fangyidong/json-simple)
+---------- 	 | --- | --- |  --- |  --- 
+Инициализация| -  |  `new ObjectMapper()` |  - |  - 
+Создание главного объекта| `new JsonObject()` |  `mapper.createObjectNode()` |  `new JSONObject()` |  `new JSONObject()`
+Добавить строковое поле | `root.addProperty(<имя>, <строка>)` | `root.put(<имя>, <строка>)` |  `root.put(<имя>, <строка>)` |  `root.put(<имя>, <строка>)` 
+Добавить дочерний объект | `root.add(<имя>, <объект>);` | `root.putObject(<имя>)` |   `root.put(<имя>, <объект>)` |   `root.put(<имя>, <объект>)`  
 
 
 Примеры: 
@@ -371,6 +371,30 @@ jsonString =
         System.out.println(message + " " + name); // напечатает "Hi World!"
 ```
 [Подробный пример](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java)
+
+6) Чтение JSON.simple
+
+```java
+        JSONObject obj = (JSONObject) JSONValue.parse(json);
+        String message = (String) obj.get("message");
+        place = (JSONObject) obj.get("place");
+        String name = (String) place.get("name");
+        System.out.println(message + " " + name);
+```
+[Подробный пример](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
+
+7) Генерация JSON.simple
+
+```java
+         JSONObject root = new JSONObject();
+         root.put("message", "Hi");
+         JSONObject place = new JSONObject();
+         place.put("name", "World!");
+         root.put("place", place);
+         String json = root.toJSONString();
+         System.out.println(json);
+```
+[Подробный пример](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/3.8-json/json_simple/src/main/java/json_simple/JsonSimpleHelloWorld.java)
 
 
 В общем, можно заметить что во всех библиотеках выполняются примерно те же действия, отличаются только названия классов.
