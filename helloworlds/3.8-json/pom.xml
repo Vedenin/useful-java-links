@@ -23,5 +23,6 @@
         <module>json_schema_validator</module>
         <module>genson</module>
         <module>logansquare</module>
+        <module>json_simple</module>
     </modules>
 </project>
