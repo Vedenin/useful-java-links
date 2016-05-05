@@ -24,5 +24,6 @@
         <module>genson</module>
         <module>logansquare</module>
         <module>json_simple</module>
+        <module>minimal-json</module>
     </modules>
 </project>
