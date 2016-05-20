@@ -5,10 +5,10 @@
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
 
 
-    <bean id="Notifier" class="xml.jsr300.XmlConstructorInject$Notifier">
+    <bean id="Notifier" class="xml.jsr330.XmlConstructorInject$Notifier">
         <constructor-arg ref="NotificationService" />
     </bean>
 
-    <bean id="NotificationService" class="xml.jsr300.XmlConstructorInject$EMailService"></bean>
+    <bean id="NotificationService" class="xml.jsr330.XmlConstructorInject$EMailService"></bean>
 
 </beans>

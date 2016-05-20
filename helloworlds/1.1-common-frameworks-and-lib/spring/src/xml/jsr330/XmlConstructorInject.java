@@ -1,18 +1,15 @@
-package jsr300;
+package xml.jsr330;
 
-
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import javax.inject.Inject;
 
 /**
- * Hello World using jsr300 annotation
+ * Hello World using jsr330 annotation and XML config
  *
  * Created by vvedenin on 11/14/2015.
  */
-public class SpringSimpleInject {
+public class XmlConstructorInject {
     public static class Notifier {
         private final NotificationService service;
 
@@ -36,21 +33,9 @@ public class SpringSimpleInject {
         void send(String message);
     }
 
-    @Configuration
-    public static class DIConfiguration {
-        @Bean
-        public Notifier getNotifier(NotificationService service){
-            return new Notifier(service);
-        }
-
-        @Bean
-        public NotificationService getNotificationService(){
-            return new EMailService();
-        }
-    }
-
     public static void main(String[] args)  throws Exception {
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+                "constructorInject.xml");
         Notifier notifier =  context.getBean(Notifier.class);
         notifier.send("Hello world!"); // Print "I send email: Hello world!"
     }
