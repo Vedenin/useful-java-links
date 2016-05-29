@@ -18,21 +18,26 @@
 | Immutable and sorted | [ImmutableSortedMultiset](http://google.github.io/guava/releases/snapshot/api/docs/com/google/common/collect/ImmutableSortedMultiset.html) | [UnmodifiableSortedBag](http://commons.apache.org/proper/commons-collections/javadocs/api-3.2.1/org/apache/commons/collections/bag/UnmodifiableSortedBag.html) | [UnmodifiableSortedBag](UnmodifiableSortedBag) | [Collections.unmodifiableSortedMap(TreeMap<string, integer="">)</string,>](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) |
 
 ##### **Examples using MultiSet/Bag**
-I. Apache Collection:
-1. [HashBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheHashBagTest.java)
-2. [SynchronizedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheSynchronizedBagTest.java)
-3. [SynchronizedSortedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheSynchronizedSortedBagTest.java)
-4. [TreeBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheTreeBagTest.java)
+**Task**: Parse "Hello World! Hello All! Hi World!" string to separate words and print the number of occurrences of every word using MultiSet/Bag (for example, Hello = 2, Hi =1 and so on) 
 
-II. GS / Eclipse Collection
-5. [MutableBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse/src/GsMutableBagTest.java)
-6. [MutableSortedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse/src/GsMutableSortedBagTest.java)
+#######  I. Apache Collection:
 
-III. Guava
-7. [HashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/guava/src/GuavaHashMultisetTest.java)
-8. [TreeMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/TreeMultisetTest.java)
-9. [LinkedHashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/LinkedHashMultisetTest.java)
-10. [ConcurrentHashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/ConcurrentHashMultisetTest.java)
+   1. [HashBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheHashBagTest.java) - order not defined
+   2. [SynchronizedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheSynchronizedBagTest.java) - concurrent and order not defined
+   3. [SynchronizedSortedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheSynchronizedSortedBagTest.java) - - concurrent and sorted order 
+   4. [TreeBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheTreeBagTest.java) - sorted order
+
+####### II. GS / Eclipse Collection
+
+   5. [MutableBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse/src/GsMutableBagTest.java) - order not defined
+   6. [MutableSortedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse/src/GsMutableSortedBagTest.java) - sorted order
+
+####### III. Guava
+
+   7. [HashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/guava/src/GuavaHashMultisetTest.java) - order not defined
+   8. [TreeMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/TreeMultisetTest.java) - sorted order
+   9. [LinkedHashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/LinkedHashMultisetTest.java) - insertion order
+   10. [ConcurrentHashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/ConcurrentHashMultisetTest.java) - concurrent and order not defined 
         
 
 #### 2.2 Multimap in Guava, Apache Commons Collections and Eclipse (GS) Collections
