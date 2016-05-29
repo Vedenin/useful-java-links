@@ -18,7 +18,21 @@
 | Immutable and sorted | [ImmutableSortedMultiset](http://google.github.io/guava/releases/snapshot/api/docs/com/google/common/collect/ImmutableSortedMultiset.html) | [UnmodifiableSortedBag](http://commons.apache.org/proper/commons-collections/javadocs/api-3.2.1/org/apache/commons/collections/bag/UnmodifiableSortedBag.html) | [UnmodifiableSortedBag](UnmodifiableSortedBag) | [Collections.unmodifiableSortedMap(TreeMap<string, integer="">)</string,>](https://docs.oracle.com/javase/8/docs/api/java/util/Collections.html) |
 
 ##### **Examples using MultiSet/Bag**
-*In progress*
+I. Apache Collection:
+1. [HashBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheHashBagTest.java)
+2. [SynchronizedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheSynchronizedBagTest.java)
+3. [SynchronizedSortedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheSynchronizedSortedBagTest.java)
+4. [TreeBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/apache-commons/src/ApacheTreeBagTest.java)
+
+II. GS / Eclipse Collection
+5. [MutableBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse/src/GsMutableBagTest.java)
+6. [MutableSortedBag](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse/src/GsMutableSortedBagTest.java)
+
+III. Guava
+7. [HashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections/guava/src/GuavaHashMultisetTest.java)
+8. [TreeMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/TreeMultisetTest.java)
+9. [LinkedHashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/LinkedHashMultisetTest.java)
+10. [ConcurrentHashMultiset](https://github.com/Vedenin/useful-java-links/blob/master/helloworlds/1.6-usefull-libraries/collections//src/ConcurrentHashMultisetTest.java)
         
 
 #### 2.2 Multimap in Guava, Apache Commons Collections and Eclipse (GS) Collections
