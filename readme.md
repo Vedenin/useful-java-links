@@ -77,7 +77,8 @@ It's fork of [awesome link](https://github.com/akullpp/awesome-java) with new st
     - [4. Code Analysis](#4-code-analysis)
     - [5. Monitoring](#5-monitoring)
     - [6. Redefinition of classes at runtime](#6-redefinition-of-classes-at-runtime)
-    - [7. Other](#7-other)
+    - [7. Documentation](#7-documentation)
+    - [8. Other](#8-other)
 
 - [VI. Program languages and applications, that was written with Java](#vi-program-languages-and-applications-that-was-written-with-java)
     - [1. Program languages, that was written with Java](#1--program-languages-that-was-written-with-java)
@@ -1119,7 +1120,12 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [JRebel](http://zeroturnaround.com/software/jrebel/) - Reload code changes instantly. Skip the build and redeploy process. JRebel reloads changes to Java classes, resources, and over 90 frameworks. *License: proprietary*![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Java agent that enables class reloading in a running JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 7. Other
+### 7. Documentation
+[Up](#useful-java-links)
+
+1. [Pegdown-doclet:](https://github.com/Abnaxos/pegdown-doclet) A Doclet that allows the use of Markdown ([Pegdown](https://github.com/sirthias/pegdown)) and [PlantUML](http://plantuml.com/) in JavaDoc comments. License: [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0-standalone.html), github's star - 144. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+
+### 8. Other
 [Up](#useful-java-links)
 
 1.  [Google J2ObjC:](https://github.com/google/j2objc) A Java to iOS Objective-C translation tool and runtime. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 2940. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
