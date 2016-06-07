@@ -1123,7 +1123,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 ### 7. Documentation
 [Up](#useful-java-links)
 
-1. [Pegdown-doclet](https://github.com/Abnaxos/pegdown-doclet) A Doclet that allows the use of Markdown ([Pegdown](https://github.com/sirthias/pegdown)) and [PlantUML](http://plantuml.com/) in JavaDoc comments. License: [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0-standalone.html), github's star - 144.
+1. [Pegdown-doclet:](https://github.com/Abnaxos/pegdown-doclet) A Doclet that allows the use of Markdown ([Pegdown](https://github.com/sirthias/pegdown)) and [PlantUML](http://plantuml.com/) in JavaDoc comments. License: [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0-standalone.html), github's star - 144. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 8. Other
 [Up](#useful-java-links)
