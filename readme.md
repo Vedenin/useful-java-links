@@ -60,7 +60,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
     - [15. Native](#15-native)
     - [16. XML and SOAP](#16-xml-and-soap)
     - [17. Geospatial Service Interation](#17-geospatial-service-interation)
-    - [18. Reverse Proxies](#18-reverse-proxies)    
+    - [18. Reverse Proxy Servers](#18-reverse-proxy-servers)    
 
 - [IV. Testing](#iv-testing)
     - [1. Testing](#1-testing)
