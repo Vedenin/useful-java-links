@@ -59,7 +59,8 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
     - [14. Document Processing (XLS, DOC and PDF)](#14-document-processing-xls-doc-and-pdf)
     - [15. Native](#15-native)
     - [16. XML and SOAP](#16-xml-and-soap)
-    - [17. Geospatial Service Interation](#17-geospatial-service-interation)    
+    - [17. Geospatial Service Interation](#17-geospatial-service-interation)
+    - [18. Reverse Proxies](#18-reverse-proxies)    
 
 - [IV. Testing](#iv-testing)
     - [1. Testing](#1-testing)
@@ -937,6 +938,11 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [JTS Topology Suite](http://www.vividsolutions.com/jts/JTSHome.htm) - An API of 2D spatial predicates and functions. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Mapsforge](https://github.com/mapsforge/mapsforge/) - Software for the rendering of maps based on OpenStreetMap data. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Spatial4j](https://github.com/locationtech/spatial4j/) - General purpose spatial/geospatial ASL licensed open-source Java library.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+### 18. Reverse Proxy Servers
+*Servers which accept client requests and direct them to the approriate backend service.*
+
+1.  [Membrane Service Proxy](https://github.com/membrane/service-proxy) An open source, reverse HTTP proxy framework written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 106. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ## IV. Testing
 ### 1. Testing
