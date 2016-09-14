@@ -59,7 +59,8 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
     - [14. Document Processing (XLS, DOC and PDF)](#14-document-processing-xls-doc-and-pdf)
     - [15. Native](#15-native)
     - [16. XML and SOAP](#16-xml-and-soap)
-    - [17. Geospatial Service Interation](#17-geospatial-service-interation)    
+    - [17. Geospatial Service Interation](#17-geospatial-service-interation)
+    - [18. Reverse Proxy Servers](#18-reverse-proxy-servers)
 
 - [IV. Testing](#iv-testing)
     - [1. Testing](#1-testing)
@@ -225,6 +226,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Jake2](http://bytonic.de/html/jake2.html) Java port of the Quake II game engine. 2D. Cross-platform License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Jogre](http://jogre.sourceforge.net/) - JOGRE (Java Online Gaming Real-time Engine) which is an open-source, online, real-time gaming engine and API programmed entirely in Java. License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Elflight Engine](https://en.wikipedia.org/wiki/Elflight_Engine) - Targeted for web based games. **License: Proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [FXGL](https://github.com/AlmasB/FXGL) - JavaFX Game Development Framework. License: [MIT](https://opensource.org/licenses/MIT), github's star - 110. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Usefull libraries
 [Up](#useful-java-links)
@@ -241,6 +243,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [HPPC](http://labs.carrotsearch.com/hppc.html) - HPPC provides template-generated implementations of typical collections, such as lists, sets and maps, for all Java primitive types. The primary driving force behind HPPC is optimization for highest performance and memory efficiency. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Koloboke](https://github.com/OpenHFT/Koloboke) - Java Collections till the last breadcrumb of memory and performance . This library is a carefully designed and efficient extension of the Java Collections Framework with primitive specializations and more. Java 6+. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Trove](http://trove.starlight-systems.com/) - The Trove library provides high speed regular and primitive collections for Java.  License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [underscore-java](http://javadev.github.io/underscore-java/) - Underscore-java is a java port of Underscore.js. In addition to porting Underscore's functionality, Underscore-java includes matching unit tests. License: [MIT](https://opensource.org/licenses/MIT) , github's star - 95. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Date and Time
 
@@ -423,7 +426,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Michael Thomas Flanagan's Java Scientific Library](http://www.ee.ucl.ac.uk/~mflanaga/java/) General classes of a Java scientific and numerical library written by Michael Thomas Flanagan to support both his own research and his undergraduate programming courses and projects. License: only for non-commercial use.
 
 ### 11. OSGI
-1.  [ACE](http://accumulo.apache.org/) Apache ACE is a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [ACE](https://ace.apache.org/) Apache ACE is a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Aries](http://aries.apache.org/) The Aries project consists of a set of pluggable Java components enabling an enterprise OSGi application programming model. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Felix](http://felix.apache.org/) OSGi framework implementation and related technologies. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Karaf](http://karaf.apache.org)  Apache Karaf is an OSGi distribution for server-side applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -937,6 +940,11 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [JTS Topology Suite](http://www.vividsolutions.com/jts/JTSHome.htm) - An API of 2D spatial predicates and functions. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Mapsforge](https://github.com/mapsforge/mapsforge/) - Software for the rendering of maps based on OpenStreetMap data. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Spatial4j](https://github.com/locationtech/spatial4j/) - General purpose spatial/geospatial ASL licensed open-source Java library.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+### 18. Reverse Proxy Servers
+*Servers which accept client requests and direct them to the approriate backend service.*
+
+1.  [Membrane Service Proxy](https://github.com/membrane/service-proxy) An open source, reverse HTTP proxy framework written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , github's star - 106. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ## IV. Testing
 ### 1. Testing
