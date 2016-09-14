@@ -225,6 +225,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Jake2](http://bytonic.de/html/jake2.html) Java port of the Quake II game engine. 2D. Cross-platform License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Jogre](http://jogre.sourceforge.net/) - JOGRE (Java Online Gaming Real-time Engine) which is an open-source, online, real-time gaming engine and API programmed entirely in Java. License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Elflight Engine](https://en.wikipedia.org/wiki/Elflight_Engine) - Targeted for web based games. **License: Proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [FXGL](https://github.com/AlmasB/FXGL) - JavaFX Game Development Framework. License: [MIT](https://opensource.org/licenses/MIT), github's star - 110. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Usefull libraries
 [Up](#useful-java-links)
