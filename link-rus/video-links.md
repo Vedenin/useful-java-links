@@ -269,6 +269,8 @@
 
 1.  [Николай Алименков — Босиком по граблям Hibernate](https://www.youtube.com/watch?v=YzOTZTt-PR0)
 2.  [Яков Сироткин, Sidenis — Миграция с PL/SQL на Java](https://www.youtube.com/watch?v=uAOinr8StoQ)
+3.  [Николай Алименков, Игорь Дмитриев — Hibernate, how the magic is really done?](https://www.youtube.com/watch?v=-EpP0Vo63FM)
+4.  [Николай Алименков, Игорь Дмитриев — Hibernate performance tuning](https://www.youtube.com/watch?v=V-ljsrVy6pE)
 
 ### 5.3 Поисковые системы
 
