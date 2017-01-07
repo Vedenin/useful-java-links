@@ -13,5 +13,6 @@
 
     <modules>
         <module>cucumber</module>
+        <module>mockito</module>
     </modules>
 </project>
