@@ -229,7 +229,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Elflight Engine](https://en.wikipedia.org/wiki/Elflight_Engine) - Targeted for web based games. **License: Proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [FXGL](https://github.com/AlmasB/FXGL) - JavaFX Game Development Framework. License: [MIT](https://opensource.org/licenses/MIT), [![GitHub stars](https://img.shields.io/github/stars/AlmasB/FXGL.svg?style=social&label=Star&maxAge=2592000)](https://github.com/AlmasB/FXGL). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 6. Usefull libraries
+### 6. Useful libraries
 [Up](#useful-java-links)
 
 #### Collections
