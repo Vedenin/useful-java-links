@@ -1136,7 +1136,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 ### 7. Documentation
 [Up](#useful-java-links)
 
-1. [Pegdown-doclet:](https://github.com/Abnaxos/pegdown-doclet) A Doclet that allows the use of Markdown ([Pegdown](https://github.com/sirthias/pegdown)) and [PlantUML](http://plantuml.com/) in JavaDoc comments. License: [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0-standalone.html), [![GitHub stars](https://img.shields.io/github/stars/Abnaxos/pegdown-doclet.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Abnaxos/pegdown-doclet). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+1. [Markdown-doclet:](https://github.com/Abnaxos/markdown-doclet) A Doclet that allows the use of Markdown ([Pegdown](https://github.com/sirthias/pegdown)) and [PlantUML](http://plantuml.com/) in JavaDoc comments. License: [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0-standalone.html), [![GitHub stars](https://img.shields.io/github/stars/Abnaxos/markdown-doclet.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Abnaxos/markdown-doclet). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 8. Other
 [Up](#useful-java-links)
