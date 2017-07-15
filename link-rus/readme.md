@@ -1,10 +1,10 @@
 # Список полезных ссылок для Java программиста
 
-В данном файле собрано большое количество ссылок по разделам на полезные Java библиотеки и фреймворки и краткое описание, так же указан рейтинг на github (star), лицензия или лицензии под которым выложен код библиотеки и возможно или нет линковать данную библиотеку с коммерческим закрытым ПО (строгость копилефта). 
+В данном файле собрано большое количество ссылок по разделам на полезные Java библиотеки и фреймворки и краткое описание, так же указан рейтинг на github (star), лицензия или лицензии под которым выложен код библиотеки и возможно или нет линковать данную библиотеку с коммерческим закрытым ПО (строгость копилефта).
 
 В данный файл включен как перевод [awesome link](https://github.com/akullpp/awesome-java), так и все немобильные проекты github'a c количеством star более 390, более 250 ссылок на русскоязычное видео по разным темам и многое другое. Если хотите посмотреть отдельные файлы, то только проекты github'a [тут](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/github_projects.md), а список видео [здесь](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/video-links.md), но все ссылки можно найти и  в этом файле.
 
-**Обратите внимание:** на проект ["Hello Worlds examples"](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds) - его целью является собирать в одном месте простые примеры использования библиотек и фреймворков для облегчения их изучения и выбора. Буду очень признателен добавлению любых примеров! 
+**Обратите внимание:** на проект ["Hello Worlds examples"](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds) - его целью является собирать в одном месте простые примеры использования библиотек и фреймворков для облегчения их изучения и выбора. Буду очень признателен добавлению любых примеров!
 
 Любые дополнения и изменения всячески приветствуются!
 
@@ -44,7 +44,7 @@
           - [Semantic Web и Linked Data](#semantic-web-и-linked-data)   
           - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
           - [Работа с естественными языками (NLP) и распознавние речи](#Работа-с-естественными-языками-nlp-и-распознавние-речи)
-    
+
 - [III. Работа с сетью и интеграция](#iii-Работа-с-сетью-и-интеграция)
     - [1. Веб сервера и сервера приложений (web server &amp; application server)](#1-Веб-сервера-и-сервера-приложений-web-server--application-server)
     - [2. Сеть и сокеты](#2-Сеть-и-сокеты)
@@ -63,7 +63,7 @@
     - [15. Работа с нативным API разных ОС](#15-Работа-с-нативным-api-разных-ОС15-native)
     - [16. XML и SOAP](#16-xml-и-soup)
     - [17. Интеграция с сервисами геопозиционирования](#17-Интеграция-с-сервисами-геопозиционирования)
-     
+
 - [IV. Тестирование](#iv-Тестирование)
     - [1. Тестирование](#1-Тестирование)
     - [2. Code Coverage](#2-code-coverage)
@@ -89,18 +89,18 @@
     - [4. Фреймворки для создания парсеров, интерпретаторов и компиляторов кода](#4-Фреймворки-для-создания-парсеров-интерпретаторов-и-компиляторов-кода)
     - [5. Приложения и готовые продукты написанные на Java](#5-Приложения-и-готовые-продукты-написанные-на-java)
     - [6. Игры, написанные Java](#6-Игры-написанные-java)
-    
+
 - [VII. Прочее](#vii-Прочее)
     - [1. Примеры исходного кода на java](#1-Примеры-исходного-кода-на-java)
     - [2. Результаты сравнения производительности кода на Java (benchmark)](#2-Результаты-сравнения-производительности-кода-на-java-benchmark)
     - [3. Работа с git & github](#3-Работа-с-git--github)
-    
+
 - [VIII. Resources](#viii-resources)
     - [1. Communities](#1-communities)
     - [2. Influential Books](#2-influential-books)
     - [3. Websites](#3-websites)
-- [IX Видео доклады и лекции о Java](#ix-Видео-доклады-и-лекции-о-java) 
-    
+- [IX Видео доклады и лекции о Java](#ix-Видео-доклады-и-лекции-о-java)
+
 ## I. Фреймворки и библиотеки
 
 ### 1. Фреймворки и библиотеки общего назначения
@@ -156,6 +156,8 @@
 1.  [Apache Turbine](http://turbine.apache.org)  Turbine это основанный на сервлетах фреймворк, который позволяет Java developers быстро разрабатывать веб-приложения. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache OODT](http://oodt.apache.org) Apache OODT это компонентный веб-фреймворк. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [VRaptor](https://github.com/caelum/vraptor4) VRaptor 4 это производтельный открытый MVC вебфреймворк на основе CDI, github's star - 278. http://www.vraptor.org . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
+1. [CUBA Platform](https://github.com/cuba-platform/cuba) - Высокоуровневая Java платформа с открытым кодом
+для создания корпоративных информационных систем и RIA, на базе Spring, EclipseLink и Vaadin, рейтинг github'а - 215. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 #### Библиотеки для Web разработки
 1.  [Tobie ua-parser](https://github.com/tobie/ua-parser) много языковое портирование библиотеки для парсенга параметров user agent браузера. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache)/[MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)/Perl, рейтинг github'а - 1497. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -268,13 +270,13 @@
 *Бибилиотеки и фреймворки, которые реализуют парадигму [Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control).*
 
 1.  [Spring Framework](https://github.com/spring-projects/spring-framew ork) Spring — наверное, самый распространенный фреймворк Java в мире, который в том числе реализует Dependency Injection. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5921. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [Dagger и Dagger2](https://github.com/square/dagger) Быстрый и легковесный фреймворк для реализации dependency injector для Android и Java, работающий во время компиляции, а не во времени выполнения, и не использующий рефлексию. Реализует Java спецификацию JSR-330, описывающую dependency injection. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3607, на stackoverflow - [800 вопросов](http://stackoverflow.com/questions/tagged/dagger). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true) 
+1.  [Dagger и Dagger2](https://github.com/square/dagger) Быстрый и легковесный фреймворк для реализации dependency injector для Android и Java, работающий во время компиляции, а не во времени выполнения, и не использующий рефлексию. Реализует Java спецификацию JSR-330, описывающую dependency injection. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 3607, на stackoverflow - [800 вопросов](http://stackoverflow.com/questions/tagged/dagger). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Google Guice](https://github.com/google/guice) -  Guice (произносится 'juice') это легковесный dependency injection фреймворк для Java 6 и выше, созданный Google. Легкий, но мощный фреймворк, из которого получился Dagger. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), рейтинг github'а - 1881. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache DeltaSpike](https://deltaspike.apache.org/) - фреймворк расширяющий CDI, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [HK2](https://hk2.java.net) - Легкий и динамичный dependency injection фреймворк, [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)/ [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)
 1.  [AspectJ](https://eclipse.org/aspectj/) - Аспектно-ориентированное расширение, легко встраиваемое в существующие приложения, Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-#### Работа с консолью и командной строкой 
+#### Работа с консолью и командной строкой
 1.  [jcommander](https://github.com/cbeust/jcommander) Библиотека для парсинга параметров командных строк. http://jcommander.org/ Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 445. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Jline](https://github.com/jline/jline2) это java библиотека для работы с консолью (ввод, редактирование в emacs и vi режимах), также как библиотеки Readline и Editline, однако при этом так как Jline почти полностью написана на Java является полностью платформонезависимой. Лицензия: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), рейтинг github'а - 396. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [args4j](http://args4j.kohsuke.org/) - Парсер командной строки. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT)![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -361,7 +363,7 @@
 1.  [tinylog](http://www.tinylog.org/) - Легкий фреймворк логирования со статическими классами логирования, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
-#### Bean Mapping and Validation 
+#### Bean Mapping and Validation
 *Фреймворки, упрощающие маппинг одних типов данных в другие (или bean validation).*
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
@@ -539,7 +541,7 @@
 1.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Добавляет метрики и отказоустойчивые стратегии для наиболее популярных пулов соединией с базами данных, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [LightAdmin](http://lightadmin.org/) - Легко настраиваемя CRUD UI библиотека для быстрой разработки приложений, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Jaybird JCA/JDBC driver](http://www.firebirdsql.org/en/jdbc-driver/) - JCA-JDBC драйвер для Firebird базы данных, [github](https://github.com/FirebirdSQL/jaybird), github's star -  19. Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), ![Можно использовать в коммерческом закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)  
-1.  [dbeaver](https://github.com/serge-rider/dbeaver) - Инструмент для доступа к базе данных для разработчиков, SQL программистов, администраторов баз данных и аналитиков .  http://dbeaver.jkiss.org. , github's star - 473. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true) 
+1.  [dbeaver](https://github.com/serge-rider/dbeaver) - Инструмент для доступа к базе данных для разработчиков, SQL программистов, администраторов баз данных и аналитиков .  http://dbeaver.jkiss.org. , github's star - 473. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 
 ### 5. Маппинг объектов в базы данных (ORM и т.&nbsp;п.)
@@ -557,13 +559,13 @@
 1.  [Vibur DBCP](http://www.vibur.org/) - Библиотека реализующая JDBC пул соединений с дополнительными средствами мониторинга производительности, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Ebean](http://ebean-orm.github.io/) - Предоставляет простой и быстрой доступ к данным, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [EclipseLink](https://www.eclipse.org/eclipselink/) - Поддерживает большое количество стандартов ORM: JPA, JAXB, JCA и SDO, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License) и [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [OrmLite](http://ormlite.com/) - Легковесный пакет избегающий усложнений и перерасхода ресурсов других ORM решений, 
+1.  [OrmLite](http://ormlite.com/) - Легковесный пакет избегающий усложнений и перерасхода ресурсов других ORM решений,
 , Лицензия: [ISC](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_ISC).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache Cayenne](http://cayenne.apache.org/) Простая в использовании Java ORM. Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache OpenJPA](http://openjpa.apache.org) Реализация Java Persistence API спецификации. Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache MetaModel]( http://metamodel.apache.org) Apache MetaModel это универсальный способ делать запросы и получать данные из различных источнико включая: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM и даже коллекции из обычных Java объектов (POJOs). Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-### 6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.) 
+### 6. Системы, для обработки данных (работа с грязными данными, анализ и т.п.)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Storm](https://github.com/nathanmarz/storm) - распределенная и устойчивая к ошибкам обработка данных в реальном времени: потоковая обработка, непрерывные вычисления, распределенный RPC и другое. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 8636. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -577,7 +579,7 @@
 1.  [Suro: Netflix's Data Pipeline](https://github.com/Netflix/suro) — это сервис для сбора, агрегации и управления большим количеством разнообразных событий, включая данные логов. . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 405. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache UIMA](http://uima.apache.org) Annotator components and a scalable integration and deployment framework for Unstructured Information analysis. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-### 7. Большие данные (big data) 
+### 7. Большие данные (big data)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 #### Фреймворки и библиотеки
@@ -604,7 +606,7 @@
 1.  [Apache REEF](http://reef.apache.org/)  Apache REEF (Retainable Evaluator Execution Framework) это маштабируемый фреймворк, который облегчает разработку Big Data приложений на основе менеджеров ресурсов таких как Apache YARN или Mesos. Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache Pig](http://pig.apache.org) Apache Pig это платформа для анализа больших наборов данных в Hadoop. Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-#### Хранилища, базы данных, Sql-подобные движки, поисковые система для big data 
+#### Хранилища, базы данных, Sql-подобные движки, поисковые система для big data
 1.  [Druid](https://github.com/druid-io/druid) это column-oriented хранилище и система обработки в реальном времени для обработки потоковых и пакетной информации и интегрированная с Samza, Kafka, Storm, and Hadoop. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 1846. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache Hive](https://github.com/apache/hive) - зеркало Apache Hive. Фреймворк для созданий SQL подобного языка запросов для Hadoop. https://hive.apache.org/ .Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 619. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache Kylin](https://github.com/KylinOLAP/Kylin) это открытая распределенная аналитическая система, которая обеспечивает SQL интерфейс и OLAP отчеты для Hadoop.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 504. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -680,7 +682,7 @@
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/stanford-core-nlp). Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 871. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 1.  [Apache OpenNLP](https://opennlp.apache.org/) - Набор инструментов для типовых задач таких как tokenization. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/opennlp). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [LingPipe](http://alias-i.com/lingpipe/) - Набор инструментов для различных видов задач от POS tagging до анализа предложений, Лицензия: [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) и ***платная лицензия, проприетарная***. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true) ИЛИ ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)	
+1.  [LingPipe](http://alias-i.com/lingpipe/) - Набор инструментов для различных видов задач от POS tagging до анализа предложений, Лицензия: [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) и ***платная лицензия, проприетарная***. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true) ИЛИ ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 1.  [Mallet](http://mallet.cs.umass.edu/) - Статистическая обработка естественных языков, классификация документов, кластеризация, topic modeling и многое другое, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Twitter Text Libraries](https://github.com/twitter/twitter-text) - Коллекция библиотек и тестов для парсинга текста твитов(tweet). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [NLP4J](https://github.com/emorynlp/nlp4j) NLP4J проект (старое название ClearNLP) предоставляет набор NLP инструментов для JVM языков. Этот проект разрабатывается в NLP Research Group из Emory University. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -688,7 +690,7 @@
 1.  [Z-MERT](http://cs.jhu.edu/~ozaidan/zmert/) Z-MERT - система машинного перевода. Лицензия: [GNU Lesser General Public License (LGPL)](http://www.gnu.org/licenses/lgpl-3.0.en.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [ClearTK](http://cleartk.github.io/cleartk/) - ClearTK - фреймворк для разработки систем machine learning и natural language processing которые реализаует Apache Unstructured Information Management Architecture, github star: 34. Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache cTAKES](http://ctakes.apache.org/) - Apache cTAKES™ это NLP система для получения данных из медицинской документации. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [The Stanford Natural Language Processing Group](http://nlp.stanford.edu/software/) - Набор различных NLP инструментов, написанных на Java. Подпроекты: [Stanford Parser](http://nlp.stanford.edu/software/lex-parser.html) -  A statistical parser, [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.html), [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.html), [RegexNER](http://nlp.stanford.edu/software/regexner.html), 
+1.  [The Stanford Natural Language Processing Group](http://nlp.stanford.edu/software/) - Набор различных NLP инструментов, написанных на Java. Подпроекты: [Stanford Parser](http://nlp.stanford.edu/software/lex-parser.html) -  A statistical parser, [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.html), [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.html), [RegexNER](http://nlp.stanford.edu/software/regexner.html),
 [Word Segmenter](http://nlp.stanford.edu/software/segmenter.html),[Classifier](http://nlp.stanford.edu/software/classifier.html),[EnglishTokenizer](http://nlp.stanford.edu/software/tokenizer.html),[TokensRegex](http://nlp.stanford.edu/software/tokensregex.html),[Temporal Tagger](http://nlp.stanford.edu/software/sutime.html),[Pattern-based Information Extraction and Diagnostics](http://nlp.stanford.edu/software/patternslearning.html),[Stanford Relation Extractor](http://nlp.stanford.edu/software/relationExtractor.html). Лицензия: [GNU 2/3](https://en.wikipedia.org/wiki/GNU_General_Public_License).  ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 1.  [Apache Tika](http://tika.apache.org)  The Apache Tika это набор инструмнтов для получение метаданных и структурированого теста из различных видом документов, используя разные парсеры (Apache cTAKES,OpenNLP и т.п.). Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [CMU Sphinx](http://cmusphinx.sourceforge.net/) - Библиотека для распознавания речи. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -712,7 +714,7 @@
 1.  [Apache James](http://james.apache.org)  Apache Java Enterprise Mail Server (или Apache James) это 100% чистый Java SMTP и POP3 постовый сервер и NNTP News сервер.  Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
-### 2. Сеть и сокеты 
+### 2. Сеть и сокеты
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Netty](https://github.com/netty/netty) низкоуровневый асинхроно-событийный фреймворк для быстрого создания высокопроизводительных клиент-серверных соединений. Более удобный аналог ассинхронным сокетам из модуля java.nio из JDK.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 4847. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -723,7 +725,7 @@
 1.  [EsotericSoftware Kryonet](https://github.com/EsotericSoftware/kryonet) TCP/UDP клиентская и серверная библиотека для Java, основанная на Kryo. Лицензия: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), рейтинг github'а - 539. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) - Ассинхронная HTTP и вебсокет клиентская библиотека, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Comsat](https://github.com/puniverse/comsat) - Интегрирует стандартный Java веб API c Quasar fibers и actors, Лицензия: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [Grizzly](https://grizzly.java.net/) - NIO фреймворк. Использует как сетевой слой в Glassfish, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) и [CDDL 1.1](https://ru.wikipedia.org/wiki/CDDL). 
+1.  [Grizzly](https://grizzly.java.net/) - NIO фреймворк. Использует как сетевой слой в Glassfish, Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) и [CDDL 1.1](https://ru.wikipedia.org/wiki/CDDL).
 1.  [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY клиент, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Undertow](http://undertow.io/) - Вебсервер, предоставляющий блокирующий и неблокирующий API, основанный на NIO. Используется как сетевой слой в WildFly, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache MINA](http://mina.apache.org/) Apache MINA это фреймворк для создания быстрых сетевых приложений используя Java NIO. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -752,7 +754,7 @@
 1.  [Apache Synapse](http://synapse.apache.org) Apache Synapse это легковестных ESB движок (сервисной шина предприятия) и XML router. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache ServiceMix](http://servicemix.apache.org) Apache ServiceMix это гибкий, открытый интеграционный контейнер для общего интерфейса к возможностям и функциональности Apache ActiveMQ, Camel, CXF и Karaf для создания полнофункционального ESB решения основнанного на OSGi. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-### 4. Работа с http и ssh 
+### 4. Работа с http и ssh
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Square Okhttp](https://github.com/square/okhttp) HTTP & SPDY (новый формат HTTP от гугла) клиент для Android и Java.  . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 5022. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -807,7 +809,7 @@
 1.  [Apache Nutch](http://nutch.apache.org/) - Хорошо расширяемый, хорошо маштабированный вебпаук с рабочей экосистемой, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Crawler4j](https://github.com/yasserg/crawler4j) - Простой и легковесный вебпаук, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-### 8. Работа с Json 
+### 8. Работа с Json
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 ##### JSON парсеры
@@ -827,7 +829,7 @@
 1.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath — реализация аналога XPATH только для Json, а не XML, рейтинг github'а - 849.  [User guide](https://github.com/jayway/JsonPath#getting-started) и [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path). Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png)
 1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Быстрый JSON обработчик, рейтинг github'а - 4851. [User guide](https://github.com/alibaba/fastjson) и [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson). Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png)
 
-##### Генерация Java классов из JSON или JSON схемы и JSON валидация 
+##### Генерация Java классов из JSON или JSON схемы и JSON валидация
 1.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) Генерация Java классов из JSON схемы (или примера JSON) с аннотациями для data-binding для Jackson 1.x or 2.x, Gson и т. п.., рейтинг github'а - 1664. [User guide](https://github.com/joelittlejohn/jsonschema2pojo/wiki/Getting-Started) и [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo). Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png)
 1.  [Json schema validator](https://github.com/fge/json-schema-validator) Валидация JSON схемы, реализована на чистой Java, создана с целью проверки Json файлов, используя Json схемы., так же может генерировать Java классы из схемы и наоборот, рейтинг github'а - 547. [User guide](https://github.com/fge/json-schema-validator#read-me-first) и [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator). Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png)
 
@@ -878,7 +880,7 @@
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Apache Aurora](http://aurora.apache.org/) - Apache Aurora это Apache Mesos фреймворк для длительных сервисов и cron jobs, Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [Singularity](http://getsingularity.com/) - Singularity это Apache Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач, Лицензия: **неизвесна, на сайте не найдена!**. 
+1.  [Singularity](http://getsingularity.com/) - Singularity это Apache Mesos фреймворк, который делает разработку и обслуживание проще. Он поддерживает вебсервисы, фоновое выполнение, запуск задач по расписанию и выполнение одноразовых задач, Лицензия: **неизвесна, на сайте не найдена!**.
 1.  [Apache Helix](http://helix.apache.org/) Это фреймворк управления кластером. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache Airavata](http://airavata.apache.org/) Apache Airavata это фреймворк выполнения и управления заданиями в распределенных ресурсах, таких как кластеры, суперкомпьютеры, national grids, академические и комерческие облака. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
@@ -926,7 +928,7 @@
 1.  [Geo](https://github.com/davidmoten/geo/) - GeoHash утилиты для Java. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache).  ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Geotoolkit.org](http://www.geotoolkit.org/) - Библиотека для разработки приложений геопозиционирования. Работает на основе  Apache SIS проекта. Лицензия: [GNU Lesser 2.1](http://www.geotoolkit.org/license.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [GeoTools](http://geotools.org/) - Библиотека предоставляющая инструменты для получения данных геопозиционирования. Лицензия: [GNU Lesser 2.1](http://www.gnu.org/licenses/lgpl-2.1.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [H2GIS](http://www.h2gis.org/) - Геопозиционированое расширение для базы данных H2. Лицензия: [GPL 3](http://www.gnu.org/copyleft/gpl.html). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) 
+1.  [H2GIS](http://www.h2gis.org/) - Геопозиционированое расширение для базы данных H2. Лицензия: [GPL 3](http://www.gnu.org/copyleft/gpl.html). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Jgeohash](http://astrapi69.github.io/jgeohash/) - Библиотека, помогающая Java разработчикам в использовании GeoHash алгоритмов. Лицензия: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [JTS Topology Suite](http://www.vividsolutions.com/jts/JTSHome.htm) - API для 2D геопозиционирования. Лицензия: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Mapsforge](https://github.com/mapsforge/mapsforge/) - Продукт для геопозиционирования на карте, основанной на OpenStreetMap данных. Лицензия: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -973,7 +975,7 @@
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [JaCoCo](http://eclemma.org/jacoco/) - Фреймворк, который позволяет собирать метрики покрытия кода тестами, используя как offline, так и runtime байткод инструменты, используется в EclEmma, плагине Eclipse для определения степени покрытия тестами, Лицензия: [Eclipse Public License v1.0](https://ru.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache), [BSD](https://en.wikipedia.org/wiki/BSD_licenses). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [Clover](https://www.atlassian.com/software/clover/overview) - Проприетарный инструмент для определения степени покрытия кода тестами от Atlassian, который основан на анализе исходного кода вместо анализа байткода, ***Лицензия: платная, проприетарная*** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true) 
+1.  [Clover](https://www.atlassian.com/software/clover/overview) - Проприетарный инструмент для определения степени покрытия кода тестами от Atlassian, который основан на анализе исходного кода вместо анализа байткода, ***Лицензия: платная, проприетарная*** ![Проприетарная лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/proprietary.png?raw=true)
 1.  [Cobertura](http://cobertura.github.io/cobertura) - Использует автономный (или статическый) инструментарий анализа байткода и class loading'a для получения метрик покрытия кода тестами, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 1.  [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Набор инструментов для анализа покрытия кода тестами, который используется при разработке OpenJDK проекта, Лицензия: [GNU 2](https://ru.wikipedia.org/wiki/GNU_General_Public_License). ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
@@ -1114,7 +1116,7 @@
 
 1.  [Google J2ObjC:](https://github.com/google/j2objc) Java to Objective-C Translator and Runtime — конвертация языка Java (включая Android) в Objective-C.. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 2940. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) Система для реверс-инженеринга Java и Android (декомпилятор, редактор, отладчик и т. д.). Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 617. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
-1.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: [WTFPL](https://en.wikipedia.org/wiki/WTFPL), рейтинг github'а - 514. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true) 
+1.  [Reflections](https://github.com/ronmamo/reflections) сканирует ваш classpath, индексирует метаданные и позволяет строить запросы во время выполнения к метаданным, может сохранять информацию о метаданных вашего проекта. Лицензия: [WTFPL](https://en.wikipedia.org/wiki/WTFPL), рейтинг github'а - 514. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 *Current implementations of the JVM/JDK.*
 
@@ -1142,7 +1144,7 @@
 1.  [Processing js](https://github.com/jeresig/processing-js) Портирование Processing библиотеку для работы с видео и изображениями в JavaScript.. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 1696. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Pysonar2](https://github.com/yinwang0/pysonar2) PySonar2 это система индексирования и получения типов в Python, которая проводить сложный анализ с помощью Sourcegraph сотен тысяч открытых Python репозиториев. Лицензия: [GNU](http://www.gnu.org/licenses/agpl-3.0.en.html) [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), рейтинг github'а - 1654. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
-### 3. Javascript 
+### 3. Javascript
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Yuicompressor](https://github.com/yui/yuicompressor) YUI Compressor — это система сжатия JavaScript и CSS файлов, которая удаляет лишние пробелы, безопасно обфуцирует локальные переменные до минимального возможного имени и т. д.. Лицензия: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), рейтинг github'а - 1840. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -1177,7 +1179,7 @@
 1.  [Languagetool](https://github.com/languagetool-org/languagetool) - система стилистической и грамматической проверки текста более чем на 25 разных языках (английский, франц узкий, немецкий, русский, польский и т. д.). Лицензия: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 416. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Apache OpenMeetings](http://openmeetings.apache.org) -  система с открытым кодом для создания видеоконференций, обмена сообщениями и документами компании. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-### 6. Игры, написанные Java 
+### 6. Игры, написанные Java
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Bukkit](https://github.com/Bukkit/Bukkit) Мод для Minecraft API. Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 1600. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
@@ -1190,12 +1192,12 @@
 1.  [WorldEdit](https://github.com/sk89q/WorldEdit) Редактор игровых карт для Minecraft. Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), рейтинг github'а - 715. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Essentials](https://github.com/essentials/Essentials) Essentials - Minecraft серверный командный мод — добавлени более 100 команд для использования в игре . Лицензия: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 423. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 1.  [GlowstoneMC Glowstone](https://github.com/GlowstoneMC/Glowstone) Сервер для Bukkit Minecraft. Лицензия: [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 421. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
-1.  [Tribal Trouble](https://github.com/sunenielsen/tribaltrouble) - Стратегия в реальном времени на Java.  Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 50. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true) 
+1.  [Tribal Trouble](https://github.com/sunenielsen/tribaltrouble) - Стратегия в реальном времени на Java.  Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 50. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
 
 
 
 ## VII. Прочее
-### 1. Примеры исходного кода на java 
+### 1. Примеры исходного кода на java
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Java design patterns](https://github.com/iluwatar/java-design-patterns)  Очень хорошие примеры и справочник по паттернам разработки.  . Лицензия:  [MIT](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_MIT) , рейтинг github'а - 6341. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -1212,13 +1214,13 @@
 1.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-jpa-examples) Примеры использования разных возможностей Spring Data JPA . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 400. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Популярный Java 8 гайд. Лицензия: [MIT](https://opensource.org/licenses/MIT). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-### 2. Результаты сравнения производительности кода на Java (benchmark) 
+### 2. Результаты сравнения производительности кода на Java (benchmark)
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Jvm serializers](https://github.com/eishay/jvm-serializers) - бенчмарки и сравнения производительности разных библиотек сериализации в JVM . Лицензия: ?, рейтинг github'а - 970.
 1.  [YCSB (Yahoo! Cloud Serving Benchmark)](https://github.com/brianfrankcooper/YCSB) - бэнчмарки (тесты производительности) различных облачных сервисов. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 869. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
-### 3. Работа с git &amp; github 
+### 3. Работа с git &amp; github
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit это свободный Java Git клиент для управления, просмотр и обслуживания Git репозиторий . Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache) , рейтинг github'а - 787. ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
@@ -1307,7 +1309,7 @@
      - [7.2 Архитектура, бизнес правила, бизнес модель и примеры приложений](#72-Архитектура-бизнес-правила-бизнес-модель-и-примеры-приложений)
      - [7.3 Тестирование приложений](#73-Тестирование-приложений)
 - [8. Прочее](#8-Прочее)
-   
+
 ## **1\. Вопросы оптимизации и производительности**
 
 ### 1.1 Производительность и оптимизация
