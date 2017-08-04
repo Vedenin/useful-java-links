@@ -43,7 +43,7 @@
     - [8. Машинное обучение и нейроные сети (Machine Learning)](#8-Машинное-обучение-и-нейроные-сети-machine-learning)
           - [Semantic Web и Linked Data](#semantic-web-и-linked-data)   
           - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-          - [Работа с естественными языками (NLP) и распознавние речи](#Работа-с-естественными-языками-nlp-и-распознавние-речи)
+          - [Работа с естественными языками (NLP) и распознавание речи](#Работа-с-естественными-языками-nlp-и-распознавание-речи)
 
 - [III. Работа с сетью и интеграция](#iii-Работа-с-сетью-и-интеграция)
     - [1. Веб сервера и сервера приложений (web server &amp; application server)](#1-Веб-сервера-и-сервера-приложений-web-server--application-server)
@@ -677,7 +677,7 @@
 1.  [Sat4J](http://www.sat4j.org/) - Наиболее продвинутый SAT решатель для логических (? boolean) и оптимизационых проблем, Лицензия: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) и [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 
 
-#### Работа с естественными языками (NLP) и распознавние речи
+#### Работа с естественными языками (NLP) и распознавание речи
 [К оглавлению](#Список-полезных-ссылок-для-java-программиста)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP: Java библиотека для работы с Stanford NLP (инструментами для анализа и работы с текстом на естественных языках, например английским). [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/stanford-core-nlp). Лицензия: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), рейтинг github'а - 871. ![Не соместимая с закрытым ПО лицензия](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/non-proprietary.png?raw=true)
