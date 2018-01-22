@@ -1124,7 +1124,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Kamon](http://www.kamon.io/) - Tool for monitoring applications running on the JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [New Relic](http://newrelic.com/) - Commercial performance monitor. **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.  **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-1.  [Takipi](https://www.takipi.com/) - Commercial in-production error monitoring and debugging.  **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [OverOps](https://www.overops.com/) - Root cause automation in production.  **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 #### 6. Redefinition of classes at runtime
 [Up](#useful-java-links)
@@ -1297,4 +1297,5 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
 * [Vlad Mihalcea on Hibernate](https://vladmihalcea.com/)
-* [Voxxed](https://www.voxxed.com/)
+* [Voxxed](https://www.voxxed.com/
+* [OverOps Blog](https://blog.takipi.com/)
