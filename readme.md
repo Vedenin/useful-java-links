@@ -1285,7 +1285,6 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
 * [InfoQ](http://www.infoq.com/)
 * [Java, SQL, and jOOQ](https://blog.jooq.org/)
-* [Java.net](https://home.java.net/)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
 * [Java tutorial](https://hackr.io/tutorials/learn-java)
 * [JavaWorld](http://www.javaworld.com/)
@@ -1297,5 +1296,5 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 * [Thoughts On Java](http://www.thoughts-on-java.org/)
 * [Vanilla Java](http://vanillajava.blogspot.ch/)
 * [Vlad Mihalcea on Hibernate](https://vladmihalcea.com/)
-* [Voxxed](https://www.voxxed.com/
+* [Voxxed](https://www.voxxed.com/)
 * [OverOps Blog](https://blog.takipi.com/)
