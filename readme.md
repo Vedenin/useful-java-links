@@ -1283,6 +1283,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 
 * [Android Arsenal](https://android-arsenal.com)
 * [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
+* [Hackr.io](https://hackr.io/tutorials/learn-java)
 * [InfoQ](http://www.infoq.com/)
 * [Java, SQL, and jOOQ](https://blog.jooq.org/)
 * [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
