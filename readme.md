@@ -186,6 +186,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Apache Portals](http://portals.apache.org) The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Roller](http://roller.apache.org/) Apache Roller is a full-featured, multi-user and group blog server suitable for blog sites large and small. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Chemistry](http://chemistry.apache.org/) Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Jease](http://jease.org/) Jease eases the development of content- & database-driven web-applications with Java. License: [GPL v3](https://www.gnu.org/licenses/gpl-3.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 ### 3. GUI
