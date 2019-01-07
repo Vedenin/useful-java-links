@@ -10,7 +10,7 @@
 
     <properties>
         <!-- Use the latest version whenever possible. -->
-        <jackson.version>2.9.7</jackson.version>
+        <jackson.version>2.9.8</jackson.version>
     </properties>
 
     <dependencies>
