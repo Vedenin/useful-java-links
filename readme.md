@@ -1274,8 +1274,8 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 *Books that had a high impact and are still worth reading.*
 [Up](#useful-java-links)
 
-* [Effective Java (2nd Edition)](http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683)
-* [Java 8 in Action](http://www.amazon.com/Java-Action-Lambdas-functional-style-programming/dp/1617291994/)
+* [Effective Java (3nd Edition)](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997)
+* [Modern Java in Action](https://www.amazon.com/Modern-Java-Action-functional-programming/dp/1617293563)
 * [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
 * [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
