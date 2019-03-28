@@ -8,21 +8,16 @@
     <groupId>com.github.vedenin</groupId>
     <version>0.01</version>
 
-    <properties>
-        <!-- Use the latest version whenever possible. -->
-        <jackson.version>2.9.8</jackson.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
+            <version>2.9.8</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>${jackson.version}</version>
+            <version>2.9.8</version>
         </dependency>
     </dependencies>
 </project>
