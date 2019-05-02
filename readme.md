@@ -10,7 +10,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
     - [3. GUI](#3-gui)
     - [4. Business](#4-business)
     - [5. Game Development](#5-game-development)
-    - [6. Usefull libraries](#6-usefull-libraries)
+    - [6. Useful libraries](#6-useful-libraries)
         - [Collections](#collections)
         - [Date and Time](#date-and-time)
         - [Dependency Injection and AOP](#dependency-injection-and-aop-frameworks)
