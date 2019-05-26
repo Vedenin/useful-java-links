@@ -10,7 +10,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
     - [3. GUI](#3-gui)
     - [4. Business](#4-business)
     - [5. Game Development](#5-game-development)
-    - [6. Usefull libraries](#6-usefull-libraries)
+    - [6. Useful libraries](#6-useful-libraries)
         - [Collections](#collections)
         - [Date and Time](#date-and-time)
         - [Dependency Injection and AOP](#dependency-injection-and-aop-frameworks)
@@ -329,6 +329,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Trove](http://trove.starlight-systems.com/) - Primitive collections. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [JUnion](https://github.com/TehLeo/junion) - Delivers struct types for Java programming language. 64 bit addressable struct arrays. [https://tehleo.github.io/junion/](https://tehleo.github.io/junion/)  License: [License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
 #### Serialization and I/O
@@ -957,6 +958,7 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 *Tools that test from model to the view.*
 [Up](#useful-java-links)
 
+1.  [ArchUnit](https://github.com/TNG/ArchUnit) is a free, simple and extensible library for checking the architecture of your Java code. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/TNG/ArchUnit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/TNG/ArchUnit). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Junit](https://github.com/junit-team/junit4) Common testing framework. License:  [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) , [![GitHub stars](https://img.shields.io/github/stars/junit-team/junit4.svg?style=social&label=Star&maxAge=2592000)](https://github.com/junit-team/junit4). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Mockito](https://github.com/mockito/mockito) Creation of test double objects in automated unit tests for the purpose of TDD or BDD. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/mockito/mockito.svg?style=social&label=Star&maxAge=2592000)](https://github.com/mockito/mockito). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Selenium](https://github.com/SeleniumHQ/selenium) Portable software testing framework for web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/SeleniumHQ/selenium.svg?style=social&label=Star&maxAge=2592000)](https://github.com/SeleniumHQ/selenium). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
