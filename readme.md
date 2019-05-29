@@ -1305,3 +1305,4 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 * [Vlad Mihalcea on Hibernate](https://vladmihalcea.com/)
 * [Voxxed](https://www.voxxed.com/)
 * [OverOps Blog](https://blog.takipi.com/)
+* [Bookmarks.dev](https://www.bookmarks.dev/tagged/java)
