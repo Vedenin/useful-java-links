@@ -14,5 +14,6 @@
     <modules>
         <module>cucumber</module>
         <module>mockito</module>
+        <module>image-comparison</module>
     </modules>
 </project>
