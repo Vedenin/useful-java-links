@@ -81,13 +81,13 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
     - [7. Documentation](#7-documentation)
     - [8. Other](#8-other)
 
-- [VI. Program languages and applications, that was written with Java](#vi-program-languages-and-applications-that-was-written-with-java)
-    - [1. Program languages, that was written with Java](#1--program-languages-that-was-written-with-java)
-    - [2. Other program languages tools, that was written with Java](#2-other-program-languages-tools-that-was-written-with-java)
+- [VI. Program languages and applications that were written with Java](#vi-program-languages-and-applications-that-was-written-with-java)
+    - [1. Program languages that were written with Java](#1--program-languages-that-was-written-with-java)
+    - [2. Other program languages tools that were written with Java](#2-other-program-languages-tools-that-was-written-with-java)
     - [3. Javascript](#3-javascript)
     - [4. Frameworks that help to create parsers, interpreters or compilers](#4-frameworks-that-help-to-create-parsers-interpreters-or-compilers)
-    - [5. Opensource applications, that was written with Java](#5-opensource-applications-that-was-written-with-java)
-    - [6. Opensource games, that was written with Java](#6-opensource-games-that-was-written-with-java)
+    - [5. Opensource applications that were written with Java](#5-opensource-applications-that-was-written-with-java)
+    - [6. Opensource games that were written with Java](#6-opensource-games-that-was-written-with-java)
 
 - [VII. Other](#vii-other)
     - [1. Source code examples](#1-source-code-examples)
@@ -1165,8 +1165,8 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Zulu OpenJDK](http://www.azul.com/downloads/zulu/) - OpenJDK builds for Windows, Linux, and Mac OS X through Java 8. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-## VI. Program languages and applications, that was written with Java
-### 1.  Program languages, that was written with Java
+## VI. Program languages and applications that were written with Java
+### 1.  Program languages that were written with Java
 [Up](#useful-java-links)
 
 1.  [Clojure](https://github.com/clojure/clojure) The Clojure programming language. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/clojure/clojure.svg?style=social&label=Star&maxAge=2592000)](https://github.com/clojure/clojure). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1177,7 +1177,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Trifork Erjang](https://github.com/trifork/erjang) A JVM-based Erlang VM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/trifork/erjang.svg?style=social&label=Star&maxAge=2592000)](https://github.com/trifork/erjang). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### 2. Other program languages tools, that was written with Java
+### 2. Other program languages tools that were written with Java
 [Up](#useful-java-links)
 
 1.  [Go lang idea plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Google Go language IDE built using the IntelliJ Platform. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/go-lang-plugin-org/go-lang-idea-plugin.svg?style=social&label=Star&maxAge=2592000)](https://github.com/go-lang-plugin-org/go-lang-idea-plugin). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1200,7 +1200,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [JavaCC](https://javacc.java.net/) -More specific and slightly easier to learn. Has syntactic lookahead. License: [BSD ](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 
-### 5. Opensource applications, that was written with Java
+### 5. Opensource applications that were written with Java
 [Up](#useful-java-links)
 
 1.  [Square Keywhiz](https://github.com/square/keywhiz) - A system for distributing and managing secrets. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/square/keywhiz.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/keywhiz). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1220,7 +1220,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Languagetool](https://github.com/languagetool-org/languagetool) - Style and Grammar Checker for 25+ Languages. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/languagetool-org/languagetool.svg?style=social&label=Star&maxAge=2592000)](https://github.com/languagetool-org/languagetool). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache OpenMeetings](http://openmeetings.apache.org) Video conferencing, instant messaging, white board and collaborative document editing application. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 6. Opensource games, that was written with Java
+### 6. Opensource games that were written with Java
 [Up](#useful-java-links)
 
 1.  [Bukkit](https://github.com/Bukkit/Bukkit) The Minecraft Mod API. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/Bukkit/Bukkit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Bukkit/Bukkit). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
