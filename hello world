@@ -1,9 +1,9 @@
-class HelloWorld 
+class Test 
 { 
     // Your program begins with a call to main(). 
-    // Prints "Hello, World" to the terminal window. 
+    // Prints "Hello World" to the terminal window in Java. 
     public static void main(String args[]) 
     { 
-        System.out.println("Hello, World"); 
+        System.out.println("Hello World!"); 
     } 
 }
