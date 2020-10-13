@@ -27,7 +27,7 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <!-- Update version to suit your needs -->
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
