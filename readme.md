@@ -1,107 +1,113 @@
 # Useful Java links
+
 This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with new structure, additional license info and github's star info for every link, with a lot of new links (all non-mobile github projects with 390 or more star) and so on. **The russian version is [in this place](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)**.  
 **The "Hello Worlds examples" project is [in this place](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds)**.
 
 # Useful java links
 
-- [I. Development](#i-development)
-    - [1. Common frameworks and libraries](#1-common-frameworks-and-libraries)
-    - [2. Web development](#2-web-development)
-    - [3. GUI](#3-gui)
-    - [4. Business](#4-business)
-    - [5. Game Development](#5-game-development)
-    - [6. Useful libraries](#6-useful-libraries)
-        - [Collections](#collections)
-        - [Date and Time](#date-and-time)
-        - [Dependency Injection and AOP](#dependency-injection-and-aop-frameworks)
-        - [Console and Command line](#console-and-command-line)
-        - [Functional Programming](#functional-programming)
-        - [Reactive Programming](#reactive-programming)
-        - [Security and Authentication](#security-and-authentication)
-        - [High Performance](#high-performance)
-        - [Serialization and I/O](#serialization-and-io)
-        - [Logging](#logging)
-        - [Bean Mapping and Validation](#bean-mapping-and-validation)
-    - [7. Imagery and Video](#7-imagery-and-video)
-    - [8. Code generation and changing byte code](#8-code-generation-and-changing-byte-code)
-    - [9. Distributed Applications](#9-distributed-applications)
-    - [10. Science](#10-science)   
-    - [11. OSGI](#11-osgi)   
+-   [I. Development](#i-development)
 
-- [II. Databases, search engines, big data and machine learning](#ii-databases-search-engines-big-data-and-machine-learning)
-    - [1. Databases and storages](#1-databases-and-storages)
-          - [Distributed Databases](#distributed-databases)
-    - [2. Data structures](#2-data-structures)     
-    - [3. Search engines](#3-search-engines)     
-    - [4. Client and drivers for databases](#4-client-and-drivers-for-databases)
-    - [5. ORM](#5-orm)
-    - [6. Working with messy data](#6-working-with-messy-data)
-    - [7. Big data](#7-big-data)
-    - [8. Machine Learning](#8-machine-learning)
-          - [Semantic Web and Linked Data](#semantic-web-and-linked-data)  
-          - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver)
-          - [Natural Language Processing (NLP) and Speech Recognition](#natural-language-processing-nlp-and-speech-recognition)
+    -   [1. Common frameworks and libraries](#1-common-frameworks-and-libraries)
+    -   [2. Web development](#2-web-development)
+    -   [3. GUI](#3-gui)
+    -   [4. Business](#4-business)
+    -   [5. Game Development](#5-game-development)
+    -   [6. Useful libraries](#6-useful-libraries)
+        -   [Collections](#collections)
+        -   [Date and Time](#date-and-time)
+        -   [Dependency Injection and AOP](#dependency-injection-and-aop-frameworks)
+        -   [Console and Command line](#console-and-command-line)
+        -   [Functional Programming](#functional-programming)
+        -   [Reactive Programming](#reactive-programming)
+        -   [Security and Authentication](#security-and-authentication)
+        -   [High Performance](#high-performance)
+        -   [Serialization and I/O](#serialization-and-io)
+        -   [Logging](#logging)
+        -   [Bean Mapping and Validation](#bean-mapping-and-validation)
+    -   [7. Imagery and Video](#7-imagery-and-video)
+    -   [8. Code generation and changing byte code](#8-code-generation-and-changing-byte-code)
+    -   [9. Distributed Applications](#9-distributed-applications)
+    -   [10. Science](#10-science)
+    -   [11. OSGI](#11-osgi)
 
-- [III. Network and Integration](#iii-network-and-integration)
-    - [1. Servers (Web Server and Application Server))](#1-servers-web-server-and-application-server)
-    - [2. Networking](#2-networking)
-    - [3. Message, message broker and message queue](#3-message-message-broker-and-message-queue)
-    - [4. Http and ssh](#4-http-and-ssh)
-    - [5. Rest Frameworks](#5-rest-frameworks)
-    - [6. Integration frameworks](#6-integration-frameworks)
-    - [7. Web Crawling and HTML parsering](#7-web-crawling-and-html-parsering)
-    - [8. Json](#8--json)
-    - [9. CSV](#9-csv)
-    - [10. Integratin with API](#10-integratin-with-api)
-    - [11. Bitcoin](#11-bitcoin)
-    - [12. Clouds](#12-clouds)
-    - [13. Cluster Management](#13-cluster-management)
-    - [14. Document Processing (XLS, DOC and PDF)](#14-document-processing-xls-doc-and-pdf)
-    - [15. Native](#15-native)
-    - [16. XML and SOAP](#16-xml-and-soap)
-    - [17. Geospatial Service Interation](#17-geospatial-service-interation)
-    - [18. Reverse Proxy Servers](#18-reverse-proxy-servers)
+-   [II. Databases, search engines, big data and machine learning](#ii-databases-search-engines-big-data-and-machine-learning)
 
-- [IV. Testing](#iv-testing)
-    - [1. Testing](#1-testing)
-    - [2. Code Coverage](#2-code-coverage)
-    - [3. Continuous Integration](#3-continuous-integration)
-    - [4. Formal Verification](#4-formal-verification)
+    -   [1. Databases and storages](#1-databases-and-storages) - [Distributed Databases](#distributed-databases)
+    -   [2. Data structures](#2-data-structures)
+    -   [3. Search engines](#3-search-engines)
+    -   [4. Client and drivers for databases](#4-client-and-drivers-for-databases)
+    -   [5. ORM](#5-orm)
+    -   [6. Working with messy data](#6-working-with-messy-data)
+    -   [7. Big data](#7-big-data)
+    -   [8. Machine Learning](#8-machine-learning) - [Semantic Web and Linked Data](#semantic-web-and-linked-data)  
+         - [Constraint Satisfaction Problem Solver](#constraint-satisfaction-problem-solver) - [Natural Language Processing (NLP) and Speech Recognition](#natural-language-processing-nlp-and-speech-recognition)
 
-- [V. Tools for developing](#v-tools-for-developing)
-    - [1. IDE](#1-ide)
-    - [2. Deploy, config and build](#2-deploy-config-and-build)
-         - [Build](#build)
-         - [Configuration](#configuration)
-         - [Distribution](#distribution)
-    - [3. Perfomance tools](#3-perfomance-tools)
-    - [4. Code Analysis](#4-code-analysis)
-    - [5. Monitoring](#5-monitoring)
-    - [6. Redefinition of classes at runtime](#6-redefinition-of-classes-at-runtime)
-    - [7. Documentation](#7-documentation)
-    - [8. Other](#8-other)
+-   [III. Network and Integration](#iii-network-and-integration)
 
-- [VI. Program languages and applications that were written with Java](#vi-program-languages-and-applications-that-was-written-with-java)
-    - [1. Program languages that were written with Java](#1--program-languages-that-was-written-with-java)
-    - [2. Other program languages tools that were written with Java](#2-other-program-languages-tools-that-was-written-with-java)
-    - [3. Javascript](#3-javascript)
-    - [4. Frameworks that help to create parsers, interpreters or compilers](#4-frameworks-that-help-to-create-parsers-interpreters-or-compilers)
-    - [5. Opensource applications that were written with Java](#5-opensource-applications-that-was-written-with-java)
-    - [6. Opensource games that were written with Java](#6-opensource-games-that-was-written-with-java)
+    -   [1. Servers (Web Server and Application Server))](#1-servers-web-server-and-application-server)
+    -   [2. Networking](#2-networking)
+    -   [3. Message, message broker and message queue](#3-message-message-broker-and-message-queue)
+    -   [4. Http and ssh](#4-http-and-ssh)
+    -   [5. Rest Frameworks](#5-rest-frameworks)
+    -   [6. Integration frameworks](#6-integration-frameworks)
+    -   [7. Web Crawling and HTML parsering](#7-web-crawling-and-html-parsering)
+    -   [8. Json](#8--json)
+    -   [9. CSV](#9-csv)
+    -   [10. Integratin with API](#10-integratin-with-api)
+    -   [11. Bitcoin](#11-bitcoin)
+    -   [12. Clouds](#12-clouds)
+    -   [13. Cluster Management](#13-cluster-management)
+    -   [14. Document Processing (XLS, DOC and PDF)](#14-document-processing-xls-doc-and-pdf)
+    -   [15. Native](#15-native)
+    -   [16. XML and SOAP](#16-xml-and-soap)
+    -   [17. Geospatial Service Interation](#17-geospatial-service-interation)
+    -   [18. Reverse Proxy Servers](#18-reverse-proxy-servers)
 
-- [VII. Other](#vii-other)
-    - [1. Source code examples](#1-source-code-examples)
-    - [2. Benchmark results](#2-benchmark-results)
-    - [3. Working with git and github](#3-working-with-git-and-github)
+-   [IV. Testing](#iv-testing)
 
-- [VIII. Resources](#viii-resources)
-    - [1. Communities](#1-communities)
-    - [2. Influential Books](#2-influential-books)
-    - [3. Websites](#3-websites)
+    -   [1. Testing](#1-testing)
+    -   [2. Code Coverage](#2-code-coverage)
+    -   [3. Continuous Integration](#3-continuous-integration)
+    -   [4. Formal Verification](#4-formal-verification)
+
+-   [V. Tools for developing](#v-tools-for-developing)
+
+    -   [1. IDE](#1-ide)
+    -   [2. Deploy, config and build](#2-deploy-config-and-build)
+        -   [Build](#build)
+        -   [Configuration](#configuration)
+        -   [Distribution](#distribution)
+    -   [3. Perfomance tools](#3-perfomance-tools)
+    -   [4. Code Analysis](#4-code-analysis)
+    -   [5. Monitoring](#5-monitoring)
+    -   [6. Redefinition of classes at runtime](#6-redefinition-of-classes-at-runtime)
+    -   [7. Documentation](#7-documentation)
+    -   [8. Other](#8-other)
+
+-   [VI. Program languages and applications that were written with Java](#vi-program-languages-and-applications-that-was-written-with-java)
+
+    -   [1. Program languages that were written with Java](#1--program-languages-that-was-written-with-java)
+    -   [2. Other program languages tools that were written with Java](#2-other-program-languages-tools-that-was-written-with-java)
+    -   [3. Javascript](#3-javascript)
+    -   [4. Frameworks that help to create parsers, interpreters or compilers](#4-frameworks-that-help-to-create-parsers-interpreters-or-compilers)
+    -   [5. Opensource applications that were written with Java](#5-opensource-applications-that-was-written-with-java)
+    -   [6. Opensource games that were written with Java](#6-opensource-games-that-was-written-with-java)
+
+-   [VII. Other](#vii-other)
+
+    -   [1. Source code examples](#1-source-code-examples)
+    -   [2. Benchmark results](#2-benchmark-results)
+    -   [3. Working with git and github](#3-working-with-git-and-github)
+
+-   [VIII. Resources](#viii-resources)
+    -   [1. Communities](#1-communities)
+    -   [2. Influential Books](#2-influential-books)
+    -   [3. Websites](#3-websites)
 
 ## I. Development
 
 ### 1. Common frameworks and libraries
+
 [Up](#useful-java-links)
 
 1.  [Spring framework](https://github.com/spring-projects/spring-framework) The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications -- on any kind of deployment platform. A key element of Spring is infrastructural support at the application level: Spring focuses on the "plumbing" of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-framework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-framework), stackoverflow - more [100 000 questions](http://stackoverflow.com/questions/tagged/spring). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -121,9 +127,11 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Apache Zest](https://zest.apache.org/) Apache Zest is a community based effort exploring Composite Oriented Programming for domain centric application development. This includes evolved concepts from Aspect Oriented Programming, Dependency Injection and Domain Driven Design. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Web development
+
 [Up](#useful-java-links)
 
 #### Web Frameworks
+
 1.  [Play Framework](https://github.com/playframework/playframework) The Play Framework combines productivity and performance making it easy to build scalable web applications with Java and Scala. https://www.playframework.com/ . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/playframework/playframework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/playframework/playframework). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Spark](https://github.com/perwendel/spark) Spark - a Sinatra inspired web framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/perwendel/spark.svg?style=social&label=Star&maxAge=2592000)](https://github.com/perwendel/spark). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Blade](https://github.com/biezhi/blade) a simple, elegant java web framework! License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/biezhi/blade.svg?style=social&label=Star&maxAge=2592000)](https://github.com/biezhi/blade). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -133,7 +141,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Electronicarts Orbit](https://github.com/electronicarts/orbit) — Orbit - Virtual actor framework for building distributed systems. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), [![GitHub stars](https://img.shields.io/github/stars/electronicarts/orbit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/electronicarts/orbit). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Ratpack](https://github.com/ratpack/ratpack) Ratpack is a simple, capable, toolkit for creating high performance web applications. Ratpack is built on Java and the Netty event-driven networking engine. The API is optimized for Groovy and Java 8.. https://ratpack.io/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/ratpack/ratpack.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ratpack/ratpack). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Vaadin](https://github.com/vaadin/vaadin) — Vaadin is a Java framework for building modern web applications that look great, perform well and make you and your users happy.https://vaadin.com/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/vaadin/vaadin.svg?style=social&label=Star&maxAge=2592000)](https://github.com/vaadin/vaadin). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [ZK framework](https://github.com/zkoss/zk)  ZK is a highly productive Java framework for building amazing enterprise web and mobile applications. License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/zkoss/zk.svg?style=social&label=Star&maxAge=2592000)](https://github.com/zkoss/zk). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [ZK framework](https://github.com/zkoss/zk) ZK is a highly productive Java framework for building amazing enterprise web and mobile applications. License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/zkoss/zk.svg?style=social&label=Star&maxAge=2592000)](https://github.com/zkoss/zk). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Tapestry](http://tapestry.apache.org/) - A component-oriented framework for creating highly scalable web applications in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Wicket](http://wicket.apache.org/) - Open Source Java web framework that powers thousands of web applications and web sites for governments, stores, universities, cities, banks, email providers, and more. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Google Web Toolkit](http://www.gwtproject.org/) - GWT is used by many products at Google, including Google AdWords and Google Wallet. It's open source, completely free, and used by thousands of enthusiastic developers around the world. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -141,19 +149,20 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Spring MVC](http://projects.spring.io/spring-framework/) - Spring MVC web application and RESTful web service framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JavaServer Faces](https://javaserverfaces.java.net/) - JavaServer™ Faces technology simplifies building user interfaces for JavaServer applications. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) or [CDDL 1.0](https://opensource.org/licenses/CDDL-1.0)
 1.  [JavaServer Pages](https://jsp.java.net/) - This project provides a container independent implementation of JSP 2.1. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) or [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)
-1.  [Apache Cocoon](http://cocoon.apache.org/)  Web development framework: separation of concerns, component-based. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Struts](http://struts.apache.org)  Apache Struts is a free open-source framework for creating Java web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Cocoon](http://cocoon.apache.org/) Web development framework: separation of concerns, component-based. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Struts](http://struts.apache.org) Apache Struts is a free open-source framework for creating Java web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Sling](http://sling.apache.org/) Innovative Web framework based on JCR and OSGi. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache MyFaces](http://myfaces.apache.org)  The first free open source JavaServer(tm) Faces implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache MyFaces](http://myfaces.apache.org) The first free open source JavaServer(tm) Faces implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Pivot](http://pivot.apache.org) Apache Pivot is an open-source platform for building installable Internet applications (IIAs) [rich Internet application]. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Turbine](http://turbine.apache.org)  Turbine is a servlet based framework that allows Java developers to quickly build web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Turbine](http://turbine.apache.org) Turbine is a servlet based framework that allows Java developers to quickly build web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache OODT](http://oodt.apache.org) Apache OODT software is component based, and offers a software architecture beyond simple science applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [VRaptor](https://github.com/caelum/vraptor4) VRaptor 4 delivers high productivity to your Java Web applications on top of CDI. VRaptor is an opensource MVC framework with a large developers and users community, [![GitHub stars](https://img.shields.io/github/stars/caelum/vraptor4.svg?style=social&label=Star&maxAge=2592000)](https://github.com/caelum/vraptor4). http://www.vraptor.org . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Jooby](https://github.com/jooby-project/jooby) Scalable, fast and modular micro web framework for Java , [![GitHub stars](https://img.shields.io/github/stars/jooby-project/jooby.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cjooby-project/jooby). http://jooby.org/ . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [CUBA Platform](https://github.com/cuba-platform/cuba) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin. https://cuba-platform.com [![GitHub stars](https://img.shields.io/github/stars/cuba-platform/cuba.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cuba-platform/cuba). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [Jersey](https://jersey.github.io/) - Jersey RESTful Web Services framework is open source, production quality, framework for developing RESTful Web Services in Java that provides support for JAX-RS APIs and serves as a JAX-RS (JSR 311 & JSR 339) Reference Implementation.
+1.  [CUBA Platform](https://github.com/cuba-platform/cuba) - High-level framework for developing enterprise applications with a rich web interface, based on Spring, EclipseLink and Vaadin. https://cuba-platform.com [![GitHub stars](https://img.shields.io/github/stars/cuba-platform/cuba.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cuba-platform/cuba). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Jersey](https://jersey.github.io/) - Jersey RESTful Web Services framework is open source, production quality, framework for developing RESTful Web Services in Java that provides support for JAX-RS APIs and serves as a JAX-RS (JSR 311 & JSR 339) Reference Implementation.
 
 #### Libraries for web development
+
 1.  [Tobie ua-parser](https://github.com/tobie/ua-parser) A multi-language port of Browserscope's user agent parser. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)/[MIT](https://opensource.org/licenses/MIT)/Perl, [![GitHub stars](https://img.shields.io/github/stars/tobie/ua-parser.svg?style=social&label=Star&maxAge=2592000)](https://github.com/tobie/ua-parser). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Ghost Driver](https://github.com/detro/ghostdriver) Ghost Driver is an implementation of the Remote WebDriver Wire protocol, using PhantomJS as back-end. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29), [![GitHub stars](https://img.shields.io/github/stars/detro/ghostdriver.svg?style=social&label=Star&maxAge=2592000)](https://github.com/detro/ghostdriver). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [B3log Solo](https://github.com/b3log/solo) - A blogging system written in Java, feel free to create your or your team own blog. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/b3log/solo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/b3log/solo). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -161,7 +170,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Baasbox](https://github.com/baasbox/baasbox) BaasBox is an Open Source project that aims to provide a backend for mobile and web apps. License: ?, [![GitHub stars](https://img.shields.io/github/stars/baasbox/baasbox.svg?style=social&label=Star&maxAge=2592000)](https://github.com/baasbox/baasbox).
 1.  [Kolorobot Spring MVC 4 Quickstart Maven Archetype](https://github.com/kolorobot/spring-mvc-quickstart-archetype) — The project is a Maven archetype for Spring MVC 4 web application. License: ?, [![GitHub stars](https://img.shields.io/github/stars/kolorobot/spring-mvc-quickstart-archetype.svg?style=social&label=Star&maxAge=2592000)](https://github.com/kolorobot/spring-mvc-quickstart-archetype).
 1.  [Gargl](https://github.com/jodoglevy/gargl) - Record web requests as they happen and turn them into reusable code in any programming language. Gargl - Generic API Recorder and Generator Lite. Pronounced "Gargle." Automate any website. Record web requests as they happen and turn them into reusable code in any programming language. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/jodoglevy/gargl.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jodoglevy/gargl). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Liferay plugins](https://github.com/liferay/liferay-plugins) - The liferay-plugins repository is part of the Liferay Portal project. Liferay Portal is an open source enterprise web platform for building business solutions that deliver immediate results and long-term value.  License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/liferay/liferay-plugins.svg?style=social&label=Star&maxAge=2592000)](https://github.com/liferay/liferay-plugins). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Liferay plugins](https://github.com/liferay/liferay-plugins) - The liferay-plugins repository is part of the Liferay Portal project. Liferay Portal is an open source enterprise web platform for building business solutions that deliver immediate results and long-term value. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/liferay/liferay-plugins.svg?style=social&label=Star&maxAge=2592000)](https://github.com/liferay/liferay-plugins). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Netflix Ribbon](https://github.com/Netflix/ribbon) Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/Netflix/ribbon.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Netflix/ribbon). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Gwt bootstrap](https://github.com/gwtbootstrap/gwt-bootstrap) A GWT Library that provides the widgets of Bootstrap, from Twitter. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/gwtbootstrap/gwt-bootstrap.svg?style=social&label=Star&maxAge=2592000)](https://github.com/gwtbootstrap/gwt-bootstrap). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Netflix Zuul](https://github.com/Netflix/zuul) Zuul is an edge service that provides dynamic routing, monitoring, resiliency, security, and more. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/Netflix/zuul.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Netflix/zuul). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -169,7 +178,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Spring Boot](http://projects.spring.io/spring-boot/) - Spring Boot makes it easy to create Spring-powered, production-grade applications and services with absolute minimum fuss. It takes an opinionated view of the Spring platform so that new and existing users can quickly get to the bits they need. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [CSSEmbed](https://github.com/nzakas/cssembed) A tool for embedding data URIs in CSS files. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/nzakas/cssembed.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nzakas/cssembed). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Athou commafeed](https://github.com/Athou/commafeed) Google Reader inspired self-hosted RSS reader. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/Athou/commafeed.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Athou/commafeed). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Any23](http://any23.apache.org)  Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Any23](http://any23.apache.org) Anything To Triples (Any23) is a library, a web service and a command line tool that extracts structured data in RDF format from a variety of Web. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Forrest](http://forrest.apache.org/) Apache Forrest software is a publishing framework that transforms input from various sources into a unified presentation in one or more output formats. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Template Engine
@@ -177,29 +186,30 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Apache Velocity](http://velocity.apache.org/) - Velocity is a project of the Apache Software Foundation, charged with the creation and maintenance of open-source software related to the Apache Velocity Engine (templating engine). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache FreeMarker](http://freemarker.incubator.apache.org/) - Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Handlebars.java](https://github.com/jknack/handlebars.java) - Logic-less and semantic templates with Java, [![GitHub stars](https://img.shields.io/github/stars/jknack/handlebars.java.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jknack/handlebars.java). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Thymeleaf](http://www.thymeleaf.org/) -  It is a template engine capable of processing and generating HTML, XML, JavaScript, CSS and text, and can work both in web and non-web environments. It is better suited for serving the view layer of web applications, but it can process files in many formats, even in offline environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Thymeleaf](http://www.thymeleaf.org/) - It is a template engine capable of processing and generating HTML, XML, JavaScript, CSS and text, and can work both in web and non-web environments. It is better suited for serving the view layer of web applications, but it can process files in many formats, even in offline environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Mustache.java](https://github.com/spullara/mustache.java) - Implementation of mustache.js (web application templating system) for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spullara/mustache.java.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spullara/mustache.java). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Tiles](http://tiles.apache.org)  Apache Tiles is a templating framework built to simplify the development of web application user interfaces. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Tiles](http://tiles.apache.org) Apache Tiles is a templating framework built to simplify the development of web application user interfaces. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### CMS and content management
-1.  [Apache Stanbol](http://stanbol.apache.org)  Software components for semantic content management. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache JSPWiki](http://jspwiki.apache.org)  A feature-rich and extensible WikiWiki engine built around the standard J2EE components (Java, servlets, JSP). icense: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+1.  [Apache Stanbol](http://stanbol.apache.org) Software components for semantic content management. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache JSPWiki](http://jspwiki.apache.org) A feature-rich and extensible WikiWiki engine built around the standard J2EE components (Java, servlets, JSP). icense: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Portals](http://portals.apache.org) The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Roller](http://roller.apache.org/) Apache Roller is a full-featured, multi-user and group blog server suitable for blog sites large and small. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Chemistry](http://chemistry.apache.org/) Apache Chemistry provides open source implementations of the Content Management Interoperability Services (CMIS) specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Jease](http://jease.org/) Jease eases the development of content- & database-driven web-applications with Java. License: [GPL v3](https://www.gnu.org/licenses/gpl-3.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ### 3. GUI
 
-1.  [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - JavaFX is the next step in the evolution of Java as a rich client platform. It is designed to provide a lightweight, hardware-accelerated Java UI platform for enterprise business applications.  License: [Oracle, proprietary](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-1.  [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - JavaFX Scene Builder is a visual layout tool that lets users quickly design JavaFX application user interfaces, without coding. Users can drag and drop UI components to a work area, modify their properties, apply style sheets, and the FXML code for the layout that they are creating is automatically generated in the background. The result is an FXML file that can then be combined with a Java project by binding the UI to the application’s logic.  License: [Oracle, proprietary](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true), but see Gluon Scene Builder.
+1.  [JavaFX](http://www.oracle.com/technetwork/java/javase/overview/javafx-overview-2158620.html) - JavaFX is the next step in the evolution of Java as a rich client platform. It is designed to provide a lightweight, hardware-accelerated Java UI platform for enterprise business applications. License: [Oracle, proprietary](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [Scene Builder](http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html) - JavaFX Scene Builder is a visual layout tool that lets users quickly design JavaFX application user interfaces, without coding. Users can drag and drop UI components to a work area, modify their properties, apply style sheets, and the FXML code for the layout that they are creating is automatically generated in the background. The result is an FXML file that can then be combined with a Java project by binding the UI to the application’s logic. License: [Oracle, proprietary](http://www.oracle.com/technetwork/java/javase/terms/license/index.html). ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true), but see Gluon Scene Builder.
 1.  [Gluon Scene Builder](https://bitbucket.org/gluon-oss/scenebuilder) - Scene Builder is free and open source JavaFX Scene Builder, but is backed by Gluon. Commercial support offerings are available, including training and custom consultancy services. License: [BSD](https://www.google.pl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjE5vqD-Y3MAhVH2ywKHe5BBXgQFggkMAI&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBSD_licenses&usg=AFQjCNEADwPS776rXl5O9ofavy4xaW2yYw&sig2=FypX35BAWf3icOci5pQd3w&bvm=bv.119408272,d.bGg). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [SWT](http://www.eclipse.org/swt/) - SWT is an open source widget toolkit for Java designed to provide efficient, portable access to the user-interface facilities of the operating systems on which it is implemented. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Lanterna](https://code.google.com/archive/p/lanterna) - Lanterna is a Java library allowing you to write easy semi-graphical user interfaces in a text-only environment, very similar to the C library curses but with more functionality.  License: [LGPL 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Lanterna](https://code.google.com/archive/p/lanterna) - Lanterna is a Java library allowing you to write easy semi-graphical user interfaces in a text-only environment, very similar to the C library curses but with more functionality. License: [LGPL 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Gephi](https://github.com/gephi/gephi/) - Gephi is an award-winning open-source platform for visualizing and manipulating large graphs. It runs on Windows, Mac OS X and Linux. Localization is available in French, Spanish, Japanese, Russian, Brazilian Portuguese, Chinese and Czech. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License) or [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0).
 
 ### 4. Business
+
 [Up](#useful-java-links)
 
 1.  [Codecademy EventHub](https://github.com/Codecademy/EventHub) — An open source event analytics platform. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/Codecademy/EventHub.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Codecademy/EventHub). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -211,22 +221,22 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Spring Roo](https://github.com/spring-projects/spring-roo) — Spring Roo is a next-generation rapid application development tool for Java developers. It focuses on higher productivity, stock-standard Java APIs, high usability, avoiding engineering trade-offs and facilitating easy Roo removal. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-roo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-roo). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache OFBiz](http://ofbiz.apache.org) Apache OFBiz (The Apache Open For Business Project) is an open source enterprise automation software project. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Portals](http://portals.apache.org) The Apache Portals project provides various software products, including Apache Jetspeed-2, Apache Pluto, and Apache Portals Applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache ODE](http://ode.apache.org)  Apache ODE is a WS-BPEL implementation that supports web services orchestration using flexible process definitions. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
+1.  [Apache ODE](http://ode.apache.org) Apache ODE is a WS-BPEL implementation that supports web services orchestration using flexible process definitions. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. Game Development
+
 [Up](#useful-java-links)
 
 1.  [libgdx](https://github.com/libgdx/libgdx) Desktop/Android/HTML5/iOS Java game development framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/libgdx/libgdx.svg?style=social&label=Star&maxAge=2592000)](https://github.com/libgdx/libgdx). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Disunity](https://github.com/ata4/disunity) An experimental toolset for Unity asset and asset bundle files. License: [unlicense.org](http://unlicense.org), [![GitHub stars](https://img.shields.io/github/stars/ata4/disunity.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ata4/disunity).
- ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+    ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [LibGDX/LWJGL](https://github.com/mattdesl/lwjgl-basics) LibGDX/LWJGL tutorials and examples. License: ?, [![GitHub stars](https://img.shields.io/github/stars/mattdesl/lwjgl-basics.svg?style=social&label=Star&maxAge=2592000)](https://github.com/mattdesl/lwjgl-basics).
 1.  [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine) A complete 3D game development suite written purely in Java.. https://jmonkeyengine.org/ License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), [![GitHub stars](https://img.shields.io/github/stars/jMonkeyEngine/jmonkeyengine.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jMonkeyEngine/jmonkeyengine). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Jetserver](https://github.com/menacher/java-game-server) Jetserver is a high speed nio socket based multiplayer java game server written using Netty and Mike Rettig's Jetlang.It is specifically tuned for network based multiplayer games and supports TCP and UDP network protocols. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/menacher/java-game-server.svg?style=social&label=Star&maxAge=2592000)](https://github.com/menacher/java-game-server). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [LWJGL 2.X](https://github.com/LWJGL/lwjgl) LWJGL 2.X - The Lightweight Java Game Library. https://www.lwjgl.org/ License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), [![GitHub stars](https://img.shields.io/github/stars/LWJGL/lwjgl.svg?style=social&label=Star&maxAge=2592000)](https://github.com/LWJGL/lwjgl). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Ardor3D](https://github.com/gouessej/Ardor3D) - JogAmp’s Ardor3D Continuation is a general-purpose, professionally oriented, open source, scenegraph based 3D Java engine for desktop and embedded environments, using JOGL for its hardware graphics acceleration. Fork of jMonkeyEngine 2.0. Cross-platform. License: [zlib](https://en.wikipedia.org/wiki/Zlib_License).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Ardor3D](https://github.com/gouessej/Ardor3D) - JogAmp’s Ardor3D Continuation is a general-purpose, professionally oriented, open source, scenegraph based 3D Java engine for desktop and embedded environments, using JOGL for its hardware graphics acceleration. Fork of jMonkeyEngine 2.0. Cross-platform. License: [zlib](https://en.wikipedia.org/wiki/Zlib_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [DimensioneX Multiplayer Engine](http://www.dimensionex.net/) - Produces browser games with pseudo-3D views. Games can be turned into Facebook Apps. Intended for beginners. 2.5D. Cross-platform. Notable games: Underworld Online. License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
-1.  [PlayN](https://github.com/playn/playn) A Java game development framework that deploys to Windows, Linux, HTML5, Android and iOS. Notable games: Angry Birds Chrome. Cross-platform. License: [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License). [![GitHub stars](https://img.shields.io/github/stars/playn/playn.svg?style=social&label=Star&maxAge=2592000)](https://github.com/playn/playn).	 ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [PlayN](https://github.com/playn/playn) A Java game development framework that deploys to Windows, Linux, HTML5, Android and iOS. Notable games: Angry Birds Chrome. Cross-platform. License: [Apache 2.0](https://en.wikipedia.org/wiki/Apache_License). [![GitHub stars](https://img.shields.io/github/stars/playn/playn.svg?style=social&label=Star&maxAge=2592000)](https://github.com/playn/playn). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Env3D](https://sourceforge.net/projects/env3d/) - 3D game engine that creates an interface for dynamically adding EnvObjects. Built on jMonkeyEngine 2.0. Cross-platform License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Jake2](http://bytonic.de/html/jake2.html) Java port of the Quake II game engine. 2D. Cross-platform License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Jogre](http://jogre.sourceforge.net/) - JOGRE (Java Online Gaming Real-time Engine) which is an open-source, online, real-time gaming engine and API programmed entirely in Java. License: [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -234,20 +244,22 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [FXGL](https://github.com/AlmasB/FXGL) - JavaFX Game Development Framework. License: [MIT](https://opensource.org/licenses/MIT), [![GitHub stars](https://img.shields.io/github/stars/AlmasB/FXGL.svg?style=social&label=Star&maxAge=2592000)](https://github.com/AlmasB/FXGL). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Useful libraries
+
 [Up](#useful-java-links)
 
 #### Collections
+
 1.  [Google Guava](https://github.com/google/guava) The Guava project contains several of Google's core libraries that we rely on in our Java-based projects: collections, caching, primitives support, concurrency libraries, common annotations, string processing, I/O, and so forth.Requires JDK 1.6 or higher (as of 12.0). [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/collections/guava) License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/google/guava.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/guava). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Commons Collections](http://commons.apache.org/proper/commons-collections/) - Commons-Collections seek to build upon the JDK classes by providing new interfaces, implementations and utilities. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/collections/apache-commons). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Gs collections](https://github.com/goldmansachs/gs-collections) A supplement or replacement for the Java Collections Framework. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/goldmansachs/gs-collections.svg?style=social&label=Star&maxAge=2592000)](https://github.com/goldmansachs/gs-collections). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Eclipse Collections](https://projects.eclipse.org/proposals/eclipse-collections) Eclipse Collections is a collections framework for Java. It has JDK-compatible List, Set and Map implementations with a rich API, additional types not found in the JDK like Bags, Multimaps and set of utility classes that work with any JDK compatible Collections, Arrays, Maps or Strings. The iteration protocol was inspired by the Smalltalk collection framework.Eclipse Collections started off as an open source project on GitHub called GS Collections.  GS Collections has been presented at the JVM Language Summit in 2012 and JavaOne in 2014. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse). License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Eclipse Collections](https://projects.eclipse.org/proposals/eclipse-collections) Eclipse Collections is a collections framework for Java. It has JDK-compatible List, Set and Map implementations with a rich API, additional types not found in the JDK like Bags, Multimaps and set of utility classes that work with any JDK compatible Collections, Arrays, Maps or Strings. The iteration protocol was inspired by the Smalltalk collection framework.Eclipse Collections started off as an open source project on GitHub called GS Collections. GS Collections has been presented at the JVM Language Summit in 2012 and JavaOne in 2014. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/collections/gs-eclipse). License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [javatuples](http://www.javatuples.org/) - javatuples is one of the simplest java libraries ever made. Its aim is to provide a set of java classes that allow you to work with tuples.A tuple is just a sequence of objects that do not necessarily relate to each other in any way. For example: [23, "Saturn", java.sql.Connection@li734s] can be considered a tuple of three elements (a triplet) containing an Integer, a String, and a JDBC Connection object. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Immutables](http://immutables.github.io/) - Java annotation processors to generate simple, safe and consistent value objects. Do not repeat yourself, try Immutables, the most comprehensive tool in this field. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [OpenHFT Chronicle Queue](https://github.com/OpenHFT/Chronicle-Queue) Micro second messaging that stores everything to disk. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License).0, [![GitHub stars](https://img.shields.io/github/stars/OpenHFT/Chronicle-Queue.svg?style=social&label=Star&maxAge=2592000)](https://github.com/OpenHFT/Chronicle-Queue). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [fastutil](http://fastutil.di.unimi.it/) - fastutil extends the Java™ Collections Framework by providing type-specific maps, sets, lists and queues with a small memory footprint and fast access and insertion; provides also big (64-bit) arrays, sets and lists, and fast, practical I/O classes for binary and text files. It requires Java 7 or newer. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [HPPC](http://labs.carrotsearch.com/hppc.html) - HPPC provides template-generated implementations of typical collections, such as lists, sets and maps, for all Java primitive types. The primary driving force behind HPPC is optimization for highest performance and memory efficiency. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Koloboke](https://github.com/OpenHFT/Koloboke) - Java Collections till the last breadcrumb of memory and performance . This library is a carefully designed and efficient extension of the Java Collections Framework with primitive specializations and more. Java 6+. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Trove](http://trove.starlight-systems.com/) - The Trove library provides high speed regular and primitive collections for Java.  License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Trove](http://trove.starlight-systems.com/) - The Trove library provides high speed regular and primitive collections for Java. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [underscore-java](https://github.com/javadev/underscore-java) - Underscore-java is a java port of Underscore.js. In addition to porting Underscore's functionality, Underscore-java includes matching unit tests. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/javadev/underscore-java.svg?style=social&label=Star&maxAge=2592000)](https://github.com/javadev/underscore-java). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Date and Time
@@ -257,18 +269,19 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [ThreeTenBP](https://github.com/ThreeTen/threetenbp) - Backport of functionality based on JSR-310 to Java SE 6 and 7. This is NOT an implementation of JSR-310. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Time4J](https://github.com/MenoData/Time4J) - Advanced date, time and interval library for Java. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Ocpsoft Prettytime](https://github.com/ocpsoft/prettytime) Social Style Date and Time Formatting for Java.PrettyTime is an OpenSource time formatting library. Completely customizable, it creates human readable, relative timestamps like those seen on Digg, Twitter, and Facebook. Get started “right now!” and in over 30 languages! License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/ocpsoft/prettytime.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ocpsoft/prettytime). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [threeten-extra](https://github.com/ThreeTen/threeten-extra) Provides additional date-time classes that complement those in JDK 8. [business-friendly BSD 3-clause license](http://www.threeten.org/threeten-extra/license.html)
+1.  [threeten-extra](https://github.com/ThreeTen/threeten-extra) Provides additional date-time classes that complement those in JDK 8. [business-friendly BSD 3-clause license](http://www.threeten.org/threeten-extra/license.html)
 
 #### Dependency Injection and AOP frameworks
 
 1.  [Spring Framework](https://github.com/spring-projects/spring-framework) The Spring Framework provides a comprehensive programming and configuration model for modern Java-based enterprise applications -- on any kind of deployment platform. A key element of Spring is infrastructural support at the application level: Spring focuses on the "plumbing" of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/dependency_injection/dependency-injection-spring). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-framework.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-framework). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Dagger and Dagger2](https://github.com/square/dagger) A fast dependency injector for Android and Java. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/dependency_injection/dependency-injection-dagger). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/square/dagger.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/dagger), stackoverflow - [800 questions](http://stackoverflow.com/questions/tagged/dagger). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Google Guice](https://github.com/google/guice) -  Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 6 and above, brought to you by Google. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/dependency_injection/dependency-injection-guice). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [![GitHub stars](https://img.shields.io/github/stars/google/guice.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/guice). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Google Guice](https://github.com/google/guice) - Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 6 and above, brought to you by Google. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/dependency_injection/dependency-injection-guice). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [![GitHub stars](https://img.shields.io/github/stars/google/guice.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/guice). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache DeltaSpike](https://deltaspike.apache.org/) - DeltaSpike consists of a number of portable CDI extensions that provide useful features for Java application developers. We will also ensure true portability! We are testing DeltaSpike on different CDI implementations like Apache OpenWebBeans and JBoss Weld, and also on different Java EE servers like Apache Tomcat and TomEE, JBoss AS7, WildFly 8.x and 9.x, Oracle GlassFish 3.1+ and 4.x+, IBM WebSphere 8.x, Oracle WebLogic Server 12c, Jetty, and others. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [HK2](https://hk2.java.net) - A light-weight and dynamic dependency injection framework. [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)/ [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0).
 1.  [Eclipse AspectJ](https://eclipse.org/aspectj/) - AspectJ is a seamless aspect-oriented extension to the Java programming language, Java platform compatible, easy to learn and use. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Console and Command line
+
 1.  [jcommander](https://github.com/cbeust/jcommander) Command line parsing framework for Java. http://jcommander.org/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/cbeust/jcommander.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cbeust/jcommander). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Jline](https://github.com/jline/jline2) JLine is a Java library for handling console input. It is similar in functionality to BSD editline and GNU readline. People familiar with the readline/editline capabilities for modern shells (such as bash and tcsh) will find most of the command editing features of JLine to be familiar. License: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#4-clause_license_.28original_.22BSD_License.22.29), [![GitHub stars](https://img.shields.io/github/stars/jline/jline2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jline/jline2). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [args4j](http://args4j.kohsuke.org/) - args4j is a small Java class library that makes it easy to parse command line options/arguments in your CUI application. License: [MIT](https://opensource.org/licenses/MIT) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -276,7 +289,8 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [picocli](http://picocli.info) - Annotation based command line parser with strong typing for both options and positional args and support for git-like subcommands. Usage help with ANSI colors. Easily included as source to avoid external dependencies. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)
 
 #### Functional Programming
-*Libraries that facilitate functional programming.*
+
+_Libraries that facilitate functional programming._
 
 1.  [Retrolambda](https://github.com/orfjackal/retrolambda) Backport of Java 8's lambda expressions to Java 7, 6 and 5. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/orfjackal/retrolambda.svg?style=social&label=Star&maxAge=2592000)](https://github.com/orfjackal/retrolambda). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Javaslang](https://github.com/javaslang/javaslang) - Javaslang core is a functional library for Java 8+. It helps to reduce the amount of code and to increase the robustness. A first step towards functional programming is to start thinking in immutable values. Javaslang provides immutable collections and the necessary functions and control structures to operate on these values, [![GitHub stars](https://img.shields.io/github/stars/javaslang/javaslang.svg?style=social&label=Star&maxAge=2592000)](https://github.com/javaslang/javaslang). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -288,41 +302,43 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [derive4j](https://github.com/derive4j/derive4j) - Java 8 annotation processor and framework for deriving algebraic data types constructors, pattern-matching, morphisms, (near future: optics and typeclasses), [![GitHub stars](https://img.shields.io/github/stars/derive4j/derive4j.svg?style=social&label=Star&maxAge=2592000)](https://github.com/derive4j/derive4j). License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 
 #### Reactive Programming
-*Libraries for developing reactive applications.*
+
+_Libraries for developing reactive applications._
 
 1.  [ReactiveX RxJava](https://github.com/ReactiveX/RxJava) RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/ReactiveX/RxJava.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ReactiveX/RxJava), stackoverflow - [1814 questions](http://stackoverflow.com/search?q=RxJava). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Eclipse Vert.x](https://github.com/eclipse/vert.x) Vert.x is a tool-kit for building reactive applications on the JVM . License:  Eclipse Public 1 / [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/eclipse/vert.x.svg?style=social&label=Star&maxAge=2592000)](https://github.com/eclipse/vert.x), stackoverflow - [728 questions](http://stackoverflow.com/search?q=Vert.x). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm/) - The purpose of Reactive Streams is to provide a standard for asynchronous stream processing with non-blocking backpressure. License: [Public Domain (CC0)](http://creativecommons.org/publicdomain/zero/1.0/), [![GitHub stars](https://img.shields.io/github/stars/reactive-streams/reactive-streams-jvm.svg?style=social&label=Star&maxAge=2592000)](https://github.com/reactive-streams/reactive-streams-jvm/). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Reactor](http://projectreactor.io/) - Reactor is a second-generation Reactive library for building non-blocking applications on the JVM based on the Reactive Streams Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [RSocket](http://rsocket.io) - RSocket is a binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron. License: [Apache 2](https://github.com/rsocket/rsocket/blob/master/LICENSE),[![GitHub stars](https://img.shields.io/github/stars/rsocket/rsocket?style=social)](https://github.com/rsocket/rsocket) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
+1.  [RSocket](http://rsocket.io) - RSocket is a binary protocol for use on byte stream transports such as TCP, WebSockets, and Aeron. License: [Apache 2](https://github.com/rsocket/rsocket/blob/master/LICENSE),[![GitHub stars](https://img.shields.io/github/stars/rsocket/rsocket?style=social)](https://github.com/rsocket/rsocket) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Security and Authentication
-*Libraries that handle security, authentication, authorization or session management.*
+
+_Libraries that handle security, authentication, authorization or session management._
 [Up](#useful-java-links)
 
-1.  [Scribe Java](https://github.com/scribejava/scribejava) - Simple OAuth library for Java. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/scribejava/scribejava.svg?style=social&label=Star&maxAge=2592000)](https://github.com/scribejava/scribejava). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Spring security oauth](https://github.com/spring-projects/spring-security-oauth) - Support for adding OAuth1(a) and OAuth2 features (consumer and provider) for Spring web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-security-oauth.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-security-oauth). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Jasig CAS (Central Authentication Service)](https://github.com/Jasig/cas) - Apereo CAS - Single Sign On for the Web.The Central Authentication Service (CAS) is the standard mechanism by which web applications should authenticate users. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/Jasig/cas.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Jasig/cas). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Spring security](https://github.com/spring-projects/spring-security) — Spring Security provides security services for the Spring IO Platform. Spring Security 3.1 requires Spring 3.0.3 as a minimum and also requires Java 5. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-security.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-security). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Play Authenticate](https://github.com/joscha/play-authenticate) - An authentication plugin for Play Framework 2.x (Java). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/joscha/play-authenticate.svg?style=social&label=Star&maxAge=2592000)](https://github.com/joscha/play-authenticate). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Shiro](http://shiro.apache.org/) - Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management. With Shiro’s easy-to-understand API, you can quickly and easily secure any application – from the smallest mobile applications to the largest web and enterprise applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Bouncy Castle](https://www.bouncycastle.org/java.html) - Legion of the Bouncy Castle Java cryptography APIs.A lightweight cryptography API. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Cryptomator](https://cryptomator.org/) - Free client-side encryption for your cloud files. Open source software: No backdoors, no registration. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Google Keyczar](https://github.com/google/keyczar) - Easy-to-use crypto toolkit. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services.  Built on top of the OAuth 2.0, Open ID Connect, JSON Web Token (JWT) and SAML 2.0 specifications.  Keycloak has tight integration with a variety of platforms and has a HTTP security proxy service where we don't have tight integration.  Options are to deploy it with an existing app server, as a black-box appliance, or as an Openshift cloud service and/or cartridge. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [PicketLink](http://picketlink.org/) - Simplified Security and Identity management for Java Applications PicketLink is an umbrella project for security and identity management for Java Applications. It is licensed under a friendly Apache v2 license. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Santuario](http://santuario.apache.org) Library implementing XML Digital Signature Specification & XML Encryption Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Oltu](https://oltu.apache.org/) ( *has retired* ) Apache Oltu is an OAuth protocol implementation in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Syncope](http://syncope.apache.org) Apache Syncope is an Open Source system for managing digital identities in enterprise environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
+1. [OTP-Java](https://github.com/BastiaanJansen/OTP-Java) - A small one-time password generator library according to RFC 4226 (HOTP) and RFC 6238 (TOTP). [MIT](https://opensource.org/licenses/MIT)
+1. [Scribe Java](https://github.com/scribejava/scribejava) - Simple OAuth library for Java. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/scribejava/scribejava.svg?style=social&label=Star&maxAge=2592000)](https://github.com/scribejava/scribejava). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Spring security oauth](https://github.com/spring-projects/spring-security-oauth) - Support for adding OAuth1(a) and OAuth2 features (consumer and provider) for Spring web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-security-oauth.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-security-oauth). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Jasig CAS (Central Authentication Service)](https://github.com/Jasig/cas) - Apereo CAS - Single Sign On for the Web.The Central Authentication Service (CAS) is the standard mechanism by which web applications should authenticate users. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/Jasig/cas.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Jasig/cas). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Spring security](https://github.com/spring-projects/spring-security) — Spring Security provides security services for the Spring IO Platform. Spring Security 3.1 requires Spring 3.0.3 as a minimum and also requires Java 5. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-security.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-security). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Play Authenticate](https://github.com/joscha/play-authenticate) - An authentication plugin for Play Framework 2.x (Java). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/joscha/play-authenticate.svg?style=social&label=Star&maxAge=2592000)](https://github.com/joscha/play-authenticate). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Apache Shiro](http://shiro.apache.org/) - Apache Shiro is a powerful and easy-to-use Java security framework that performs authentication, authorization, cryptography, and session management. With Shiro’s easy-to-understand API, you can quickly and easily secure any application – from the smallest mobile applications to the largest web and enterprise applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Bouncy Castle](https://www.bouncycastle.org/java.html) - Legion of the Bouncy Castle Java cryptography APIs.A lightweight cryptography API. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Cryptomator](https://cryptomator.org/) - Free client-side encryption for your cloud files. Open source software: No backdoors, no registration. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Google Keyczar](https://github.com/google/keyczar) - Easy-to-use crypto toolkit. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Keycloak](http://keycloak.jboss.org/) - Integrated SSO and IDM for browser apps and RESTful web services. Built on top of the OAuth 2.0, Open ID Connect, JSON Web Token (JWT) and SAML 2.0 specifications. Keycloak has tight integration with a variety of platforms and has a HTTP security proxy service where we don't have tight integration. Options are to deploy it with an existing app server, as a black-box appliance, or as an Openshift cloud service and/or cartridge. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [PicketLink](http://picketlink.org/) - Simplified Security and Identity management for Java Applications PicketLink is an umbrella project for security and identity management for Java Applications. It is licensed under a friendly Apache v2 license. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Santuario](http://santuario.apache.org) Library implementing XML Digital Signature Specification & XML Encryption Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Apache Oltu](https://oltu.apache.org/) ( _has retired_ ) Apache Oltu is an OAuth protocol implementation in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1. [Apache Syncope](http://syncope.apache.org) Apache Syncope is an Open Source system for managing digital identities in enterprise environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### High Performance
-*Everything about high performance computation, from collections to specific libraries.*
+
+_Everything about high performance computation, from collections to specific libraries._
 [Up](#useful-java-links)
 
 1.  [Agrona](https://github.com/real-logic/Agrona) - High Performance data structures and utility methods for Java and C++, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Disruptor](http://lmax-exchange.github.io/disruptor/) -  Inter-thread messaging library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Disruptor](http://lmax-exchange.github.io/disruptor/) - Inter-thread messaging library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [fastutil](http://fastutil.di.unimi.it/) - fastutil extends the Java Collections Framework by providing type-specific maps, sets, lists and queues with a small memory footprint and fast access and insertion; provides also big (64-bit) arrays, sets and lists, and fast, practical I/O classes for binary and text files. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Eclipse Collections (older GS Collections)](https://github.com/goldmansachs/gs-collections) - Eclipse Collections is a collections framework for Java. It has JDK-compatible List, Set and Map implementations with a rich API and set of utility classes that work with any JDK compatible Collections, Arrays, Maps or Strings. The iteration protocol was inspired by the Smalltalk collection framework. The library modules in GS Collections are compatible with Java 5. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [HPPC](http://labs.carrotsearch.com/hppc.html) -HPPC provides template-generated implementations of typical collections, such as lists, sets and maps, for all Java primitive types. The primary driving force behind HPPC is optimization for highest performance and memory efficiency. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -330,11 +346,11 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [JCTools](https://github.com/JCTools/JCTools) - Concurrency tools currently missing from the JDK. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Koloboke](https://github.com/OpenHFT/Koloboke) - Hash sets and hash maps. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Trove](http://trove.starlight-systems.com/) - Primitive collections. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [JUnion](https://github.com/TehLeo/junion) - Delivers struct types for Java programming language. 64 bit addressable struct arrays. [https://tehleo.github.io/junion/](https://tehleo.github.io/junion/)  License: [License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
+1.  [JUnion](https://github.com/TehLeo/junion) - Delivers struct types for Java programming language. 64 bit addressable struct arrays. [https://tehleo.github.io/junion/](https://tehleo.github.io/junion/) License: [License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Serialization and I/O
-*Libraries that handle serialization with high efficiency.*
+
+_Libraries that handle serialization with high efficiency._
 [Up](#useful-java-links)
 
 1.  [Square Okio](https://github.com/square/okio) A modern I/O API for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/square/okio.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/okio). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -346,23 +362,23 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Kryo](https://github.com/EsotericSoftware/kryo) - Fast and efficient object graph serialization framework. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Logging
-*Libraries that log the behavior of an application.*
-[Up](#useful-java-links)
 
+_Libraries that log the behavior of an application._
+[Up](#useful-java-links)
 
 1.  [Graylog2 server](https://github.com/Graylog2/graylog2-server) Free and open source log management. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/Graylog2/graylog2-server.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Graylog2/graylog2-server). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [logback](https://github.com/qos-ch/logback) The reliable, generic, fast and flexible logging framework for Java.. http://logback.qos.ch/. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html)/[GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/qos-ch/logback.svg?style=social&label=Star&maxAge=2592000)](https://github.com/qos-ch/logback). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [slf4j](https://github.com/qos-ch/slf4j) Abstraction layer which is to be used with an implementation. http://www.slf4j.org/ License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/qos-ch/slf4j.svg?style=social&label=Star&maxAge=2592000)](https://github.com/qos-ch/slf4j). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Log4j 2](http://logging.apache.org/log4j/) - Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [graylog](https://www.graylog.org/) -  Open-source aggregator suited for extended role and permission management. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+1.  [graylog](https://www.graylog.org/) - Open-source aggregator suited for extended role and permission management. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Elastic Kibana](https://www.elastic.co/products/kibana) - Analyzes and visualizes log files. Some features require payment. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Elastic Logstash](https://www.elastic.co/products/logstash) - Tool for managing log files. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Metrics](https://github.com/dropwizard/metrics) - Expose metrics via JMX or HTTP and can send them to a database. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [tinylog](http://www.tinylog.org/) -  Lightweight logging framework with static logger class. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
+1.  [tinylog](http://www.tinylog.org/) - Lightweight logging framework with static logger class. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Bean Mapping and Validation
-*Frameworks that ease bean mapping or bean validation.*
+
+_Frameworks that ease bean mapping or bean validation._
 [Up](#useful-java-links)
 
 1.  [Dozer](https://github.com/DozerMapper/dozer/) - Dozer is a Java Bean to Java Bean mapper that recursively copies data from one object to another. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/1.6-usefull-libraries/bean_mapping/dozer). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [![GitHub stars](https://img.shields.io/github/stars/DozerMapper/dozer.svg?style=social&label=Star&maxAge=2592000)](https://github.com/DozerMapper/dozer/). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -373,10 +389,9 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Apache BVal](http://bval.apache.org/) Apache BVal delivers an implementation of the Java Bean Validation (JSR303) Specification which is TCK compliant, works on Java SE 5 or later. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [OVal](http://oval.sourceforge.net/) – is a pragmatic and extensible validation framework for any kind of Java objects. Not JSR303/JSR380 compliant but supports Bean Validation constraints. It's pretty old flexible and reliable. License: [EPL v2.0](https://www.eclipse.org/legal/epl-2.0). [![GitHub stars](https://img.shields.io/github/stars/sebthom/oval.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sebthom/oval) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-
 ### 7. Imagery and Video
-*Libraries that assist with the creation, evaluation or manipulation of graphical images or video.*
+
+_Libraries that assist with the creation, evaluation or manipulation of graphical images or video._
 [Up](#useful-java-links)
 
 1.  [Facebook Rebound](https://github.com/facebook/rebound) A Java library that models spring dynamics and adds real world physics to your app. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), [![GitHub stars](https://img.shields.io/github/stars/facebook/rebound.svg?style=social&label=Star&maxAge=2592000)](https://github.com/facebook/rebound). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -387,9 +402,9 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Thumbnailator](https://github.com/coobird/thumbnailator) - Thumbnailator's fluent interface can be used to perform fairly complicated thumbnail processing task in one simple step.
 1.  [zxing](https://github.com/zxing/zxing) ZXing ("zebra crossing") is an open-source, multi-format 1D/2D barcode image processing library implemented in Java, with ports to other languages. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/zxing/zxing.svg?style=social&label=Star&maxAge=2592000)](https://github.com/zxing/zxing). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ### 8. Code generation and changing byte code
-*Libraries to manipulate bytecode programmatically.*
+
+_Libraries to manipulate bytecode programmatically._
 [Up](#useful-java-links)
 
 1.  [Google Auto](https://github.com/google/auto) - A collection of source code generators for Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/google/auto.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/auto). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -399,11 +414,12 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Byteman](http://byteman.jboss.org/) - Byteman is a tool which makes it easy to trace, monitor and test the behaviour of Java application and JDK runtime code. It injects Java code into your application methods or into Java runtime methods without the need for you to recompile, repackage or even redeploy your application. License: [LGPL 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Javassist](http://jboss-javassist.github.io/javassist/) -Javassist (Java Programming Assistant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java; it enables Java programs to define a new class at runtime and to modify a class file when the JVM loads it. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) or [LGPL or later 2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.ru.html) or [Mozilla Public License 1.1.](https://en.wikipedia.org/wiki/Mozilla_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [ADT4J](https://github.com/sviperll/adt4j) - This library implements Algebraic Data Types for Java. ADT4J provides annotation processor for @GenerateValueClassForVisitor annotation. ADT4J generates new class for each @GenerateValueClassForVisitor annotation. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [JHipster](https://github.com/jhipster/generator-jhipster) - Hipster stack for Java developers. Spring Boot + AngularJS in one handy generator.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [JHipster](https://github.com/jhipster/generator-jhipster) - Hipster stack for Java developers. Spring Boot + AngularJS in one handy generator. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [cglib](https://github.com/cglib/cglib) - cglib - Byte Code Generation Library is high level API to generate and transform Java byte code. It is used by AOP, testing, data access frameworks to generate dynamic proxy objects and intercept field access. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 9. Distributed Applications
-*Libraries and frameworks for writing distributed and fault-tolerant applications.*
+
+_Libraries and frameworks for writing distributed and fault-tolerant applications._
 [Up](#useful-java-links)
 
 1.  [Akka](http://akka.io) - Akka is a toolkit and runtime for building highly concurrent, distributed, and resilient message-driven applications on the JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -415,8 +431,8 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Axon Framework](http://www.axonframework.org/) - The axon framework is focussed on making life easier for developers that want to create a java application based on the CQRS principles. The framework is used in a lot of environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Hazelcast](http://hazelcast.org/) - The Leading Open Source In-Memory Data Grid: Distributed Computing, Simplified. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Netflix Hystrix](https://github.com/Netflix/Hystrix) - Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable, [![GitHub stars](https://img.shields.io/github/stars/Netflix/Hystrix.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Netflix/Hystrix). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [JGroups](http://www.jgroups.org/) - JGroups is a toolkit for reliable messaging. It can be used to create clusters whose nodes can send messages to each other.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Orbit](https://github.com/orbit-legacy/orbit1) - Orbit is a modern framework for JVM languages that makes it easier to build and maintain distributed and scalable online services. It was developed by BioWare, a division of Electronic Arts.  License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [JGroups](http://www.jgroups.org/) - JGroups is a toolkit for reliable messaging. It can be used to create clusters whose nodes can send messages to each other. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Orbit](https://github.com/orbit-legacy/orbit1) - Orbit is a modern framework for JVM languages that makes it easier to build and maintain distributed and scalable online services. It was developed by BioWare, a division of Electronic Arts. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Quasar](https://docs.paralleluniverse.co/quasar/) - Quasar is an open source JVM library that greatly simplifies the creation of highly concurrent software that is very easy to write and reason about, performant, and fault tolerant. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License) or [LGPL 3.0](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Storm contrib](https://github.com/nathanmarz/storm-contrib) A collection of spouts, bolts, serializers, DSLs, and other goodies to use with Storm. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html), [![GitHub stars](https://img.shields.io/github/stars/nathanmarz/storm-contrib.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nathanmarz/storm-contrib). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JADE](http://jade.tilab.com/) - JADE (Java Agent DEvelopment Framework) is a software Framework fully implemented in the Java language. It simplifies the implementation of multi-agent systems through a middle-ware that complies with the FIPA specifications and through a set of graphical tools that support the debugging and deployment phases. License: [GNU Lesser 2.0](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -425,7 +441,8 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Lagom](https://github.com/lagom/lagom) - Reactive Microservices for the JVM. https://www.lightbend.com/lagom . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [![GitHub stars](https://img.shields.io/github/stars/lagom/lagom.svg?style=social&label=Star&maxAge=2592000)](https://github.com/lagom/lagom). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 10. Science
-*Libraries for scientific computing and analysis.*
+
+_Libraries for scientific computing and analysis._
 [Up](#useful-java-links)
 
 1.  [DataMelt](http://jwork.org/dmelt/) - DataMelt is a free mathematics software for scientists, engineers and students. It can be used for numeric computation, statistics, symbolic calculations, data analysis and data visualization. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -434,18 +451,19 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Michael Thomas Flanagan's Java Scientific Library](http://www.ee.ucl.ac.uk/~mflanaga/java/) General classes of a Java scientific and numerical library written by Michael Thomas Flanagan to support both his own research and his undergraduate programming courses and projects. License: only for non-commercial use.
 
 ### 11. OSGI
+
 1.  [ACE](https://ace.apache.org/) Apache ACE is a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Aries](http://aries.apache.org/) The Aries project consists of a set of pluggable Java components enabling an enterprise OSGi application programming model. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Felix](http://felix.apache.org/) OSGi framework implementation and related technologies. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Karaf](http://karaf.apache.org)  Apache Karaf is an OSGi distribution for server-side applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Karaf](http://karaf.apache.org) Apache Karaf is an OSGi distribution for server-side applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Equinox](http://www.eclipse.org/equinox/) OSGI framework implementation and related technologies. License: [EPL](https://www.eclipse.org/org/documents/epl-v10.php) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Eclipse Virgo](http://www.eclipse.org/virgo/) OSGI based server that is designed to run enterprise Java applications and Spring-powered applications. License: [EPL](https://www.eclipse.org/org/documents/epl-v10.php) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
 
 ## II. Databases, search engines, big data and machine learning
 
 ### 1. Databases and storages
-*Everything which simplifies interactions with the database.*
+
+_Everything which simplifies interactions with the database._
 [Up](#useful-java-links)
 
 1.  [Thinkaurelius Titan](https://github.com/thinkaurelius/titan) - Titan is a highly scalable graph database optimized for storing and querying large graphs with billions of vertices and edges distributed across a multi-machine cluster. Titan is a transactional database that can support thousands of concurrent users, complex traversals, and analytic graph queries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/thinkaurelius/titan.svg?style=social&label=Star&maxAge=2592000)](https://github.com/thinkaurelius/titan). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -473,23 +491,25 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Tinkerpop Rexster](https://github.com/tinkerpop/rexster) Rexster is a graph server that exposes any Blueprints graph through HTTP/REST and a binary protocol called RexPro. Extensions support standard traversal goals such as search, score, rank, and, in concert, recommendation. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29), [![GitHub stars](https://img.shields.io/github/stars/tinkerpop/rexster.svg?style=social&label=Star&maxAge=2592000)](https://github.com/tinkerpop/rexster). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Tomcat redis session manager](https://github.com/jcoleman/tomcat-redis-session-manager) Redis-backed non-sticky session store for Apache Tomcat. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/jcoleman/tomcat-redis-session-manager.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jcoleman/tomcat-redis-session-manager). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Embulk](https://github.com/embulk/embulk) Embulk is a parallel bulk data loader that helps data transfer between various storages, databases, NoSQL and cloud services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/embulk/embulk.svg?style=social&label=Star&maxAge=2592000)](https://github.com/embulk/embulk). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [H2](http://h2database.com/) - Welcome to H2, the Java SQL database. The main features of H2 are: Very fast, open source, JDBC API,  Embedded and server modes; in-memory databases, Browser based Console application,Small footprint: around 1.5 MB jar file size License: [Mozilla Public License 1.1.](https://en.wikipedia.org/wiki/Mozilla_Public_License) and [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Derby](https://db.apache.org/derby/) - Apache Derby, an Apache DB subproject, is an open source relational database implemented entirely in Java. Derby provides an embedded JDBC driver that lets you embed Derby in any Java-based solution.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [H2](http://h2database.com/) - Welcome to H2, the Java SQL database. The main features of H2 are: Very fast, open source, JDBC API, Embedded and server modes; in-memory databases, Browser based Console application,Small footprint: around 1.5 MB jar file size License: [Mozilla Public License 1.1.](https://en.wikipedia.org/wiki/Mozilla_Public_License) and [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Derby](https://db.apache.org/derby/) - Apache Derby, an Apache DB subproject, is an open source relational database implemented entirely in Java. Derby provides an embedded JDBC driver that lets you embed Derby in any Java-based solution. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Empire-db](http://empire-db.apache.org/) Apache Empire-db is a lightweight relational database abstraction layer and data persistence component. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Ignite](http://ignite.apache.org) Apache Ignite is an In-Memory Data Fabric providing in-memory data caching, partitioning, processing, and querying components. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Tarantool](https://github.com/tarantool/tarantool) — is an open-source NoSQL database management system and Lua application server. It maintains databases in memory and ensures crash resistance with write-ahead logging. It includes a Lua interpreter and interactive console but also accepts connections from programs in several other languages. License: [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Tarantool](https://github.com/tarantool/tarantool) — is an open-source NoSQL database management system and Lua application server. It maintains databases in memory and ensures crash resistance with write-ahead logging. It includes a Lua interpreter and interactive console but also accepts connections from programs in several other languages. License: [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### **Distributed Databases.**
-*Databases in a distributed system that appear to applications as a single data source.*
+
+_Databases in a distributed system that appear to applications as a single data source._
 
 1.  [Apache Cassandra](https://github.com/apache/cassandra) - The Apache Cassandra database is the right choice when you need scalability and high availability without compromising performance. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/cassandra.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/cassandra). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache HBase](http://hbase.apache.org) -  Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache HBase](http://hbase.apache.org) - Apache HBase is an open-source, distributed, versioned, non-relational database modeled after Google's Bigtable: A Distributed Storage System for Structured Data by Chang et al. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Druid](https://github.com/druid-io/druid/) - Druid is a fast column-oriented distributed data store. http://druid.io License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [![GitHub stars](https://img.shields.io/github/stars/druid-io/druid.svg?style=social&label=Star&maxAge=2592000)](https://github.com/druid-io/druid). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Infinispan](http://infinispan.org/) - Infinispan is a distributed in-memory key/value data store with optional schema. It can be used both as an embedded Java library and as a language-independent service accessed remotely over a variety of protocols (HotRod, REST, Memcached and WebSockets). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [OpenTSDB](https://github.com/OpenTSDB/opentsdb) - The Scalable Time Series Database Store and serve massive amounts of time series data without losing granularity. http://opentsdb.net License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/OpenTSDB/opentsdb.svg?style=social&label=Star&maxAge=2592000)](https://github.com/OpenTSDB/opentsdb). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 2. Data structures
-*Efficient and specific data structures.*
+
+_Efficient and specific data structures._
 
 1.  [Apache Avro](https://avro.apache.org/) - Apache Avro is a data serialization system. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Orc](https://orc.apache.org/) - The smallest, fastest columnar storage for Hadoop workloads. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -501,9 +521,10 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Wire](https://github.com/square/wire) - Clean, lightweight protocol buffers for Android and Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Search engines
+
 [Up](#useful-java-links)
 
-1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - Elasticsearch is a distributed RESTful search engine built for the cloud.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch.svg?style=social&label=Star&maxAge=2592000)](https://github.com/elastic/elasticsearch). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - Elasticsearch is a distributed RESTful search engine built for the cloud. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch.svg?style=social&label=Star&maxAge=2592000)](https://github.com/elastic/elasticsearch). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Linkedin Indextank Engine](https://github.com/linkedin/indextank-engine) This project contains IndexTank (http://www.searchify.com) search engine implementation. Includes features like variables (boosts), categories (facets), faceted search, snippeting, custom scoring functions, suggest, and autocomplete. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/linkedin/indextank-engine.svg?style=social&label=Star&maxAge=2592000)](https://github.com/linkedin/indextank-engine). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Solr](https://github.com/apache/lucene-solr) Solr is the popular, blazing-fast, open source enterprise search platform built on Apache Lucene. http://lucene.apache.org/solr/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/lucene-solr.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/lucene-solr). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Linkedin Cleo](https://github.com/linkedin/cleo) A flexible, partial, out-of-order and real-time typeahead search library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/linkedin/cleo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/linkedin/cleo). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -511,10 +532,10 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary. License: ?, [![GitHub stars](https://img.shields.io/github/stars/medcl/elasticsearch-analysis-ik.svg?style=social&label=Star&maxAge=2592000)](https://github.com/medcl/elasticsearch-analysis-ik).
 1.  [Apache ManifoldCF](http://marmotta.apache.org) Open-source software for transferring content between repositories or search indexes License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Lemur Project](https://sourceforge.net/projects/lemur/) The Lemur Project develops search engines, browser toolbars, text analysis tools, and data resources that support research and development of information retrieval and text mining software, including the Indri search engine and ClueWeb09 dataset. License: [BSD License](https://sourceforge.net/directory/license:bsd/) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [YaCy](https://github.com/yacy/yacy_search_server) -  The YaCy Search Engine application, http://yacy.net/ [![GitHub stars](https://img.shields.io/github/stars/yacy/yacy_search_server.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yacy/yacy_search_server). License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) and [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License)
-
+1.  [YaCy](https://github.com/yacy/yacy_search_server) - The YaCy Search Engine application, http://yacy.net/ [![GitHub stars](https://img.shields.io/github/stars/yacy/yacy_search_server.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yacy/yacy_search_server). License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) and [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License)
 
 ### 4. Client and drivers for databases
+
 [Up](#useful-java-links)
 
 1.  [Facebook Presto](https://github.com/prestodb/presto) Distributed SQL query engine for big data (Cassandra, Hive, Kafka, MySQL, PostgreSQL and so on). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/prestodb/presto.svg?style=social&label=Star&maxAge=2592000)](https://github.com/prestodb/presto). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -541,12 +562,13 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Apache Phoenix](http://phoenix.apache.org/) - Apache Phoenix enables OLTP and operational analytics in Hadoop for low latency applications by combining the best of both worlds, License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - FlexyPool adds metrics and failover strategies to a given Connection Pool, allowing it to resize on demand. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [LightAdmin](http://lightadmin.org/) - Pluggable data administration UI library for Java web applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Jaybird JCA/JDBC driver](https://github.com/FirebirdSQL/jaybird) - JCA-JDBC Driver for Firebird database. http://www.firebirdsql.org/en/jdbc-driver/, [![GitHub stars](https://img.shields.io/github/stars/FirebirdSQL/jaybird.svg?style=social&label=Star&maxAge=2592000)](https://github.com/FirebirdSQL/jaybird). License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)  
-1.  [dbeaver](https://github.com/serge-rider/dbeaver) - Free universal database manager and SQL client.  http://dbeaver.jkiss.org. , [![GitHub stars](https://img.shields.io/github/stars/serge-rider/dbeaver.svg?style=social&label=Star&maxAge=2592000)](https://github.com/serge-rider/dbeaver). License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
-1.  [tarantool-java](https://github.com/tarantool/tarantool-java) A Java client for Tarantool. License: [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Jaybird JCA/JDBC driver](https://github.com/FirebirdSQL/jaybird) - JCA-JDBC Driver for Firebird database. http://www.firebirdsql.org/en/jdbc-driver/, [![GitHub stars](https://img.shields.io/github/stars/FirebirdSQL/jaybird.svg?style=social&label=Star&maxAge=2592000)](https://github.com/FirebirdSQL/jaybird). License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [dbeaver](https://github.com/serge-rider/dbeaver) - Free universal database manager and SQL client. http://dbeaver.jkiss.org. , [![GitHub stars](https://img.shields.io/github/stars/serge-rider/dbeaver.svg?style=social&label=Star&maxAge=2592000)](https://github.com/serge-rider/dbeaver). License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+1.  [tarantool-java](https://github.com/tarantool/tarantool-java) A Java client for Tarantool. License: [BSD licenses](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. ORM
-*APIs which handle the persistence of objects.*
+
+_APIs which handle the persistence of objects._
 [Up](#useful-java-links)
 
 1.  [HikariCP](https://github.com/brettwooldridge/HikariCP) A solid high-performance JDBC connection pool at last. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/brettwooldridge/HikariCP.svg?style=social&label=Star&maxAge=2592000)](https://github.com/brettwooldridge/HikariCP). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -561,12 +583,13 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Vibur DBCP](http://www.vibur.org/) - Concurrent, fast, and fully-featured JDBC connection pool, which provides a non-starvation guarantee for application threads, statement caching, slow SQL queries detection and logging, and Hibernate integration, among other features. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Ebean](http://ebean-orm.github.io/) - Ebean ORM for Java/Kotlin.Fast and simple data access on the JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [EclipseLink](https://www.eclipse.org/eclipselink/) - Comprehensive open-source Java persistence solution addressing relational, XML, and database web services. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License) and [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [OrmLite](http://ormlite.com/) - Object Relational Mapping Lite (ORM Lite) provides some simple, lightweight functionality for persisting Java objects to SQL databases while avoiding the complexity and overhead of more standard ORM packages. License: [ISC](https://en.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_ISC).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [OrmLite](http://ormlite.com/) - Object Relational Mapping Lite (ORM Lite) provides some simple, lightweight functionality for persisting Java objects to SQL databases while avoiding the complexity and overhead of more standard ORM packages. License: [ISC](https://en.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_ISC). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Cayenne](http://cayenne.apache.org/) User-friendly Java ORM with tools. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache OpenJPA](http://openjpa.apache.org) Java Persistence API Implementation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache MetaModel]( http://metamodel.apache.org) With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache MetaModel](http://metamodel.apache.org) With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Working with messy data
+
 [Up](#useful-java-links)
 
 1.  [Storm](https://github.com/nathanmarz/storm) - Distributed and fault-tolerant realtime computation: stream processing, continuous computation, distributed RPC, and more. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/nathanmarz/storm.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nathanmarz/storm). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -581,9 +604,11 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Apache UIMA](http://uima.apache.org) Annotator components and a scalable integration and deployment framework for Unstructured Information analysis. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 7. Big data
+
 [Up](#useful-java-links)
 
 #### Frameworks and libraries for big data
+
 1.  [Apache Storm](https://github.com/apache/storm) - Storm is a distributed realtime computation system. Similar to how Hadoop provides a set of general primitives for doing batch processing, Storm provides a set of general primitives for doing realtime computation.License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/storm.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/storm). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Twitter Heron](https://github.com/twitter/heron) - Heron is realtime analytics platform developed by Twitter. It is the direct successor of Apache Storm, built to be backwards compatible with Storm's topology API but with a wide array of architectural improvements. [![GitHub stars](https://img.shields.io/github/stars/twitter/heron.svg?style=social&label=Star&maxAge=2592000)](https://github.com/twitter/heron). http://heronstreaming.io License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [H2o](https://github.com/h2oai/h2o-2) h2o = fast statistical, machine learning & math runtime for bigdata. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/h2oai/h2o-2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/h2oai/h2o-2). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -599,35 +624,34 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Oryx 2](https://github.com/OryxProject/oryx) - Oryx 2: Lambda architecture on Apache Spark, Apache Kafka for real-time large scale machine learning. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/OryxProject/oryx.svg?style=social&label=Star&maxAge=2592000)](https://github.com/OryxProject/oryx). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Yahoo SAMOA (Scalable Advanced Massive Online Analysis)](https://github.com/yahoo/samoa) — SAMOA (Scalable Advanced Massive Online Analysis) is an open-source platform for mining big data streams. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/yahoo/samoa.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yahoo/samoa). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Curator](http://curator.apache.org/) A set of Java libraries that make using Apache ZooKeeper much easier. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Hama](http://hama.apache.org/)  Hama is an efficient and scalable general-purpose BSP computing engine. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Hama](http://hama.apache.org/) Hama is an efficient and scalable general-purpose BSP computing engine. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Falcon](http://falcon.apache.org/) Data management and processing platform for Hadoop. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Knox](http://karaf.apache.org) A REST API Gateway for Hadoop Services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Flume](http://flume.apache.org/) Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Tajo](http://tajo.apache.org) Tajo is an open source big data warehouse system in Hadoop for processing web-scale data sets. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Tez](http://tez.apache.org) Apache Tez is an effort to develop a generic application framework which can be used to process arbitrarily complex directed-acyclic graphs (DAGs) of data-processing tasks and also a re-usable set of data-processing primitives which can be used by other projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache REEF](http://reef.apache.org/)  Apache REEF (Retainable Evaluator Execution Framework) is a scale-out computing fabric that eases the development of Big Data applications on top of resource managers such as Apache YARN and Mesos. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache REEF](http://reef.apache.org/) Apache REEF (Retainable Evaluator Execution Framework) is a scale-out computing fabric that eases the development of Big Data applications on top of resource managers such as Apache YARN and Mesos. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Pig](http://pig.apache.org) Apache Pig is a platform for analyzing large data sets on Hadoop. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 #### Data store, database, search or SQL-like query engine for big data.
+
 1.  [Druid](https://github.com/druid-io/druid) Column oriented distributed data store ideal for powering interactive applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/druid-io/druid.svg?style=social&label=Star&maxAge=2592000)](https://github.com/druid-io/druid). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Hive](https://github.com/apache/hive) - The Apache Hive data warehouse software facilitates querying and
-managing large datasets residing in distributed storage. Built on top
-of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/hive.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/hive)
-. ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+    managing large datasets residing in distributed storage. Built on top
+    of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/hive.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/hive)
+    . ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Kylin](https://github.com/KylinOLAP/Kylin) Apache Kylin is an open source Distributed Analytics Engine to provide SQL interface and multi-dimensional analysis (OLAP) on Hadoop supporting extremely large datasets. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/KylinOLAP/Kylin.svg?style=social&label=Star&maxAge=2592000)](https://github.com/KylinOLAP/Kylin). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Elasticsearch hadoop](https://github.com/elastic/elasticsearch-hadoop) - Elasticsearch real-time search and analytics natively integrated with Hadoop. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch-hadoop.svg?style=social&label=Star&maxAge=2592000)](https://github.com/elastic/elasticsearch-hadoop). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Facebook Presto](https://github.com/facebook/presto) Presto is a distributed SQL query engine for big data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/facebook/presto.svg?style=social&label=Star&maxAge=2592000)](https://github.com/facebook/presto). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache MetaModel]( http://metamodel.apache.org) With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache MetaModel](http://metamodel.apache.org) With MetaModel you get a uniform connector and query API to many very different datastore types, including: Relational (JDBC) databases, CSV files, Excel spreadsheets, XML files, JSON files, Fixed width files, MongoDB, Apache CouchDB, Apache HBase, Apache Cassandra, ElasticSearch, OpenOffice.org databases, Salesforce.com, SugarCRM and even collections of plain old Java objects (POJOs). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Accumulo](http://accumulo.apache.org/) Apache Accumulo is based on Google’s BigTable design and is built on top of Apache Hadoop, Zookeeper, and Thrift. Apache Accumulo features a few novel improvements on the BigTable design in the form of cell-based access control and a server-side programming mechanism that can modify key/value pairs at various points in the data management process. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Gora](http://gora.apache.org/) provides an in-memory data model and persistence for big data. Gora supports persisting to column stores, key value stores, document stores and RDBMSs, and analyzing the data with extensive Apache Hadoop MapReduce support. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Sqoop] Apache Sqoop(TM) is a tool designed for efficiently transferring bulk data between Apache Hadoop and structured datastores such as relational databases.(http://sqoop.apache.org) License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Giraph](http://giraph.apache.org/) Apache Giraph is an iterative graph processing system built for high scalability. For example, it is currently used at Facebook to analyze the social graph formed by users and their connections. Лицензия: [Apache 2](https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F_Apache). ![Лицензия совместима с закрытым ПО](https://github.com/Vedenin/useful-java-links/blob/master/link-rus/img/good-proprietary.png?raw=true)
 1.  [Impala](https://github.com/cloudera/impala) - Real-time Query for Hadoop. [![GitHub stars](https://img.shields.io/github/stars/cloudera/impala.svg?style=social&label=Star&maxAge=2592000)](https://github.com/cloudera/impala). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-
 #### Monitoring, testing and managing tools for big data
+
 1.  [Twitter Ambrose](https://github.com/twitter/ambrose) A platform for visualization and real-time monitoring of data workflows. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/twitter/ambrose.svg?style=social&label=Star&maxAge=2592000)](https://github.com/twitter/ambrose). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Umongo](https://github.com/agirbal/umongo) - Desktop app to browse and administer your MongoDB cluster. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/agirbal/umongo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/agirbal/umongo). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Ambari](http://ambari.apache.org/) The Apache Ambari project is aimed at making Hadoop management simpler by developing software for provisioning, managing, and monitoring Apache Hadoop clusters. Ambari provides an intuitive, easy-to-use Hadoop management web UI backed by its RESTful APIs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -638,11 +662,9 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache MRUnit](http://mrunit.apache.org) Apache MRUnit is a Java library that helps developers unit test Apache Hadoop map reduce jobs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Oozie](http://oozie.apache.org) Oozie is a workflow scheduler system to manage Apache Hadoop jobs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-
-
 ### 8. Machine Learning
-*Tools that provide specific statistical algorithms which allow learning from data.*
+
+_Tools that provide specific statistical algorithms which allow learning from data._
 [Up](#useful-java-links)
 
 1.  [Airbnb Aerosolve](https://github.com/airbnb/aerosolve) A machine learning library designed from the ground up to be human friendly. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/airbnb/aerosolve.svg?style=social&label=Star&maxAge=2592000)](https://github.com/airbnb/aerosolve). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -671,28 +693,30 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache SystemML](https://github.com/apache/incubator-systemml) - flexible, scalable machine learning (ML) language. (incubator project). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [wAlnut](https://github.com/WalnutiQ/wAlnut) - Object oriented model of partial human brain with 1 theorized common learning algorithm. Work in progress towards a strong emotional AI. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License) ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-
 #### Semantic Web and Linked Data
-*The Semantic Web provides a common framework that allows data to be shared and reused across application, enterprise, and community boundaries*
+
+_The Semantic Web provides a common framework that allows data to be shared and reused across application, enterprise, and community boundaries_
 
 1.  [Apache Marmotta](http://marmotta.apache.org) An Open Platform for Linked Data. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Jena](http://jena.apache.org) A framework for developing Semantic Web and Linked Data applications in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Constraint Satisfaction Problem Solver
-*Libraries that help on implementing optimization and satisfiability problems.*
 
-1.  [Choco](http://choco-solver.org/) - Choco is a Free and Open-Source Software dedicated to Constraint Programming. It aims at describing hard combinatorial problems in the form of Constraint Satisfaction Problems and solving them with Constraint Programming techniques.  License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+_Libraries that help on implementing optimization and satisfiability problems._
+
+1.  [Choco](http://choco-solver.org/) - Choco is a Free and Open-Source Software dedicated to Constraint Programming. It aims at describing hard combinatorial problems in the form of Constraint Satisfaction Problems and solving them with Constraint Programming techniques. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JaCoP](https://github.com/radsz/jacop/) - Java Constraint Programming (JaCoP) solver. **License: ?**
 1.  [OptaPlanner](http://www.optaplanner.org/) - OptaPlanner is a constraint satisfaction solver. It optimizes business resource planning. Every organization faces scheduling puzzles: assign a limited set of constrained resources (employees, assets, time and money) to provide products or services to customers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Sat4J](http://www.sat4j.org/) - Sat4j is a java library for solving boolean satisfaction and optimization problems. It can solve SAT, MAXSAT, Pseudo-Boolean, Minimally Unsatisfiable Subset (MUS) problems. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) and [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Natural Language Processing (NLP) and Speech Recognition
-*Libraries that specialize on processing text.*
+
+_Libraries that specialize on processing text._
 [Up](#useful-java-links)
 
 1.  [Stanfordnlp CoreNLP](https://github.com/stanfordnlp/CoreNLP) Stanford CoreNLP provides a set of natural language analysis tools written in Java. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/stanford-core-nlp). License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/CoreNLP.svg?style=social&label=Star&maxAge=2592000)](https://github.com/stanfordnlp/CoreNLP). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Apache OpenNLP](https://opennlp.apache.org/) - The Apache OpenNLP library is a machine learning based toolkit for the processing of natural language text. [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/2.8-natural-language-processing/opennlp). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [LingPipe](http://alias-i.com/lingpipe/) - LingPipe is tool kit for processing text using computational linguistics. License: [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) or ***License: proprietary***. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) or ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [LingPipe](http://alias-i.com/lingpipe/) - LingPipe is tool kit for processing text using computational linguistics. License: [AGPL](https://www.gnu.org/licenses/agpl-3.0.html) or **_License: proprietary_**. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) or ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [Mallet](http://mallet.cs.umass.edu/) - MALLET is a Java-based package for statistical natural language processing, document classification, clustering, topic modeling, information extraction, and other machine learning applications to text. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Twitter Text Libraries](https://github.com/twitter/twitter-text) - This repo is a collection of libraries and conformance tests to standardize parsing of tweet text. It synchronizes development, testing, creating issues, and pull requests for twitter-text's implementations and specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [NLP4J](https://github.com/emorynlp/nlp4j) The NLP4J project (formerly known as ClearNLP) provides a NLP toolkit for JVM languages. This project is currently developed by the NLP Research Group at Emory University. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -700,33 +724,35 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Z-MERT](http://cs.jhu.edu/~ozaidan/zmert/) Z-MERT is a software tool for minimum error rate training of machine translation systems. License: [GNU Lesser General Public License (LGPL)](http://www.gnu.org/licenses/lgpl-3.0.en.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [ClearTK](https://github.com/ClearTK/cleartk) - ClearTK is a framework for developing machine learning and natural language processing components within the Apache Unstructured Information Management Architecture, http://cleartk.github.io/cleartk/ . [![GitHub stars](https://img.shields.io/github/stars/ClearTK/cleartk.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ClearTK/cleartk) License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache cTAKES](http://ctakes.apache.org/) - Apache cTAKES™ is a natural language processing system for extraction of information from electronic medical record clinical free-text. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [The Stanford Natural Language Processing Group](http://nlp.stanford.edu/software/) - A Natural Language Processing Java software tools. Subproject: [Stanford Parser](http://nlp.stanford.edu/software/lex-parser.html) -  A statistical parser, [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.html), [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.html), [RegexNER](http://nlp.stanford.edu/software/regexner.html),
-[Word Segmenter](http://nlp.stanford.edu/software/segmenter.html),[Classifier](http://nlp.stanford.edu/software/classifier.html),[EnglishTokenizer](http://nlp.stanford.edu/software/tokenizer.html),[TokensRegex](http://nlp.stanford.edu/software/tokensregex.html),[Temporal Tagger](http://nlp.stanford.edu/software/sutime.html),[Pattern-based Information Extraction and Diagnostics](http://nlp.stanford.edu/software/patternslearning.html),[Stanford Relation Extractor](http://nlp.stanford.edu/software/relationExtractor.html). License: [GNU 2/3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
-1.  [Apache Tika](http://tika.apache.org)  The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [CMU Sphinx](http://cmusphinx.sourceforge.net/) - Open Source Speech Recognition Toolkit. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [The Stanford Natural Language Processing Group](http://nlp.stanford.edu/software/) - A Natural Language Processing Java software tools. Subproject: [Stanford Parser](http://nlp.stanford.edu/software/lex-parser.html) - A statistical parser, [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.html), [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.html), [RegexNER](http://nlp.stanford.edu/software/regexner.html),
+    [Word Segmenter](http://nlp.stanford.edu/software/segmenter.html),[Classifier](http://nlp.stanford.edu/software/classifier.html),[EnglishTokenizer](http://nlp.stanford.edu/software/tokenizer.html),[TokensRegex](http://nlp.stanford.edu/software/tokensregex.html),[Temporal Tagger](http://nlp.stanford.edu/software/sutime.html),[Pattern-based Information Extraction and Diagnostics](http://nlp.stanford.edu/software/patternslearning.html),[Stanford Relation Extractor](http://nlp.stanford.edu/software/relationExtractor.html). License: [GNU 2/3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
+1.  [Apache Tika](http://tika.apache.org) The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [CMU Sphinx](http://cmusphinx.sourceforge.net/) - Open Source Speech Recognition Toolkit. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [ARK Twitter NLP](https://github.com/brendano/ark-tweet-nlp) - CMU ARK Twitter Part-of-Speech Tagger. http://www.ark.cs.cmu.edu/TweetNLP/ License: [GNU 2/3](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/brendano/ark-tweet-nlp.svg?style=social&label=Star&maxAge=2592000)](https://github.com/brendano/ark-tweet-nlp). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [lc4j](https://github.com/olivomarco/lc4j) - Language Categorization for Java: an Open Source library for finding out in which language a text has been written. License: [MIT](https://en.wikipedia.org/wiki/MIT_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ## III. Network and Integration
+
 ### 1. Servers (Web Server and Application Server)
-*Servers which are specifically used to deploy applications.*
+
+_Servers which are specifically used to deploy applications._
 [Up](#useful-java-links)
 
 1.  [Wildfly](https://github.com/wildfly/wildfly) - Formerly known as JBoss and developed by Red Hat with extensive Java EE support. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/wildfly/wildfly.svg?style=social&label=Star&maxAge=2592000)](https://github.com/wildfly/wildfly). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Undertow](https://github.com/undertow-io/undertow) - High performance non-blocking webserver. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/undertow-io/undertow.svg?style=social&label=Star&maxAge=2592000)](https://github.com/undertow-io/undertow). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Tomcat](https://github.com/apache/tomcat) -  Robust all-round server for Servlet and JSP. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/tomcat.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/tomcat). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Tomcat](https://github.com/apache/tomcat) - Robust all-round server for Servlet and JSP. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/tomcat.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/tomcat). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Nginx clojure](https://github.com/nginx-clojure/nginx-clojure) - Nginx module for embedding Clojure or Java or Groovy programs, typically those Ring based handlers. License: [BSD 3](https://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29) , [![GitHub stars](https://img.shields.io/github/stars/nginx-clojure/nginx-clojure.svg?style=social&label=Star&maxAge=2592000)](https://github.com/nginx-clojure/nginx-clojure). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Jetty](https://github.com/eclipse/jetty.project) - Lightweight, small server, often embedded in projects. License: [Eclipse Public 1.0](https://www.eclipse.org/legal/epl-v10.html) / [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).0, [![GitHub stars](https://img.shields.io/github/stars/eclipse/jetty.project.svg?style=social&label=Star&maxAge=2592000)](https://github.com/eclipse/jetty.project). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache TomEE](http://tomee.apache.org/) - Tomcat plus Java EE. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM. ***License: proprietary*** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [WebSphere Liberty](https://developer.ibm.com/wasdev/) - Lightweight, modular server developed by IBM. **_License: proprietary_** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [GlassFish](https://glassfish.java.net/) - GlassFish - World's first Java EE 7 Application Server. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) Or [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0).
 1.  [Apache Geronimo](http://geronimo.apache.org/) Java EE Application Server. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache James](http://james.apache.org) The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP and POP3 Mail server and NNTP News server. We have designed James to be a complete and portable enterprise mail engine solution based on currently available open protocols. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Payara](https://github.com/payara/Payara) Payara Server is an open source middleware platform that supports reliable and secure deployments of Java EE (Jakarta EE) and MicroProfile applications in any environment: on premise, in the cloud or hybrid.[CDDL 1.1](https://github.com/payara/Payara/blob/master/LICENSE.txt) 
+1.  [Payara](https://github.com/payara/Payara) Payara Server is an open source middleware platform that supports reliable and secure deployments of Java EE (Jakarta EE) and MicroProfile applications in any environment: on premise, in the cloud or hybrid.[CDDL 1.1](https://github.com/payara/Payara/blob/master/LICENSE.txt)
 
 ### 2. Networking
-*Libraries for network programming.*
+
+_Libraries for network programming._
 [Up](#useful-java-links)
 
 1.  [Netty](https://github.com/netty/netty) Framework for building high performance network applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/netty/netty.svg?style=social&label=Star&maxAge=2592000)](https://github.com/netty/netty). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -741,12 +767,11 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [OkHttp](http://square.github.io/okhttp/) - HTTP+SPDY client. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Undertow](http://undertow.io/) - Web server providing both blocking and non-blocking API’s based on NIO. Used as a network layer in WildFly. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache MINA](http://mina.apache.org/) Apache MINA is a network application framework which helps users develop high performance and high scalability network applications easily. It provides an abstract, event-driven, asynchronous API over various transports such as TCP/IP and UDP/IP via Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache HttpComponents](http://hc.apache.org/)  project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HTTP transport library including support for asynchronous execution based on Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
-
+1.  [Apache HttpComponents](http://hc.apache.org/) project is responsible for creating and maintaining a toolset of low level Java components focused on HTTP and associated protocols. HTTP transport library including support for asynchronous execution based on Java NIO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Message, message broker and message queue
-*Tools that help to send messages between clients in order to ensure protocol independency.*
+
+_Tools that help to send messages between clients in order to ensure protocol independency._
 [Up](#useful-java-links)
 
 1.  [LMAX Exchange Disruptor](https://github.com/LMAX-Exchange/disruptor) High Performance Inter-Thread Messaging Library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/LMAX-Exchange/disruptor.svg?style=social&label=Star&maxAge=2592000)](https://github.com/LMAX-Exchange/disruptor). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -767,9 +792,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache Synapse](http://synapse.apache.org) Apache Synapse is a lightweight ESB engine and XML router. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache ServiceMix](http://servicemix.apache.org) Apache ServiceMix is a flexible, open-source integration container that unifies the features and functionality of Apache ActiveMQ, Camel, CXF, and Karaf into a powerful runtime platform you can use to build your own integrations solutions. It provides a complete, enterprise ready ESB exclusively powered by OSGi. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-
 ### 4. Http and ssh
+
 [Up](#useful-java-links)
 
 1.  [Square Okhttp](https://github.com/square/okhttp) An HTTP+HTTP/2 client for Android and Java applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/square/okhttp.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/okhttp). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -785,7 +809,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Netflix Feign](https://github.com/Netflix/feign) Feign makes writing java http clients easier. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/Netflix/feign.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Netflix/feign). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. Rest Frameworks
-*Frameworks specifically for creating RESTful services.*
+
+_Frameworks specifically for creating RESTful services._
 [Up](#useful-java-links)
 
 1.  [Square Retrofit](https://github.com/square/retrofit) Type-safe REST client. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/square/retrofit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/retrofit). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -795,17 +820,17 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Jersey](https://github.com/jersey/jersey) JAX-RS reference implementation. License: [CDDL 1.0](https://opensource.org/licenses/CDDL-1.1), [![GitHub stars](https://img.shields.io/github/stars/jersey/jersey.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jersey/jersey).
 1.  [Linkedin Rest.li](https://github.com/linkedin/rest.li) Rest.li is a REST+JSON framework for building robust, scalable service architectures using dynamic discovery and simple asynchronous APIs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/linkedin/rest.li.svg?style=social&label=Star&maxAge=2592000)](https://github.com/linkedin/rest.li). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Spring hateoas](https://github.com/spring-projects/spring-hateoas) Spring HATEOAS - Library to support implementing representations for hyper-text driven REST web services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-hateoas.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-hateoas). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Feign](https://github.com/Netflix/feign) -  HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Feign](https://github.com/Netflix/feign) - HTTP client binder inspired by Retrofit, JAXRS-2.0, and WebSocket. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [RESTEasy](http://resteasy.jboss.org/) - Fully certified and portable implementation of the JAX-RS specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [RestExpress](https://github.com/RestExpress/RestExpress) - Thin wrapper on the JBOSS Netty HTTP stack to provide scaling and performance. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [RestX](http://restx.io) - Framework based on annotation processing and compile-time source generation. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Spark](http://sparkjava.com/) - Sinatra inspired framework. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Wink](http://wink.apache.org) RESTFul web services based on JAX-RS specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Olingo](http://olingo.apache.org) Apache Olingo is a Java and JavaScript library that implements the Open Data Protocol (OData). Open Data Protocol (OData) is an open protocol which allows the creation and consumption of queryable and interoperable RESTful APIs in a simple and standard way. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Rapidoid](https://github.com/rapidoid/rapidoid) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection.  http://www.rapidoid.org/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [![GitHub stars](https://img.shields.io/github/stars/rapidoid/rapidoid.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rapidoid/rapidoid). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
+1.  [Rapidoid](https://github.com/rapidoid/rapidoid) - A simple, secure and extremely fast framework consisting of embedded HTTP server, GUI components and dependency injection. http://www.rapidoid.org/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [![GitHub stars](https://img.shields.io/github/stars/rapidoid/rapidoid.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rapidoid/rapidoid). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Integration frameworks
+
 [Up](#useful-java-links)
 
 1.  [Jmxtrans](https://github.com/jmxtrans/jmxtrans) This is effectively the missing connector between speaking to a JVM via JMX on one end and whatever logging / monitoring / graphing package that you can dream up on the other end. License: ?, [![GitHub stars](https://img.shields.io/github/stars/jmxtrans/jmxtrans.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jmxtrans/jmxtrans).
@@ -813,8 +838,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache CXF](http://cxf.apache.org/) Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs, like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP, JMS or JBI. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Spring Integration](https://github.com/spring-projects/spring-integration) - Spring Integration provides an extension of the Spring programming model to support the well-known Enterprise Integration Patterns (EIP). http://projects.spring.io/spring-integration/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-integration.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-integration). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ### 7. Web Crawling and HTML parsering
+
 [Up](#useful-java-links)
 
 1.  [Sparklemotion Nokogiri](https://github.com/sparklemotion/nokogiri) Nokogiri is an HTML, XML, SAX, and Reader parser with XPath and CSS selector support. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/sparklemotion/nokogiri.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sparklemotion/nokogiri). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -826,14 +851,16 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache Nutch](http://nutch.apache.org/) - Highly extensible, highly scalable web crawler for production environment. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Crawler4j](https://github.com/yasserg/crawler4j) - Simple and lightweight web crawler. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-### 8.  Json
-*Libraries that simplify JSON processing.*
+### 8. Json
+
+_Libraries that simplify JSON processing._
 [Up](#useful-java-links)
 
 ##### JSON Parsers
-1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor , [![GitHub stars](https://img.shields.io/github/stars/alibaba/fastjson.svg?style=social&label=Star&maxAge=2592000)](https://github.com/alibaba/fastjson). [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson) Fast JSON Processor , [![GitHub stars](https://img.shields.io/github/stars/alibaba/fastjson.svg?style=social&label=Star&maxAge=2592000)](https://github.com/alibaba/fastjson). [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Gson](https://github.com/google/gson) - Serializes objects to JSON and vice versa. Good performance with on-the-fly usage, [![GitHub stars](https://img.shields.io/github/stars/google/gson.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/gson). [User guide](https://github.com/google/gson/blob/master/UserGuide.md) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/gson)
-. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+    . License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [LoganSquare](https://github.com/bluelinelabs/LoganSquare) - JSON parsing and serializing library based on Jackson's streaming API. Outpeforms GSON & Jackson's library, [![GitHub stars](https://img.shields.io/github/stars/bluelinelabs/LoganSquare.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bluelinelabs/LoganSquare). [User guide](https://github.com/bluelinelabs/LoganSquare#usage) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/logansquare). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JSON java](https://github.com/stleary/JSON-java) A reference implementation of a JSON package in Java, [![GitHub stars](https://img.shields.io/github/stars/stleary/JSON-java.svg?style=social&label=Star&maxAge=2592000)](https://github.com/stleary/JSON-java). [User guide](https://github.com/stleary/JSON-java) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_java). License: [Crockford's license (MIT License + "Good, not Evil")](https://en.wikipedia.org/wiki/Douglas_Crockford#.22Good.2C_not_Evil.22).
 1.  [Square Moshi](https://github.com/square/moshi) A modern JSON library for Android and Java , [![GitHub stars](https://img.shields.io/github/stars/square/moshi.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/moshi). [User guide](https://github.com/square/moshi#moshi) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/moshi). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -843,22 +870,26 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Genson](https://github.com/owlike/genson) -Powerful and easy to use Java to JSON conversion library, http://owlike.github.io/genson/ [![GitHub stars](https://img.shields.io/github/stars/owlike/genson.svg?style=social&label=Star&maxAge=2592000)](https://github.com/owlike/genson). [User guide](http://owlike.github.io/genson/Documentation/UserGuide/) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/genson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ##### Analog XPath for JSON
-1.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath implementation, [![GitHub stars](https://img.shields.io/github/stars/jayway/JsonPath.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jayway/JsonPath).  [User guide](https://github.com/jayway/JsonPath#getting-started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson)  Fast JSON Processor , [![GitHub stars](https://img.shields.io/github/stars/alibaba/fastjson.svg?style=social&label=Star&maxAge=2592000)](https://github.com/alibaba/fastjson). [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+1.  [Jayway JsonPath](https://github.com/jayway/JsonPath) Java JsonPath implementation, [![GitHub stars](https://img.shields.io/github/stars/jayway/JsonPath.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jayway/JsonPath). [User guide](https://github.com/jayway/JsonPath#getting-started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_path). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Alibaba Fastjson](https://github.com/alibaba/fastjson) Fast JSON Processor , [![GitHub stars](https://img.shields.io/github/stars/alibaba/fastjson.svg?style=social&label=Star&maxAge=2592000)](https://github.com/alibaba/fastjson). [User guide](https://github.com/alibaba/fastjson) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/fastjson). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ##### Generates Java types from JSON or JSON Schema or JSON validation
+
 1.  [Jsonschema2pojo](https://github.com/joelittlejohn/jsonschema2pojo) Generates Java types from JSON Schema (or example JSON) and annotates those types for data-binding with Jackson 1.x or 2.x, Gson, etc. , [![GitHub stars](https://img.shields.io/github/stars/joelittlejohn/jsonschema2pojo.svg?style=social&label=Star&maxAge=2592000)](https://github.com/joelittlejohn/jsonschema2pojo). [User guide](https://github.com/joelittlejohn/jsonschema2pojo/wiki/Getting-Started) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/jsonschema2pojo). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Json schema validator](https://github.com/fge/json-schema-validator) A JSON Schema validation implementation in pure Java, which aims for correctness and performance, in that order, also can generate Java types from JSON Schema or versa versa, [![GitHub stars](https://img.shields.io/github/stars/fge/json-schema-validator.svg?style=social&label=Star&maxAge=2592000)](https://github.com/fge/json-schema-validator). [User guide](https://github.com/fge/json-schema-validator#read-me-first) and [Hello World examples](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds/3.8-json/json_schema_validator). License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)/[Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 9. CSV
-*Frameworks and libraries that simplify reading/writing CSV data.*
+
+_Frameworks and libraries that simplify reading/writing CSV data._
 [Up](#useful-java-links)
 
-1.  [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [opencsv](http://opencsv.sourceforge.net) - Simple CSV parser with a commercial-friendly license. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Super CSV](http://super-csv.github.io/super-csv/) - Powerful CSV parser with support for Dozer, Joda-Time and Java 8. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers) - One of the fastest and most feature-complete CSV. Also comes with parsers for TSV and fixed width records. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 10. Integratin with API
+
 [Up](#useful-java-links)
 
 1.  [Twitter Zipkin](https://github.com/openzipkin/zipkin) Zipkin is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/openzipkin/zipkin.svg?style=social&label=Star&maxAge=2592000)](https://github.com/openzipkin/zipkin). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -871,13 +902,15 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Spring social](https://github.com/spring-projects/spring-social) Allows you to connect your applications with SaaS providers such as Facebook and Twitter. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-social.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-social). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 11. Bitcoin
+
 [Up](#useful-java-links)
 
 1.  [XChange](https://github.com/timmolter/XChange) XChange is a Java library providing a streamlined API for interacting with 50+ Bitcoin and Altcoin exchanges providing a consistent interface for trading and accessing market data. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/timmolter/XChange.svg?style=social&label=Star&maxAge=2592000)](https://github.com/timmolter/XChange). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) A library for working with Bitcoin. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/bitcoinj/bitcoinj.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bitcoinj/bitcoinj).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [bitcoinj](https://github.com/bitcoinj/bitcoinj) A library for working with Bitcoin. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/bitcoinj/bitcoinj.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bitcoinj/bitcoinj). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [DiabloMiner](https://github.com/Diablo-D3/DiabloMiner) OpenCL miner for Bitcoin. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/Diablo-D3/DiabloMiner.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Diablo-D3/DiabloMiner). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 12. Clouds
+
 [Up](#useful-java-links)
 
 1.  [Netflix SimianArmy](https://github.com/Netflix/SimianArmy) - Tools for keeping your cloud operating in top form. Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/Netflix/SimianArmy.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Netflix/SimianArmy). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -888,12 +921,14 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Elasticsearch](https://github.com/elastic/elasticsearch) - Open Source, Distributed, RESTful Search Engine. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch.svg?style=social&label=Star&maxAge=2592000)](https://github.com/elastic/elasticsearch). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Elasticsearch cloud aws](https://github.com/elastic/elasticsearch-cloud-aws) AWS Cloud Plugin for Elasticsearch. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/elastic/elasticsearch-cloud-aws.svg?style=social&label=Star&maxAge=2592000)](https://github.com/elastic/elasticsearch-cloud-aws). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Elasticsearch analysis ik](https://github.com/medcl/elasticsearch-analysis-ik) The IK Analysis plugin integrates Lucene IK analyzer into elasticsearch, support customized dictionary. License: ?, [![GitHub stars](https://img.shields.io/github/stars/medcl/elasticsearch-analysis-ik.svg?style=social&label=Star&maxAge=2592000)](https://github.com/medcl/elasticsearch-analysis-ik).
-1.  [Apache CloudStack](http://cloudstack.apache.org/)  Apache CloudStack is an IaaS (“Infrastracture as a Service”) cloud orchestration platform. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Stratos](http://stratos.apache.org)  Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache CloudStack](http://cloudstack.apache.org/) Apache CloudStack is an IaaS (“Infrastracture as a Service”) cloud orchestration platform. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Stratos](http://stratos.apache.org) Apache Stratos is a highly-extensible Platform-as-a-Service (PaaS) framework that helps run Apache Tomcat, PHP, and MySQL applications and can be extended to support many more environments on all major cloud infrastructures. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Airavata](http://airavata.apache.org/) Apache Airavata is a software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly used to build Web-based science gateways and assist to compose, manage, execute, and monitor large scale applications (wrapped as Web based services) and workflows composed of these services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [Quarkus](https://github.com/quarkusio/quarkus) Quarkus is a Cloud Native, (Linux) Container First framework for writing Java applications. [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/quarkusio/quarkus/blob/master/LICENSE.txt)
+1.  [Quarkus](https://github.com/quarkusio/quarkus) Quarkus is a Cloud Native, (Linux) Container First framework for writing Java applications. [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/quarkusio/quarkus/blob/master/LICENSE.txt)
+
 ### 13. Cluster Management
-*Frameworks which can dynamically manage applications inside of a cluster.*
+
+_Frameworks which can dynamically manage applications inside of a cluster._
 [Up](#useful-java-links)
 
 1.  [Apache Aurora](http://aurora.apache.org/) - Apache Aurora is a Mesos framework for long-running services and cron jobs. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -901,38 +936,39 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache Helix](http://helix.apache.org/) A cluster management framework for partitioned and replicated distributed resources. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Airavata](http://airavata.apache.org/) Apache Airavata is a software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly used to build Web-based science gateways and assist to compose, manage, execute, and monitor large scale applications (wrapped as Web based services) and workflows composed of these services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
-
 ### 14. Document Processing (XLS, DOC and PDF)
-*Libraries that assist with processing office document formats.*
+
+_Libraries that assist with processing office document formats._
 
 1.  [Apache POI](http://poi.apache.org/) - Supports OOXML (XLSX, DOCX, PPTX) as well as OLE2 (XLS, DOC or PPT). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [documents4j](http://documents4j.com) - API for document format conversion using third-party converters such as MS Word. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Docx4j](http://www.docx4java.org/trac/docx4j) Docx4j is an open source Java library for manipulating Microsoft OpenXML files (Word docx, Powerpoint pptx, and Excel xlsx) via JAXB. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [jOpenDocument](http://www.jopendocument.org/) - Processes the OpenDocument format. License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License) or proprietary. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) and ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-1.  [Apache Tika](http://tika.apache.org)  The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Tika](http://tika.apache.org) The Apache Tika toolkit detects and extracts metadata and structured text content from various documents using existing parser libraries. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### PDF
-*Everything that helps with the creation of PDF files.*
+
+_Everything that helps with the creation of PDF files._
 [Up](#useful-java-links)
 
 1.  [Apache FOP](http://xmlgraphics.apache.org/fop/) - Creates PDF from XSL-FO. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache PDFBox](http://pdfbox.apache.org/) - Toolbox for creating and manipulating PDF. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [DynamicReports](http://dynamicreports.org/) - Simplifies JasperReports. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [iText](http://itextpdf.com/) - Creates PDF files programmatically but current versions require a license for commercial purposes. License: [AGPL](https://en.wikipedia.org/wiki/Affero_General_Public_License) or proprietary. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) or  ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true).  However, versions upto 4.2.0 were licensed under the business-friendly LGPL.  From 2.1.7 the version jumped to the 4 series, one of the main changes was a renaming of the packages.  These two versions are available in several repositories on github, see for example: [iText 4.2.0](https://github.com/ymasory/iText-4.2.0) and [iText 2.1.7](https://github.com/hwinkler/itext2).  The jars can be downloaded from [Maven Central.](https://mvnrepository.com/artifact/com.lowagie/itext/2.1.7). iText 2.1.7 and iText 4.2.0 are available under a ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true). The book iText in Action 2nd Edition, from Manning, was written around the time of these LGPL versions.  If you are making any contributions to iText please make them to these LGPL repositories on GitHub.
+1.  [iText](http://itextpdf.com/) - Creates PDF files programmatically but current versions require a license for commercial purposes. License: [AGPL](https://en.wikipedia.org/wiki/Affero_General_Public_License) or proprietary. ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true) or ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true). However, versions upto 4.2.0 were licensed under the business-friendly LGPL. From 2.1.7 the version jumped to the 4 series, one of the main changes was a renaming of the packages. These two versions are available in several repositories on github, see for example: [iText 4.2.0](https://github.com/ymasory/iText-4.2.0) and [iText 2.1.7](https://github.com/hwinkler/itext2). The jars can be downloaded from [Maven Central.](https://mvnrepository.com/artifact/com.lowagie/itext/2.1.7). iText 2.1.7 and iText 4.2.0 are available under a ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true). The book iText in Action 2nd Edition, from Manning, was written around the time of these LGPL versions. If you are making any contributions to iText please make them to these LGPL repositories on GitHub.
 1.  [JasperReports](http://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine. License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ### 15. Native
-*For working with platform-specific native libraries.*
+
+_For working with platform-specific native libraries._
 [Up](#useful-java-links)
 
 1.  [Java Native Access (JNA)](https://github.com/java-native-access/jna)Work with native libraries without writing JNI. Also provides interfaces to common system libraries. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) or [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true) , [![GitHub stars](https://img.shields.io/github/stars/java-native-access/jna.svg?style=social&label=Star&maxAge=2592000)](https://github.com/java-native-access/jna). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [JNR](https://github.com/jnr/jnr-ffi) -  Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0).  ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [JNR](https://github.com/jnr/jnr-ffi) - Work with native libraries without writing JNI. Also provides interfaces to common system libraries. Same goals as JNA, but faster, and serves as the basis for the upcoming [Project Panama](http://openjdk.java.net/projects/panama/). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 16. XML and SOAP
-1.  [Xalan](http://xalan.apache.org/xalan-j/)  Xalan-J is an XSLT processor written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+
+1.  [Xalan](http://xalan.apache.org/xalan-j/) Xalan-J is an XSLT processor written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Xerces](http://xerces.apache.org/xerces2-j/) Xerces-J is a validating XML parser written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [XML Graphics](http://xmlgraphics.apache.org/) Conversion from XML to graphical output. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Santuario](http://santuario.apache.org) Library implementing XML Digital Signature Specification & XML Encryption Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -940,7 +976,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache Axis](http://axis.apache.org/) Web Service containers that helps users to create, deploy, and run Web Services. Axis2 is a Web Services / SOAP / WSDL engine, the successor to the widely used Apache Axis SOAP stack. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 17. Geospatial Service Interation
-*Libraries for working with geospatial data and algorithms.*
+
+_Libraries for working with geospatial data and algorithms._
 
 1.  [Apache SIS](http://sis.apache.org/) - Library for developing geospatial applications. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Geo](https://github.com/davidmoten/geo/) - GeoHash utilities in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -950,16 +987,19 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Jgeohash](http://astrapi69.github.io/jgeohash/) - Library that can assist Java developers in using the GeoHash algorithm. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JTS Topology Suite](http://www.vividsolutions.com/jts/JTSHome.htm) - An API of 2D spatial predicates and functions. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Mapsforge](https://github.com/mapsforge/mapsforge/) - Software for the rendering of maps based on OpenStreetMap data. License: [GNU Lesser 3](http://www.gnu.org/copyleft/lesser.html). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Spatial4j](https://github.com/locationtech/spatial4j/) - General purpose spatial/geospatial ASL licensed open-source Java library.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Spatial4j](https://github.com/locationtech/spatial4j/) - General purpose spatial/geospatial ASL licensed open-source Java library. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 18. Reverse Proxy Servers
-*Servers which accept client requests and direct them to the approriate backend service.*
+
+_Servers which accept client requests and direct them to the approriate backend service._
 
 1.  [Membrane Service Proxy](https://github.com/membrane/service-proxy) An open source, reverse HTTP proxy framework written in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/membrane/service-proxy.svg?style=social&label=Star&maxAge=2592000)](https://github.com/membrane/service-proxy). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ## IV. Testing
+
 ### 1. Testing
-*Tools that test from model to the view.*
+
+_Tools that test from model to the view._
 [Up](#useful-java-links)
 
 1.  [ArchUnit](https://github.com/TNG/ArchUnit) is a free, simple and extensible library for checking the architecture of your Java code. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/TNG/ArchUnit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/TNG/ArchUnit). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -989,25 +1029,27 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [JUnitParams](https://pragmatists.github.io/JUnitParams/) - Creation of readable and maintainable parametrised tests. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Moco](https://github.com/dreamhead/moco) - Concise web services for stubs and mocks, Duke's Choice Award 2013. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [PIT](http://pitest.org) - Fast mutation-testing framework for evaluating fault-detection abilities of existing JUnit or TestNG test-suites. License: [Creative Commons License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
-1.  [PowerMock](https://github.com/jayway/powermock) -  Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [PowerMock](https://github.com/jayway/powermock) - Enables mocking of static methods, constructors, final classes and methods, private methods and removal of static initializers. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [REST Assured](https://github.com/jayway/rest-assured) - Java DSL for easy testing for REST/HTTP services. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Selenide](http://selenide.org/) -Concise API around Selenium to write stable and readable UI tests. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Unitils](http://www.unitils.org/) - Modular testing library for unit and integration testing. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [SeLion](https://github.com/paypal/SeLion) - Enabling Test Automation in Java. SeLion builds on top of TestNG and Selenium to provide a set of capabilities that get you up and running with WebDriver in a short time. It can be used for testing web and mobile applications, [![GitHub stars](https://img.shields.io/github/stars/paypal/SeLion.svg?style=social&label=Star&maxAge=2592000)](https://github.com/paypal/SeLion). License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [cdp4j](https://github.com/webfolderio/cdp4j) - Web-automation library for Java. It can be used for automating the use of web pages and for testing web pages. [![GitHub stars](https://img.shields.io/github/stars/webfolderio/cdp4j.svg?style=social&label=Star&maxAge=2592000)](https://github.com/webfolderio/cdp4j) License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [Image-Comparison](https://github.com/romankh3/image-comparison) - Published on Maven Central Java Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison. [![GitHub stars](https://img.shields.io/github/stars/romankh3/image-comparison.svg?style=social&label=Star&maxAge=2592000)](https://github.com/romankh3/image-comparison) License: [The Unlicense](https://unlicense.org)
+1.  [cdp4j](https://github.com/webfolderio/cdp4j) - Web-automation library for Java. It can be used for automating the use of web pages and for testing web pages. [![GitHub stars](https://img.shields.io/github/stars/webfolderio/cdp4j.svg?style=social&label=Star&maxAge=2592000)](https://github.com/webfolderio/cdp4j) License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Image-Comparison](https://github.com/romankh3/image-comparison) - Published on Maven Central Java Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison. [![GitHub stars](https://img.shields.io/github/stars/romankh3/image-comparison.svg?style=social&label=Star&maxAge=2592000)](https://github.com/romankh3/image-comparison) License: [The Unlicense](https://unlicense.org)
 
 ### 2. Code Coverage
-*Frameworks and tools that enable collection of code coverage metrics for test suites.*
+
+_Frameworks and tools that enable collection of code coverage metrics for test suites._
 [Up](#useful-java-links)
 
 1.  [JaCoCo](http://eclemma.org/jacoco/) - Framework that enables collection of code coverage metrics, using both offline and runtime bytecode instrumentation; prominently used by EclEmma, the Eclipse code-coverage plugin. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License), [Apache 2](http://www.apache.org/licenses/LICENSE-2.0), [BSD](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation. ***License: proprietary*** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [Clover](https://www.atlassian.com/software/clover/overview) - Proprietary code coverage tool by Atlassian that relies on source-code instrumentation, instead of bytecode instrumentation. **_License: proprietary_** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [Cobertura](http://cobertura.github.io/cobertura) - Relies on offline (or static) bytecode instrumentation and class loading to collect code coverage metrics. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [JCov](https://wiki.openjdk.java.net/display/CodeTools/jcov) - Code coverage tool used in the OpenJDK project's development toolchain. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 3. Continuous Integration
-*Tools which support continuously building, testing and releasing applications.*
+
+_Tools which support continuously building, testing and releasing applications._
 [Up](#useful-java-links)
 
 1.  [Bamboo](https://www.atlassian.com/software/bamboo) - Atlassian's solution with good integration of their other products. You can either apply for an open-source license or buy it. ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
@@ -1021,9 +1063,9 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Hudson](https://www.eclipse.org/hudson/) - Hudson monitors the execution of repeated jobs, such as building a software project or jobs run by cron. Currently Hudson focuses on the following two jobs: Building/testing software projects continuously and Monitoring executions of externally-run jobs. License: [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Continuum](http://continuum.apache.org/) Apache Continuum software is an enterprise-ready continuous integration server with features such as automated builds, release management, role-based security, and integration with popular build tools and source control management systems.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ### 4. Formal Verification
-*Formal-methods tools: proof assistants, model checking, symbolic execution etc.*
+
+_Formal-methods tools: proof assistants, model checking, symbolic execution etc._
 [Up](#useful-java-links)
 
 1.  [CATG](https://github.com/ksen007/janala2) - Concolic unit testing engine. Automatically generates unit tests using formal methods. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses), License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1031,15 +1073,16 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Daikon](http://plse.cs.washington.edu/daikon/) - Daikon detects likely program invariants and can generate JML specs based on those invariats. License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Java Modeling Language (JML)](http://www.jmlspecs.org) - Behavioral interface specification language that can be used to specify the behavior of code modules. It combines the design by contract approach of Eiffel and the model-based specification approach of the Larch family of interface specification languages, with some elements of the refinement calculus. Used by several other verification tools. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Java Path Finder (JPF)](http://babelfish.arc.nasa.gov/trac/jpf) - JVM formal verification tool containing a model checker and more. Created by NASA. License: [NASA OPEN SOURCE AGREEMENT VERSION 1.3](http://javapathfinder.sourceforge.net/NOSA-1.3-JPF.txt)
-1.  [jCUTE](https://github.com/osl/jcute) -  Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving. **License: proprietary.** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [jCUTE](https://github.com/osl/jcute) - Concolic unit testing engine that automatically generates unit tests. Concolic execution combines randomized concrete execution with symbolic execution and automatic constraint solving. **License: proprietary.** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [JMLOK 2.0](http://massoni.computacao.ufcg.edu.br/home/jmlok) - Detects nonconformances between code and JML specification through the feedback-directed random tests generation, and suggests a likely cause for each nonconformance detected. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [KeY](http://key-project.org/) - The KeY System is a formal software development tool that aims to integrate design, implementation, formal specification, and formal verification of object-oriented software as seamlessly as possible. Uses JML for specification and symbolic execution for verification. License: [GNU](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [OpenJML](http://openjml.github.io/) - Translates JML specifications into SMT-LIB format and passes the proof problems implied by the program to backend solvers. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) and [Eclipse Public License v1.0](https://en.wikipedia.org/wiki/Eclipse_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
-
 ## V. Tools for developing
+
 ### 1. IDE
-*Integrated development environments that try to simplify several aspects of development.*
+
+_Integrated development environments that try to simplify several aspects of development._
 [Up](#useful-java-links)
 
 1.  [JetBrains Intellij Сommunity](https://github.com/JetBrains/intellij-community) Supports a lot of JVM languages and provides good options for Android development. The commercial edition targets the enterprise sector. http://www.jetbrains.com/idea/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/JetBrains/intellij-community.svg?style=social&label=Star&maxAge=2592000)](https://github.com/JetBrains/intellij-community). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1055,20 +1098,23 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [NetBeans](https://netbeans.org/) - Provides integration for several Java SE and EE features from database access to HTML5. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License) and [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0)
 
 ### 2. Deploy, config and build
+
 [Up](#useful-java-links)
 
 #### Build
-*Tools which handle the build cycle and dependencies of an application.*
+
+_Tools which handle the build cycle and dependencies of an application._
 
 1.  [Apache Maven](https://github.com/apache/maven) - Declarative build and dependency management which favors convention over configuration. It might be preferable to Apache Ant which uses a rather procedural approach and can be difficult to maintain. http://maven.apache.org License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/apache/maven.svg?style=social&label=Star&maxAge=2592000)](https://github.com/apache/maven). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Google Bazel](https://github.com/bazelbuild/bazel) -  Build tool from Google that builds code quickly and reliably. http://bazel.io License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/bazelbuild/bazel.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bazelbuild/bazel). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Google Bazel](https://github.com/bazelbuild/bazel) - Build tool from Google that builds code quickly and reliably. http://bazel.io License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/bazelbuild/bazel.svg?style=social&label=Star&maxAge=2592000)](https://github.com/bazelbuild/bazel). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Gradle](https://github.com/gradle/gradle) - Incremental builds which are programmed via Groovy instead of declaring XML. Works well with Maven's dependency management. http://gradle.org/ License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/gradle/gradle.svg?style=social&label=Star&maxAge=2592000)](https://github.com/gradle/gradle). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Apache Ant](http://ant.apache.org/) - pache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. Subproject: [Apache AntUnit](https://projects.apache.org/project.html?ant-antunit) - testing Ant task, [Apache Compress Ant Library](https://projects.apache.org/project.html?ant-compress) - support additional archive formats, [Apache Ivy](https://projects.apache.org/project.html?ant-ivy) -  very powerful dependency manager, [Apache IvyDE](https://projects.apache.org/project.html?ant-ivyde) - IvyDE plugin for Eclipse. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Apache Ant](http://ant.apache.org/) - pache Ant is a Java library and command-line tool whose mission is to drive processes described in build files as targets and extension points dependent upon each other. Subproject: [Apache AntUnit](https://projects.apache.org/project.html?ant-antunit) - testing Ant task, [Apache Compress Ant Library](https://projects.apache.org/project.html?ant-compress) - support additional archive formats, [Apache Ivy](https://projects.apache.org/project.html?ant-ivy) - very powerful dependency manager, [Apache IvyDE](https://projects.apache.org/project.html?ant-ivyde) - IvyDE plugin for Eclipse. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Facebook Buck](https://github.com/facebook/buck) - A fast build system that encourages the creation of small, reusable modules over a variety of platforms and languages. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/facebook/buck.svg?style=social&label=Star&maxAge=2592000)](https://github.com/facebook/buck). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Archiva Apache](http://archiva.apache.org) The Build Artifact Repository Manager. Apache Archiva™ is an extensible repository management software that helps taking care of your own personal or enterprise-wide build artifact repository. It is the perfect companion for build tools such as Maven, Continuum, and ANT. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Configuration
-*Libraries that provide external configuration.*
+
+_Libraries that provide external configuration._
 [Up](#useful-java-links)
 
 1.  [config](https://github.com/typesafehub/config) - Configuration library for JVM languages. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/typesafehub/config.svg?style=social&label=Star&maxAge=2592000)](https://github.com/typesafehub/config). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1078,7 +1124,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Apache Yetus](https://yetus.apache.org/) A collection of libraries and tools that enable contribution and release processes for software projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### Distribution
-*Tools which handle the distribution of applications in native formats.*
+
+_Tools which handle the distribution of applications in native formats._
 [Up](#useful-java-links)
 
 1.  [Bintray](https://bintray.com/) - Version control for binaries which handles the publishing. Can also be used with Maven or Gradle and has a free plan for open-source software or several business plans. **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
@@ -1092,7 +1139,8 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [Spotify Helios](https://github.com/spotify/helios) Docker container orchestration platform. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spotify/helios.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spotify/helios). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Perfomance tools
-*Tools for performance analysis, profiling and benchmarking.*
+
+_Tools for performance analysis, profiling and benchmarking._
 [Up](#useful-java-links)
 
 1.  [Square Leakcanary](https://github.com/square/leakcanary) A memory leak detection library for Android and Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/square/leakcanary.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/leakcanary). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1104,62 +1152,67 @@ of Apache Hadoop. https://hive.apache.org/ .License: [Apache 2](http://www.apach
 1.  [JMH](http://openjdk.java.net/projects/code-tools/jmh/) - Microbenchmarking tool for the JVM. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) - Utilities for latency measurement and reporting. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [VisualVM](http://visualvm.java.net/) - Visual interface for detailed information about running applications. License: [GNU 2 with the Classpath Exception](https://en.wikipedia.org/wiki/GNU_General_Public_License).
-1.  [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler.   **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-1.  [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) -  Commercial profiler.  **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [YourKit Java Profiler](https://www.yourkit.com/features/) - Commercial profiler. **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) - Commercial profiler. **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [XRebel](http://zeroturnaround.com/software/xrebel/) - A commercial profiler for Java Web applications. **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 ### 4. Code Analysis
-*Tools that provide metrics and quality measurements.*
+
+_Tools that provide metrics and quality measurements._
 [Up](#useful-java-links)
 
 1.  [SonarQube](https://github.com/SonarSource/sonarqube) Integrates other analysis components via plugins and provides an overview of the metrics over time. http://www.sonarqube.org License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/SonarSource/sonarqube.svg?style=social&label=Star&maxAge=2592000)](https://github.com/SonarSource/sonarqube). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Google Error prone](https://github.com/google/error-prone) - Catches common programming mistakes as compile-time errors. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/google/error-prone.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/error-prone). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [OpenGrok](https://github.com/OpenGrok/OpenGrok) OpenGrok is a fast and usable source code search and cross reference
-engine, written in Java. It helps you search, cross-reference and navigate
-your source tree. It can understand various program file formats and
-version control histories like Mercurial, Git, SCCS, RCS, CVS, Subversion,
-Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0), [![GitHub stars](https://img.shields.io/github/stars/OpenGrok/OpenGrok.svg?style=social&label=Star&maxAge=2592000)](https://github.com/OpenGrok/OpenGrok)).
+    engine, written in Java. It helps you search, cross-reference and navigate
+    your source tree. It can understand various program file formats and
+    version control histories like Mercurial, Git, SCCS, RCS, CVS, Subversion,
+    Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://opensource.org/licenses/CDDL-1.0), [![GitHub stars](https://img.shields.io/github/stars/OpenGrok/OpenGrok.svg?style=social&label=Star&maxAge=2592000)](https://github.com/OpenGrok/OpenGrok)).
 1.  [Checkstyle](https://github.com/checkstyle/checkstyle) - Static analysis of coding conventions and standards. License: [GNU Lesser 2.1](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [FindBugs](http://findbugs.sourceforge.net/) - Static analysis of bytecode to find potential bugs. License: [GNU Lesser](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [jQAssistant](http://jqassistant.org/) - Static code analysis with Neo4J-based query language. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [PMD](https://github.com/pmd/pmd) - Source code analysis for finding bad coding practices. License: [BSD 4](https://en.wikipedia.org/wiki/BSD_licenses#2-clause_license_.28.22Simplified_BSD_License.22_or_.22FreeBSD_License.22.29). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 5. Monitoring
-*Tools that monitor applications in production.*
+
+_Tools that monitor applications in production._
 [Up](#useful-java-links)
 
-1.  [AppDynamics](https://www.appdynamics.com/) - Commercial performance monitor.  **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [AppDynamics](https://www.appdynamics.com/) - Commercial performance monitor. **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [JavaMelody](https://github.com/javamelody/javamelody) - Performance monitoring and profiling. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [jmxtrans](https://github.com/jmxtrans/jmxtrans/) - Tool to connect to multiple JVMs and to query them for their attributes via JMX. Its query language is based on JSON, which allows non-Java programmers to access the JVMs attributes. Likewise, this tool supports different output writes, including Graphite, Ganglia, StatsD, among others. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Kamon](https://www.kamon.io/) - Tool for monitoring applications running on the JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Glowroot](https://glowroot.org/) - Open source Java APM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [New Relic](http://newrelic.com/) - Commercial performance monitor. **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-1.  [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps.  **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
-1.  [OverOps](https://www.overops.com/) - Root cause automation in production.  **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [SPM](https://sematext.com/spm/) - Commercial performance monitor with distributing transaction tracing for JVM apps. **License: proprietary**![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [OverOps](https://www.overops.com/) - Root cause automation in production. **License: proprietary** ![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 
 #### 6. Redefinition of classes at runtime
+
 [Up](#useful-java-links)
 
 1.  [Dynamic Code Evolution Virtual Machine (DCE VM)](http://ssw.jku.at/dcevm/) - The Dynamic Code Evolution Virtual Machine (DCE VM) is a modification of the Java HotSpot(TM) VM that allows unlimited redefinition of loaded classes at runtime. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [DCEVM](http://dcevm.github.io/) - This project is a fork of original DCEVM project. The purpose of the project is to maintain enhanced class redefinition functionality for OpenJDK HotSpot 7/8 and Oracle JVM. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [HotswapAgent](https://github.com/HotswapProjects/HotswapAgent) - Java unlimited redefinition of classes at runtime. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License)![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
-1.  [JRebel](http://zeroturnaround.com/software/jrebel/) - Reload code changes instantly. Skip the build and redeploy process. JRebel reloads changes to Java classes, resources, and over 90 frameworks. *License: proprietary*![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
+1.  [JRebel](http://zeroturnaround.com/software/jrebel/) - Reload code changes instantly. Skip the build and redeploy process. JRebel reloads changes to Java classes, resources, and over 90 frameworks. _License: proprietary_![proprietary license](https://github.com/Vedenin/useful-java-links/blob/master/img/proprietary-license.png?raw=true)
 1.  [Spring Loaded](https://github.com/spring-projects/spring-loaded) - Java agent that enables class reloading in a running JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0)![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 7. Documentation
+
 [Up](#useful-java-links)
 
 1. [Markdown-doclet:](https://github.com/Abnaxos/markdown-doclet) A Doclet that allows the use of Markdown ([Pegdown](https://github.com/sirthias/pegdown)) and [PlantUML](http://plantuml.com/) in JavaDoc comments. License: [GPL 3.0](http://www.gnu.org/licenses/gpl-3.0-standalone.html), [![GitHub stars](https://img.shields.io/github/stars/Abnaxos/markdown-doclet.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Abnaxos/markdown-doclet). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 8. Other
+
 [Up](#useful-java-links)
 
 1.  [Google J2ObjC:](https://github.com/google/j2objc) A Java to iOS Objective-C translation tool and runtime. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/google/j2objc.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/j2objc). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Bytecode viewer](https://github.com/Konloch/bytecode-viewer) A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More). License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/Konloch/bytecode-viewer.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Konloch/bytecode-viewer). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [Reflections](https://github.com/ronmamo/reflections) Java runtime metadata analysis, in the spirit of Scannotations. Reflections scans your classpath, indexes the metadata, allows you to query it on runtime and may save and collect that information for many modules within your project. License: [WTFPL](https://en.wikipedia.org/wiki/WTFPL), [![GitHub stars](https://img.shields.io/github/stars/ronmamo/reflections.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ronmamo/reflections). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1. [Jabba:](https://github.com/shyiko/jabba) Java Version Manager inspired by [nvm](https://github.com/creationix/nvm) (Node.js). The goal is to provide unified pain-free experience of installing (and switching between different versions of) JDK. License [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/shyiko/jabba.svg?style=social&label=Star&maxAge=2592000)](https://github.com/shyiko/jabba). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Jabba:](https://github.com/shyiko/jabba) Java Version Manager inspired by [nvm](https://github.com/creationix/nvm) (Node.js). The goal is to provide unified pain-free experience of installing (and switching between different versions of) JDK. License [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/shyiko/jabba.svg?style=social&label=Star&maxAge=2592000)](https://github.com/shyiko/jabba). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-*Current implementations of the JVM/JDK.*
+_Current implementations of the JVM/JDK._
 
 1.  [JDK 9](https://jdk9.java.net/) - Early access releases of JDK 9. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [OpenJDK](http://openjdk.java.net/) - Open-source implementation for Linux. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -1167,7 +1220,9 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Zulu OpenJDK 9](http://zulu.org/zulu-9-pre-release-downloads/) - Early access OpenJDK 9 builds for Windows, Linux, and Mac OS X. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ## VI. Program languages and applications that were written with Java
-### 1.  Program languages that were written with Java
+
+### 1. Program languages that were written with Java
+
 [Up](#useful-java-links)
 
 1.  [Clojure](https://github.com/clojure/clojure) The Clojure programming language. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/clojure/clojure.svg?style=social&label=Star&maxAge=2592000)](https://github.com/clojure/clojure). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1177,8 +1232,8 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Jphp compiler Jphp](https://github.com/jphp-compiler/jphp) An alternative to Zend PHP, like JRuby and Jython only for PHP. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/jphp-compiler/jphp.svg?style=social&label=Star&maxAge=2592000)](https://github.com/jphp-compiler/jphp). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Trifork Erjang](https://github.com/trifork/erjang) A JVM-based Erlang VM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/trifork/erjang.svg?style=social&label=Star&maxAge=2592000)](https://github.com/trifork/erjang). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ### 2. Other program languages tools that were written with Java
+
 [Up](#useful-java-links)
 
 1.  [Go lang idea plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Google Go language IDE built using the IntelliJ Platform. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/go-lang-plugin-org/go-lang-idea-plugin.svg?style=social&label=Star&maxAge=2592000)](https://github.com/go-lang-plugin-org/go-lang-idea-plugin). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1186,22 +1241,24 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Pysonar2](https://github.com/yinwang0/pysonar2) PySonar2 is a type inferencer and indexer for Python, which performs sophisticated interprocedural analysis to infer types. License: [GNU](http://www.gnu.org/licenses/agpl-3.0.en.html) [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.en.html), [![GitHub stars](https://img.shields.io/github/stars/yinwang0/pysonar2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yinwang0/pysonar2). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ### 3. Javascript
+
 [Up](#useful-java-links)
 
 1.  [Yuicompressor](https://github.com/yui/yuicompressor) The YUI Compressor is a JavaScript compressor which, in addition to removing comments and white-spaces, obfuscates local variables using the smallest possible variable name. License: [BSD](https://en.wikipedia.org/wiki/BSD_licenses), [![GitHub stars](https://img.shields.io/github/stars/yui/yuicompressor.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yui/yuicompressor). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Google Closure compiler](https://github.com/google/closure-compiler) A JavaScript checker and optimizer.  License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/google/closure-compiler.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/closure-compiler). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Google Closure compiler](https://github.com/google/closure-compiler) A JavaScript checker and optimizer. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/google/closure-compiler.svg?style=social&label=Star&maxAge=2592000)](https://github.com/google/closure-compiler). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Frontend maven plugin](https://github.com/eirslett/frontend-maven-plugin) "Maven-node-grunt-gulp-npm-node-plugin to end all maven-node-grunt-gulp-npm-plugins." A Maven plugin that downloads/installs Node and NPM locally, runs NPM install, Grunt, Gulp and/or Karma. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/eirslett/frontend-maven-plugin.svg?style=social&label=Star&maxAge=2592000)](https://github.com/eirslett/frontend-maven-plugin). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Dynjs](https://github.com/dynjs/dynjs) ECMAScript runtime for the JVM. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/dynjs/dynjs.svg?style=social&label=Star&maxAge=2592000)](https://github.com/dynjs/dynjs). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 4. Frameworks that help to create parsers, interpreters or compilers
-*Frameworks that help to create parsers, interpreters or compilers.*
+
+_Frameworks that help to create parsers, interpreters or compilers._
 [Up](#useful-java-links)
 
 1.  [ANTLR](http://www.antlr.org/) - Complex full-featured framework for top-down parsing. License: [BSD 2](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [JavaCC](https://javacc.java.net/) -More specific and slightly easier to learn. Has syntactic lookahead. License: [BSD ](https://en.wikipedia.org/wiki/BSD_licenses). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
-
 ### 5. Opensource applications that were written with Java
+
 [Up](#useful-java-links)
 
 1.  [Square Keywhiz](https://github.com/square/keywhiz) - A system for distributing and managing secrets. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/square/keywhiz.svg?style=social&label=Star&maxAge=2592000)](https://github.com/square/keywhiz). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1222,6 +1279,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Apache OpenMeetings](http://openmeetings.apache.org) Video conferencing, instant messaging, white board and collaborative document editing application. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 6. Opensource games that were written with Java
+
 [Up](#useful-java-links)
 
 1.  [Bukkit](https://github.com/Bukkit/Bukkit) The Minecraft Mod API. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/Bukkit/Bukkit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Bukkit/Bukkit). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
@@ -1234,12 +1292,12 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [WorldEdit](https://github.com/sk89q/WorldEdit) An in-game voxel map editor for Minecraft. License: [GNU Lesser 3](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/sk89q/WorldEdit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sk89q/WorldEdit). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Essentials](https://github.com/essentials/Essentials) Essentials - Minecraft server command mod - Adds over 100 commands for use in-game to help manage a server. License: [GNU 3](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/essentials/Essentials.svg?style=social&label=Star&maxAge=2592000)](https://github.com/essentials/Essentials). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 1.  [GlowstoneMC Glowstone](https://github.com/GlowstoneMC/Glowstone) An open-source server for the Bukkit Minecraft modding interface. License: [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/GlowstoneMC/Glowstone.svg?style=social&label=Star&maxAge=2592000)](https://github.com/GlowstoneMC/Glowstone). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-1.  [Tribal Trouble](https://github.com/sunenielsen/tribaltrouble) - Tribal Trouble is a realtime strategy game released by Oddlabs in 2004. In 2014 the source was released under GPL2 license.   License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/sunenielsen/tribaltrouble.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sunenielsen/tribaltrouble). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
-
-
+1.  [Tribal Trouble](https://github.com/sunenielsen/tribaltrouble) - Tribal Trouble is a realtime strategy game released by Oddlabs in 2004. In 2014 the source was released under GPL2 license. License: [GNU 2](https://en.wikipedia.org/wiki/GNU_General_Public_License), [![GitHub stars](https://img.shields.io/github/stars/sunenielsen/tribaltrouble.svg?style=social&label=Star&maxAge=2592000)](https://github.com/sunenielsen/tribaltrouble). ![impossible proprietary code linking license](https://github.com/Vedenin/useful-java-links/blob/master/img/impossible-proprietary-code-linking.png?raw=true)
 
 ## VII. Other
+
 ### 1. Source code examples
+
 [Up](#useful-java-links)
 
 1.  [Java design patterns](https://github.com/iluwatar/java-design-patterns) Design patterns implemented in Java. License:  [MIT](https://opensource.org/licenses/MIT) , [![GitHub stars](https://img.shields.io/github/stars/iluwatar/java-design-patterns.svg?style=social&label=Star&maxAge=2592000)](https://github.com/iluwatar/java-design-patterns). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1257,12 +1315,14 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Modern Java - A Guide to Java 8. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 2. Benchmark results
+
 [Up](#useful-java-links)
 
 1.  [Jvm serializers](https://github.com/eishay/jvm-serializers) - Benchmark comparing serialization libraries on the JVM. License: ?, [![GitHub stars](https://img.shields.io/github/stars/eishay/jvm-serializers.svg?style=social&label=Star&maxAge=2592000)](https://github.com/eishay/jvm-serializers).
 1.  [YCSB (Yahoo! Cloud Serving Benchmark)](https://github.com/brianfrankcooper/YCSB) - Yahoo! Cloud Serving Benchmark. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/brianfrankcooper/YCSB.svg?style=social&label=Star&maxAge=2592000)](https://github.com/brianfrankcooper/YCSB). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 ### 3. Working with git and github
+
 [Up](#useful-java-links)
 
 1.  [Gitblit](https://github.com/gitblit/gitblit) Gitblit is an open source, pure Java Git solution for managing, viewing, and serving Git repositories. It can serve repositories over the GIT, HTTP, and SSH transports; it can authenticate against multiple providers; and it allows you to get up-and-running with an attractive, capable Git server in less than 5 minutes.. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/gitblit/gitblit.svg?style=social&label=Star&maxAge=2592000)](https://github.com/gitblit/gitblit). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
@@ -1271,44 +1331,46 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 ## VIII. Resources
 
 ### 1. Communities
-*Active discussions.*
+
+_Active discussions._
 [Up](#useful-java-links)
 
-* [r/java](https://www.reddit.com/r/java) -  Subreddit for the Java community.
-* [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
-* [vJUG](http://virtualjug.com/) - Virtual Java User Group.
+-   [r/java](https://www.reddit.com/r/java) - Subreddit for the Java community.
+-   [stackoverflow](http://stackoverflow.com/questions/tagged/java) - Question/answer platform.
+-   [vJUG](http://virtualjug.com/) - Virtual Java User Group.
 
 ### 2. Influential Books
-*Books that had a high impact and are still worth reading.*
+
+_Books that had a high impact and are still worth reading._
 [Up](#useful-java-links)
 
-* [Effective Java (3nd Edition)](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997)
-* [Modern Java in Action](https://www.amazon.com/Modern-Java-Action-functional-programming/dp/1617293563)
-* [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
-* [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
-
+-   [Effective Java (3nd Edition)](https://www.amazon.com/Effective-Java-Joshua-Bloch/dp/0134685997)
+-   [Modern Java in Action](https://www.amazon.com/Modern-Java-Action-functional-programming/dp/1617293563)
+-   [Java Concurrency in Practice](http://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+-   [Thinking in Java](http://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486)
 
 ### 3. Websites
-*Sites to read.*
+
+_Sites to read._
 [Up](#useful-java-links)
 
-* [Android Arsenal](https://android-arsenal.com)
-* [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
-* [Hackr.io](https://hackr.io/tutorials/learn-java)
-* [InfoQ](http://www.infoq.com/)
-* [Java, SQL, and jOOQ](https://blog.jooq.org/)
-* [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
-* [Java tutorial](https://hackr.io/tutorials/learn-java)
-* [JavaWorld](http://www.javaworld.com/)
-* [JAXenter](https://jaxenter.com/)
-* [RebelLabs](http://zeroturnaround.com/rebellabs/)
-* [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
-* [The Takipi Blog](http://blog.takipi.com/)
-* [TheServerSide.com](http://www.theserverside.com/)
-* [Thoughts On Java](http://www.thoughts-on-java.org/)
-* [Vanilla Java](http://vanillajava.blogspot.ch/)
-* [Vlad Mihalcea on Hibernate](https://vladmihalcea.com/)
-* [Voxxed](https://www.voxxed.com/)
-* [OverOps Blog](https://blog.takipi.com/)
-* [Bookmarks.dev](https://www.bookmarks.dev/tagged/java)
-* [Baeldung](https://www.baeldung.com/full_archive)
+-   [Android Arsenal](https://android-arsenal.com)
+-   [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
+-   [Hackr.io](https://hackr.io/tutorials/learn-java)
+-   [InfoQ](http://www.infoq.com/)
+-   [Java, SQL, and jOOQ](https://blog.jooq.org/)
+-   [Javalobby](https://dzone.com/java-jdk-development-tutorials-tools-news)
+-   [Java tutorial](https://hackr.io/tutorials/learn-java)
+-   [JavaWorld](http://www.javaworld.com/)
+-   [JAXenter](https://jaxenter.com/)
+-   [RebelLabs](http://zeroturnaround.com/rebellabs/)
+-   [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
+-   [The Takipi Blog](http://blog.takipi.com/)
+-   [TheServerSide.com](http://www.theserverside.com/)
+-   [Thoughts On Java](http://www.thoughts-on-java.org/)
+-   [Vanilla Java](http://vanillajava.blogspot.ch/)
+-   [Vlad Mihalcea on Hibernate](https://vladmihalcea.com/)
+-   [Voxxed](https://www.voxxed.com/)
+-   [OverOps Blog](https://blog.takipi.com/)
+-   [Bookmarks.dev](https://www.bookmarks.dev/tagged/java)
+-   [Baeldung](https://www.baeldung.com/full_archive)
