@@ -317,7 +317,7 @@ This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with n
 1.  [Santuario](http://santuario.apache.org) Library implementing XML Digital Signature Specification & XML Encryption Specification. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Oltu](https://oltu.apache.org/) ( *has retired* ) Apache Oltu is an OAuth protocol implementation in Java. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Apache Syncope](http://syncope.apache.org) Apache Syncope is an Open Source system for managing digital identities in enterprise environments. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
-
+1.  [JObfuscator](https://www.pelock.com/products/jobfuscator) - JObfuscator is a source code obfuscator for the Java language to protect Java source code & algorithms from hacking, cracking, reverse engineering, decompilation & technology theft. License: ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 
 #### High Performance
 *Everything about high performance computation, from collections to specific libraries.*
