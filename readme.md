@@ -1,3 +1,5 @@
+[![Maintainability](https://cloud.quality-gate.com/dashboard/api/badge?projectName=Vedenin_useful-java-links&branchName=master)](https://cloud.quality-gate.com/dashboard/branches/301630#overview)
+
 # Useful Java links
 This is a fork of [awesome link](https://github.com/akullpp/awesome-java) with new structure, additional license info and github's star info for every link, with a lot of new links (all non-mobile github projects with 390 or more star) and so on. **The russian version is [in this place](https://github.com/Vedenin/useful-java-links/tree/master/link-rus)**.  
 **The "Hello Worlds examples" project is [in this place](https://github.com/Vedenin/useful-java-links/tree/master/helloworlds)**.
