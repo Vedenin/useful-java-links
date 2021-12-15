@@ -1257,6 +1257,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 1.  [7guis](https://github.com/eugenkiss/7guis) 7GUIs is a GUI programming usability benchmark. License: ?, [![GitHub stars](https://img.shields.io/github/stars/eugenkiss/7guis.svg?style=social&label=Star&maxAge=2592000)](https://github.com/eugenkiss/7guis).
 1.  [Spring projects Spring data jpa examples](https://github.com/spring-projects/spring-data-examples) Spring Data Example Projects. License: [Apache 2](http://www.apache.org/licenses/LICENSE-2.0) , [![GitHub stars](https://img.shields.io/github/stars/spring-projects/spring-data-examples.svg?style=social&label=Star&maxAge=2592000)](https://github.com/spring-projects/spring-data-examples). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
 1.  [Modern Java - A Guide to Java 8](https://github.com/winterbe/java8-tutorial) - Modern Java - A Guide to Java 8. License: [MIT](https://opensource.org/licenses/MIT). ![business friendly license](https://github.com/Vedenin/useful-java-links/blob/master/img/business-friendly.png?raw=true)
+1.  [Java Micro code pieces](https://onelinerhub.com/java) - community library of micro Java code solutions for popular issues. 
 
 ### 2. Benchmark results
 [Up](#useful-java-links)
