@@ -1317,3 +1317,6 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 * [OverOps Blog](https://blog.takipi.com/)
 * [Bookmarks.dev](https://www.bookmarks.dev/tagged/java)
 * [Baeldung](https://www.baeldung.com/full_archive)
+* [Explore kandi](https://kandi.openweaver.com/) - A must have tool for developers to find, review, and download reusable Libraries, Code Snippets, Cloud APIs from over 430 million Knowledge Items.
+
+
