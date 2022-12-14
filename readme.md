@@ -1306,6 +1306,7 @@ Teamware, ClearCase, Perforce, Monotone and Bazaar. License: [CDDL 1.0](http://o
 * [Java tutorial](https://hackr.io/tutorials/learn-java)
 * [JavaWorld](http://www.javaworld.com/)
 * [JAXenter](https://jaxenter.com/)
+* [Learn Java Programming in Detail](https://www.scaler.com/topics/java/)
 * [RebelLabs](http://zeroturnaround.com/rebellabs/)
 * [The Java Specialist' Newsletter](http://www.javaspecialists.eu/archive/archive.jsp)
 * [The Takipi Blog](http://blog.takipi.com/)
